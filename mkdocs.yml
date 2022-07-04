@@ -1,0 +1,227 @@
+site_name: Vimbook
+theme:
+  name: material
+  language: pt
+  palette: 
+    - scheme: default
+      primary: green
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: slate 
+      primary: green
+      toggle:
+        icon: material/lightbulb 
+        name: Switch to light mode
+  icon:
+    logo: material/book
+  favicon: imgs/favicon.ico
+  features:
+    - content.tabs.link
+markdown_extensions:
+  - pymdownx.emoji
+  - pymdownx.tasklist:
+     custom_checkbox: true
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+  - md_in_html
+repo_name: cassiobotaro/vimbook
+repo_url: https://github.com/cassiobotaro/vimbook
+
+nav:
+  - O EDITOR DE TEXTO VIM: index.md
+  - Introdução: 
+    - capitulo_1/introducao.md
+    - Instalação do vim: capitulo_1/instalacao_do_vim.md
+    - Dicas iniciais: capitulo_1/dicas_iniciais.md
+    - Ajuda integrada: capitulo_1/ajuda_integrada.md
+    - Em caso de erros: capitulo_1/em_caso_de_erros.md
+    - Como interpretar atalhos e comandos: capitulo_1/como_interpretar_atalhos_e_comandos.md
+    - Modos de operação: capitulo_1/modos_de_operacao.md
+    - Entrando em modo de edição: capitulo_1/entrando_em_modo_de_edicao.md
+    - Erros comuns: capitulo_1/erros_comuns.md
+  - Editando:
+    - capitulo_2/editando.md
+    - Abrindo o arquivo para a edição: capitulo_2/abrindo_o_arquivo_para_edicao.md
+    - Escrevendo o texto: capitulo_2/escrevendo_o_texto.md
+    - Copiar, Colar e Deletar: capitulo_2/copiar_colar_deletar.md
+    - Forçando a edição de um novo arquivo: capitulo_2/forcando_a_edicao_de_um_novo_arquivo.md
+    - Ordenando: capitulo_2/ordenando.md
+    - Usando o grep interno do Vim: capitulo_2/usando_grep_interno_do_vim.md
+    - Lista de alterações: capitulo_2/lista_de_alteracoes.md
+    - Substituindo tabulações por espaços: capitulo_2/substituindo_tabulacoes_por_espacos.md
+    - Convertendo para maiúsculas: capitulo_2/convertendo_para_maiusculas.md
+    - Editando em modo de comando: capitulo_2/editando_em_modo_comando.md
+    - O arquivo alternativo: capitulo_2/o_arquivo_alternativo.md
+    - Lendo um arquivo para a linha atual: capitulo_2/lendo_um_arquivo_para_a_linha_atual.md
+    - Incrementando números em modo normal: capitulo_2/incrementando_numeros_em_modo_normal.md
+    - Repetindo a digitação de linhas: capitulo_2/repetindo_a_digitacao_de_linhas.md
+    - Movendo um trecho de forma inusitada: capitulo_2/movendo_um_trecho_de_forma_inusitada.md
+    - Uma calculadora diferente: capitulo_2/uma_calculadora_diferente.md
+    - Desfazendo: capitulo_2/desfazendo.md
+    - Salvando: capitulo_2/salvando.md
+    - Abrindo o último arquivo rapidamente: capitulo_2/abrindo_o_ultimo_arquivo_rapidamente.md
+    - Modelines: capitulo_2/modelines.md
+    - Edição avançada de linhas: capitulo_2/edicao_avancada_de_linhas.md
+    - Comentando rapidamente um trecho: capitulo_2/comentando_rapidamente_um_trecho.md
+    - Comparando arquivos com o vimdiff: capitulo_2/comparando_arquivos_com_vimdiff.md
+  - Movendo-se no documento:
+    - capitulo_3/movendo-se_no_documento.md
+    - Paginando: capitulo_3/paginando.md
+    - Usando marcas: capitulo_3/usando_marcas.md
+  - Folders:
+    - capitulo_4/folders.md
+    - Métodos de dobras: capitulo_4/metodos_de_dobras.md
+    - Manipulando dobras: capitulo_4/manipulando_dobras.md
+    - Criando dobras usando o modo visual: capitulo_4/criando_dobras_usando_o_modo_visual.md
+  - Registradores: 
+    - capitulo_5/registradores.md
+    - O registrador sem nome "": capitulo_5/o_registrador_sem_nome.md
+    - Registradores nomeados de 0 a 9: capitulo_5/registradores_nomeados_de_0_a_9.md
+    - Registrador de pequenas deleções: capitulo_5/registrador_de_pequenas_delecoes.md
+    - Registradores nomeados de "a até z" ou "A até Z": capitulo_5/registradores_nomeados_de_a_ate_z_ou_a_ate_z.md
+    - Registradores somente leitura ":.%#": capitulo_5/registradores_somente_leitura.md
+    - Registrador de expressões "=: capitulo_5/registrador_de_expressoes.md
+    - Registradores de arrastar e mover: capitulo_5/registradores_de_arrastar_e_mover.md
+    - Registrador buraco negro "\_: capitulo_5/registrador_buraco_negro.md
+    - Registradores de buscas "/": capitulo_5/registradores_de_buscas.md
+    - Manipulando registradores: capitulo_5/manipulando_registradores.md
+    - Listando os registradores atuais: capitulo_5/listando_os_registradores_atuais.md
+    - Listando arquivos abertos: capitulo_5/listando_arquivos_abertos.md
+    - Dividindo a janela com o próximo arquivo da lista de *buffers*: capitulo_5/dividindo_a_janela_com_o_proximo_arquivo_da_lista_de_buffers.md
+    - Como colocar um pedaço de texto em um registrador?: capitulo_5/como_colocar_um_pedaco_de_texto_em_um_registrador.md
+    - Como criar um registrador em modo visual?: capitulo_5/como_criar_um_registrador_em_modo_visual.md
+    - Como definir um registrador no **vimrc**?: capitulo_5/como_definir_um_registrador_no_vimrc.md
+    - Como selecionar blocos verticais de texto: capitulo_5/como_selecionar_blocos_verticais_de_texto.md
+    - Referências: capitulo_5/referencias.md
+  - Buscas e substituições: 
+    - capitulo_6/buscas_e_substituicoes.md
+    - Usando "Expressões Regulares" em buscas: capitulo_6/usando_expressoes_regulares_em_buscas.md
+    - Destacando Padrões: capitulo_6/destacando_padroes.md
+    - Inserindo linha antes e depois: capitulo_6/inserindo_linha_antes_e_depois.md
+    - Obtendo informações do arquivo: capitulo_6/obtendo_informacoes_do_arquivo.md
+    - Trabalhando com registradores: capitulo_6/trabalhando_com_registradores.md
+    - Edições complexas: capitulo_6/edicoes_complexas.md
+    - Indentando: capitulo_6/indentando.md
+    - Corrigindo a indentação de códigos: capitulo_6/corrigindo_a_indentacao_de_codigos.md
+    - Usando o file explorer: capitulo_6/usando_o_file_explorer.md
+    - Selecionando ou deletando o conteúdo de tags HTML: capitulo_6/selecionando_ou_deletando_o_conteudo_de_tags_HTML.md
+    - Substituições: capitulo_6/substituicoes.md
+    - Exemplos: capitulo_6/exemplos.md
+    - O comando global "g": capitulo_6/o_comando_global_g.md
+    - Dicas: capitulo_6/dicas.md
+    - Filtrando arquivos com o vimgrep: capitulo_6/filtrando_arquivos_com_o_vimgrep.md
+    - Copiar a partir de um ponto: capitulo_6/copiar_a_partir_de_um_ponto.md
+    - Dicas da lista vi-br: capitulo_6/dicas_da_lista_vi-br.md
+    - Junção de linhas com Vim: capitulo_6/juncao_de_linhas_com_vim.md
+    - Buscando em um intervalo de linhas: capitulo_6/buscando_em_um_intervalo_de_linhas.md
+  - Trabalhando com janelas: 
+    - capitulo_7/trabalhando_com_janelas.md
+    - Alternando entre buffers de arquivo: capitulo_7/alternando_entre_buffers_de_arquivo.md
+    - Modos de divisão da janela: capitulo_7/modos_de_divisao_da_janela.md
+    - Abrindo e fechando janelas: capitulo_7/abrindo_e_fechando_janelas.md
+    - Salvando e saindo: capitulo_7/salvando_e_saindo.md
+    - Manipulando janelas: capitulo_7/manipulando_janelas.md
+    - File Explorer: capitulo_7/file_explorer.md
+  - Repetição de Comandos: 
+    - capitulo_8/repeticao_de_comandos.md
+    - Repetindo a digitação de uma linha: capitulo_8/repetindo_a_digitacao_de_uma_linha.md
+    - Guardando trechos em "registros": capitulo_8/guardando_trechos_em_registros.md
+    - Gravando comandos: capitulo_8/gravando_comandos.md
+    - Repetindo substituições: capitulo_8/repetindo_substituicoes.md
+    - Repetindo comandos: capitulo_8/repetindo_comandos.md
+    - Scripts Vim: capitulo_8/scripts_vim.md
+    - Usando o comando bufdo: capitulo_8/usando_o_comando_bufdo.md
+    - Colocando a última busca em um comando: capitulo_8/colocando_a_ultima_busca_em_um_comando.md
+    - Inserindo o nome do arquivo no comando: capitulo_8/inserindo_o_nome_do_arquivo_no_comando.md
+    - Inserindo o último comando: capitulo_8/inserindo_o_ultimo_comando.md
+    - Inserindo a palavra sob o cursos em um comando: capitulo_8/inserindo_a_palavra_sob_o_cursor_em_um_comando.md
+    - Para repetir exatamente a última inserção: capitulo_8/para_repetir_exatamente_a_ultima_insercao.md
+  - Comandos Externos: 
+    - capitulo_9/comandos_externos.md
+    - Ordenando: capitulo_9/ordenando.md
+    - Removendo linhas duplicadas: capitulo_9/removendo_linhas_duplicadas.md
+    - Ordenando e removendo linhas duplicadas no Vim 7: capitulo_9/ordenando_removendo_linhas_duplicadas_no_vim7.md
+    - Beautifiers: capitulo_9/beautifiers.md
+    - Editando comandos longos no Linux: capitulo_9/editando_comandos_longos_no_linux.md
+    - Compilando e verificando erros: capitulo_9/compilando_e_verificando_erros.md
+    - Grep: capitulo_9/grep.md
+    - Indent: capitulo_9/indent.md
+    - Calculadora Científica com o Vim: capitulo_9/calculadora_cientifica_com_o_vim.md
+    - Editando saídas do Shell: capitulo_9/editando_saidas_do_shell.md
+    - Log do Subversion: capitulo_9/log_do_subversion.md
+    - Referências: capitulo_9/referencias.md
+  - Verificação Ortográfica: 
+    - capitulo_10/verificacao_ortografica.md
+    - Habilitando a verificação ortográfica: capitulo_10/habilitando_a_verificacao_ortografica.md
+    - O dicionário de termos: capitulo_10/dicionario_de_termos.md
+    - Comandos relativos à verificação ortográfica: capitulo_10/comandos_relativos_a_verificacao_ortografica.md
+  - Salvando Sessões de Trabalho: 
+    - capitulo_11/salvando_sessoes_de_trabalho.md
+    - O que uma sessão armazena?: capitulo_11/o_que_uma_sessao_armazena.md
+    - Criando sessões: capitulo_11/criando_sessoes.md
+    - Restaurando sessões: capitulo_11/restaurando_sessoes.md
+    - Viminfo: capitulo_11/viminfo.md
+  - Como Editar Preferências no Vim: 
+    - capitulo_12/como_editar_preferencias_no_vim.md
+    - Onde colocar plugins e temas de cor: capitulo_12/onde_colocar_plugins_e_temas_de_cor.md
+    - Comentários: capitulo_12/comentarios.md
+    - Efetivação das alterações no vimrc: capitulo_12/efetivacao_das_alteracoes_no_vimrc.md
+    - Set: capitulo_12/set.md
+    - Ajustando parágrafos em modo normal: capitulo_12/ajustando_paragrafos_em_modo_normal.md
+    - Exibindo caracteres invisíveis: capitulo_12/exibindo_caracteres_invisiveis.md
+    - Definindo registros previamente: capitulo_12/definindo_registros_previamente.md
+    - Mapeamentos: capitulo_12/mapeamentos.md
+    - Autocomandos: capitulo_12/autocomandos.md
+    - Funções: capitulo_12/funcoes.md
+    - Como adicionar o Python ao path do Vim?: capitulo_12/como_adicionar_o_python_ao_path_do_vim.md
+    - Criando um menu: capitulo_12/criando_um_menu.md
+    - Criando menus para um modo específico: capitulo_12/criando_menus_para_um_modo_especifico.md
+    - Exemplo de menu: capitulo_12/exemplo_de_menu.md
+    - Outros mapeamentos: capitulo_12/outros_mapeamentos.md
+    - Complementação com "tab": capitulo_12/complementacao_com_tab.md
+    - Abreviações: capitulo_12/abreviacoes.md
+    - Evitando arquivos de backup no disco: capitulo_12/evitando_arquivos_de_backup_no_disco.md
+    - Mantendo apenas um Gvim aberto: capitulo_12/mantendo_apenas_um_gvim_aberto.md
+    - Referências: capitulo_12/referencias.md
+  - Uma Wiki para o Vim: 
+    - capitulo_13/uma_wiki_para_o_vim.md
+    - Como Usar: capitulo_13/como_usar.md
+    - Salvamento automático para o Wiki: capitulo_13/salvamento_automatico_para_o_wiki.md
+    - Problemas com codificação de caracteres: capitulo_13/problemas_com_codificacao_de_caracteres.md
+  - Hábitos para edição efetiva: 
+    - capitulo_14/habitos_para_edicao_efetiva.md
+    - Mova-se rapidamente no texto: capitulo_14/mova-se_rapidamente_no_texto.md
+    - Use Marcas: capitulo_14/use_marcas.md
+    - Use quantificadores: capitulo_14/use_quantificadores.md
+    - Edite vários arquivos de uma só vez: capitulo_14/edite_varios_arquivos_de_uma_so_vez.md
+    - Não digite duas vezes: capitulo_14/nao_digite_duas_vezes.md
+    - Use dobras: capitulo_14/use_dobras.md
+    - Use autocomandos: capitulo_14/use_autocomandos.md
+    - Use o File Explorer: capitulo_14/use_o_file_explorer.md
+    - Torne as boas práticas um hábito: capitulo_14/torne_as_boas_praticas_um_habito.md
+    - Referências: capitulo_14/referencias.md
+  - Plugins: 
+    - capitulo_15/plugins.md
+    - Como testar um plugin sem instalá-lo?: capitulo_15/como_testar_um_plugin_sem_instala_lo.md
+    - Atualizando a documentação dos plugins: capitulo_15/atualizando_a_documentacao_dos_plugins.md
+    - Plugin para LaTeX: capitulo_15/plugin_para_latex.md
+    - Criando folders para arquivos LaTeX: capitulo_15/criando_folders_para_arquivos_latex.md
+    - Criando Seções LaTeX: capitulo_15/criando_secoes_latex.md
+    - Plugin para manipular arquivos: capitulo_15/plugin_para_manipular_arquivos.md
+    - Complementação de código: capitulo_15/complementacao_de_codigo.md
+    - Um wiki para o Vim: capitulo_15/um_wiki_para_o_vim.md
+    - Acessando documentação do Python no Vim: capitulo_15/acessando_documentacao_do_python_no_vim.md
+    - Formatando textos planos com syntax: capitulo_15/formatando_textos_planos_com_syntax.md
+    - Movimentando em CamelCase: capitulo_15/movimentando_em_camel_case.md
+    - Plugin FuzzyFinder: capitulo_15/plugin_fuzzyfinder.md
+    - O Plugin EasyGrep: capitulo_15/o_plugin_easy_grep.md
+    - O Plugin SearchComplete: capitulo_15/o_plugin_search_complete.md
+    - O Plugin AutoComplete: capitulo_15/o_plugin_auto_complete.md
+    - O Plugin Ctags: capitulo_15/o_plugin_ctags.md
+    - O Plugin Project: capitulo_15/o_plugin_project.md
+    - O Plugin Pydiction: capitulo_15/o_plugin_pydiction.md
+    - O Plugin FindMate: capitulo_15/o_plugin_findmate.md
+  - Referências: referencias/index.md
