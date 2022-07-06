@@ -3449,8 +3449,8 @@ bastando portanto descompactá-lo com qualquer utilitário compatível com
 este formato, por exemplo, o comando unzip.</p>
 <h4 id="conversao-do-dicionario">Conversão do dicionário</h4>
 <p>Após a descompactação, os arquivos <code>pt_BR.aff</code> e <code>pt_BR.dic</code>, extraídos
-no diretório corrente[^1], serão usados para a criação dos dicionários
-no formato interno do Vim[^2]. A conversão propriamente dita é feita
+no diretório corrente<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, serão usados para a criação dos dicionários
+no formato interno do Vim<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. A conversão propriamente dita é feita
 pelo próprio Vim através do comando mkspell:</p>
 <ol>
 <li>
@@ -3483,8 +3483,17 @@ runtimepath, que pode ser inspecionada através de:
 É suficiente então copiar o dicionário <code>pt.&lt;codificação&gt;.spl</code> para o
 subdiretório spell/ em qualquer um dos caminhos listados
 através do comando mostrado.</p>
-<p>[^1]: Eventualmente, dependendo da versão do pacote de correção ortográfica, os arquivos de dicionário podem ser extraídos no subdiretório dictionaries ou outro qualquer.</p>
-<p>[^2]: O formato interno de dicionário do Vim assegura melhor desempenho, em termos de agilidade e consumo de memória, quando a verificação ortográfica do editor encontra-se em operação.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Eventualmente, dependendo da versão do pacote de correção ortográfica, os arquivos de dicionário podem ser extraídos no subdiretório dictionaries ou outro qualquer.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>O formato interno de dicionário do Vim assegura melhor desempenho, em termos de agilidade e consumo de memória, quando a verificação ortográfica do editor encontra-se em operação.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
               
             </article>
