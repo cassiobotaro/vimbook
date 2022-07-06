@@ -26,6 +26,7 @@ markdown_extensions:
   - admonition
   - pymdownx.tabbed:
       alternate_style: true
+  - footnotes
   - md_in_html
 repo_name: cassiobotaro/vimbook
 repo_url: https://github.com/cassiobotaro/vimbook
