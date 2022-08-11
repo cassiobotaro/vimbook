@@ -1,111 +1,93 @@
-Transcrição de capítulos
-========================
+# Como contribuir
 
-* Clone o repositório
+Primeiramente, muito obrigado pela disponibilidade em querer contribuir! 🫶
 
-`git clone https://github.com/cassiobotaro/vimbook.git`
+Estava lendo o repositório e teve uma nova ideia? Não entendeu alguma explicação, encontrou erros de grafia ou de código? Aqui você encontra um guia para você colaborar com a melhoria do material, indepedente do seu nível de conhecimento.
 
-* Crie seu feature-branch
+Entenda que não existem dúvidas simples demais e que toda contribuição é recebida com igual entusiasmo.
 
-`git checkout -b capitulo-x`
+## Código de conduta
 
-* Atribua a issue correspondente ao capítulo escolhido a seu usuário.
+Trate todos igualmente com respeito e siga o nosso [código de conduta](CODE_OF_CONDUCT.md).
 
-[Issues](https://github.com/cassiobotaro/vimbook/issues)
+## Contribuições possíveis
 
-* Crie um diretório para o capítulo na raiz do projeto no formato `capitulo_n` (exemplo `capitulo_15`).
+Você pode ajudar o projeto das seguintes maneiras:
 
-* Adicione o capítulo ao sumário.
+* Lendo o conteúdo e divulgando a seus conhecidos;
+* Reportando erros de grafia encontrados no texto;
+* Questionando explicações e solicitando uma melhoria no texto;
+* Sugerindo melhorias do conteúdo;
+* Adicionando novos materiais e tópicos.
 
-[SUMMARY](SUMMARY.md)
+## Sua primeira contribuição?
 
-* Envie PR do capítulo.
+Caso queira apenas sugerir alguma modificação no conteúdo, vá em [issues](../../issues), certifique-se que alguém já não tenha feito a sugestão que você pretendia e tente descrver com maior riqueza de detalhes possíveis. Quando necessário adicione imagens (principalmente quando for um erro).
 
-Os [capítulos](https://github.com/cassiobotaro/vimbook/tree/master/chapters) originais se encontram em formato markdown, com alguns problemas de formatação pois foram diretamente gerados à partir do .tex.
+Uma outra maneira de contribuir, é editando você mesmo os arquivos através do github.
 
-*Por favor remova as tags span encontradas.*
+Acesse a pasta [`docs/`](docs) e escolha o arquivo que irá editar.
 
-Para auxiliar a transcrição, a última versão pdf gerada à partir do .tex está disponível para [download](https://github.com/cassiobotaro/vimbook/blob/master/vimbook-livro-original/vimbook-31-08-2009.pdf).
+![image](https://user-images.githubusercontent.com/3127847/183785905-ee102868-b0e2-4f7d-ae1d-a105a74bb5f3.png)
 
-Padrões de formatação
-=====================
+Após escolher o arquivo, clique no lápis que aparece do lado direito para iniciar a edição do arquivo.
 
-Highlights
-----------
-Sempre que usar a syntax de _highlight_ (``) em uma parte do texto, evite o uso de _aspas_ desnecessárias, ex:
-```diff
-- "`texto`".
-+ `texto`
-```
+![image](https://user-images.githubusercontent.com/3127847/183786079-a8855609-db60-42b0-9972-54f48b370867.png)
 
-Notas de rodapé
----------------
-As notas de rodapé devem ser preenchidas por página, ou seja, sempre que houver uma nota de rodapé, essa deverá estar na mesma página onde
-sua referência foi feita.
+Faça as alterações necessárias e e depois siga até o fim da página.
 
-A numeração das notas de rodapé são por página e não por capitulo.
+![image](https://user-images.githubusercontent.com/3127847/183786229-1581af1b-f74d-4a0a-a73f-3fdbc8ad9146.png)
 
-Links
------
-Links internos do livro devem ser descritos com o título do capitulo e não o número do capítulo ou número da página, ex:
-```diff
-- veja o capítulo [3](capitulo_3/movendo-se_no_documento.md)
-+ veja o capítulo [Movendo-se no documento](capitulo_3/movendo-se_no_documento.md)
-```
-Além disso devem ser relativos:
-```diff
-- veja o capítulo [Movendo-se no documento](capitulo_3/movendo-se_no_documento.md)
-+ veja o capítulo [Movendo-se no documento](../capitulo_3/movendo-se_no_documento.md)
-```
-Para testar se o link está correto, utilize os comandos `<c-w>f` ou `gf` do Vim.
+Por fim, inicie a proposta de mudança.
 
-Representação de Setas
-----------------------
-No caso de comandos/atalhos que utilizem as setas do teclado, a representação deverá ser baseada nas setas UTF-8:
-```
-⬆⬇⬅➡
-```
-Por exemplo **Ctrl-⬆**, **Alt-➡**, etc.
+![image](https://user-images.githubusercontent.com/3127847/183786943-cb3bdafb-b3d8-4db2-9af5-11f7f90c96e9.png)
 
-Blocos de highlight
--------------------
-Utilizar blocos com highlight para destaque da sintaxe.
-```diff
--         for i in range(10)
-+ ```python
-+ for i in range(10)
-+ ```
+Confira as alterações realizadas e através do botão `Create pull request`.
+
+![image](https://user-images.githubusercontent.com/3127847/183790666-52b99bce-d777-4d26-a5a9-cfa9b4e726da.png)
+
+Seu pedido de melhoria deve estar prenchido com o que preencheu anteriormente, mas caso precise, complemente com maiores detalhes.
+Clique no botão `Create pull request` para finalizar a contribuição e aguarde.
+
+![image](https://user-images.githubusercontent.com/3127847/183790791-3daefe6b-e4e7-4378-b645-fa5e29dd71c4.png)
+
+Assim que a pessoa responsável analisar sua contribuição, suas alteraçês serão mescladas ao conteúdo.
+
+![image](https://user-images.githubusercontent.com/3127847/183787281-c6947adb-eae1-4b67-8204-377f6766aff6.png)
+
+🤖 Automaticamente, em poucos minutos uma nova versão do site já estará disponível!
+
+
+## Desenvolvendo localmente
+
+Crie um comando virtual utiliando o comando:
 
 ```
-
-Outros
-======
-
-É muito bem vindo correções de ortografia, erros de digitação e outras coisas.
-
-Quando aceito o PR, uma nova versão do livro é gerada automaticamente.
-
-
-Dicas
------
-
-* Substituir padrão *LaTex* de itálico (`{\em Texto}`) pelo padrão markdown (`*Texto*`)
-```vim
-:%s/{\\em \([^}]*\)}/*\1*/g
+python -m venv .venv
 ```
-* Substituir o padrão *LaTex* de título (`\section{Título}`) pelo título normal (`Título`)
-```vim
-:%s/\\section{\([^}]*\)}/\1/g
+
+Ative o ambiente através do comando:
+
 ```
-* Substituir o padrão *LaTeX* de subtítulo (`\subsection{SubTítulo}`) pelo padrão markdown (`### SubTítulo`)
-```vim
-:%s/\\subsection{\([^}]*\)}/### \1/g
+source .venv/bin/activate
 ```
-* Substituir o padrão *LaTeX* de link (`\href{link}{texto}`) pelo padrão markdown (`[texto](link)`)
-```vim
-:%s/\\href{\([^}]*\)}{\([^}]*\)}/[\2](\1)/g
+
+ou [equivalente em seu sistema operacional](https://cassiobotaro.dev/do_zero_a_implantacao/projeto/#o-ambiente-virtual).
+
+Em seguida instale as dependências necesárias
+
 ```
-* Substituir o padrão *LaText* de fonte diferenciada (`{\tt texto}`) pelo padrão markdown de highlighting (``texto``)
-```vim
-:%s/{\\tt \([^}]*\)}/`\1`/g
+python -m pip install -r requirements.txt
 ```
+
+e para executar localmente:
+
+```
+python -m mkdocs serve
+```
+
+## Convenções utilizadas e dicas
+
+* Não utilize emojis de forma textual `:emoji:`, copie do [emojipédia](https://emojipedia.org/pt) o invés;
+* Todo título de seção é iniciado com um emoji;
+* Novos capítulos devem ser adicionados também no menu de navegação que se encontra no arquivo `mkdocs.yml`;
