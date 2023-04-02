@@ -12,7 +12,7 @@ Sua proposta é acessar de forma rápida:
 6. Tags `:FuzzyFinderTag`
 
 Para ver o plugin em ação acesse este
-[video](http://vimeo.com/2938498) e para obte-lo acesse
+[video](http://vimeo.com/2938498) e para obtê-lo acesse
  [este link](http://www.vim.org/scripts/script.php?script_id=1984),
 para instalá-lo basta copiar para o diretório `~/.vim/plugin`.
 

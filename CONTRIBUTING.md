@@ -2,7 +2,7 @@
 
 Primeiramente, muito obrigado pela disponibilidade em querer contribuir! 🫶
 
-Estava lendo o repositório e teve uma nova ideia? Não entendeu alguma explicação, encontrou erros de grafia ou de código? Aqui você encontra um guia para você colaborar com a melhoria do material, indepedente do seu nível de conhecimento.
+Estava lendo o repositório e teve uma nova ideia? Não entendeu alguma explicação, encontrou erros de grafia ou de código? Aqui você encontra um guia para você colaborar com a melhoria do material, independente do seu nível de conhecimento.
 
 Entenda que não existem dúvidas simples demais e que toda contribuição é recebida com igual entusiasmo.
 
@@ -22,7 +22,7 @@ Você pode ajudar o projeto das seguintes maneiras:
 
 ## Sua primeira contribuição?
 
-Caso queira apenas sugerir alguma modificação no conteúdo, vá em [issues](../../issues), certifique-se que alguém já não tenha feito a sugestão que você pretendia e tente descrver com maior riqueza de detalhes possíveis. Quando necessário adicione imagens (principalmente quando for um erro).
+Caso queira apenas sugerir alguma modificação no conteúdo, vá em [issues](../../issues), certifique-se que alguém já não tenha feito a sugestão que você pretendia e tente descrever com maior riqueza de detalhes possíveis. Quando necessário adicione imagens (principalmente quando for um erro).
 
 Uma outra maneira de contribuir, é editando você mesmo os arquivos através do github.
 
@@ -34,7 +34,7 @@ Após escolher o arquivo, clique no lápis que aparece do lado direito para inic
 
 ![image](https://user-images.githubusercontent.com/3127847/183786079-a8855609-db60-42b0-9972-54f48b370867.png)
 
-Faça as alterações necessárias e e depois siga até o fim da página.
+Faça as alterações necessárias e depois siga até o fim da página.
 
 ![image](https://user-images.githubusercontent.com/3127847/183786229-1581af1b-f74d-4a0a-a73f-3fdbc8ad9146.png)
 
@@ -46,12 +46,12 @@ Confira as alterações realizadas e através do botão `Create pull request`.
 
 ![image](https://user-images.githubusercontent.com/3127847/183790666-52b99bce-d777-4d26-a5a9-cfa9b4e726da.png)
 
-Seu pedido de melhoria deve estar prenchido com o que preencheu anteriormente, mas caso precise, complemente com maiores detalhes.
+Seu pedido de melhoria deve estar preenchido com o que preencheu anteriormente, mas caso precise, complemente com maiores detalhes.
 Clique no botão `Create pull request` para finalizar a contribuição e aguarde.
 
 ![image](https://user-images.githubusercontent.com/3127847/183790791-3daefe6b-e4e7-4378-b645-fa5e29dd71c4.png)
 
-Assim que a pessoa responsável analisar sua contribuição, suas alteraçês serão mescladas ao conteúdo.
+Assim que a pessoa responsável analisar sua contribuição, suas alterações serão mescladas ao conteúdo.
 
 ![image](https://user-images.githubusercontent.com/3127847/183787281-c6947adb-eae1-4b67-8204-377f6766aff6.png)
 
@@ -60,7 +60,7 @@ Assim que a pessoa responsável analisar sua contribuição, suas alteraçês se
 
 ## Desenvolvendo localmente
 
-Crie um comando virtual utiliando o comando:
+Crie um ambiente virtual utilizando o comando:
 
 ```
 python -m venv .venv
@@ -74,7 +74,7 @@ source .venv/bin/activate
 
 ou [equivalente em seu sistema operacional](https://cassiobotaro.dev/do_zero_a_implantacao/projeto/#o-ambiente-virtual).
 
-Em seguida instale as dependências necesárias
+Em seguida instale as dependências necessárias
 
 ```
 python -m pip install -r requirements.txt
