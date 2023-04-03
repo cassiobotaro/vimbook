@@ -4,7 +4,7 @@ Métodos de dobras
 O Vim tem seis modos *fold*, são eles:
 
 - Sintaxe (*syntax*)
-- Identação (*indent*)
+- Indentação (*indent*)
 - Marcas (*marker*)
 - Manual (*manual*)
 - Diferenças (*diff*)

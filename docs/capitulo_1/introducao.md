@@ -24,7 +24,7 @@ textos.
 
 Qualquer tarefa de aprendizado requer um certo esforço. Todo programa
 introduz novos conceitos, opções e configurações que transformam o
-*modus operanti* do usuário. Em princípio, quanto maior o esforço, maior
+*modus operandi* do usuário. Em princípio, quanto maior o esforço, maior
 o benefício. Quem quer apenas escrever textos, pode-se contentar com um
 editor básico, cuja as únicas opções são digitar o texto, abrir e salvar
 o documento ou pode utilizar um editor que permita pré-configurar ações,
@@ -61,7 +61,7 @@ arquivo o desse livro sobre vim.
 ![Usando o vim para editar o código em LaTeX](vimedittex.png "Usando o vim para editar o código em LaTeX")
 
 
-Figura 1.1 - Usando o vim para editar o código em LaTex 
+Figura 1.1 - Usando o vim para editar o código em LaTex
 
 O Vim conta com uma comunidade bastante atuante e é, ao lado do
 Emacs[^3], um dos editores mais usados nos sistemas GNU/Linux[^4],

@@ -18,7 +18,7 @@ alternar entre elas facilmente. Os comandos para utilização das abas são:
 
 Enquanto os comandos referentes a *tab* deixam a janela
 inteira disponível para o texto e apenas cria uma pequena aba na parte
-superior, o comando *split* literamente divide a tela atual
+superior, o comando *split* literalmente divide a tela atual
 em duas para visualização simultânea dos “buffers” (seja ele o mesmo ou
 outro diferente). Esse é o split padrão do Vim mas pode ser alterado
 facilmente colocando a linha abaixo no seu `~/.vimrc`:
@@ -28,5 +28,5 @@ facilmente colocando a linha abaixo no seu `~/.vimrc`:
 ### Utilizando split vertical
 
 O split vertical funciona da mesma maneira que o split horizontal, sendo
-a unica diferença o modo como a tela é dividida, pois nesse caso a tela
+a única diferença o modo como a tela é dividida, pois nesse caso a tela
 é dividida verticalmente.

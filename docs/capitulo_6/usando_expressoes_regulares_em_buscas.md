@@ -115,7 +115,7 @@ substituição.
 
 Para aprender mais sobre Expressões Regulares leia:
 
--   [Guia sobre Espressões Regulares](http://guia-er.sourceforge.net)
+-   [Guia sobre Expressões Regulares](http://guia-er.sourceforge.net)
 
 -   :help regex
 
@@ -126,7 +126,7 @@ o cursor é teclar `*`. Para encontrar uma ocorrência anterior da
 palavra sob o cursor, existe o `#` (em ambos os casos o cursor deve
 estar posicionado sobre a palavra que deseja procurar). As duas opções
 citadas localizam apenas se a palavra corresponder totalmente ao padrão
-sob o cursor, pode-se bucar por trechos de palavras que façam parte de
+sob o cursor, pode-se buscar por trechos de palavras que façam parte de
 palavras maiores usando-se `g*`. Pode-se ainda exibir “dentro do
 contexto” todas as ocorrências de uma palavra sob o cursor usando-se o
 seguinte atalho em modo normal:
