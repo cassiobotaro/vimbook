@@ -55,7 +55,7 @@ programação e marcação, possui mapeamento para teclas, macros,
 abreviações, busca por *Expressões Regulares*[^2], entre outras facilidades.
 
 A figura 1.1 mostra o vim sendo usando para editar o
-arquivo o desse livro sobre vim.
+arquivo desse livro sobre vim.
 
 
 ![Usando o vim para editar o código em LaTeX](vimedittex.png "Usando o vim para editar o código em LaTeX")
