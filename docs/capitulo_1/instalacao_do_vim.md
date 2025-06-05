@@ -20,7 +20,7 @@ distribuição. A forma de instalação preferível depende da distribuição:
     precisa ser feito.
 
 -   Estar disponível no repositório, mas não instalado – em
-    distribuições derivadas da Debian GNU/Linux[^1], a instalação do Vim
+    distribuições derivadas do Debian GNU/Linux[^1], a instalação do Vim
     através dos repositórios é usualmente executada digitando-se
     `apt-get install vim`[^2] em um *terminal*
     (este procedimento requer privilégios de administrador e,
