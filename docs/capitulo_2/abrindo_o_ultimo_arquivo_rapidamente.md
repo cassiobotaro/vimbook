@@ -7,7 +7,7 @@ O Vim guarda um registrador para cada arquivo editado veja mais no capítulo [Re
 '1 ........ abre o penúltimo arquivo editado
 Ctrl-6 .... abre o arquivo alternativo (booleano)
 ```
-Bom, já que abrimos o nosso último arquivo editado com o comando
+Bom, já que abrimos o nosso último arquivo editado com o comando:
 ```
 '0
 ```

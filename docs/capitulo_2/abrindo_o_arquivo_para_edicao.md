@@ -13,7 +13,7 @@ Caso deseje abrir o arquivo na linha 10, usa-se:
 ```
 vim +10 /caminho/para/o/arquivo
 ```
-se quiser abrir o arquivo na linha que contém um determinado padrão ,
+se quiser abrir o arquivo na linha que contém um determinado padrão,
 digite:
 ```
 vim +/padrão arquivo
