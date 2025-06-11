@@ -26,7 +26,7 @@ modificações no arquivo desde que ele foi salvo pela última vez haverá
 uma mensagem informando que o documento foi modificado e não foi salvo,
 nesse caso, digite o comando `:q!` para fechar o Vim **sem salvar**
 as últimas modificações feitas. Caso queira salvar e
-sair do arquivo, digite o comando `:wq`
+sair do arquivo, digite o comando `:wq`.
 
 Nesse ponto, conhece-se o vim de forma suficiente para editar qualquer
 coisa nele. Daqui por diante o que existe são as formas de realizar a
