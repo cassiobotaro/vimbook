@@ -27,11 +27,11 @@ normal .. executa em modo normal
 w ....... pula uma palavra
 d3w ..... apaga 3 palavras 'w'
 ```
-Obs: É claro que um comando de substituição simples
+Obs: É claro que um comando de substituição simples, como:
 ```
 :5,$s/é um texto//g
 ```
-Resolveria neste caso, mas a vantagem do método anterior é que é válido
+resolveria neste caso, mas a vantagem do método anterior é que é válido
 para três palavras, sejam quais forem. Também é possível empregar
 comandos de inserção como `i` ou `a` e
 retornar ao modo normal, bastando para isso usar o recurso `Ctrl-v Esc`,
