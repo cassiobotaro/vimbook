@@ -8,7 +8,7 @@ então este usuário abre um novo arquivo:
 :e novo-arquivo.txt
 ```
 Mas de repente o usuário lembra que seria necessário adicionar uma linha
-no arquivo recém editado, neste caso usa-se o atalho
+no arquivo recém editado, neste caso usa-se o atalho:
 ```
 Ctrl-6
 ```

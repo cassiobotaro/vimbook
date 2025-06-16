@@ -22,13 +22,13 @@ inserção)
 
 Passo 1
 
-:   - digite na linha 1 o seguinte texto
+:   - digite na linha 1 o seguinte texto:
 ```
 # controle de fluxo <Esc>
 ```
 Passo 2
 
-:   - digite na linha 2 o seguinte texto
+:   - digite na linha 2 o seguinte texto:
 ```
 # um laço for <Esc>
 ```
@@ -45,13 +45,13 @@ Passo 4
 
 Passo 5
 
-:   - Na linha 2 digite
+:   - Na linha 2 digite:
 ```
 # operador ternário <Esc>
 ```
 Passo 6
 
-:   - na linha 3 digite
+:   - na linha 3 digite:
 ```
 var = (1 if teste == 0 else 2)  <Esc>
 ```
@@ -68,7 +68,7 @@ Agora volte até a alteração 1 e use seguidas vezes:
 g+
 ```
 
-e/ou
+e/ou:
 
 ```
 g-
