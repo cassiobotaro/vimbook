@@ -1,3 +1,7 @@
+---
+title: Alternando entre buffers de arquivo
+---
+
 Alternando entre Buffers de arquivo
 ===================================
 

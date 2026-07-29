@@ -1,3 +1,7 @@
+---
+title: Instalação do vim
+---
+
 Instalação do Vim
 -----------------
 

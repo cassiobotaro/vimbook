@@ -1,3 +1,7 @@
+---
+title: Edite vários arquivos de uma só vez
+---
+
 Edite vários arquivos de uma só vez
 -----------------------------------
 

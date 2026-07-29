@@ -1,3 +1,7 @@
+---
+title: Log do Subversion
+---
+
 Log do Subversion
 -----------------
 

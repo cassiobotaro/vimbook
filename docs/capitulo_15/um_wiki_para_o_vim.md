@@ -1,3 +1,7 @@
+---
+title: Um wiki para o Vim
+---
+
 Um wiki para o Vim
 ------------------
 

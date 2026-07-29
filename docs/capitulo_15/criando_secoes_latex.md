@@ -1,3 +1,7 @@
+---
+title: Criando Seções LaTeX
+---
+
 Criando seções *LaTeX*
 ----------------------
 

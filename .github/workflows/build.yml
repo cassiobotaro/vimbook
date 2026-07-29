@@ -4,16 +4,24 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     name: Deploy docs
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/configure-pages@v6
+
       - name: Checkout main
         uses: actions/checkout@v7
-        with:
-          fetch-depth: 0
-      
+
       - name: Install dependencies
         uses: actions/setup-python@v7
         with:
@@ -21,5 +29,13 @@ jobs:
           cache: 'pip'
       - run: pip install -r requirements.txt
 
+      - name: Build site
+        run: zensical build --clean
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
       - name: Deploy into github pages
-        run: python -m mkdocs gh-deploy
+        uses: actions/deploy-pages@v5
+        id: deployment

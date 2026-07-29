@@ -1,3 +1,7 @@
+---
+title: Selecionando ou deletando o conteúdo de tags HTML
+---
+
 Selecionando ou deletando conteúdo de tags HTML
 -------------------------------------------------------------------
 ```

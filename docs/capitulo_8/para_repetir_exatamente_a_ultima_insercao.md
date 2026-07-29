@@ -1,3 +1,7 @@
+---
+title: Para repetir exatamente a última inserção
+---
+
 Para repetir exatamente a última inserção 
 ------------------------------------------
 ```

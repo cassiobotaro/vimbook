@@ -1,3 +1,7 @@
+---
+title: Editando em modo de comando
+---
+
 Editando em modo de comando
 ---------------------------
 

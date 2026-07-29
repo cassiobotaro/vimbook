@@ -1,3 +1,7 @@
+---
+title: Entrando em modo de edição
+---
+
 Entrando em modo de edição
 --------------------------
 

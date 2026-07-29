@@ -1,3 +1,7 @@
+---
+title: Salvamento automático para o Wiki
+---
+
 Salvamento automático para o Wiki 
 ----------------------------------
 

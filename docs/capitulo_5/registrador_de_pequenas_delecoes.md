@@ -1,3 +1,7 @@
+---
+title: Registrador de pequenas deleções
+---
+
 Registrador de pequenas deleções "-
 --------------------------------
 

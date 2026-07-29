@@ -1,3 +1,7 @@
+---
+title: Lista de alterações
+---
+
 Lista de alterações
 -------------------
 

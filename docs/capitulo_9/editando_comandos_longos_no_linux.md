@@ -1,3 +1,7 @@
+---
+title: Editando comandos longos no Linux
+---
+
 Editando comandos longos no Linux
 ---------------------------------
 

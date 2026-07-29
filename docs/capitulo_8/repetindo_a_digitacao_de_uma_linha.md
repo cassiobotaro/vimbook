@@ -1,3 +1,7 @@
+---
+title: Repetindo a digitação de uma linha
+---
+
 Repetindo a digitação de uma linha
 -----------------------------------
 ```

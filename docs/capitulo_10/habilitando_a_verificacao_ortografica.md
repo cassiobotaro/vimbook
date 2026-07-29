@@ -1,3 +1,7 @@
+---
+title: Habilitando a verificação ortográfica
+---
+
 Habilitando a verificação ortográfica
 -------------------------------------
 

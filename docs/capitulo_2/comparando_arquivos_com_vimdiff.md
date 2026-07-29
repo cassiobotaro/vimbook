@@ -1,3 +1,7 @@
+---
+title: Comparando arquivos com o vimdiff
+---
+
 Comparando arquivos com o vimdiff
 ---------------------------------
 

@@ -1,3 +1,7 @@
+---
+title: O Plugin EasyGrep
+---
+
 O plugin EasyGrep
 -----------------
 

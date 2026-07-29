@@ -1,3 +1,7 @@
+---
+title: O Plugin SearchComplete
+---
+
 O plugin *SearchComplete*
 -------------------------
 

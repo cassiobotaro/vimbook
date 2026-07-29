@@ -1,3 +1,7 @@
+---
+title: Copiar, Colar e Deletar
+---
+
 Copiar, Colar e Deletar
 -----------------------
 

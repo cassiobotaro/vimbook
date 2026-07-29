@@ -1,3 +1,7 @@
+---
+title: Guardando trechos em "registros"
+---
+
 Guardando trechos em “registradores”
 --------------------------------
 

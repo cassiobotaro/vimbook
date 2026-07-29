@@ -1,3 +1,7 @@
+---
+title: Abrindo o arquivo para a edição
+---
+
 Abrindo o arquivo para a edição
 -------------------------------
 

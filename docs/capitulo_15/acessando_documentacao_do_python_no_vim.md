@@ -1,3 +1,7 @@
+---
+title: Acessando documentação do Python no Vim
+---
+
 Acessando documentação do Python no Vim
 ---------------------------------------
 

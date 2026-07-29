@@ -1,3 +1,7 @@
+---
+title: O Plugin FindMate
+---
+
 O plugin FindMate
 -----------------
 

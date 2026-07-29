@@ -1,3 +1,7 @@
+---
+title: Inserindo a palavra sob o cursos em um comando
+---
+
 Inserindo a palavra sob o cursor em um comando
 ----------------------------------------------
 

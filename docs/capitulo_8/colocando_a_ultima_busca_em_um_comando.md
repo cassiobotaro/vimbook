@@ -1,3 +1,7 @@
+---
+title: Colocando a última busca em um comando
+---
+
 Colocando a última busca em um comando 
 ---------------------------------------
 

@@ -1,3 +1,7 @@
+---
+title: Comandos relativos à verificação ortográfica
+---
+
 Comandos relativos à verificação ortográfica
 --------------------------------------------
 

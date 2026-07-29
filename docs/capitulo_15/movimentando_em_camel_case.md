@@ -1,3 +1,7 @@
+---
+title: Movimentando em CamelCase
+---
+
 Movimentando em *camel case*
 ----------------------------
 

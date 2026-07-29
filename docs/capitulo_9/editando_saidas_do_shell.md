@@ -1,3 +1,7 @@
+---
+title: Editando saídas do Shell
+---
+
 Editando saídas do Shell
 ------------------------
 

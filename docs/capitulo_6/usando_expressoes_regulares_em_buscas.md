@@ -1,3 +1,7 @@
+---
+title: Usando "Expressões Regulares" em buscas
+---
+
 Usando “Expressões Regulares” em buscas
 ----------------------------------------------------------
 ```

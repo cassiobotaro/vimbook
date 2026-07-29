@@ -83,11 +83,20 @@ python -m pip install -r requirements.txt
 e para executar localmente:
 
 ```
-python -m mkdocs serve
+zensical serve
 ```
+
+O site fica disponível em <http://localhost:8000> e recarrega automaticamente a cada alteração.
 
 ## Convenções utilizadas e dicas
 
 * Não utilize emojis de forma textual `:emoji:`, copie do [emojipédia](https://emojipedia.org/pt) o invés;
 * Todo título de seção é iniciado com um emoji;
-* Novos capítulos devem ser adicionados também no menu de navegação que se encontra no arquivo `mkdocs.yml`;
+* Novos capítulos devem ser adicionados também no menu de navegação (`nav`) que se encontra no arquivo `zensical.toml`;
+* Páginas cujo título não começa com um cabeçalho `#` precisam declarar o título no *front matter*, por exemplo:
+
+```
+---
+title: Instalação do vim
+---
+```

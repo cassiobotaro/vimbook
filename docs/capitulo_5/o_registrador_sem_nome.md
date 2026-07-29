@@ -1,3 +1,7 @@
+---
+title: O registrador sem nome ""
+---
+
 O registrador sem nome ""
 ----------------------
 

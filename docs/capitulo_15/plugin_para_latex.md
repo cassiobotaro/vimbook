@@ -1,3 +1,7 @@
+---
+title: Plugin para LaTeX
+---
+
 Plugin para LaTeX
 -----------------
 

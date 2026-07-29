@@ -1,3 +1,7 @@
+---
+title: O Plugin Pydiction
+---
+
 O plugin pydiction
 ------------------
 

@@ -1,3 +1,7 @@
+---
+title: Ordenando e removendo linhas duplicadas no Vim 7
+---
+
 Ordenando e removendo linhas duplicadas no Vim 7
 ------------------------------------------------
 ```

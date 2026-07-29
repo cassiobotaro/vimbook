@@ -1,3 +1,7 @@
+---
+title: Atualizando a documentação dos plugins
+---
+
 Atualizando a documentação dos plugins
 --------------------------------------
 

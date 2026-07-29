@@ -1,3 +1,7 @@
+---
+title: O Plugin Ctags
+---
+
 O plugin *Ctags*
 ----------------
 

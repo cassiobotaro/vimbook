@@ -1,3 +1,7 @@
+---
+title: Como criar um registrador em modo visual?
+---
+
 Como criar um registrador em modo visual?
 --------------------------------------
 

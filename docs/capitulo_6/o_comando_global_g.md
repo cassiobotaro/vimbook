@@ -1,3 +1,7 @@
+---
+title: O comando global "g"
+---
+
 O comando global “g”
 --------------------
 

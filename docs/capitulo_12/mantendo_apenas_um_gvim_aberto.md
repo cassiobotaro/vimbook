@@ -1,3 +1,7 @@
+---
+title: Mantendo apenas um Gvim aberto
+---
+
 Mantendo apenas um Gvim aberto
 ------------------------------
 

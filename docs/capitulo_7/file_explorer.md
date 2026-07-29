@@ -1,3 +1,7 @@
+---
+title: File Explorer
+---
+
 File Explorer
 -------------
 

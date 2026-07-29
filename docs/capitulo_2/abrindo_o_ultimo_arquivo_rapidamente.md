@@ -1,3 +1,7 @@
+---
+title: Abrindo o último arquivo rapidamente
+---
+
 Abrindo o último arquivo rapidamente
 ------------------------------------
 

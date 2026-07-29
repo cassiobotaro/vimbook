@@ -1,3 +1,7 @@
+---
+title: Como colocar um pedaço de texto em um registrador?
+---
+
 Como colocar um pedaço de texto em um registrador?
 -----------------------------------------------
 ```

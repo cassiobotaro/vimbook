@@ -1,3 +1,7 @@
+---
+title: Destacando Padrões
+---
+
 Destacando padrões
 ---------------------------
 

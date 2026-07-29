@@ -1,3 +1,7 @@
+---
+title: Junção de linhas com Vim
+---
+
 Junção de linhas com Vim
 ------------------------
 

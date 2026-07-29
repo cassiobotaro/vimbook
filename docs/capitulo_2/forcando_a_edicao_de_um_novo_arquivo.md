@@ -1,3 +1,7 @@
+---
+title: Forçando a edição de um novo arquivo
+---
+
 Forçando a edição de um novo arquivo
 ------------------------------------
 

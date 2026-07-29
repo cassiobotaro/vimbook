@@ -1,3 +1,7 @@
+---
+title: Plugin FuzzyFinder
+---
+
 Plugin FuzzyFinder
 ------------------
 

@@ -1,3 +1,7 @@
+---
+title: Efetivação das alterações no vimrc
+---
+
 Efetivação das alterações no `vimrc` 
 ------------------------------------
 

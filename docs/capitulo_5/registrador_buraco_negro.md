@@ -1,3 +1,7 @@
+---
+title: Registrador buraco negro "\_
+---
+
 registrador buraco negro "\_
 -------------------------
 

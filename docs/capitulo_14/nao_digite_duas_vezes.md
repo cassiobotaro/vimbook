@@ -1,3 +1,7 @@
+---
+title: Não digite duas vezes
+---
+
 Não digite duas vezes
 ---------------------
 

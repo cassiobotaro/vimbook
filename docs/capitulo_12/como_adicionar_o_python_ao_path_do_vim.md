@@ -1,3 +1,7 @@
+---
+title: Como adicionar o Python ao path do Vim?
+---
+
 Como adicionar o Python ao **path** do Vim?
 -------------------------------------------
 
