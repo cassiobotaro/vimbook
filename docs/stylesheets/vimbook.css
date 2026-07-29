@@ -1,0 +1,137 @@
+/* ==========================================================================
+   Paleta "Diamante" — as cores do logo do Vim.
+
+   Todo valor aqui foi medido nos próprios assets do repositório:
+     #019833  amostrado no diamante de docs/imgs/vimlogo.png
+     #00ae00  declarado em docs/imgs/capa.svg (o verde canônico do vim.org)
+
+   O verde canônico é legível sobre fundo escuro (5,41:1 no modo slate), mas
+   não sobre branco (2,98:1). Por isso o modo claro usa uma versão escurecida
+   até passar em WCAG AA, e o modo escuro usa o verde original, intacto.
+
+   A barra do topo é verde; o fundo do conteúdo fica neutro nos dois modos,
+   porque texto verde sobre fundo verde perde contraste.
+   ========================================================================== */
+
+:root {
+  /* Verde da marca, como aparece no logo */
+  --vim-diamond: #019833; /* vimlogo.png */
+  --vim-pure: #00ae00; /* capa.svg / vim.org */
+
+  /* Modo claro: tinta sobre papel */
+  --vim-ink: #01892e; /* 4,55:1 sobre branco — AA  */
+  --vim-ink-deep: #016723; /* 7,08:1 sobre branco — AAA */
+
+  /* Modo escuro: fósforo sobre terminal */
+  --vim-pure-hi: #00c700; /* 7,03:1 sobre o slate — AAA */
+}
+
+/* --------------------------------------------------------------------------
+   Modo claro
+   -------------------------------------------------------------------------- */
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--vim-ink); /* a barra do topo */
+  --md-primary-fg-color--light: var(--vim-diamond);
+  --md-primary-fg-color--dark: var(--vim-ink-deep);
+  --md-primary-bg-color: #fff; /* texto em cima da barra */
+  --md-primary-bg-color--light: #ffffffb3;
+
+  --md-accent-fg-color: var(--vim-ink-deep);
+  --md-accent-fg-color--transparent: #0167231a;
+  --md-accent-bg-color: #fff;
+  --md-accent-bg-color--light: #ffffffb3;
+
+  --md-typeset-a-color: var(--vim-ink);
+}
+
+/* --------------------------------------------------------------------------
+   Modo escuro
+   Aqui o verde do vim.org entra sem retoque — é o único fundo onde ele é
+   legível, e é também onde o Vim de verdade mora.
+   -------------------------------------------------------------------------- */
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--vim-ink);
+  --md-primary-fg-color--light: var(--vim-diamond);
+  --md-primary-fg-color--dark: var(--vim-ink-deep);
+  --md-primary-bg-color: #fff;
+  --md-primary-bg-color--light: #ffffffb3;
+
+  --md-accent-fg-color: var(--vim-pure-hi);
+  --md-accent-fg-color--transparent: #00c7001a;
+  --md-accent-bg-color: #fff;
+  --md-accent-bg-color--light: #ffffffb3;
+
+  --md-typeset-a-color: var(--vim-pure);
+}
+
+/* --------------------------------------------------------------------------
+   Estado de link em dois canais, não só cor (WCAG 1.4.1).
+   No papel a tinta escurece; no terminal o fósforo acende. Em ambos, sublinha.
+   -------------------------------------------------------------------------- */
+
+.md-typeset a:hover,
+.md-typeset a:focus-visible {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.15em;
+}
+
+/* --------------------------------------------------------------------------
+   Admonition "note" no verde do livro — o Material pinta de azul (#448aff).
+
+   Só o tipo "note" muda. Os outros tipos codificam significado pela cor
+   (warning laranja, danger vermelho) e perderiam a função se virassem verdes.
+
+   O ícone sobre a faixa de 10% fica em 3,98:1 no claro e 4,77:1 no escuro,
+   acima do mínimo de 3:1 para elementos gráficos (WCAG 1.4.11). O azul
+   original ficava em 2,98:1.
+   -------------------------------------------------------------------------- */
+
+[data-md-color-scheme="default"] {
+  --vim-admonition: #01892e; /* = --vim-ink */
+  --vim-admonition-tint: #01892e1a;
+}
+
+[data-md-color-scheme="slate"] {
+  --vim-admonition: #00ae00; /* = --vim-pure */
+  --vim-admonition-tint: #00ae001a;
+}
+
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: var(--vim-admonition);
+}
+
+.md-typeset .admonition.note:focus-within,
+.md-typeset details.note:focus-within {
+  box-shadow: 0 0 0 0.2rem var(--vim-admonition-tint);
+}
+
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary {
+  background-color: var(--vim-admonition-tint);
+}
+
+.md-typeset .note > .admonition-title::before,
+.md-typeset .note > summary::before {
+  background-color: var(--vim-admonition);
+}
+
+.md-typeset .note > .admonition-title::after,
+.md-typeset .note > summary::after {
+  color: var(--vim-admonition);
+}
+
+/* --------------------------------------------------------------------------
+   Modo visual: o realce de seleção do Vim.
+   -------------------------------------------------------------------------- */
+
+::selection {
+  background: #01983340;
+}
+
+[data-md-color-scheme="slate"] ::selection {
+  background: #00ae0040;
+}

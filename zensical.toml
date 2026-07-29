@@ -3,6 +3,7 @@ site_name = "Vimbook"
 site_url = "https://cassiobotaro.dev/vimbook/"
 repo_name = "cassiobotaro/vimbook"
 repo_url = "https://github.com/cassiobotaro/vimbook"
+extra_css = ["stylesheets/vimbook.css"]
 
 nav = [
   { "O EDITOR DE TEXTO VIM" = "index.md" },
@@ -230,13 +231,15 @@ logo = "material/book"
 # Alternância entre modo claro e escuro
 [[project.theme.palette]]
 scheme = "default"
-primary = "green"
+primary = "custom"
+accent = "custom"
 toggle.icon = "material/lightbulb-outline"
 toggle.name = "Switch to dark mode"
 
 [[project.theme.palette]]
 scheme = "slate"
-primary = "green"
+primary = "custom"
+accent = "custom"
 toggle.icon = "material/lightbulb"
 toggle.name = "Switch to light mode"
 
