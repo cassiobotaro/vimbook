@@ -228,7 +228,6 @@ favicon = "imgs/favicon.ico"
 features = [
   "content.tabs.link",
   "navigation.footer",
-  "navigation.path",
   "navigation.instant",
   "navigation.instant.progress",
   "navigation.top",

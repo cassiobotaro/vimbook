@@ -213,7 +213,6 @@ body {
    -------------------------------------------------------------------------- */
 
 .md-nav,
-.md-path,
 .md-footer,
 .md-header__topic,
 .md-search__input,
@@ -231,12 +230,6 @@ body {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--vim-fraco);
-}
-
-.md-path {
-  font-size: 0.6rem;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
 }
 
 .md-typeset code {
