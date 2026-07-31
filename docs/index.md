@@ -1,6 +1,22 @@
-# O EDITOR DE TEXTO VIM
+<div class="vimbook-capa">
+  <div class="vimbook-capa__tils" aria-hidden="true">
+    <span>~</span><span>~</span><span>~</span><span>~</span><span>~</span>
+    <span>~</span><span>~</span><span>~</span><span>~</span><span>~</span>
+    <span>~</span><span>~</span><span>~</span><span>~</span><span>~</span>
+  </div>
+  <div class="vimbook-capa__corpo">
+    <p class="vimbook-capa__titulo">VIMBOOK</p>
+    <p class="vimbook-capa__sub">o editor de texto vim</p>
+    <div class="vimbook-capa__cmds">
+      <p class="vimbook-capa__cmd"><span>digite</span><b>l</b><span>próxima página</span></p>
+      <p class="vimbook-capa__cmd"><span>digite</span><b>h</b><span>página anterior</span></p>
+      <p class="vimbook-capa__cmd"><span>digite</span><b>/termo⏎</b><span>buscar no livro</span></p>
+    </div>
+    <p class="vimbook-capa__fim">15 capítulos · 179 páginas <span class="vimbook-cursor"></span></p>
+  </div>
+</div>
 
-![Logo Vim](imgs/vimlogo.png "logo vim")
+# O EDITOR DE TEXTO VIM
 
 "Um livro escrito em português sobre o editor de texto **Vim**. A ideia é que este material cresça e torne-se uma referência confiável e prática. Use este livro no termos da *Licença de Documentação Livre GNU (GFDL)*."
 
