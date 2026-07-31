@@ -103,46 +103,12 @@ document.addEventListener("selectionchange", () => {
 })
 
 /* --------------------------------------------------------------------------
-   A coluna de tis: o que está além da última linha do arquivo.
-
-   Só aparece quando o texto acaba antes do fim da tela — que é o
-   comportamento do editor, e o caso da maioria das páginas deste livro.
-   -------------------------------------------------------------------------- */
-
-const ALTURA_TIL = 17.28 // 0.72rem x 1.5, o mesmo par do CSS
-
-function desenhaTis() {
-  const antiga = document.querySelector(".vimbook-tils")
-  if (antiga) antiga.remove()
-
-  const artigo = document.querySelector(".md-content__inner")
-  if (!artigo || window.matchMedia("(max-width: 76.1875em)").matches) return
-
-  /* O limite é o rodapé, não a borda da tela: o espaço vazio de uma página
-     curta fica entre o fim do texto e os links de anterior/próxima. */
-  const rodape = document.querySelector(".md-footer")
-  const fimDoTexto = artigo.getBoundingClientRect().bottom
-  const limite = rodape
-    ? rodape.getBoundingClientRect().top
-    : window.innerHeight - barra.offsetHeight
-
-  const sobra = limite - fimDoTexto
-  if (sobra < ALTURA_TIL) return
-
-  const coluna = document.createElement("div")
-  coluna.className = "vimbook-tils"
-  coluna.setAttribute("aria-hidden", "true")
-  coluna.style.top = `${artigo.offsetHeight}px`
-  for (let i = 0; i < Math.floor(sobra / ALTURA_TIL); i++) {
-    const til = document.createElement("span")
-    til.textContent = "~"
-    coluna.appendChild(til)
-  }
-  artigo.appendChild(coluna)
-}
-
-/* --------------------------------------------------------------------------
    Ligações
+
+   Não há coluna de tis nas páginas de conteúdo. A margem entre o texto e o
+   menu lateral é ocupada pela barra de rolagem da navegação, e qualquer tom
+   discreto o bastante para não competir com o texto ficava perto de 1,2:1 —
+   invisível. A coluna sobrevive só na capa, onde há espaço e fundo próprios.
    -------------------------------------------------------------------------- */
 
 function atualizaPagina() {
@@ -152,14 +118,12 @@ function atualizaPagina() {
   defineModo("normal", "-- NORMAL --")
   reservaEspaco()
   atualizaRegua()
-  desenhaTis()
 }
 
 window.addEventListener("scroll", atualizaRegua, { passive: true })
 window.addEventListener("resize", () => {
   reservaEspaco()
   atualizaRegua()
-  desenhaTis()
 })
 
 if (window.document$) {

@@ -47,6 +47,11 @@
      statusline e no realce de seleção. */
   --vim-visual: #a85700; /* 5,21:1 com texto branco em cima */
   --vim-visual-noite: #e8a33d; /* 8,75:1 com texto escuro em cima */
+
+  /* Os tis da capa. A cor de régua (#e1e6e2) media 1,16:1 sobre a capa e
+     sumia; estes ficam acima de 3:1, o mínimo para elemento gráfico. */
+  --vim-til: #7d877f; /* 3,42:1 sobre a capa clara */
+  --vim-til-noite: #657367; /* 3,52:1 sobre a capa escura */
 }
 
 /* --------------------------------------------------------------------------
@@ -85,6 +90,7 @@
   --vim-chip-texto: #fff;
   --vim-chip-visual: var(--vim-visual);
   --vim-chip-visual-texto: #fff;
+  --vim-til-cor: var(--vim-til);
 }
 
 /* --------------------------------------------------------------------------
@@ -128,6 +134,7 @@
   --vim-chip-texto: var(--vim-noite);
   --vim-chip-visual: var(--vim-visual-noite);
   --vim-chip-visual-texto: var(--vim-noite);
+  --vim-til-cor: var(--vim-til-noite);
 }
 
 /* --------------------------------------------------------------------------
@@ -148,11 +155,6 @@ input,
    se o script não rodar, e aí nada é coberto porque a barra também não existe. */
 body {
   padding-bottom: var(--vimbook-status-altura, 0px);
-}
-
-/* Âncora da coluna de tis, que é posicionada na margem esquerda do artigo. */
-.md-content__inner {
-  position: relative;
 }
 
 .md-typeset {
@@ -325,37 +327,6 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   A coluna de tis: o que está além da última linha do arquivo.
-
-   Como no editor, ela só aparece quando o texto acaba antes da tela — o que
-   neste livro acontece na maioria das páginas.
-   -------------------------------------------------------------------------- */
-
-.vimbook-tils {
-  position: absolute;
-  left: -1.4rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace;
-  font-size: 0.72rem;
-  color: var(--vim-linha);
-  user-select: none;
-  pointer-events: none;
-}
-
-.vimbook-tils span {
-  line-height: 1.5;
-}
-
-/* Sem margem lateral sobrando, a coluna sai. */
-@media screen and (max-width: 76.1875em) {
-  .vimbook-tils {
-    display: none;
-  }
-}
-
-/* --------------------------------------------------------------------------
    A capa: a tela de abertura do Vim.
    -------------------------------------------------------------------------- */
 
@@ -376,7 +347,7 @@ body {
   align-items: center;
   font-size: 0.72rem;
   line-height: 1.5;
-  color: var(--vim-linha);
+  color: var(--vim-til-cor);
   user-select: none;
 }
 
@@ -414,8 +385,11 @@ body {
 }
 
 .vimbook-capa__cmd {
+  /* zera a margem de parágrafo do tema, que triplicava o espaço entre as
+     linhas e desmontava o ritmo da tela de abertura */
+  margin: 0;
   display: grid;
-  grid-template-columns: auto minmax(5.5rem, auto) auto;
+  grid-template-columns: auto minmax(4rem, auto) auto;
   gap: 0.7rem;
   align-items: baseline;
   text-align: left;
