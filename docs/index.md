@@ -27,4 +27,4 @@ Este trabalho está em constante aprimoramento e é fruto da colaboração de vo
 [Veja como contribuir para o projeto](https://github.com/cassiobotaro/vimbook/blob/main/CONTRIBUTING.md)
 
 !!! note
-        Este livro é apenas a transcrição do [livro original](https://code.google.com/archive/p/vimbook) para [markdown](https://spec.commonmark.org/) e posteriormente utilizando [zensical](https://zensical.org/). Uma lista completa com os autores originais e aqueles que ajudaram na transcrição pode ser encontrada em: [https://github.com/cassiobotaro/vimbook/blob/main/AUTHORS](https://github.com/cassiobotaro/vimbook/blob/main/AUTHORS)
+    Este livro é apenas a transcrição do [livro original](https://web.archive.org/web/20120525202225/http://code.google.com/p/vimbook/) para [markdown](https://spec.commonmark.org/) e posteriormente utilizando [zensical](https://zensical.org/). Uma lista completa com os autores originais e aqueles que ajudaram na transcrição pode ser encontrada em: [AUTHORS](https://github.com/cassiobotaro/vimbook/blob/main/AUTHORS)
