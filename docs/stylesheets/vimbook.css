@@ -221,11 +221,16 @@ body {
   font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
-.md-nav {
+/* O tamanho precisa ser declarado no próprio link e no <span> que ele
+   embrulha. Declarado só em .md-nav ele não chega ao item, que o tema
+   redefine — a regra existia e não valia nada. */
+.md-nav__link,
+.md-nav__link .md-ellipsis {
   font-size: 0.66rem;
 }
 
-.md-nav__title {
+.md-nav__title,
+.md-nav__title .md-ellipsis {
   font-size: 0.62rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
