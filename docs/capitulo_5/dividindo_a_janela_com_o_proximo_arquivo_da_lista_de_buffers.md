@@ -1,5 +1,5 @@
 ---
-title: Dividindo a janela com o próximo arquivo da lista de *buffers*
+title: Dividindo a janela com o próximo arquivo da lista de buffers
 ---
 
 Dividindo a janela com o próximo arquivo da lista de buffers

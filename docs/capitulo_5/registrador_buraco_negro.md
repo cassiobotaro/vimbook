@@ -1,8 +1,8 @@
 ---
-title: Registrador buraco negro "\_
+title: Registrador buraco negro "_
 ---
 
-registrador buraco negro "\_
+registrador buraco negro "_
 -------------------------
 
 Use este registrador quando não quiser alterar os demais registradores, por
