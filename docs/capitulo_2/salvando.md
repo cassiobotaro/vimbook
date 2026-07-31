@@ -1,6 +1,3 @@
-Salvando
---------
-
 A maneira mais simples de salvar um arquivo, é usar o comando:
 ```
 :w

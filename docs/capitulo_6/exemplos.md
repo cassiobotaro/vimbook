@@ -1,6 +1,3 @@
-Exemplos
--------------
-
 Busca usando alternativas:
 ```
 /end\(if\|while\|for\)

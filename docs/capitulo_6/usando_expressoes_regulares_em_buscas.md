@@ -2,8 +2,6 @@
 title: Usando "Expressões Regulares" em buscas
 ---
 
-Usando “Expressões Regulares” em buscas
-----------------------------------------------------------
 ```
 / ........... inicia uma busca (modo normal)
 \%x69 ....... código da letra `i'

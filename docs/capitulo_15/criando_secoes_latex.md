@@ -2,9 +2,6 @@
 title: Criando Seções LaTeX
 ---
 
-Criando seções *LaTeX*
-----------------------
-
 o comando abaixo substitui
 
 ```

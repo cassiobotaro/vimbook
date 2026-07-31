@@ -1,6 +1,3 @@
-Erros comuns
-------------
-
 -   Estando em *modo de inserção* pressionar
     `j` na intenção de rolar o documento, neste caso
     estaremos inserindo simplesmente a letra `j`.

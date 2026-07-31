@@ -2,9 +2,6 @@
 title: O Plugin Ctags
 ---
 
-O plugin *Ctags*
-----------------
-
 *Ctags* em si é um programa externo que indexa arquivos de código fonte. Ele lê
 o código fonte em busca de identificadores, declarações de função, variáveis,
 e constrói seu índex de referências cruzadas. Mas vamos ao plugin,

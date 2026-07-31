@@ -2,8 +2,6 @@
 title: Complementação com "tab"
 ---
 
-Complementação com “tab” 
-------------------------
 ```
 "Word completion
 "Complementação de palavras

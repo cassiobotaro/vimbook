@@ -1,6 +1,3 @@
-Criando um menu 
----------------
-
 Como no Vim podemos ter infinitos comandos fica complicado memorizar
 tudo é aí que entram os menus, podemos colocar nossos plugins e atalhos
 favoritos em um menu veja este exemplo

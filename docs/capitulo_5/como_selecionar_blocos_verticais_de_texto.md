@@ -1,5 +1,3 @@
-Como selecionar blocos verticais de texto?
-------------------------------------------
 ```
 Ctrl-v
 ```

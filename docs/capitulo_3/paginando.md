@@ -1,6 +1,3 @@
-Paginando
----------
-
 Para rolar uma página de cada vez (em modo normal)
 
 ```

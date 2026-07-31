@@ -1,5 +1,3 @@
-Abrindo e fechando janelas 
----------------------------
 ```
 Ctrl-w-s ...... Divide a janela horizontalmente (:split)
 Ctrl-w-v ...... Divide a janela verticalmente (:vsplit)

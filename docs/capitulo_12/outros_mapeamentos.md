@@ -1,6 +1,3 @@
-Outros mapeamentos
-------------------
-
 Destaca espaços e tabulações redundantes:
 ```
 highlight RedundantWhitespace ctermbg=red guibg=red

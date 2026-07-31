@@ -1,6 +1,3 @@
-Registradores de arrastar e mover
------------------------------
-
 O registrador
 ```
 "*

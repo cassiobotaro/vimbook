@@ -1,6 +1,3 @@
-Ajuda integrada
----------------
-
 O Vim possui uma ajuda integrada muito completa, são mais de 100
 arquivos somando milhares de linhas. O único inconveniente é não haver
 ainda tradução para o português, sendo o inglês seu idioma oficial;

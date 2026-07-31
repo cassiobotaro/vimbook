@@ -1,7 +1,4 @@
 
-Listando arquivos abertos
--------------------------
-
 Suponha que você abriu vários arquivos txt assim:
 ```
 vim *.txt

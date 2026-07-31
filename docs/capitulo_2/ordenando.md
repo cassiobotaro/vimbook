@@ -1,6 +1,3 @@
-Ordenando
----------
-
 O Vim, versão 7 ou superior, passa a ter um comando de ordenação que
 também permite a retirada de linhas duplicadas, tal como foi
 apresentado.

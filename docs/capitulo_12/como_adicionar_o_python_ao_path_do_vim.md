@@ -2,9 +2,6 @@
 title: Como adicionar o Python ao path do Vim?
 ---
 
-Como adicionar o Python ao **path** do Vim?
--------------------------------------------
-
 Coloque o seguinte
 [script](http://vim.wikia.com/wiki/Automatically_add_Python_paths_to_Vim_path)
 em:

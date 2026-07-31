@@ -1,6 +1,3 @@
-Usando o File Explorer
------------------------------
-
 O Vim navega na árvore de diretórios com o comando
 ```
 vim .

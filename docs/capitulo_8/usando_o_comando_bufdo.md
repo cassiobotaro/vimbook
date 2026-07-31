@@ -1,6 +1,3 @@
-Usando o comando `bufdo`
-------------------------
-
 Com o comando :bufdo, pode-se executar um comando em um
 conjunto de arquivos de forma rápida. No exemplo a seguir, serão abertos
 todos os arquivos HTML do diretório atual, será efetuado uma

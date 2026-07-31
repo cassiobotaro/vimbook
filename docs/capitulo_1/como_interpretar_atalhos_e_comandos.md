@@ -1,6 +1,3 @@
-Como interpretar atalhos e comandos
------------------------------------
-
 A tecla `<Ctrl>` é representada na maioria dos manuais e na ajuda pelo
 caractere `^` (circunflexo), ou seja, o atalho `Ctrl-L` aparecerá assim:
 ```

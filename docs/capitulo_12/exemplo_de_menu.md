@@ -1,5 +1,3 @@
-Exemplo de menu
----------------
 ```
 " cores
 menu T&emas.cores.quagmire :colo quagmire<CR>

@@ -1,6 +1,3 @@
-Autocomandos
-------------
-
 Autocomandos habilitam comandos automáticos para situações específicas.
 Para executar determinada ação ao iniciar um novo arquivo o autocomando
 deverá obedecer este padrão:

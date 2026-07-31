@@ -2,9 +2,6 @@
 title: Alternando entre buffers de arquivo
 ---
 
-Alternando entre Buffers de arquivo
-===================================
-
 Ao abrir um documento qualquer no Vim o mesmo fica em um buffer. Caso
 seja decidido que outro arquivo seja aberto na mesma janela, o documento
 inicial irá desaparecer da janela atual cedendo lugar ao mais novo, mas

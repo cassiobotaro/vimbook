@@ -1,6 +1,3 @@
-O arquivo alternativo
----------------------
-
 É muito comum um usuário concluir a edição em um arquivo no Vim e
 inocentemente imaginar que não vai mais modificar qualquer coisa nele,
 então este usuário abre um novo arquivo:

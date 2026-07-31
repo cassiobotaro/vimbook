@@ -1,6 +1,3 @@
-Criando dobras usando o modo visual
------------------------------------
-
 Para iniciar a seleção visual
 ```
 Esc ........ vai para o modo normal

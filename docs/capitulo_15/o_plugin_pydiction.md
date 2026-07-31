@@ -2,9 +2,6 @@
 title: O Plugin Pydiction
 ---
 
-O plugin pydiction
-------------------
-
 Plugin que completa códigos python assim:
 
 ```

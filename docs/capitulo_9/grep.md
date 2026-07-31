@@ -1,6 +1,3 @@
-Grep
-----
-
 Do mesmo jeito que você usa grep na sua linha de comando
 você pode usar o grep interno do Vim. Exatamente do mesmo
 jeito:

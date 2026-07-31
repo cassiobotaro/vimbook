@@ -1,6 +1,3 @@
-Desfazendo
-----------
-
 Se você cometer um erro, não se preocupe! Use o comando `u`:
 ```
 u ............ desfazer

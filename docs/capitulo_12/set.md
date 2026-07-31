@@ -1,6 +1,3 @@
-Set
----
-
 Os comandos *set*, responsáveis por atribuir valores à
 variáveis, podem ser colocados no `.vimrc`:
 ```

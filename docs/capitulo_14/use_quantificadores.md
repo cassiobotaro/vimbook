@@ -1,6 +1,3 @@
-Use quantificadores
--------------------
-
 Em modo normal você pode fazer
 ```
 10j ..... desce 10 linhas

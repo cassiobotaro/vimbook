@@ -1,6 +1,3 @@
-Evitando arquivos de backup no disco 
-------------------------------------
-
 Nota-se em algumas situações que existem alguns arquivos com o mesmo
 nome dos arquivos que foram editados, porém com um til (\~) no final.
 Esses arquivos são **backups** que o Vim gera antes de

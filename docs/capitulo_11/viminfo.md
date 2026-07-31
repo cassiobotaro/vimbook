@@ -1,6 +1,3 @@
-Viminfo
----------
-
 Se o Vim for fechado e iniciado novamente, normalmente perderá uma
 porção considerável de informações. A diretiva viminfo pode
 ser usada para memorizar estas informações.

@@ -2,9 +2,6 @@
 title: Scripts Vim
 ---
 
-*Scripts* Vim
---------------------------
-
 Usando um *script* para modificar um nome em vários
 arquivos: Crie um arquivo chamado subst.vim contendo os
 comandos de substituição e o comando de salvamento :wq.

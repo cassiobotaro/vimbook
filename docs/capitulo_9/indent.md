@@ -1,6 +1,3 @@
-Indent
-------
-
 Indent[^1] é um programa que indenta seu código fonte de
 acordo com os padrões configurados no seu arquivo
 HOME/.indent.pro. Vou pressupor que você já saiba usar o
