@@ -2,9 +2,6 @@
 title: Problemas com codificação de caracteres
 ---
 
-Problemas com codificação de caracteres
----------------------------------------
-
 Atualmente uso o Ubuntu em casa e ele já usa utf-8. Ao restaurar meu
 “backup” do Wiki no Kurumin os caracteres ficaram meio estranhos, daí
 fiz:

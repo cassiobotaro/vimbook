@@ -2,9 +2,6 @@
 title: Registradores de buscas "/"
 ---
 
-Registradores de buscas "/"
------------------------
-
 Se desejar inserir em uma substituição uma busca prévia, você poderia
 fazer assim em modo de comandos:
 ```

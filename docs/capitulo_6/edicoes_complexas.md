@@ -2,9 +2,6 @@
 title: Edições complexas
 ---
 
-Edições complexas
--------------------------
-
 Trocando palavras de lugar: Posiciona-se o cursor no espaço antes da 1ª
 palavra e digita-se:
 ```

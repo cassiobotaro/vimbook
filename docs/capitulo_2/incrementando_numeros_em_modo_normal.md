@@ -2,9 +2,6 @@
 title: Incrementando números em modo normal
 ---
 
-Incrementando números em modo normal
-------------------------------------
-
 Posicione o cursor sobre um número e pressione:
 ```
 Ctrl-a ..... incrementa o número

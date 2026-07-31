@@ -2,9 +2,6 @@
 title: Salvamento automático para o Wiki
 ---
 
-Salvamento automático para o Wiki 
-----------------------------------
-
 Procure por uma seção *autowrite* no manual do Potwiki
 ```
 :help potwiki

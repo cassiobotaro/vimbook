@@ -2,9 +2,6 @@
 title: Forçando a edição de um novo arquivo
 ---
 
-Forçando a edição de um novo arquivo
-------------------------------------
-
 O Vim, como qualquer outro editor, é muito exigente no que se refere a
 alterações de arquivo. Ao tentar abandonar um arquivo editado e não
 salvo, o Vim irá se certificar da ação. Para abrir um novo arquivo sem

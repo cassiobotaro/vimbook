@@ -2,9 +2,6 @@
 title: Mova-se rapidamente no texto
 ---
 
-Mova-se rapidamente no texto
-----------------------------
-
 O capítulo [Movendo-se no Documento](../capitulo_3/movendo-se_no_documento.md),
 mostra uma série de comandos para agilizar a navegação no texto.
 Memorizando estes comandos ganha-se tempo considerável, um exemplo

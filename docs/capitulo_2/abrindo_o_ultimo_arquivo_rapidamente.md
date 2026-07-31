@@ -2,9 +2,6 @@
 title: Abrindo o último arquivo rapidamente
 ---
 
-Abrindo o último arquivo rapidamente
-------------------------------------
-
 O Vim guarda um registrador para cada arquivo editado veja mais no capítulo [Registradores](../capitulo_5/registradores.md).
 ```
 '0 ........ abre o último arquivo editado

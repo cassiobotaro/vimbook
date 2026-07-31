@@ -2,9 +2,6 @@
 title: Dicas da lista vi-br
 ---
 
-Dicas da lista vi-br
----------------------
-
 Fonte: [Grupo vi-br do yahoo](http://groups.yahoo.com/group/vi-br/message/853)
 
 Problema: Essa deve ser uma pergunta comum. Suponha o seguinte conteúdo

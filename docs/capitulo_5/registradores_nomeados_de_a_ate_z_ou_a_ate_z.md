@@ -2,9 +2,6 @@
 title: Registradores nomeados de "a até z" ou "A até Z"
 ---
 
-Registradores nomeados de "a até z" ou "A até Z"
---------------------------------------------
-
 Pode-se armazenar uma linha em modo normal assim:
 ```
 "ayy

@@ -2,9 +2,6 @@
 title: Como criar um registrador em modo visual?
 ---
 
-Como criar um registrador em modo visual?
---------------------------------------
-
 Inicie a seleção visual com o atalho
 ```
 Shift-v ..... seleciona linhas inteiras

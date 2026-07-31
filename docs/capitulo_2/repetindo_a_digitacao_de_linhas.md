@@ -2,8 +2,6 @@
 title: Repetindo a digitação de linhas
 ---
 
-Repetindo a digitação de linhas
--------------------------------
 ```
 " atalhos para o modo insert
 Ctrl-y ......... repete linha acima

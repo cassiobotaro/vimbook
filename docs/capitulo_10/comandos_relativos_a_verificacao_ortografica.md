@@ -2,9 +2,6 @@
 title: Comandos relativos à verificação ortográfica
 ---
 
-Comandos relativos à verificação ortográfica
---------------------------------------------
-
 ### Encontrando palavras desconhecidas
 
 Muito embora o verificador ortográfico cheque imediatamente cada palavra

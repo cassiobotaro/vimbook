@@ -2,9 +2,6 @@
 title: Modos de operação
 ---
 
-Modos de operação
------------------
-
 A tabela abaixo mostra uma referência rápida para os modos de operação
 do Vim, a seguir mais detalhes sobre cada um dos modos.
 

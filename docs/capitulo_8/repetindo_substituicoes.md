@@ -2,9 +2,6 @@
 title: Repetindo substituições
 ---
 
-Repetindo substituições 
-------------------------
-
 Caso seja feito uma substituição em um intervalo como abaixo
 ```
 :5,32s/isto/aquilo/g

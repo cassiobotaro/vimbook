@@ -2,8 +2,6 @@
 title: Convertendo para maiúsculas
 ---
 
-Convertendo para maiúsculas
----------------------------
 ```
 gUU ....... converte a linha para maiúsculo
 guu ....... converte a linha para minúsculo

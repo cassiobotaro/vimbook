@@ -2,9 +2,6 @@
 title: Mantendo apenas um Gvim aberto
 ---
 
-Mantendo apenas um Gvim aberto
-------------------------------
-
 Essa dica destina-se apenas à versão do Vim que roda no ambiente
 gráfico, ou seja, o Gvim, pois ela faz uso de alguns recursos que só
 funcionam nesse ambiente. A meta é criar um comando que vai abrir os

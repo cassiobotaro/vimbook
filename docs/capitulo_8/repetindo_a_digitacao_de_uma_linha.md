@@ -2,8 +2,6 @@
 title: Repetindo a digitação de uma linha
 ---
 
-Repetindo a digitação de uma linha
------------------------------------
 ```
 modo de inserção
 Ctrl-y .......... repete a linha acima

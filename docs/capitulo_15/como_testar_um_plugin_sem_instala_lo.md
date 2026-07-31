@@ -2,8 +2,6 @@
 title: Como testar um plugin sem instalá-lo?
 ---
 
-Como testar um plugin sem instalá-lo?
--------------------------------------
 ```
 :source <path>/<plugin>
 ```

@@ -2,9 +2,6 @@
 title: Referências
 ---
 
-Referências
------------
-
 -   <http://rayninfo.co.uk/vimtips.html>
 
 -   <http://aprendolatex.wordpress.com>

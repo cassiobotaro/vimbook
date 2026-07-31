@@ -2,9 +2,6 @@
 title: Abreviações
 ---
 
-Abreviações 
------------
-
 Abreviações habilitam auto-texto para o Vim. O seu funcionamento
 consiste de três campos, o primeiro é o modo no qual a abreviação
 funcionará, o segundo é a palavra que irá disparar a abreviação e o

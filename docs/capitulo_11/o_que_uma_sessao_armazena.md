@@ -2,9 +2,6 @@
 title: O que uma sessão armazena?
 ---
 
-O que uma sessão armazena?
---------------------------
-
 Uma sessão é composta das seguintes informações:
 
 -   Mapeamentos globais

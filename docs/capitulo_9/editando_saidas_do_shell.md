@@ -2,9 +2,6 @@
 title: Editando saídas do Shell
 ---
 
-Editando saídas do Shell
-------------------------
-
 Muitas vezes, precisamos manipular saídas do shell antes de enviá-las
 por e-mail, reportar ao chefe ou até mesmo salvá-las. Utilizando
 ```

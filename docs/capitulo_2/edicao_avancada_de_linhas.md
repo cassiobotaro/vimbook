@@ -2,9 +2,6 @@
 title: Edição avançada de linhas
 ---
 
-Edição avançada de linhas
--------------------------
-
 Seja o seguinte texto:
 ```
 1  este é um texto novo

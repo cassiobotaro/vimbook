@@ -2,9 +2,6 @@
 title: Ajustando parágrafos em modo normal
 ---
 
-Ajustando parágrafos em modo normal
------------------------------------
-
 O comando `gqap` ajusta o parágrafo atual em modo normal. Usando a
 opção *:set nojoinspaces* o vim colocará dois espaços após
 o ponto final ao se ajustar os parágrafos.

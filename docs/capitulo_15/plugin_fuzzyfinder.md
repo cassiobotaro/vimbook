@@ -2,9 +2,6 @@
 title: Plugin FuzzyFinder
 ---
 
-Plugin FuzzyFinder
-------------------
-
 Este plugin é a implementação de um recurso do editor *Texmate*[^1].
 Sua proposta é acessar de forma rápida:
 
