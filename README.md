@@ -1,8 +1,6 @@
 
 # O EDITOR DE TEXTO VIM
 
-![Logo Vim](docs/imgs/vimlogo.png "logo vim")
-
 <img src="docs/imgs/capa.png" alt="Capa do livro" title="Capa do livro" width="300">
 
 "Um livro escrito em português sobre o editor de texto **Vim**. A ideia é que este material cresça e torne-se uma referência confiável e prática. Use este livro no termos da *Licença de Documentação Livre GNU (GFDL)*."
