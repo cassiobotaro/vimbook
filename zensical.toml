@@ -224,15 +224,6 @@ nav = [
 variant = "classic"
 language = "pt"
 favicon = "imgs/favicon.ico"
-
-# Um livro se lê em sequência, então a leitura não pode depender só do menu
-# lateral. O rodapé "anterior / próxima" dá o seguir em frente — e é dele que
-# os atalhos de teclado saem; a trilha (navigation.path) dá o "onde estou".
-#
-# Fica de fora "navigation.indexes": ele só reconhece como abertura de seção
-# um arquivo chamado index.md, e aqui as aberturas de capítulo têm nome
-# próprio (capitulo_1/introducao.md). A trilha chega ao mesmo lugar de todo
-# jeito, porque na falta de um índice ela usa o primeiro item do capítulo.
 features = [
   "content.tabs.link",
   "navigation.footer",
