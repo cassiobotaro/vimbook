@@ -264,3 +264,7 @@ alternate_style = true
 
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
+
+[project.extra.analytics]
+provider = "google"
+property = "G-PCSGHW9X3C"
