@@ -3,8 +3,8 @@ site_name = "Vimbook"
 site_url = "https://cassiobotaro.dev/vimbook/"
 repo_name = "cassiobotaro/vimbook"
 repo_url = "https://github.com/cassiobotaro/vimbook"
-extra_css = ["stylesheets/vimbook.css"]
-extra_javascript = ["javascripts/navegacao.js"]
+extra_css = ["stylesheets/_fontes.css", "stylesheets/vimbook.css"]
+extra_javascript = ["javascripts/navegacao.js", "javascripts/statusline.js"]
 
 nav = [
   { "O EDITOR DE TEXTO VIM" = "index.md" },
@@ -223,6 +223,7 @@ nav = [
 # Troque para "modern" para adotar o novo design do Zensical.
 variant = "classic"
 language = "pt"
+font = false
 favicon = "imgs/favicon.ico"
 features = [
   "content.tabs.link",
