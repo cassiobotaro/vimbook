@@ -88,9 +88,13 @@
 
   /* O rodapé acompanha o topo. Deixá-lo na faixa escura padrão do tema só
      mudaria o sanduíche de lugar: o texto ficaria entre uma barra silenciosa
-     em cima e um bloco pesado embaixo. */
+     em cima e um bloco pesado embaixo.
+
+     A navegação e o crédito "Made with Zensical" usam o mesmo tom — dois tons
+     ali criavam uma terceira faixa entre a navegação e a statusline, que é a
+     única barra que deve pesar visualmente. Ficam separados por um fiapo. */
   --md-footer-bg-color: var(--vim-papel-2);
-  --md-footer-bg-color--dark: var(--vim-regua);
+  --md-footer-bg-color--dark: var(--vim-papel-2);
   --md-footer-fg-color: var(--vim-tinta);
   --md-footer-fg-color--light: var(--vim-apagado);
   --md-footer-fg-color--lighter: #8b948e;
@@ -137,7 +141,7 @@
   --md-code-fg-color: #b7c3bc;
 
   --md-footer-bg-color: var(--vim-noite-2);
-  --md-footer-bg-color--dark: #0a0d0c;
+  --md-footer-bg-color--dark: var(--vim-noite-2);
 
   --vim-superficie-2: var(--vim-noite-2);
   --vim-texto: var(--vim-noite-tinta);
@@ -260,6 +264,10 @@ body {
 }
 
 .md-footer {
+  border-top: 1px solid var(--vim-linha);
+}
+
+.md-footer-meta {
   border-top: 1px solid var(--vim-linha);
 }
 
