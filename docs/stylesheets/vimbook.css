@@ -65,11 +65,16 @@
   --md-default-fg-color--lighter: #8b948e;
   --md-default-fg-color--lightest: var(--vim-regua);
 
-  --md-primary-fg-color: var(--vim-ink);
-  --md-primary-fg-color--light: var(--vim-diamond);
-  --md-primary-fg-color--dark: var(--vim-ink-deep);
-  --md-primary-bg-color: #fff;
-  --md-primary-bg-color--light: #ffffffb3;
+  /* A barra do topo recua. No Vim a moldura fica embaixo — statusline e linha
+     de comando — e o topo da janela é texto até a borda. Enquanto o verde era
+     a única faixa pesada da página ele carregava a marca sozinho; agora que a
+     statusline existe, o texto ficaria imprensado entre duas faixas fortes, e
+     a de cima é a que não tem correspondente no editor. */
+  --md-primary-fg-color: var(--vim-papel-2);
+  --md-primary-fg-color--light: var(--vim-papel);
+  --md-primary-fg-color--dark: var(--vim-regua);
+  --md-primary-bg-color: var(--vim-tinta);
+  --md-primary-bg-color--light: #15181ab3;
 
   --md-accent-fg-color: var(--vim-ink-deep);
   --md-accent-fg-color--transparent: #0167231a;
@@ -80,6 +85,15 @@
   --md-typeset-a-color: var(--vim-ink);
   --md-code-bg-color: var(--vim-papel-2);
   --md-code-fg-color: #2a3230;
+
+  /* O rodapé acompanha o topo. Deixá-lo na faixa escura padrão do tema só
+     mudaria o sanduíche de lugar: o texto ficaria entre uma barra silenciosa
+     em cima e um bloco pesado embaixo. */
+  --md-footer-bg-color: var(--vim-papel-2);
+  --md-footer-bg-color--dark: var(--vim-regua);
+  --md-footer-fg-color: var(--vim-tinta);
+  --md-footer-fg-color--light: var(--vim-apagado);
+  --md-footer-fg-color--lighter: #8b948e;
 
   --vim-superficie-2: var(--vim-papel-2);
   --vim-texto: var(--vim-tinta);
@@ -233,6 +247,38 @@ body {
 .md-typeset pre > code {
   border: 1px solid var(--vim-linha);
   line-height: 1.7;
+}
+
+/* --------------------------------------------------------------------------
+   A barra do topo, agora recuada nos dois modos.
+
+   Sem a faixa de cor sólida, ela precisa de um fiapo para não encostar no
+   papel. O verde sai da faixa inteira e sobra onde é a própria marca: o
+   diamante do logo, que sozinho mede 4,29:1 no claro e 7,69:1 no escuro.
+   -------------------------------------------------------------------------- */
+
+.md-header {
+  border-bottom: 1px solid var(--vim-linha);
+}
+
+.md-footer {
+  border-top: 1px solid var(--vim-linha);
+}
+
+.md-header__button.md-logo :is(img, svg) {
+  fill: var(--vim-acento);
+  color: var(--vim-acento);
+}
+
+/* O campo de busca herdava um véu claro pensado para faixa colorida. */
+.md-search__form {
+  background: var(--vim-superficie-2);
+  border: 1px solid var(--vim-linha);
+}
+
+.md-search__form:hover {
+  background: var(--vim-superficie-2);
+  border-color: var(--vim-acento);
 }
 
 /* --------------------------------------------------------------------------
