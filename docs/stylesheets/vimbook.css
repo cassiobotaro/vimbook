@@ -135,3 +135,38 @@
 [data-md-color-scheme="slate"] ::selection {
   background: #00ae0040;
 }
+
+/* --------------------------------------------------------------------------
+   A dica de atalhos abaixo do "anterior / próxima" do rodapé.
+
+   Discreta de propósito — só precisa ser notada uma vez. Mesmo assim o cinza
+   dá 4,6:1 no claro e 5,3:1 no escuro. Some onde não há teclado físico.
+   -------------------------------------------------------------------------- */
+
+.vimbook-atalhos {
+  margin: 0;
+  padding: 0 0.8rem 0.8rem;
+  color: var(--md-footer-fg-color--light);
+  font-size: 0.64rem;
+  text-align: center;
+}
+
+.vimbook-atalhos kbd {
+  display: inline-block;
+  min-width: 1.4em;
+  margin: 0 0.1em;
+  padding: 0.1em 0.35em;
+  border: 1px solid var(--md-footer-fg-color--lighter);
+  border-radius: 0.15rem;
+  color: var(--md-footer-fg-color);
+  font-family: var(--md-code-font-family, monospace);
+  font-size: 0.9em;
+  line-height: 1.4;
+  text-align: center;
+}
+
+@media (hover: none), (pointer: coarse) {
+  .vimbook-atalhos {
+    display: none;
+  }
+}
