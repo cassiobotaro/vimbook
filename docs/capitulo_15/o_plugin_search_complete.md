@@ -2,9 +2,6 @@
 title: O Plugin SearchComplete
 ---
 
-O plugin *SearchComplete*
--------------------------
-
 Para que o vim complete opções de busca com a tecla `<tab>`, digita-se uma
 palavra parcialmente e o plugin atua, exibindo palavras que tem
 o mesmo início, por exemplo:

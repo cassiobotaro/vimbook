@@ -1,6 +1,3 @@
-Dicas 
-------
-
 Para colocar a última busca em uma substituição faça:
 ```
 :%s/Ctrl-r//novo/g

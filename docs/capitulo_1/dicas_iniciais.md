@@ -1,6 +1,3 @@
-Dicas iniciais
---------------
-
 Ao longo do livro alguns comandos ou dicas podem estar duplicados, o que
 é útil devido ao contexto e também porque o aprendizado por saturação é
 um ótimo recurso. Ao perceber uma dica duplicada, antes de reclamar veja

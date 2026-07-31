@@ -1,6 +1,3 @@
-Uma calculadora diferente
--------------------------
-
 Sempre que for necessário digitar o resultado de uma expressão
 matemática (portanto no modo de inserção) pode-se usar o atalho
 `Ctrl-r =`, ele ativa o registrador de expressões, na linha de

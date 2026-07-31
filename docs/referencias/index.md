@@ -1,6 +1,3 @@
-Referências
-===========
-
 
 -   [Best of Vim Tips](http://www.rayninfo.co.uk/vimtips.html)
 

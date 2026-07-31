@@ -1,5 +1,3 @@
-Indentando 
----------------
 ```
 >> ..... Indenta a linha atual
 ^t ..... Indenta a linha atual em modo de inserção

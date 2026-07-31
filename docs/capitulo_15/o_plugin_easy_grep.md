@@ -2,9 +2,6 @@
 title: O Plugin EasyGrep
 ---
 
-O plugin EasyGrep
------------------
-
 Usuários de sistemas *Unix Like*[^1], já conhecem o poder do comando `grep`,
 usando este comando procuramos palavras dentro de arquivos.
 Este plugin simplifica esta tarefa, além de permitir a utilização da

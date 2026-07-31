@@ -1,6 +1,3 @@
-Ordenando
----------
-
 Podemos usar o comando *sort* que ordena o conteúdo de um
 arquivo dessa forma:
 ```

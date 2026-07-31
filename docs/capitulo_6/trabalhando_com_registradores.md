@@ -1,6 +1,3 @@
-Trabalhando com registradores
------------------------------
-
 Pode-se guardar trechos do que foi copiado ou apagado para registradores
 distintos (área de transferência múltipla). Os registradores são indicados
 por aspas seguido por uma letra. Exemplos: `"a`,

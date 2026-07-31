@@ -1,6 +1,3 @@
-Gravando comandos
------------------
-
 Imagine que você tem o seguinte trecho de código:
 ```c
 stdio.h

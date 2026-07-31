@@ -2,9 +2,6 @@
 title: O comando global "g"
 ---
 
-O comando global “g”
---------------------
-
 Buscando um padrão e gravando em outro arquivo:
 ```
 :'a,'b g/^Error/ . w >> errors.txt

@@ -1,6 +1,3 @@
-Comentando rapidamente um trecho
---------------------------------
-
 Tomando como exemplo um trecho de código como abaixo:
 ```
 1   input{capitulo1}

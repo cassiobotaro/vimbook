@@ -1,5 +1,3 @@
-Manipulando janelas
--------------------
 ```
 Ctrl-w-w ......... Alterna entre janelas
 Ctrl-w-j ......... desce uma janela `j`

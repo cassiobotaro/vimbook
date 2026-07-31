@@ -1,6 +1,3 @@
-Manipulando dobras
--------------------
-
 Os principais comandos relativos ao uso de dobras são:
 ```
 zo ................ abre a dobra

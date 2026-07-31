@@ -1,6 +1,3 @@
-Usando marcas
--------------
-
 As marcas são um meio eficiente de se pular para um local no arquivo.
 Para criar uma, estando em modo normal faz-se:
 

@@ -1,6 +1,3 @@
-Compilando e verificando erros
-------------------------------
-
 Se o seu projeto já possui um Makefile, então você pode
 fazer uso do comando :make para poder compilar seus
 programas no conforto de seu Vim:

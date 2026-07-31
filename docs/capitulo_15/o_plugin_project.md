@@ -2,9 +2,6 @@
 title: O Plugin Project
 ---
 
-O Plugin *Project*
-------------------
-
 O plugin project acessível através deste
 [link](http://www.vim.org/scripts/script.php?script_id=69)
 cria toda uma estrutura de gerenciamento de projetos.

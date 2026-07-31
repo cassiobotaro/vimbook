@@ -1,5 +1,3 @@
-# Definindo registros previamente 
-
 Definindo uma macro de nome `s` para ordenar e retirar linhas duplicadas
 ```
 let @s=":sort u"

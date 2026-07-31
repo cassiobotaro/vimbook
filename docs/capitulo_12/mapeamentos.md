@@ -1,6 +1,3 @@
-Mapeamentos
------------
-
 Mapeamentos permitem criar atalhos de teclas para quase tudo. Tudo
 depende da criatividade do usuário e do quanto conhece o Vim, com eles
 podemos controlar ações com quaisquer teclas, mas antes temos que saber

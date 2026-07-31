@@ -1,5 +1,3 @@
-Removendo linhas duplicadas
----------------------------
 ```
 :%!uniq
 ```

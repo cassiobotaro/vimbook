@@ -2,9 +2,6 @@
 title: Efetivação das alterações no vimrc
 ---
 
-Efetivação das alterações no `vimrc` 
-------------------------------------
-
 As alterações no *vimrc* só serão efetivadas na próxima vez
 que o Vim for aberto, a não ser que o recarregamento do arquivo de
 configuração seja instruído explicitamente:

@@ -2,9 +2,6 @@
 title: O Plugin AutoComplete
 ---
 
-O plugin *AutoComplete*
------------------------
-
 Este plugin trabalha exibindo sugestões no modo de inserção, à
 medida que o usuário digita aparece um *popup* com sugestões para possíveis
 complementos, bastando pressionar `<Enter>` para aceitar as sugestões.

@@ -1,6 +1,3 @@
-Modelines
----------
-
 São um modo de guardar preferências no próprio arquivo, suas
 preferências viajam literalmente junto com o arquivo, basta usar em uma
 das 5 primeiras linhas ou na última linha do arquivo algo como:

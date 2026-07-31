@@ -1,6 +1,3 @@
-Onde colocar **plugins** e temas de cor
------------------------------------
-
 No Windows deve haver uma pasta chamada `vimfiles` (caso
 não exista deve-se criá-la), que fica em:
 ```

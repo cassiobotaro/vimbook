@@ -2,9 +2,6 @@
 title: Usando o grep interno do Vim
 ---
 
-Usando o `grep` interno do Vim
-------------------------------
-
 Para editar todos os arquivos que contenham a palavra “inusitada”:
 ```
 :vimgrep /\cinusitada/ *

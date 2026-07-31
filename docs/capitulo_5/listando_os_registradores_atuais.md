@@ -1,6 +1,3 @@
-Listando os registradores atuais
-----------------------------
-
 Digitando o comando
 ```
 :reg

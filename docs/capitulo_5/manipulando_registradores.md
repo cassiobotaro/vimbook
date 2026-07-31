@@ -1,5 +1,3 @@
-Manipulando registradores
----------------------
 ```
 :let @a=@_   ... limpa o registrador a
 :let @a=``'' ... limpa o registrador a

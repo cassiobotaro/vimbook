@@ -1,6 +1,3 @@
-Use autocomandos
-----------------
-
 No arquivo de configuração do Vim `~/.vimrc` pode-se pode criar comandos
 automáticos que serão executados diante de uma determinada
 circunstância. O comando abaixo será executado em qualquer arquivo

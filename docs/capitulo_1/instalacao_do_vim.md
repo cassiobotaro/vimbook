@@ -2,9 +2,6 @@
 title: Instalação do vim
 ---
 
-Instalação do Vim
------------------
-
 ### Instalação no Windows
 
 Há uma versão gráfica do Vim disponível para vários sistemas

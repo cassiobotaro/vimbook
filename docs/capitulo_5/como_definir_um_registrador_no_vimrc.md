@@ -2,9 +2,6 @@
 title: Como definir um registrador no vimrc?
 ---
 
-Como definir um registrador no `vimrc`?
-------------------------------------
-
 Se você não sabe ainda como editar preferências no Vim leia antes o
 capítulo [Como editar preferências no Vim](../capitulo_12/como_editar_preferencias_no_vim.md).
 

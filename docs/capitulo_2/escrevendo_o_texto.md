@@ -1,6 +1,3 @@
-Escrevendo o texto
-------------------
-
 O Vim é um editor que possui diferentes modos de edição. Entre eles está
 o modo de inserção, que é o modo onde escreve-se o texto naturalmente.
 
