@@ -1,5 +1,5 @@
 ---
-title: Como definir um registrador no **vimrc**?
+title: Como definir um registrador no vimrc?
 ---
 
 Como definir um registrador no `vimrc`?
