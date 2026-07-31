@@ -2,9 +2,6 @@
 title: Não digite duas vezes
 ---
 
-Não digite duas vezes
----------------------
-
 -   O Vim complementa com ‘tab’. Veja mais no capítulo [complementação com "tab"](../capitulo_12/complementacao_com_tab.md)
 
 -   Use macros. Detalhes no capítulo [gravando comandos](../capitulo_8/gravando_comandos.md).

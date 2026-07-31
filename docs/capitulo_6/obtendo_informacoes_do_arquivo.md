@@ -2,8 +2,6 @@
 title: Obtendo informações do arquivo
 ---
 
-Obtendo informações do arquivo
-------------------------------
 ```
 ga ............. mostra o código do caractere em decimal hexa e octal
 ^g ............. mostra o caminho e o nome do arquivo

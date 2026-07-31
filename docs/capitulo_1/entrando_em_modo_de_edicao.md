@@ -2,9 +2,6 @@
 title: Entrando em modo de edição
 ---
 
-Entrando em modo de edição
---------------------------
-
 Estando no modo normal, digita-se:
 ```
 a .... inicia inserção de texto após o caractere atual

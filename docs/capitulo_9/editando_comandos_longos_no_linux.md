@@ -2,9 +2,6 @@
 title: Editando comandos longos no Linux
 ---
 
-Editando comandos longos no Linux
----------------------------------
-
 É comum no ambiente GNU/Linux a necessidade de digitar comandos longos
 no terminal, para facilitar esta tarefa pode-se seguir estes passos:
 

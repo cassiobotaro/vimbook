@@ -2,9 +2,6 @@
 title: Copiar, Colar e Deletar
 ---
 
-Copiar, Colar e Deletar
------------------------
-
 No modo normal, o ato de deletar ou eliminar o texto está associado à
 letra `d`. No modo de inserção as teclas usuais também funcionam.
 ```

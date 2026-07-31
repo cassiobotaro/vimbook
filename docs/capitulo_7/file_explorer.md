@@ -2,9 +2,6 @@
 title: File Explorer
 ---
 
-File Explorer
--------------
-
 Para abrir o gerenciador de arquivos do Vim use:
 ```
 :Vex ............ abre o file explorer verticalmente

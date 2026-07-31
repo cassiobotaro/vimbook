@@ -2,9 +2,6 @@
 title: Lista de alterações
 ---
 
-Lista de alterações
--------------------
-
 O Vim mantém uma lista de alterações, veremos agora como usar este
 recurso.
 ```

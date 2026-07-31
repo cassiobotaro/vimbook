@@ -2,9 +2,6 @@
 title: Habilitando a verificação ortográfica
 ---
 
-Habilitando a verificação ortográfica
--------------------------------------
-
 A verificação ortográfica atua em uma linguagem (dicionário) por vez,
 portanto, sua efetiva habilitação depende da especificação desta
 linguagem. Por exemplo, para habilitar no arquivo em edição a

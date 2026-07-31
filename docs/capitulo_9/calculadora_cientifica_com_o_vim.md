@@ -2,9 +2,6 @@
 title: Calculadora Científica com o Vim
 ---
 
-Calculadora Científica com o Vim
---------------------------------
-
 Para usar a função de Calculadora Científica no Vim usamos uma
 ferramenta externa, que pode ser o comando `bc` do
 GNU/Linux, ou uma linguagem de programação como *Python* ou

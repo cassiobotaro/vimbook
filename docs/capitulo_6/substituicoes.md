@@ -2,9 +2,6 @@
 title: Substituições
 ---
 
-Substituições
-------------------
-
 Para fazer uma busca, certifique-se de que está em modo normal, em
 seguida digite use o comando ‘s’, conforme será explicado.
 

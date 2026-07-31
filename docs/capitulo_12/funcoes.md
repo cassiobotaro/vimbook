@@ -2,9 +2,6 @@
 title: Funções
 ---
 
-Funções
--------
-
 ### Fechamento automático de parênteses
 ```VimL
  " --------------------------------------

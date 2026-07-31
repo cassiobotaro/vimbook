@@ -2,9 +2,6 @@
 title: O registrador sem nome ""
 ---
 
-O registrador sem nome ""
-----------------------
-
 Armazena o conteúdo de ações como:
 ```
 d ....... deleção

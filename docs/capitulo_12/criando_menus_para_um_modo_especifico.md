@@ -2,8 +2,6 @@
 title: Criando menus para um modo específico
 ---
 
-Criando menus para um modo específico 
--------------------------------------
 ```
 :menu .... Normal, Visual e Operator-pending
 :nmenu ... Modo Normal

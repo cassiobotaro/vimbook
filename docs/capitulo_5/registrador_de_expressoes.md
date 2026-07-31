@@ -2,8 +2,6 @@
 title: Registrador de expressões "=
 ---
 
-Registrador de expressões "=
--------------------------
 ```
 "=
 ```

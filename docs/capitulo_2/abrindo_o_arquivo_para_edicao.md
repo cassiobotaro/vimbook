@@ -2,9 +2,6 @@
 title: Abrindo o arquivo para a edição
 ---
 
-Abrindo o arquivo para a edição
--------------------------------
-
 Portanto, a primeira coisa a fazer é abrir um arquivo. Como visto, para
 abrir um arquivo com Vim, digite em um terminal:
 ```

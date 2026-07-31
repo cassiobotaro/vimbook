@@ -2,9 +2,6 @@
 title: Métodos de dobras
 ---
 
-Métodos de dobras
-------------------
-
 O Vim tem seis modos *fold*, são eles:
 
 - Sintaxe (*syntax*)

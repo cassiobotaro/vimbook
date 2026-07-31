@@ -2,9 +2,6 @@
 title: Junção de linhas com Vim
 ---
 
-Junção de linhas com Vim
-------------------------
-
 Fonte: [dicas-l da unicamp](http://www.dicas-l.com.br/dicas-l/20081228.php)
 Colaboração: Rubens Queiroz de Almeida
 

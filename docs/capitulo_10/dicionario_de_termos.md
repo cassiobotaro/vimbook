@@ -2,9 +2,6 @@
 title: O dicionário de termos
 ---
 
-O dicionário de termos
-----------------------
-
 A qualidade da verificação ortográfica do Vim está diretamente ligada à
 completude e corretude do dicionário da linguagem em questão.
 Dicionários pouco completos são inconvenientes à medida que acusam falso

@@ -2,9 +2,6 @@
 title: Substituindo tabulações por espaços
 ---
 
-Substituindo tabulações por espaços
------------------------------------
-
 Se houver necessidade[^1] de trocar tabulações por espaços fazemos
 assim:
 ```

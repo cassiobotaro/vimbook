@@ -2,9 +2,6 @@
 title: Editando em modo de comando
 ---
 
-Editando em modo de comando
----------------------------
-
 Para mover um trecho usando o modo de comandos faça:
 ```
 :10,20m $

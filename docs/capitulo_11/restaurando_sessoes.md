@@ -2,9 +2,6 @@
 title: Restaurando sessões
 ---
 
-Restaurando sessões
--------------------
-
 Após gravar sessões, elas podem ser carregadas ao iniciar o Vim:
 ```
 vim -S sessao.vim
