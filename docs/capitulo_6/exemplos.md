@@ -19,22 +19,24 @@ Usando `\c` o Vim encontrará “*palavra*”,
 “*PALAVRA*”. Uma dica é colocar no seu arquivo
 de configuração “vimrc” veja o capítulo
 [Como editar preferências no Vim](../capitulo_12/como_editar_preferencias_no_vim.md).
-```
-set ignorecase .. ignora maiúsculas e minúsculas na busca
-set smartcase ... se busca contiver maiúsculas ele passa a
-                  considerá-las
-set hlsearch .... mostra o que está sendo buscado em cores
-set incsearch ... ativa a busca incremental
-```
+
+| Opção | Descrição |
+|-------|-----------|
+| `set ignorecase` | ignora maiúsculas e minúsculas na busca |
+| `set smartcase` | se busca contiver maiúsculas ele passa a considerá-las |
+| `set hlsearch` | mostra o que está sendo buscado em cores |
+| `set incsearch` | ativa a busca incremental |
+
 se você não sabe ainda como colocar estas preferências no arquivo de
 configuração pode ativa-las em modo de comando precedendo-as com dois
 pontos, assim:
 ```
 :set ignorecase<Enter>
 ```
-Substituições com confirmação:
+Substituições com confirmação, em que o `c` no final habilita a
+confirmação:
 ```
-:%s/word/palavra/c ..... o `c' no final habilita a confirmação
+:%s/word/palavra/c
 ```
 Procurando palavras repetidas
 ```
@@ -57,14 +59,22 @@ World
 Buscar linhas de até 30 caracteres de comprimento
 ```
 /^.\{,30\}$
-
-^  ..... representa começo de linha
-.  ..... representa qualquer caractere
-
-:%s/<[^>]*>//g ... apaga tags HTML/XML
-:%g/^$/d ......... apaga linhas vazias
-:%s/^[\ \t]*\n//g  apaga linhas vazias
 ```
+
+| Comando | Descrição |
+|---------|-----------|
+| `^` | representa começo de linha |
+| `.` | representa qualquer caractere |
+| `\{,30\}` | no máximo 30 vezes |
+| `$` | representa fim de linha |
+
+Outras substituições úteis:
+
+| Comando | Descrição |
+|---------|-----------|
+| `:%s/<[^>]*>//g` | apaga tags HTML/XML |
+| `:%g/^$/d` | apaga linhas vazias |
+| `:%s/^[\ \t]*\n//g` | apaga linhas vazias |
 Remover duas ou mais linhas vazias entre parágrafos diminuindo para uma
 só linha vazia.
 ```

@@ -1,20 +1,19 @@
 Para rolar uma página de cada vez (em modo normal)
 
-```
-Ctrl-f
-Ctrl-b
-
-:h jumps . ajuda sobre a lista de saltos
-:jumps ... exibe a lista de saltos
-Ctrl-i ... salta para a posição mais recente
-Ctrl-o ... salta para a posição mais antiga
-'0 ....... abre o último arquivo editado
-'1 ....... abre o penúltimo arquivo editado
-gd ....... pula para a definição de uma variável
-} ........ pula para o fim do parágrafo
-10| ...... pula para a coluna 10
-[i ....... pula para definição de variável sob o cursor
-```
+| Comando | Descrição |
+|---------|-----------|
+| `Ctrl-f` | avança uma página |
+| `Ctrl-b` | volta uma página |
+| `:h jumps` | ajuda sobre a lista de saltos |
+| `:jumps` | exibe a lista de saltos |
+| `Ctrl-i` | salta para a posição mais recente |
+| `Ctrl-o` | salta para a posição mais antiga |
+| `'0` | abre o último arquivo editado |
+| `'1` | abre o penúltimo arquivo editado |
+| `gd` | pula para a definição de uma variável |
+| `}` | pula para o fim do parágrafo |
+| <code>10&#124;</code> | pula para a coluna 10 |
+| `[i` | pula para definição de variável sob o cursor |
 
 Observação: lembre-se
 

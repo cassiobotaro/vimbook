@@ -3,15 +3,17 @@ o modo de inserção, que é o modo onde escreve-se o texto naturalmente.
 
 Para se entrar em modo de inserção, estando em modo normal, pode-se
 pressionar qualquer uma das teclas abaixo:
-```
-i ..... entra no modo de inserção antes do caractere atual
-I ..... entra no modo de inserção no começo da linha
-a ..... entra no modo de inserção após o caractere atual
-A ..... entra no modo de inserção no final da linha
-o ..... entra no modo de inserção uma linha abaixo
-O ..... entra em modo de inserção uma linha cima
-<Esc> . sai do modo de inserção
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `i` | entra no modo de inserção antes do caractere atual |
+| `I` | entra no modo de inserção no começo da linha |
+| `a` | entra no modo de inserção após o caractere atual |
+| `A` | entra no modo de inserção no final da linha |
+| `o` | entra no modo de inserção uma linha abaixo |
+| `O` | entra em modo de inserção uma linha acima |
+| `<Esc>` | sai do modo de inserção |
+
 Uma vez no modo de inserção todas as teclas são exatamente como nos
 outros editores simples, caracteres que constituem o conteúdo do texto
 sendo digitado. O que inclui as teclas de edição de caracteres.

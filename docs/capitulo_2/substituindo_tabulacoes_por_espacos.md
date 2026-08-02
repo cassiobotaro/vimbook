@@ -13,10 +13,7 @@ Para fazer o contrário usamos algo como:
 ```
 :%s/\s\{4,}/<pressiona-se ctrl-i>/g
 ```
-onde
-```
-<Ctrl-i>...... insere uma tabulação
-```
+onde `<Ctrl-i>` insere uma tabulação.
 Explicando:
 
 | Comando | Descrição |

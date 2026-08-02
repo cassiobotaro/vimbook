@@ -40,5 +40,6 @@ Você pode fazer a ordenação em um intervalo assim:
 O comando acima diz “`*Ordene numericamente da linha 1 até a linha
 15*`”. Podemos ainda ordenar à partir de uma coluna:
 ```
-:sort /.*\%8v/   ..... ordena à partir do 8º caractere
+:sort /.*\%8v/
 ```
+O comando acima ordena a partir do 8º caractere.

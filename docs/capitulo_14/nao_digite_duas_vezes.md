@@ -17,17 +17,18 @@ iab linux GNU/Linux
 ```
 No modo de inserção você pode usar:
 
-```VimL
-Ctrl-y  ........ copia caractere a caractere a linha acima
-Ctrl-e  ........ copia caractere a caractere a linha abaixo
-Ctrl-x Ctrl-l .. completa linhas inteiras
-```
+| Comando | Descrição |
+|---------|-----------|
+| `Ctrl-y` | copia caractere a caractere a linha acima |
+| `Ctrl-e` | copia caractere a caractere a linha abaixo |
+| `Ctrl-x Ctrl-l` | completa linhas inteiras |
+
 Para um trecho muito copiado coloque o seu conteúdo em um registrador:
 
-```VimL
-"ayy ... copia a linha atual para o registrador `a'
-"ap  ... cola o registrador `a'
-```
+| Comando | Descrição |
+|---------|-----------|
+| `"ayy` | copia a linha atual para o registrador `a' |
+| `"ap` | cola o registrador `a' |
 Crie abreviações para erros comuns no seu arquivo de configuração
 (`~/.vimrc`):
 

@@ -40,39 +40,45 @@ Já com a opção “*very magic*” `\v` usa-se bem menos
 escapes:
 ```
 :%s/\v\d{5}(\D+)\d{3}/\1/
-
-" explicação do comando acima
-: ......... comando
-% ......... em todo arquivo
-s ......... substitua
-/ ......... inicia padrão de busca
-\v ........ use very magic mode
-\d ........ dígitos
-{5} ....... 5 vezes
-( ........ inicia um grupo
-\D ........ seguido de não dígitos
-)  ........ fecha um grupo
-+ ......... uma ou mais vezes
-\d ........ novamente dígitos
-{3} ....... três vezes
-/ ......... inicio da substituição
-\1 ........ referencia o grupo 1
 ```
+
+Explicação do comando acima:
+
+| Comando | Descrição |
+|---------|-----------|
+| `:` | comando |
+| `%` | em todo arquivo |
+| `s` | substitua |
+| `/` | inicia padrão de busca |
+| `\v` | use very magic mode |
+| `\d` | dígitos |
+| `{5}` | 5 vezes |
+| `(` | inicia um grupo |
+| `\D` | seguido de não dígitos |
+| `)` | fecha um grupo |
+| `+` | uma ou mais vezes |
+| `\d` | novamente dígitos |
+| `{3}` | três vezes |
+| `/` | inicio da substituição |
+| `\1` | referencia o grupo 1 |
 Analisando o exemplo anterior, a linha de raciocínio foi a de “manter o
 texto entre os dígitos”, o que pode ser traduzido, em uma outra forma de
 raciocínio, como “remover os dígitos”.
 ```
 :%s/\d//g
-
-" explicação do comando acima
-% ......... em todo arquivo
-s ......... substitua
-/ ......... inicia padrão de busca
-\d ........ ao encontrar um dígito
-/ ......... substituir por
-vazio ..... exato, substituir por vazio
-/g ........ a substituição se torna global
 ```
+
+Explicação do comando acima:
+
+| Comando | Descrição |
+|---------|-----------|
+| `%` | em todo arquivo |
+| `s` | substitua |
+| `/` | inicia padrão de busca |
+| `\d` | ao encontrar um dígito |
+| `/` | substituir por |
+| vazio | exato, substituir por vazio |
+| `/g` | a substituição se torna global |
 A opção `g` — de *global* — faz a substituição valer para todas as
 ocorrências do padrão em cada linha. Sem ela, apenas a primeira
 ocorrência de cada linha é substituída.
@@ -93,21 +99,24 @@ sistema ao idioma local, esta é a mágica implementada por estas classes.
 Para usar estas classes fazemos:
 ```
 :%s/[[:lower:]]/\U&/g
+```
 
 Explicando o comando acima:
-: ....... modo de comando
-% ....... em todo o arquivo atual
-s ....... substitua
-/ ....... inicia o padrão a ser buscado
-[ ....... inicia um grupo
-[: ...... inicia uma classe POSIX
-lower ... letras minúsculas
-:] ...... termina a classe POSIX
-] ....... termina o grupo
-/ ....... inicia substituição
-\U ...... para maiúsculo
-& ....... correponde ao que foi buscado
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:` | modo de comando |
+| `%` | em todo o arquivo atual |
+| `s` | substitua |
+| `/` | inicia o padrão a ser buscado |
+| `[` | inicia um grupo |
+| `[:` | inicia uma classe POSIX |
+| `lower` | letras minúsculas |
+| `:]` | termina a classe POSIX |
+| `]` | termina o grupo |
+| `/` | inicia substituição |
+| `\U` | para maiúsculo |
+| `&` | corresponde ao que foi buscado |
 Nem todas as classes *POSIX* conseguem pegar caracteres
 acentuados, portanto deve-se habilitar o destaque colorido para buscas
 usando:

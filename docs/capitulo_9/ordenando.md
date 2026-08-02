@@ -1,7 +1,7 @@
 Podemos usar o comando *sort* que ordena o conteúdo de um
 arquivo dessa forma:
 ```
-:5,15!sort ..... ordena da linha 5 até a linha 15
+:5,15!sort
 ```
 O comando acima ordena da linha 5 até a linha 15.
 

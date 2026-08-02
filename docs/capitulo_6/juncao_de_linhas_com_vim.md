@@ -23,12 +23,13 @@ Para isto, basta executar o comando:
 :g/^Matrícula/s/\n/ - /
 ```
 Explicando:
-```
-s/isto/aquilo/g .. substitui isto por aquilo
-g ................ comando global
-/................. inicia padrão de busca
-^ ................ indica começo de linha
-Matrícula ........ palavra a ser buscada
-s ................ inicia substituição
-/\n/ - / ......... troca quebra de linha `\n`, por `-`
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `s/isto/aquilo/g` | substitui isto por aquilo |
+| `g` | comando global |
+| `/` | inicia padrão de busca |
+| `^` | indica começo de linha |
+| `Matrícula` | palavra a ser buscada |
+| `s` | inicia substituição |
+| `/\n/ - /` | troca quebra de linha `\n` por `-` |

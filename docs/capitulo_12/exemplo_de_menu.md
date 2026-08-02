@@ -21,10 +21,12 @@ menu para `Plugin` por exemplo digita-se no modo de comandos
 “*:amenu Plugin*”.
 
 #### Ocultando as barras de ferramentas e menu
-```
-:set guioptions-=m  ........ oculta menus
-:set guioptions-=T  ........ oculta icones
 
-obs: para exibir novamente repita o comando
-substituindo o sinal de menos por mais.
-```
+| Comando | Descrição |
+|---------|-----------|
+| `:set guioptions-=m` | oculta menus |
+| `:set guioptions-=T` | oculta ícones |
+
+Obs: para exibir novamente repita o comando substituindo o sinal de menos
+por mais.
+

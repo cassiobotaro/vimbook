@@ -10,12 +10,13 @@ Tomando como exemplo um trecho de código como abaixo:
 8   input{capitulo8}
 9   input{capitulo9}
 ```
-Se desejamos comentar da linha 4 até a linha 9 podemos fazer:
-```
-posicionar o cursor no começo da linha 4
-Ctrl-v ........... inicia seleção por blocos
-5j ............... estende a seleção até o fim
-Shift-i .......... inicia inserção no começo da linha
-% ................ insere comentário (LaTeX)
-Esc .............. sai do modo de inserção
-```
+Se desejamos comentar da linha 4 até a linha 9, posicionamos o cursor no
+começo da linha 4 e fazemos:
+
+| Comando | Descrição |
+|---------|-----------|
+| `Ctrl-v` | inicia seleção por blocos |
+| `5j` | estende a seleção até o fim |
+| `Shift-i` | inicia inserção no começo da linha |
+| `%` | insere comentário (LaTeX) |
+| `Esc` | sai do modo de inserção |

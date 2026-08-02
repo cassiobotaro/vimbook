@@ -49,18 +49,21 @@ leva um tempo. Para configurar o vim de forma que ele detecte este tipo
 de erro ao entrar no arquivo:
 ```
 au! VimEnter * match ErrorMsg /^\t\+/
-
-" explicação para o autocomando acima
-au! ............... automaticamente
-VimEnter .......... ao entrar no vim
-* ................. para qualquer tipo de arquivo
-match ErrorMsg .... destaque como erro
-/ ................. inicio de um padrão
-^ ................. começo de linha
-\t ................ tabulação
-\+ ................ uma vez ou mais
-/ ................. fim do padrão de buscas
 ```
+
+Explicação para o autocomando acima:
+
+| Comando | Descrição |
+|---------|-----------|
+| `au!` | automaticamente |
+| `VimEnter` | ao entrar no vim |
+| `*` | para qualquer tipo de arquivo |
+| `match ErrorMsg` | destaque como erro |
+| `/` | inicio de um padrão |
+| `^` | começo de linha |
+| `\t` | tabulação |
+| `\+` | uma vez ou mais |
+| `/` | fim do padrão de buscas |
 Para evitar que este erro se repita, ou seja, que sejam adicionados no
 começo de linha espaços no lugar de tabulações adiciona-se ao \~/.vimrc
 ```

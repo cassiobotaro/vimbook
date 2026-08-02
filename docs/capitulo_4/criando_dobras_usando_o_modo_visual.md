@@ -8,8 +8,10 @@ Para iniciar a seleção visual
 | `zf` | cria a dobra na seleção ativa |
 
 Um modo inusitado de se criar dobras é:
-```
-Shift-v ..... inicia seleção visual
-/chapter/-2 . extende a seleção até /chapter -2 linhas
-zf .......... cria a dobra
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `Shift-v` | inicia seleção visual |
+| `/chapter/-2` | estende a seleção até /chapter -2 linhas |
+| `zf` | cria a dobra |
+

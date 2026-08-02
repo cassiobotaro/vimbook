@@ -42,9 +42,11 @@ cometido na grafia, de forma que o próprio possa corrigi-la sem auxílio
 externo. No entanto, algumas vezes o erro não é evidente, e sugestões
 fornecidas pelo Vim podem ser bastante convenientes. Para listar as
 sugestões para a palavra em questão executa-se:
-```
-z= ..... solicita sugestões ao verificador ortográfico
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `z=` | solicita sugestões ao verificador ortográfico |
+
 Se alguma das sugestões é válida – as mais prováveis estão nas primeiras
 posições – então basta digitar seu prefixo numérico e pressionar
 `<Enter>`. Se nenhuma sugestão for adequada, basta simplesmente
@@ -56,8 +58,9 @@ Por mais completo que um dicionário seja, eventualmente palavras,
 especialmente as de menor abrangência, terão que ser cadastradas a fim
 de aprimorar a exatidão da verificação ortográfica. A manutenção do
 dicionário dá-se pelo cadastramento e retirada de palavras:
-```
-zg ..... adiciona a palavra no dicionário
-zw ..... retira a palavra no dicionário, marcando-a como
-         `desconhecida'
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `zg` | adiciona a palavra no dicionário |
+| `zw` | retira a palavra do dicionário, marcando-a como `desconhecida' |
+

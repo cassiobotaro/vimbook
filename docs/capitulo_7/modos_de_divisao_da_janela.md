@@ -27,7 +27,7 @@ outro diferente). O comando é `:split` (ou `:sp`), e por padrão a nova
 janela aparece acima da atual. Para que ela apareça abaixo, coloque no
 seu `~/.vimrc`:
 ```
-:set splitbelow .... a janela nova abre abaixo da atual
+set splitbelow
 ```
 ### Utilizando split vertical
 
@@ -37,5 +37,5 @@ a única diferença o modo como a tela é dividida, pois nesse caso a tela
 a nova janela aparece à esquerda da atual. Para que ela apareça à
 direita:
 ```
-:set splitright .... a janela nova abre à direita da atual
+set splitright
 ```

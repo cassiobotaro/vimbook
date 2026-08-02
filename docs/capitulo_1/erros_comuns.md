@@ -12,22 +12,24 @@
     digitou ao entrar no modo de inserção. A palavra aparecerá repetida
     na quantidade do número digitado. Assim, se você quiser digitar 10
     vezes `isto é um teste` faça assim:
-```
-<Esc> ........... se assegure de estar em modo normal
-10 .............. quantificador
-i ............... entra no modo de inserção
-isto é um teste <Enter> <Esc>
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `<Esc>` | se assegure de estar em modo normal |
+| `10` | quantificador |
+| `i` | entra no modo de inserção |
+| `isto é um teste <Enter> <Esc>` | digita o texto e volta ao modo normal |
 
 Alguns atalhos úteis…
-```
-Ctrl-O ..... comando do modo normal no modo insert
-i Ctrl-a ... repetir a última inserção
-@: ......... repetir o último comando
-Shift-insert colar texto da área de transferência
-gi ......... modo de inserção no mesmo ponto da última vez
-gv ......... repete seleção visual
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `Ctrl-O` | comando do modo normal no modo insert |
+| `i Ctrl-a` | repetir a última inserção |
+| `@:` | repetir o último comando |
+| `Shift-insert` | colar texto da área de transferência |
+| `gi` | modo de inserção no mesmo ponto da última vez |
+| `gv` | repete seleção visual |
 
 Para saber mais sobre repetição de comandos veja o capítulo
 [Repetição de comandos](../capitulo_8/repeticao_de_comandos.md).

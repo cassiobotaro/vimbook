@@ -2,12 +2,13 @@
 title: Repetindo a digitação de uma linha
 ---
 
-```
-modo de inserção
-Ctrl-y .......... repete a linha acima
-Ctrl-e .......... repete a linha abaixo
-Ctrl-x Ctrl-l ... repete linhas completas
-```
+No modo de inserção:
+
+| Comando | Descrição |
+|---------|-----------|
+| `Ctrl-y` | repete a linha acima |
+| `Ctrl-e` | repete a linha abaixo |
+| `Ctrl-x Ctrl-l` | repete linhas completas |
 O atalho **Ctrl-x Ctrl-l** só funcionará para uma linha
 semelhante, experimente digitar:
 ```

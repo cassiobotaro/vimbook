@@ -4,11 +4,13 @@ title: Selecionando ou deletando o conteúdo de tags HTML
 
 Selecionando ou deletando conteúdo de tags HTML
 -------------------------------------------------------------------
-```
-<tag> conteúdo da tag </tag>
-basta usar (em modo normal) as teclas
-vit ............... visual `inner tag | esta tag'
-```
+Em uma estrutura como `<tag> conteúdo da tag </tag>`, basta usar (em modo
+normal) as teclas:
+
+| Comando | Descrição |
+|---------|-----------|
+| `vit` | visual *inner tag*, seleciona o conteúdo desta tag |
+
 Este recurso também funciona com parênteses
 
 | Comando | Descrição |
