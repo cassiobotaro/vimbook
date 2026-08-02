@@ -20,7 +20,7 @@ Mas no caso do plugin *EasyGrep* fica assim:
 | `:GrepOptions` | exibe as opções de uso do plugin |
 
 O plugin pode ser obtido no seguinte
-[link](http://www.vim.org/scripts/script.php?script_id=2438#0.9).
+[link](https://www.vim.org/scripts/script.php?script_id=2438#0.9).
 Já sua instalação é simples, basta copiar o arquivo obtido no link acima
 para a pasta:
 
@@ -30,7 +30,7 @@ para a pasta:
 | `~/vimfiles/plugin` | no caso do windows |
 
 Um vídeo de exemplo (na verdade uma animação gif) pode ser visto
-[aqui](http://downloads.veryspeedy.net/vim/EasyGrep.gif).
+[aqui](https://github.com/dkprice/vim-easygrep#screencast).
 
 
 [^1]: Sistemas da família Unix tipo o GNU/Linux

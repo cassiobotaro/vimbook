@@ -2,9 +2,9 @@
 title: Referências
 ---
 
--   <http://rayninfo.co.uk/vimtips.html>
+-   <https://web.archive.org/web/20260603225804/http://www.rayninfo.co.uk/vimtips.html>
 
--   <http://aprendolatex.wordpress.com>
+-   <https://aprendolatex.wordpress.com>
 
--   <http://pt.wikibooks.org/wiki/Latex>
+-   <https://pt.wikibooks.org/wiki/Latex>
 

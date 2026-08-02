@@ -15,4 +15,4 @@ caracteres extras, mas o procedimento continua o mesmo:
 ```
 :'<,'>!indent
 ```
-[^1]: [http://www.gnu.org/software/indent](http://www.gnu.org/software/indent)
+[^1]: [https://www.gnu.org/software/indent/](https://www.gnu.org/software/indent/)

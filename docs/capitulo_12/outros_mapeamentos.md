@@ -45,4 +45,4 @@ nmap <S-F2> A<Del><Space>
 ```
 Para mais detalhes sobre buscas acesse o capítulo [Buscas e substituições](../capitulo_6/buscas_e_substituicoes.md).
 
-[^1]: <http://guia-er.sourceforge.net>
+[^1]: <https://aurelio.net/regex/guia/>

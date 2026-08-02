@@ -14,5 +14,5 @@ set nobackup
 set writebackup
 ```
 Fonte: [Site do Eustáquio
-Rangel](http://eustaquiorangel.com/posts/520).
+Rangel](https://eustaquiorangel.com/posts/520).
 

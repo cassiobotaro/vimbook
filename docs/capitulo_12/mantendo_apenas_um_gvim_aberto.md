@@ -44,6 +44,6 @@ corrente do Gvim, em uma nova aba, por exemplo:
 ```
 tvim .vimrc
 ```
-Fonte: [Site do Eustáquio Rangel](http://eustaquiorangel.com/posts/477) 
+Fonte: [Site do Eustáquio Rangel](https://eustaquiorangel.com/posts/477) 
 
 [^1]: Diretórios nos quais o sistema busca pelos comandos

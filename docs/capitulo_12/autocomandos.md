@@ -13,7 +13,7 @@ No exemplo acima o Vim aplica autocomandos para arquivos novos
 terminados em `txt`, e para estes tipos carrega um arquivo de
 **syntax**, ou seja, um esquema de cores específico.
 ```
-" http://aurelio.net/doc/vim/txt.vim    coloque em ~/.vim/syntax
+" https://aurelio.net/vim/txt.vim    coloque em ~/.vim/syntax
 au BufNewFile,BufRead *.txt source ~/.vim/syntax/txt.vim
 ```
 Para arquivos do tipo texto ‘*.txt*’ use um arquivo de

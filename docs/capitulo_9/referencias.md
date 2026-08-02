@@ -2,10 +2,10 @@
 title: Referências
 ---
 
--   [http://www.dicas-l.com.br/dicas-l/20070119.php](http://www.dicas-l.com.br/dicas-l/20070119.php)
+-   [https://www.dicas-l.com.br/arquivo/usando_comandos_externos_no_vim_1.php](https://www.dicas-l.com.br/arquivo/usando_comandos_externos_no_vim_1.php)
 
--   [http://vim.wikia.com/wiki/Scientific_calculator](http://vim.wikia.com/wiki/Scientific_calculator)
+-   [https://vim.fandom.com/wiki/Scientific_calculator](https://vim.fandom.com/wiki/Scientific_calculator)
 
--   [http://docs.python.org/library/cmath.html](http://docs.python.org/library/cmath.html)
+-   [https://docs.python.org/3/library/cmath.html](https://docs.python.org/3/library/cmath.html)
 
--   [http://docs.python.org/library/math.html](http://docs.python.org/library/math.html)
+-   [https://docs.python.org/3/library/math.html](https://docs.python.org/3/library/math.html)

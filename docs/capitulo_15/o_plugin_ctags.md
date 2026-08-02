@@ -32,9 +32,9 @@ Assim você pode copiar o arquivo de tags para todos os diretórios e mesmo
 assim conseguir usar os atalhos do plugin para navegar no código fonte.
 
 Pode-se obter o programa *Ctags* neste
-[link](http://ctags.sourceforge.net/).
+[link](https://ctags.io/).
 O plugin de *Ctags* para o Vim está neste
-[link](http://vim.sourceforge.net/scripts/script.php?script_id=12),
+[link](https://www.vim.org/scripts/script.php?script_id=12),
 e para instalá-lo basta copiá-lo para a pasta apropriada:
 
 | Comando | Descrição |

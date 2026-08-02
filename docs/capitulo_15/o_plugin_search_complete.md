@@ -16,7 +16,7 @@ o mesmo início, por exemplo:
 Cada vez que se pressiona a tecla `<tab>` o cursor saltará para
 a próxima ocorrência daquele fragmento de palavra.
 Pode-se obter o plugin *SearchComplete* no seguinte
-[link](http://www.vim.org/scripts/script.php?script_id=474),
+[link](https://www.vim.org/scripts/script.php?script_id=474),
 e para instalá-lo basta copiá-lo para a pasta apropriada:
 
 | Comando | Descrição |
@@ -25,4 +25,4 @@ e para instalá-lo basta copiá-lo para a pasta apropriada:
 | `~/.vim/plugin` | no Gnu/Linux |
 
 Há outro plugin similar chamado `CmdlineComplete` disponível
-[neste link](http://www.vim.org/scripts/script.php?script_id=2222).
+[neste link](https://www.vim.org/scripts/script.php?script_id=2222).

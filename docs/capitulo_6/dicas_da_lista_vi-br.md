@@ -2,7 +2,9 @@
 title: Dicas da lista vi-br
 ---
 
-Fonte: [Grupo vi-br do yahoo](http://groups.yahoo.com/group/vi-br/message/853)
+Fonte: Grupo vi-br do Yahoo, mensagem 853. O Yahoo Grupos foi encerrado em
+dezembro de 2020 e as mensagens não foram preservadas; resta apenas uma
+[cópia arquivada da página do grupo](https://web.archive.org/web/20010522154801/http://groups.yahoo.com/group/vi-br).
 
 Problema: Essa deve ser uma pergunta comum. Suponha o seguinte conteúdo
 de arquivo:
@@ -42,6 +44,6 @@ Observação: 10,20 é o intervalo, ou seja, da linha 10 até a linha 20
 :help pattern
 ```
 O plugin
-[Visincr](http://vim.sourceforge.net/scripts/script.php?script_id=670) 
+[Visincr](https://www.vim.org/scripts/script.php?script_id=670) 
 Possibilita incrementos em modo visual de diversas formas, um vídeo
-demonstrativos pode ser visto [neste link](http://vimeo.com/4457161).
+demonstrativos pode ser visto [neste link](https://vimeo.com/4457161).

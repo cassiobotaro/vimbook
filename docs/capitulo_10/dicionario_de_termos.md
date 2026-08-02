@@ -28,7 +28,7 @@ início de 2009.
 
 A instalação envolve três passos, são eles:
 
-1.  obtenção do dicionário através do site BrOffice.org;
+1.  obtenção do dicionário através do site do LibreOffice;
 
 2.  conversão para o formato interno de dicionário do Vim; e
 
@@ -36,7 +36,7 @@ A instalação envolve três passos, são eles:
 
 #### Obtenção do dicionário
 
-O dicionário pode ser obtido no [site do libreoffice](https://pt-br.libreoffice.org/projetos/vero#baixarvero).
+O dicionário pode ser obtido no [site do libreoffice](https://extensions.libreoffice.org/en/extensions/show/vero-verificador-ortografico-e-hifenizador-em-portugues-do-brasil).
 O arquivo baixado encontra-se compactado no formato oxt,
 bastando portanto descompactá-lo com qualquer utilitário compatível com
 este formato, por exemplo, o comando unzip.

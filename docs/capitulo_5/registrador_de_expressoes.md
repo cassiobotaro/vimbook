@@ -12,7 +12,7 @@ status e o usuário digita então uma expressão matemática como uma
 multiplicação "6\*9" e em seguida pressiona
 Enter para que o editor finalize a operação. Veja um vídeo
 demonstrando sua utilização [neste
-link](http://vimeo.com/2967392).
+link](https://vimeo.com/2967392).
 
 Para entender melhor como funciona o registrador de expressões tomemos um
 exemplo. Para fazer uma sequência como abaixo:

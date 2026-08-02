@@ -5,4 +5,4 @@ arquivo HTML é possível usar a ferramenta "tidy"[^1], do W3C:
 ```
 :%!tidy
 ```
-[^1]: [http://tidy.sourceforge.net/](http://tidy.sourceforge.net/)
+[^1]: [https://www.html-tidy.org/](https://www.html-tidy.org/)

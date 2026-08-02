@@ -43,7 +43,7 @@ contrapartida, o usuário deve aprender como pré-configurar o editor. O
 que requer esforço para aprender a utilizar o programa escolhido. O
 benefício somente será observado a médio/longo prazo, quando o tempo
 ganho ao utilizar a configuração será superior ao tempo consumido
-aprendendo sobre o programa. O “[Vim](http://www.vim.org)”[^1] é um
+aprendendo sobre o programa. O “[Vim](https://www.vim.org)”[^1] é um
 editor de texto extremamente configurável, criado para permitir a edição
 de forma eficiente, tornando-a produtiva e confortável. Também é uma
 aprimoração do editor “Vi”, um tradicional programa dos sistemas Unix.
@@ -68,10 +68,10 @@ Emacs[^3], um dos editores mais usados nos sistemas GNU/Linux[^4],
 embora esteja também disponível em outros sistemas, como o Windows e o
 Macintosh.
 
-[^1]: Vim - <http://www.vim.org>
+[^1]: Vim - <https://www.vim.org>
 
-[^2]: Expressões Regulares - <http://guia-er.sourceforge.net/guia-er.html>
+[^2]: Expressões Regulares - <https://aurelio.net/regex/guia/>
 
-[^3]: Emacs - <http://www.gnu.org/software/emacs/>
+[^3]: Emacs - <https://www.gnu.org/software/emacs/>
 
 [^4]: O kernel Linux sem os programas GNU não serviria para muita coisa.
