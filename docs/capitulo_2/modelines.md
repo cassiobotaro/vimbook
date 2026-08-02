@@ -19,4 +19,4 @@ Apesar de usar a extensão `sh` o Vim reconhecerá este
 arquivo como `txt`, e caso eu não tenha habilitado a
 numeração, ainda assim o Vim usará por causa da opção `nu`.
 Portanto o uso de `modelines` pode ser um grande recurso
-para o seu dia-a-dia pois você pode coloca-las dentro dos comentários!
+para o seu dia-a-dia pois você pode colocá-las dentro dos comentários!

@@ -9,7 +9,7 @@ Para editar todos os arquivos que contenham a palavra “inusitada”:
 a opção `\c` torna a busca indiferente a letras maiúsculas e
 minúsculas.
 
-Obs: o Vim busca à partir do diretório atual, para se descobrir o
+Obs: o Vim busca a partir do diretório atual, para se descobrir o
 diretório atual ou mudá-lo:
 
 | Comando | Descrição |

@@ -28,7 +28,7 @@ de configuração “vimrc” veja o capítulo
 | `set incsearch` | ativa a busca incremental |
 
 se você não sabe ainda como colocar estas preferências no arquivo de
-configuração pode ativa-las em modo de comando precedendo-as com dois
+configuração pode ativá-las em modo de comando precedendo-as com dois
 pontos, assim:
 ```
 :set ignorecase<Enter>

@@ -72,7 +72,7 @@ set expandtab
 ```
 É perfeitamente possível um autocomando que faça direto a substituição
 de tabulações por espaços, mas neste caso não é recomendado que o
-autocomando se aplique a todos os tipos de aquivos.
+autocomando se aplique a todos os tipos de arquivos.
 
 #### Inserindo automaticamente modelos de documento
 
