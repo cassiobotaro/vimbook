@@ -10,8 +10,9 @@ basta usar (em modo normal) as teclas
 vit ............... visual `inner tag | esta tag'
 ```
 Este recurso também funciona com parênteses
-```
-vi( ..... visual select
-vi" ..... visual select
-di( ..... delete inner (, ou seja, seu conteúdo
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `vi(` | visual select |
+| `vi"` | visual select |
+| `di(` | delete inner (, ou seja, seu conteúdo |

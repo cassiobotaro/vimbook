@@ -19,10 +19,10 @@ Pode-se obter o plugin *SearchComplete* no seguinte
 [link](http://www.vim.org/scripts/script.php?script_id=474),
 e para instalá-lo basta copiá-lo para a pasta apropriada:
 
-```
-~/vimfiles/plugin .......... no windows
-~/.vim/plugin .............. no Gnu/Linux
-```
+| Comando | Descrição |
+|---------|-----------|
+| `~/vimfiles/plugin` | no windows |
+| `~/.vim/plugin` | no Gnu/Linux |
 
 Há outro plugin similar chamado `CmdlineComplete` disponível
 [neste link](http://www.vim.org/scripts/script.php?script_id=2222).

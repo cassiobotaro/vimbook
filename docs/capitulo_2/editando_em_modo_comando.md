@@ -31,11 +31,13 @@ Podemos inverter a lógica do comando global `g`:
 ```
 Não delete as linhas contendo padrão, ou seja, delete tudo menos as
 linhas contendo a palavra ‘padrão’.
-```
-:v/padrão/d ........ apaga linhas que não contenham "padrão"
-:v/\S/d ............ apaga linhas vazias
-\S ................. significa "string"
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:v/padrão/d` | apaga linhas que não contenham "padrão" |
+| `:v/\S/d` | apaga linhas vazias |
+| `\S` | significa "string" |
+
 A opção acima equivale a `:g!/padrão/d`. Para ler mais sobre o comando
 “global” utilizado nesta seção veja o capítulo [O comando global "g"](../capitulo_6/o_comando_global_g.md).
 ```

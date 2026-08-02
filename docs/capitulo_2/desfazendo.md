@@ -1,9 +1,11 @@
 Se você cometer um erro, não se preocupe! Use o comando `u`:
-```
-u ............ desfazer
-U ............ desfaz mudanças na última linha editada
-Ctrl-r  ...... refazer
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `u` | desfazer |
+| `U` | desfaz mudanças na última linha editada |
+| `Ctrl-r` | refazer |
+
 ### Undo tree
 
 Um novo recurso muito interessante que foi adicionado ao Vim a partir da

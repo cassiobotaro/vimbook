@@ -9,10 +9,12 @@ Buscando um padrão e gravando em outro arquivo:
 Apenas imprimir linhas que contém determinada palavra, isto é útil
 quando você quer ter uma visão sobre um determina aspecto do seu arquivo
 vejamos:
-```
-:set nu ..... habilita numeração
-:g/Error/p .. apenas mostra as linhas correspondentes
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:set nu` | habilita numeração |
+| `:g/Error/p` | apenas mostra as linhas correspondentes |
+
 Para mostrar o as linhas correspondentes a um padrão, mesmo que a
 numeração de linha não esteja habilitada use
 `:g/padrão/\#`.

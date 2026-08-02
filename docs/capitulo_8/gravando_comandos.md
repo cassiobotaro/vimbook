@@ -24,18 +24,20 @@ qa
 No modo Normal. Tudo o que for digitado a partir de então, será gravado
 no registrador ‘a’ até que seja concluído com o comando `<Esc>q` novamente
 (no modo Normal). Assim, soluciona-se o problema:
-```
-<Esc> ....... para garantir que estamos no modo normal
-qa .......... inicia a gravação da macro `a'
-I ........... entra no modo de inserção no começo da linha
-#include " .. insere #include "
-<Esc> ....... sai do modo de inserção
-A" .......... insere o último caractere
-<Esc> ....... sai do modo de inserção
-j ........... desce uma linha
-<Esc> ....... sai do modo de inserção
-q ........... para a gravação da macro
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `<Esc>` | para garantir que estamos no modo normal |
+| `qa` | inicia a gravação da macro `a' |
+| `I` | entra no modo de inserção no começo da linha |
+| `#include "` | insere #include " |
+| `<Esc>` | sai do modo de inserção |
+| `A"` | insere o último caractere |
+| `<Esc>` | sai do modo de inserção |
+| `j` | desce uma linha |
+| `<Esc>` | sai do modo de inserção |
+| `q` | para a gravação da macro |
+
 Agora só é preciso posicionar o cursor na primeira letra de uma linha
 como esta
 ```c

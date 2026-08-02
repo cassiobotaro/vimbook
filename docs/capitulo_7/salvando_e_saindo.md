@@ -1,5 +1,6 @@
 É possível salvar todas as janelas facilmente, assim como sair também:
-```
-:wall ............. salva todos `write all'
-:qall ............. fecha todos `quit all'
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:wall` | salva todos `write all' |
+| `:qall` | fecha todos `quit all' |

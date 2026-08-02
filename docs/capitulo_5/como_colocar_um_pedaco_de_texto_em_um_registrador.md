@@ -2,10 +2,11 @@
 title: Como colocar um pedaço de texto em um registrador?
 ---
 
-```
- <Esc> ...... vai para o modo normal
- "a10j ...... coloca no registrador `a' as próximas 10 linhas `10j'
-```
+| Comando | Descrição |
+|---------|-----------|
+| `<Esc>` | vai para o modo normal |
+| `"a10j` | coloca no registrador `a' as próximas 10 linhas `10j' |
+
 Pode-se fazer:
 ```
 <Esc> ...... para ter certeza que está em modo normal

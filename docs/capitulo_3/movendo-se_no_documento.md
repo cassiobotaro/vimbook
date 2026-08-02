@@ -41,11 +41,11 @@ para a movimentação.
 
 Para ir para linhas específicas ‘em modo normal’ digite:
 
-```
-:n<Enter>  ..... vai para linha `n'
-ngg ............ vai para linha `n'
-nG ............. vai para linha `n'
-```
+| Comando | Descrição |
+|---------|-----------|
+| `:n<Enter>` | vai para linha `n' |
+| `ngg` | vai para linha `n' |
+| `nG` | vai para linha `n' |
 
 onde `n` corresponde ao número da linha. Para retornar ao modo normal
 pressione `<Esc>` ou use `Ctrl-[` (`^[`).
@@ -107,22 +107,22 @@ são consideradas em separado, portanto se você usar, em modo normal
 entanto se usar `W` em maiúsculo (como visto) ele pulará a
 “palavra-inteira” :)
 
-```
-E .... pula para o final de palavras com hifen
-B .... pula palavras com hifen (retrocede)
-W .... pula palavras hifenizadas (começo)
-```
+| Comando | Descrição |
+|---------|-----------|
+| `E` | pula para o final de palavras com hifen |
+| `B` | pula palavras com hifen (retrocede) |
+| `W` | pula palavras hifenizadas (começo) |
 
 Podemos pular sentenças:
 
-```
-) .... pula uma sentença para frente
-( .... pula uma sentença para trás
-} .... pula um parágrafo para frente
-{ .... pula um parágrafo para trás
-y) ... copia uma sentença para frente
-d} ... deleta um parágrafo para frente
-```
+| Comando | Descrição |
+|---------|-----------|
+| `)` | pula uma sentença para frente |
+| `(` | pula uma sentença para trás |
+| `}` | pula um parágrafo para frente |
+| `{` | pula um parágrafo para trás |
+| `y)` | copia uma sentença para frente |
+| `d}` | deleta um parágrafo para frente |
 
 Caso tenha uma estrutura como abaixo:
 
@@ -202,22 +202,22 @@ outro detalhe para voltar ao último ponto em que você estava
 
 A maioria dos comandos do Vim pode ser precedida por um quantificador:
 
-```
-5j ..... desce 5 linhas
-d5j .... deleta as próximas 5 linhas
-k ...... em modo normal sobe uma linha
-5k ..... sobe 5 linhas
-y5k .... copia 5 linhas (para cima)
-w ...... pula uma palavra para frente
-5w ..... pula 5 palavras
-d5w .... deleta 5 palavras
-b ...... retrocede uma palavra
-5b ..... retrocede 5 palavras
-fx ..... posiciona o cursor em "x"
-dfx .... deleta até o próximo "x"
-dgg .... deleta da linha atual até o começo do arquivo
-dG ..... deleta até o final do arquivo
-yG ..... copia até o final do arquivo
-yfx .... copia até o próximo "x"
-y5j .... copia 5 linhas
-```
+| Comando | Descrição |
+|---------|-----------|
+| `5j` | desce 5 linhas |
+| `d5j` | deleta as próximas 5 linhas |
+| `k` | em modo normal sobe uma linha |
+| `5k` | sobe 5 linhas |
+| `y5k` | copia 5 linhas (para cima) |
+| `w` | pula uma palavra para frente |
+| `5w` | pula 5 palavras |
+| `d5w` | deleta 5 palavras |
+| `b` | retrocede uma palavra |
+| `5b` | retrocede 5 palavras |
+| `fx` | posiciona o cursor em "x" |
+| `dfx` | deleta até o próximo "x" |
+| `dgg` | deleta da linha atual até o começo do arquivo |
+| `dG` | deleta até o final do arquivo |
+| `yG` | copia até o final do arquivo |
+| `yfx` | copia até o próximo "x" |
+| `y5j` | copia 5 linhas |

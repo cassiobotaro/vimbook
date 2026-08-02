@@ -228,6 +228,7 @@ font = false
 favicon = "imgs/favicon.ico"
 features = [
   "content.action.edit",
+  "content.code.copy",
   "content.footnote.tooltips",
   "content.tabs.link",
   "header.autohide",

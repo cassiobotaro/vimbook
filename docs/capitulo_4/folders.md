@@ -16,9 +16,10 @@ com o comando abaixo:
 zf10j
 ```
 Você pode ainda criar uma seleção visual
-```
-Shift-v ............ seleção por linha
-j .................. desce linha
-zf ................. cria o folder
-zo ................. abre o folder
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `Shift-v` | seleção por linha |
+| `j` | desce linha |
+| `zf` | cria o folder |
+| `zo` | abre o folder |

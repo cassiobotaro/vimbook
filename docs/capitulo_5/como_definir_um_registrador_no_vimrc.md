@@ -6,10 +6,12 @@ Se você não sabe ainda como editar preferências no Vim leia antes o
 capítulo [Como editar preferências no Vim](../capitulo_12/como_editar_preferencias_no_vim.md).
 
 Você pode criar uma variável no vimrc assim:
-```
-let var="foo" ...... define foo para var
-echo var ........... mostra o valor de var
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `let var="foo"` | define foo para var |
+| `echo var` | mostra o valor de var |
+
 Pode também dizer ao Vim algo como...
 ```
 :let @d=strftime("c")<Enter>

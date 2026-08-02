@@ -4,16 +4,18 @@ highlight RedundantWhitespace ctermbg=red guibg=red
 match RedundantWhitespace /\s\+$\| \+\ze\t/
 ```
 Explicando com detalhes
-```
-\s ..... espaço
-\+ ..... uma ou mais vezes
-$ ...... no final da linha
-\| ..... ou
-`` '' .. espaço (veja imagem acima)
-\+ ..... uma ou mais vezes
-\ze .... até o fim
-\t ..... tabulação
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `\s` | espaço |
+| `\+` | uma ou mais vezes |
+| `$` | no final da linha |
+| `\|` | ou |
+| ```` ''`` | espaço (veja imagem acima) |
+| `\+` | uma ou mais vezes |
+| `\ze` | até o fim |
+| `\t` | tabulação |
+
 Portanto a expressão regular acima localizará espaços ou tabulações no
 final de linha e destacará em vermelho.
 ```VimL

@@ -37,7 +37,7 @@ O plugin de *Ctags* para o Vim está neste
 [link](http://vim.sourceforge.net/scripts/script.php?script_id=12),
 e para instalá-lo basta copiá-lo para a pasta apropriada:
 
-```
- ~/vimfiles/plugin .......... no windows
- ~/.vim/plugin .............. no Gnu/Linux
-```
+| Comando | Descrição |
+|---------|-----------|
+| `~/vimfiles/plugin` | no windows |
+| `~/.vim/plugin` | no Gnu/Linux |

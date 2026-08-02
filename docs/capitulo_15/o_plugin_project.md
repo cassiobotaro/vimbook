@@ -9,11 +9,11 @@ Para programadores é uma funcionalidade extremamente necessária.
 Costuma-se trabalhar com vários arquivos da mesma família ("extensão"),
 e ao clicar em um dos arquivos do projeto o mesmo é aberto instantaneamente.
 
-```
-:Project ......... abre uma janela lateral para o projeto
-\C ............... inicia a criação de um projeto (recursivamente)
-\c ............... inicia a criação de um projeto na pasta local
-```
+| Comando | Descrição |
+|---------|-----------|
+| `:Project` | abre uma janela lateral para o projeto |
+| `\C` | inicia a criação de um projeto (recursivamente) |
+| `\c` | inicia a criação de um projeto na pasta local |
 
 Após digitar o atalho de criação do projeto aparecerá uma janela
 para designar um nome para o mesmo, em seguida digita-se o caminho para
