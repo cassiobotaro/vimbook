@@ -32,10 +32,9 @@ no registrador ‘a’ até que seja concluído com o comando `<Esc>q` novamente
 | `I` | entra no modo de inserção no começo da linha |
 | `#include "` | insere #include " |
 | `<Esc>` | sai do modo de inserção |
-| `A"` | insere o último caractere |
+| `A"` | acrescenta uma aspa no final da linha |
 | `<Esc>` | sai do modo de inserção |
 | `j` | desce uma linha |
-| `<Esc>` | sai do modo de inserção |
 | `q` | para a gravação da macro |
 
 Agora só é preciso posicionar o cursor na primeira letra de uma linha
