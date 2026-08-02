@@ -1,9 +1,10 @@
 ---
-title: Um wiki para o Vim
+title: Potwiki
 ---
 
-O "*plugin*" potwiki implementa um wiki para o Vim no qual você define um
-"link" com a notação WikiWord, onde um "link" é uma palavra que começa com
-uma letra maiúscula e tem outra letra maiúscula no meio.
-Obtenha o plugin
-[neste link](http://www.vim.org/scripts/script.php?script_id=1018).
+O "*plugin*" potwiki implementa um wiki completo dentro do Vim: as páginas
+são arquivos locais e os "links" entre elas usam a notação WikiWord.
+
+O capítulo [Um Wiki para o Vim](../capitulo_13/uma_wiki_para_o_vim.md) trata
+dele em detalhe — instalação, definição da página inicial, salvamento
+automático e os atalhos de navegação.
