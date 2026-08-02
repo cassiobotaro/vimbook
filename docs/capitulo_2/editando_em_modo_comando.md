@@ -36,7 +36,7 @@ linhas contendo a palavra ‘padrão’.
 |---------|-----------|
 | `:v/padrão/d` | apaga linhas que não contenham "padrão" |
 | `:v/\S/d` | apaga linhas vazias |
-| `\S` | significa "string" |
+| `\S` | qualquer caractere que não seja espaço em branco |
 
 A opção acima equivale a `:g!/padrão/d`. Para ler mais sobre o comando
 “global” utilizado nesta seção veja o capítulo [O comando global "g"](../capitulo_6/o_comando_global_g.md).

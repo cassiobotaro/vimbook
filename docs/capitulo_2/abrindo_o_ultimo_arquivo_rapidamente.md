@@ -2,7 +2,9 @@
 title: Abrindo o último arquivo rapidamente
 ---
 
-O Vim guarda um registrador para cada arquivo editado veja mais no capítulo [Registradores](../capitulo_5/registradores.md).
+O Vim guarda uma marca para cada arquivo editado recentemente, gravada no
+arquivo `viminfo` (veja `:h viminfo`). Para conhecer os registradores, que são
+um recurso distinto, veja o capítulo [Registradores](../capitulo_5/registradores.md).
 
 | Comando | Descrição |
 |---------|-----------|

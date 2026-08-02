@@ -32,8 +32,8 @@ O que foi deletado ou copiado pode ser colado:
 |---------|-----------|
 | `p` | cola o que foi copiado ou deletado abaixo |
 | `P` | cola o que foi copiado ou deletado acima |
-| `[p` | cola o que foi copiado ou deletado antes do cursor |
-| `]p` | cola o que foi copiado ou deletado após o cursor |
+| `[p` | cola acima, ajustando a indentação à da linha atual |
+| `]p` | cola abaixo, ajustando a indentação à da linha atual |
 
 ### Deletando uma parte do texto
 
@@ -44,7 +44,7 @@ O comando `d` remove o conteúdo para a memória.
 | `x` | apaga o caractere sob o cursor |
 | `xp` | troca letras de lugar |
 | `ddp` | troca linhas de lugar |
-| `d5x` | apaga os próximos 5 caracteres |
+| `5x` | apaga os próximos 5 caracteres |
 | `dd` | apaga a linha atual |
 | `5dd` | apaga 5 linhas (também pode ser: d5d) |
 | `d5G` | apaga até a linha 5 |

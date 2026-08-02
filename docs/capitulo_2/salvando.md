@@ -2,12 +2,16 @@ A maneira mais simples de salvar um arquivo, é usar o comando:
 ```
 :w
 ```
-Para especificar um novo nome para o arquivo, simplesmente digite:
+Para gravar o conteúdo em outro arquivo, simplesmente digite:
 ```
-:w! >> “file”
+:w arquivo
 ```
-O conteúdo será gravado no arquivo `file` e você continuará
-no arquivo original.
+O conteúdo será gravado no arquivo `arquivo` e você continuará
+no arquivo original. Para anexar o conteúdo ao final de um arquivo já
+existente, em vez de sobrescrevê-lo, usa-se:
+```
+:w >> arquivo
+```
 
 Também existe o comando:
 ```

@@ -26,7 +26,7 @@ Explicando:
 | `s` | substitua |
 | `/` | padrão de busca |
 | `\s` | localiza espaço |
-| `\{4,}` | quatro vezes |
+| `\{4,}` | quatro ou mais vezes |
 | `/` | inicio da substituição |
 | `<Ctrl-i>` | pressione Ctrl-i para inserir `<Tab>` |
 | `/` | fim da substituição |
