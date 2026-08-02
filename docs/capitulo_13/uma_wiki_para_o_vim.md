@@ -18,7 +18,7 @@ define onde ele guardará os arquivos, no meu caso
 ```
 call s:default('home',"~/.wiki/HomePage")
 ```
-Outra forma de indicar a página inicial seria colocar no seu .virmc
+Outra forma de indicar a página inicial seria colocar no seu `.vimrc`
 ```
 let potwiki_home = "$HOME/.wiki/HomePage"
 ```
