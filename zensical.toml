@@ -3,6 +3,7 @@ site_name = "Vimbook"
 site_url = "https://vimbook.com.br/"
 repo_name = "cassiobotaro/vimbook"
 repo_url = "https://github.com/cassiobotaro/vimbook"
+edit_uri = "edit/main/docs/"
 extra_css = ["stylesheets/_fontes.css", "stylesheets/vimbook.css"]
 extra_javascript = ["javascripts/navegacao.js", "javascripts/statusline.js"]
 
