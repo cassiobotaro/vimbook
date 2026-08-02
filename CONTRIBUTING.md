@@ -90,7 +90,7 @@ O site fica disponível em <http://localhost:8000> e recarrega automaticamente a
 
 ## Convenções utilizadas e dicas
 
-* Não utilize emojis de forma textual `:emoji:`, copie do [emojipédia](https://emojipedia.org/pt) o invés;
+* Não utilize emojis de forma textual `:emoji:`, copie do [emojipédia](https://emojipedia.org/pt) ao invés;
 * Todo título de seção é iniciado com um emoji;
 * Novos capítulos devem ser adicionados também no menu de navegação (`nav`) que se encontra no arquivo `zensical.toml`;
 * Páginas cujo título não começa com um cabeçalho `#` precisam declarar o título no *front matter*, por exemplo:
@@ -100,3 +100,31 @@ O site fica disponível em <http://localhost:8000> e recarrega automaticamente a
 title: Instalação do vim
 ---
 ```
+
+### Tabelas de comandos
+
+Listas de referência — comando de um lado, descrição do outro — vão em
+tabelas, não em blocos de código. Blocos de código são reservados para
+comandos que a pessoa vai de fato digitar, porque só eles fazem sentido
+com o botão de copiar:
+
+```
+| Comando | Descrição |
+|---------|-----------|
+| `gg` | vai para o início do arquivo |
+```
+
+Dois detalhes que geram erro silencioso, porque o `zensical build`
+aceita os dois casos sem reclamar:
+
+* **Deixe uma linha em branco depois da tabela.** Sem ela, o parser
+  continua lendo o parágrafo seguinte como linhas da tabela, e o texto
+  aparece dentro dela, quebrado em uma célula por linha do arquivo.
+
+* **Para exibir uma barra vertical dentro de uma célula, use
+  `<code>&#124;</code>`.** O `\|` do GitHub não funciona aqui: o parser
+  não é GFM e mostra a barra invertida na tela. Dentro de crases a
+  entidade também não resolve, porque é escapada — só funciona com a
+  tag `<code>` escrita à mão. Isso vale para comandos como `10|` (ir
+  para a coluna 10); já o `\|` das expressões regulares do Vim, que é o
+  operador de alternância, deve mesmo aparecer com a barra invertida.
