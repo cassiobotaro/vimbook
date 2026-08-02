@@ -2,8 +2,8 @@
 title: Substituições
 ---
 
-Para fazer uma busca, certifique-se de que está em modo normal, em
-seguida digite use o comando ‘s’, conforme será explicado.
+Para fazer uma substituição, certifique-se de que está em modo normal e
+em seguida use o comando ‘s’, conforme será explicado.
 
 Para substituir “foo” por “bar” na linha atual:
 ```

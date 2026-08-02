@@ -18,7 +18,7 @@ Explicando:
 | `^` | começo de linha |
 | `\s\+` | um espaço ou mais (barras são escapes) |
 | `.*` | qualquer coisa depois |
-| `\(grupo\)` | agrupo para referenciar com \1 |
+| `\(grupo\)` | agrupa um trecho para referenciar com \1 |
 | `\1` | repete na substituição o grupo 1 |
 | `\r` | insere uma quebra de linha |
 | `g` | em todas as ocorrências da linha |

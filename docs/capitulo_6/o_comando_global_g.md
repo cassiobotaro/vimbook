@@ -15,9 +15,9 @@ vejamos:
 | `:set nu` | habilita numeração |
 | `:g/Error/p` | apenas mostra as linhas correspondentes |
 
-Para mostrar o as linhas correspondentes a um padrão, mesmo que a
-numeração de linha não esteja habilitada use
-`:g/padrão/\#`.
+Para mostrar as linhas correspondentes a um padrão, já numeradas, mesmo
+que a numeração de linha não esteja habilitada, use
+`:g/padrão/#`.
 
 numerar linhas:
 ```
@@ -102,7 +102,7 @@ g ........ global
 / ........ inicio de um padrão
 ^ ........ começo de linha
 Chapter .. palavra literal
-/ ........ fim do parão
+/ ........ fim do padrão
 t ........ copia
 . ........ linha atual
 s ........ substitua

@@ -10,8 +10,8 @@ nome do registrador antes:
 |---------|-----------|
 | `"add` | apaga linha para o registrador "a" |
 | `"bdd` | apaga linha para o registrador "b" |
-| `"ap` | cola" o conteúdo do registrador "a" |
-| `"bp` | cola" o conteúdo do registrador "b" |
+| `"ap` | cola o conteúdo do registrador "a" |
+| `"bp` | cola o conteúdo do registrador "b" |
 | `"x3dd` | apaga 3 linhas para o registrador "x" |
 | `"ayy` | copia linha para o registrador "a" |
 | `"a3yy` | copia 3 linhas para o registrador "a" |

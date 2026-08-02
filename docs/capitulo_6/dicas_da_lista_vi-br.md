@@ -28,8 +28,7 @@ texto1005texto    // linha i+4
 Ou seja, somasse 1 a cada um dos números entre os textos especificando
 como range as linhas i,i+4
 ```
-:10,20! awk 'BEGIN{i=1}{if (match($0, ``+'')) print ``o''
-(substr($0, RSTART, RLENGTH) + i++) ``o'``}''
+:10,20! awk 'BEGIN{i=1}{if (match($0, /[0-9]+/)) print substr($0,1,RSTART-1) (substr($0,RSTART,RLENGTH) + i++) substr($0,RSTART+RLENGTH)}'
 ```
 Mas muitos sistemas não tem awk, e logo a melhor solução
 mesmo é usar o Vim:
