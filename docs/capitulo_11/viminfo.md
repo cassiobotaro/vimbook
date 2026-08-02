@@ -19,46 +19,21 @@ ser usada para memorizar estas informações.
 -   Variáveis globais
 
 Deve-se colocar no arquivo de configuração algo como:
+```
+set viminfo=%,'50,\"100,/100,:100,n
+```
+Algumas opções da diretiva viminfo:
 
-    set viminfo=%,'50,\"100,/100,:100,n
-
-Algumas opões da diretiva viminfo:
-
-!
-
-:   Quando incluído salva e restaura variáveis globais (variáveis com
-    letra maiúscula) e que não contém letras em minúsculo como
-    MANTENHAISTO.
-
-"
-
-:   Número máximo de linhas salvas para cada registrador.
-
-%
-
-:   Quando incluído salva e restaura a lista de *buffers*.
-    Caso o Vim seja iniciado com um nome como argumento, a lista de
-    *buffers* não é restaurada. *Buffers* sem
-    nome e *buffers* de ajuda não são armazenados no
-    viminfo.
-
-’
-
-:   Número máximo de arquivos recém editados.
-
-/
-
-:   Máximo de itens do histórico de buscas.
-
-:
-
-:   Máximo de itens do histórico da linha de comando
-
-\<
-
-:   Número máximo de linhas salvas por cada registrador, se zero os
-    registradores não serão salvos. Quando não incluído, todas as linhas são
-    salvas.
+| Opção | Descrição |
+|-------|-----------|
+| `!` | Quando incluído salva e restaura variáveis globais (variáveis com letra maiúscula) e que não contém letras em minúsculo como MANTENHAISTO. |
+| `"` | Número máximo de linhas salvas para cada registrador. |
+| `%` | Quando incluído salva e restaura a lista de *buffers*. Caso o Vim seja iniciado com um nome como argumento, a lista de *buffers* não é restaurada. *Buffers* sem nome e *buffers* de ajuda não são armazenados no viminfo. |
+| `'` | Número máximo de arquivos recém editados para os quais as marcas são lembradas. |
+| `/` | Máximo de itens do histórico de buscas. |
+| `:` | Máximo de itens do histórico da linha de comando. |
+| `<` | Número máximo de linhas salvas por cada registrador, se zero os registradores não serão salvos. Quando não incluído, todas as linhas são salvas. |
+| `n` | Nome do arquivo viminfo a ser usado. |
 
 Para ver mais opções sobre o arquivo ‘viminfo’ leia
 ‘:h viminfo’. Pode-se também usar um arquivo de “Sessão”. A

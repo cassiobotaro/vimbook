@@ -20,7 +20,7 @@ Podemos fazer mapeamentos para atualizar a sessão atual e exibir
 detalhes da mesma:
 ```
 "mapeamento para gravar sessão
-nmap <F4> :wa<Bar>exe "mksession! " . v:this_session<CR>:so ~/sessions/
+nmap <F4> :wa<Bar>exe "mksession! " . v:this_session<CR>
 
 "mapeamento para exibir a sessão ativa
 map <s-F4> <esc>:echo v:this_session<cr>
