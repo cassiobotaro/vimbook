@@ -8,11 +8,12 @@ GNU/Linux, ou uma linguagem de programação como *Python* ou
 *Ruby*, veremos como habilitar a calculadora usando o
 *Python*. Obviamente esta linguagem de programação deve
 estar instalada no sistema em que se deseja usar seus recursos. Deve-se
-testar se a versão do Vim tem suporte ao Python `:version`, em seguida
-colocam-se os mapeamentos no `.vimrc`.
+testar se a versão do Vim tem suporte ao Python — procure por `+python3`
+na saída de `:version` — em seguida colocam-se os mapeamentos no
+`.vimrc`.
 ```
-:command! -nargs=+ Calc :py print <args>
-:py from math import *
+:command! -nargs=+ Calc :py3 print(<args>)
+:py3 from math import *
 ```
 Feito isto pode-se usar o comando `:Calc` como visto
 abaixo:
@@ -21,6 +22,6 @@ abaixo:
 :Calc cos(30)
 :Calc pow(5,3)
 :Calc 10.0/3
-:Calc sum(xrange(1,101))
+:Calc sum(range(1,101))
 :Calc [x**2 for x in range(10)] 
 ```
