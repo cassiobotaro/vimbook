@@ -11,9 +11,9 @@ Explicando com detalhes
 | `\+` | uma ou mais vezes |
 | `$` | no final da linha |
 | `\|` | ou |
-| ```` ''`` | espaço (veja imagem acima) |
+| ` ` | um espaço literal |
 | `\+` | uma ou mais vezes |
-| `\ze` | até o fim |
+| `\ze` | marca o fim da correspondência (não entra no destaque) |
 | `\t` | tabulação |
 
 Portanto a expressão regular acima localizará espaços ou tabulações no

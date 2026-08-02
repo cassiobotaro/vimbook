@@ -8,7 +8,7 @@ Para executar o registro `s` definido acima faça:
 ```
 O Vim colocará no comando
 ```
-:sort -u
+:sort u
 ```
 Bastando pressionar `<Enter>`. Observação: Este registro prévio pode
 ficar no `vimrc` ou ser digitado em comando “:”

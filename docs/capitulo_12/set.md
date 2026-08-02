@@ -20,10 +20,10 @@ set sw=4 ................. "simplificação de `shiftwidth'
 syntax on ................ "habilita cores
 syn on ................... "simplificação de `syntax'
 colorscheme tema ......... "esquema de cores `syntax highlight'
-autochdir ................ "configura o diretório de trabalho
+set autochdir ............ "configura o diretório de trabalho
 set hls .................. "destaca com cores os termos procurados
 set incsearch ............ "habilita a busca incremental
-set ai ................... "auto identação
+set ai ................... "auto indentação
 set aw ................... "salva automaticamente ao trocar de
                        `buffer'
 set ignorecase ........... "ignora maiúsculas e minúsculas nas
@@ -41,7 +41,7 @@ set bex=.backup .......... "simplificação de backupext
 set backupdir=~/.backup,./ "diretório(s) para arquivos de backup
 set bdir ................. "simplificação de `backupdir'
 set nobackup ............. "evita a criação de arquivos de backup
-ste nobk ................. "simplificação de `nobackup'
+set nobk ................. "simplificação de `nobackup'
 set cursorline ........... "abreviação de cursor line (destaca
                        linha  atual)
 set cul .................. "simplificação de `cursorline'
@@ -55,5 +55,5 @@ Se ao iniciar o vim obtivermos mensagens de erros e houver dúvida se o
 erro é no vim ou em sua configuração, pode-se inicia-lo sem que o mesmo
 carregue o arquivo `.vimrc`.
 ```
-:vim -u NONE
+vim -u NONE
 ```
