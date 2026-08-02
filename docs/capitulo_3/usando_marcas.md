@@ -18,7 +18,7 @@ Para voltar ao ponto do último salto:
 ''
 ```
 
-Para deletar de até a marca ‘a’ (em modo normal):
+Para deletar da linha atual até a marca ‘a’ (em modo normal):
 
 ```
 d'a

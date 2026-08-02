@@ -39,7 +39,7 @@ Ou voltar ao arquivo anterior
 É possível ainda “rebobinar” sua lista de arquivos.
 
 ```
-:rew[wind]
+:rew[ind]
 ```
 
 Ir para o primeiro
