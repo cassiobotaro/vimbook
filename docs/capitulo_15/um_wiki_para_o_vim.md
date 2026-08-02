@@ -2,7 +2,7 @@
 title: Um wiki para o Vim
 ---
 
-O "*plugin*" wikipot implementa um wiki para o Vim no qual você define um
+O "*plugin*" potwiki implementa um wiki para o Vim no qual você define um
 "link" com a notação WikiWord, onde um "link" é uma palavra que começa com
 uma letra maiúscula e tem outra letra maiúscula no meio.
 Obtenha o plugin
