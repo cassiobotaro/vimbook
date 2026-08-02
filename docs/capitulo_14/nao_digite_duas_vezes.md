@@ -29,7 +29,7 @@ Para um trecho muito copiado coloque o seu conteúdo em um registrador:
 "ap  ... cola o registrador `a'
 ```
 Crie abreviações para erros comuns no seu arquivo de configuração
-( /.vimrc):
+(`~/.vimrc`):
 
 ```VimL
 iabbrev teh the

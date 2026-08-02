@@ -8,7 +8,7 @@ exemplo seria abrir dezenas de arquivos HTML e trocar a ocorrência
 sequência de comandos:
 ```
 vim *.html  .................................... abre os arquivos
-:bufdo :%s/bgcolor=`ffffff'/bgcolor=`eeeeee'/g   substituição
+:bufdo %s/bgcolor="ffffff"/bgcolor="eeeeee"/ge  substituição
 :wall       .................................... salva todos
 :qa[ll]     .................................... fecha todos
 ```

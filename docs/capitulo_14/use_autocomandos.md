@@ -17,12 +17,12 @@ tipo html/htm e no caso de arquivos novos
 indicado:
 ```VimL
 augroup html
- au! <--> Remove all html autocommands
+  " Remove todos os autocomandos html
   au!
   au BufNewFile,BufRead *.html,*.shtml,*.htm set ft=html
   au BufNewFile,BufRead,BufEnter  *.html,*.shtml,*.htm so ~/docs/vim/.vimrc-html
   au BufNewFile *.html 0r ~/docs/vim/skel.html
-  au BufNewFile *.html*.shtml,*.htm /body/+  " coloca o cursor após o corpo <body>
+  au BufNewFile *.html,*.shtml,*.htm /body/+  " coloca o cursor após o corpo <body>
   au BufNewFile,BufRead *.html,*.shtml,*.htm set noautoindent
 augroup end
 ```
