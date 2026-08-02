@@ -9,6 +9,6 @@ De forma análoga pode-se usar como referência um padrão qualquer:
 ```
 :/palavra/;+10 m 0
 ```
-O comando acima diz: à partir da linha que contém “palavra” incluindo as
+O comando acima diz: a partir da linha que contém “palavra” incluindo as
 10 próximas linhas mova ‘m’ para a primeira linha ‘0’, ou
 seja, antes da linha 1.

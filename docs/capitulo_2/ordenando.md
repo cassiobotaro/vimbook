@@ -38,7 +38,7 @@ Você pode fazer a ordenação em um intervalo assim:
 :1,15 sort n
 ```
 O comando acima diz “`*Ordene numericamente da linha 1 até a linha
-15*`”. Podemos ainda ordenar à partir de uma coluna:
+15*`”. Podemos ainda ordenar a partir de uma coluna:
 ```
 :sort /.*\%8v/
 ```

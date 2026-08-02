@@ -41,7 +41,7 @@ uma marca ‘A’ acessível a qualquer momento com o comando:
 ```
 
 Isto fará o Vim dar um salto até a marca ‘A’ mesmo que
-esteja em outro arquivo, mesmo que você tenha acabado de fecha-lo. Para
+esteja em outro arquivo, mesmo que você tenha acabado de fechá-lo. Para
 abrir e editar vários arquivos do Vim fazemos:
 
 | Comando | Descrição |

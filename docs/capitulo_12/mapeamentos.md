@@ -198,4 +198,4 @@ nmap ,mm :%s/\C\([.!?][])"']*\($\|[ ]\)\_s*\)\(\l\)/\1\U\3/g<CR>
 " (...) \3/gc<CR>
 ```
 
-[^1]: hls é uma abreviação de hightlight search
+[^1]: hls é uma abreviação de highlight search

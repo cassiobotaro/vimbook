@@ -46,7 +46,7 @@ ou digitados como comandos:
 | `set viminfo=%,'50,\"100,/100,:100,n` | armazena opções (buffers) |
 
 Se ao iniciar o vim obtivermos mensagens de erros e houver dúvida se o
-erro é no vim ou em sua configuração, pode-se inicia-lo sem que o mesmo
+erro é no vim ou em sua configuração, pode-se iniciá-lo sem que o mesmo
 carregue o arquivo `.vimrc`.
 ```
 vim -u NONE

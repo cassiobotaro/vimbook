@@ -23,7 +23,7 @@ Observação: lembre-se
 | `^I` | equivale a Ctrl-I |
 
 É possível abrir vários arquivos tipo `vim *.txt`. Editar algum arquivo,
-salvar e ir para o próximo arquivo com o comando à seguir:
+salvar e ir para o próximo arquivo com o comando a seguir:
 
 ```
 :wn

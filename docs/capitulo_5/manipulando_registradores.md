@@ -3,7 +3,7 @@
 :let @a=""   ... limpa o registrador a
 :let @a=@"   ... salva registrador sem nome *N*
 :let @*=@a   ... copia o registrador para o buffer de colagem
-:let @*=@:   ... copia o ultimo comando para o buffer de
+:let @*=@:   ... copia o último comando para o buffer de
                  colagem
 :let @*=@/   ... copia a última busca para o buffer de
                  colagem

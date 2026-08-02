@@ -48,7 +48,7 @@ modo de comando no capítulo [Buscas e Substituições](../capitulo_6/buscas_e_s
 
 #### Gerando sequências
 
-Para inserir uma sequência de 1 a 10 à partir da linha inicial “zero”
+Para inserir uma sequência de 1 a 10 a partir da linha inicial “zero”
 fazemos:
 ```
 :0put =range(1,10)

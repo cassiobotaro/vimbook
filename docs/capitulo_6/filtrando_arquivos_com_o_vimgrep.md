@@ -1,6 +1,6 @@
 Por vezes sabemos que aquela anotação foi feita, mas no momento
 esquecemos em qual arquivo está, no exemplo abaixo procuramos a palavra
-dicas à partir da nossa pasta pessoal pela palavra ‘dicas’ em todos os
+dicas a partir da nossa pasta pessoal pela palavra ‘dicas’ em todos os
 arquivos com extensão ‘txt’.
 O `~/` equivale a `/home/user`.
 ```

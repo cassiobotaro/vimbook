@@ -10,7 +10,7 @@ permanecerá ativo no buffer para futuras modificações.
 Para saber quantos documentos estão abertos no momento utiliza-se o
 comando *:ls* ou *:buffers*. Esses comandos
 listam todos os arquivos que estão referenciados no buffer com suas
-respectivas “chaves” de referencia.
+respectivas “chaves” de referência.
 
 Para trocar a visualização do Buffer atual pode-se usar:
 
