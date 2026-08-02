@@ -48,10 +48,18 @@ As atribuições acima correspondem a:
 E digitar ,d normalmente
 
 Desmistificando o strftime
-```
-" %d=dia %m=mes %Y=ano %H=hora %M=minuto %c=data-completa
-:h strftime ........ ajuda completa sobre o comando
-```
+
+| Formato | Significado |
+|---------|-------------|
+| `%d` | dia |
+| `%m` | mês |
+| `%Y` | ano |
+| `%H` | hora |
+| `%M` | minuto |
+| `%c` | data completa |
+
+Use `:h strftime` para a ajuda completa sobre a função.
+
 e inserir em modo normal assim:
 ```
 "dp

@@ -11,8 +11,10 @@ minúsculas.
 
 Obs: o Vim busca à partir do diretório atual, para se descobrir o
 diretório atual ou mudá-lo:
-```
-:pwd ........... exibe o diretório atual
-:cd /diretório   muda de diretório
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:pwd` | exibe o diretório atual |
+| `:cd /diretório` | muda de diretório |
+
 

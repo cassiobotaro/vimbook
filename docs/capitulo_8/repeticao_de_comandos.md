@@ -43,10 +43,11 @@ Se desejássemos digitar 10 linhas com o texto
 isto é um teste
 ```
 deveríamos então fazer assim:
-```
-<Esc> .. para ter certeza que ainda estamos no modo normal
-10 ..... quantificador antes
-i ...... entrar no modo de inserção
-isto é um teste <Enter>
-<Esc> .. voltar ao modo normal
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `<Esc>` | para ter certeza que ainda estamos no modo normal |
+| `10` | quantificador antes |
+| `i` | entrar no modo de inserção |
+| `isto é um teste <Enter>` | digita o texto |
+| `<Esc>` | voltar ao modo normal |

@@ -3,13 +3,16 @@ title: File Explorer
 ---
 
 Para abrir o gerenciador de arquivos do Vim use:
-```
-:Vex ............ abre o file explorer verticalmente
-:Sex ............ abre o file explorer em nova janela
-:Tex ............ abre o file explorer em nova aba
-:Ex ............. abre o file explorer na janela atual
-após abrir chame a ajuda <F1>
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:Vex` | abre o file explorer verticalmente |
+| `:Sex` | abre o file explorer em nova janela |
+| `:Tex` | abre o file explorer em nova aba |
+| `:Ex` | abre o file explorer na janela atual |
+
+Após abrir, chame a ajuda com `<F1>`.
+
 O `:Vex` abre a janela à esquerda. Para que ela abra à direita, coloque a
 linha abaixo no seu `~/.vimrc`
 ```

@@ -27,8 +27,10 @@ a barra de status que faz com que a mesma exiba o código do caractere
 sob o cursor na seção [Função para barra de status](../capitulo_12/funcoes.md). O caractere de
 final de linha do Windows/DOS pode ser inserido com a seguinte
 combinação de teclas:
-```
-i ............ entra em modo de inserção
-<INSERT> ..... entra em modo de inserção
-Ctrl-v Ctrl-m  insere o simbolo ^M (terminador de linha DOS)
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `i` | entra em modo de inserção |
+| `<INSERT>` | entra em modo de inserção |
+| `Ctrl-v Ctrl-m` | insere o símbolo ^M (terminador de linha DOS) |
+

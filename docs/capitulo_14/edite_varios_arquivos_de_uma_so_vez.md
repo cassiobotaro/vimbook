@@ -6,12 +6,14 @@ O Vim pode abrir vários arquivos que contenham um determinado padrão. Um
 exemplo seria abrir dezenas de arquivos HTML e trocar a ocorrência
 `bgcolor="ffffff"` Para `bgcolor="eeeeee"` Usaríamos a seguinte
 sequência de comandos:
-```
-vim *.html  .................................... abre os arquivos
-:bufdo %s/bgcolor="ffffff"/bgcolor="eeeeee"/ge  substituição
-:wall       .................................... salva todos
-:qa[ll]     .................................... fecha todos
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `vim *.html` | abre os arquivos |
+| `:bufdo %s/bgcolor="ffffff"/bgcolor="eeeeee"/ge` | substituição |
+| `:wall` | salva todos |
+| `:qa[ll]` | fecha todos |
+
 
 Ainda com relação à edição de vários arquivos poderíamos abrir alguns
 arquivos txt e mudar de um para o outro assim:

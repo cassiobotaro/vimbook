@@ -26,16 +26,19 @@ numerar linhas:
 Outro modo de inserir números de linha
 ```
 :%s/^/\=line('.').'  '
-
-: ............ comando
-% ............ em todo o arquivo
-s ............ substituição
-/ ............ inicio da busca
-^ ............ começo de linha
-/ ............ inicio da substituição
-\=line('.') .. corresponde ao nº da linha atual
-.'  ' ........ concatena um espaço após o nº
 ```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:` | comando |
+| `%` | em todo o arquivo |
+| `s` | substituição |
+| `/` | inicio da busca |
+| `^` | começo de linha |
+| `/` | inicio da substituição |
+| `\=line('.')` | corresponde ao nº da linha atual |
+| `.'  '` | concatena um espaço após o nº |
+
 Para copiar linhas começadas com *Error* para o final do
 arquivo faça:
 ```
@@ -87,7 +90,7 @@ Copiar linhas que contém um padrão e a linha subsequente para o final:
 ```
 Deletar linhas que não contenham um padrão:
 ```
-:v/dicas/d  ..... deleta linhas que não contenham `dicas'
+:v/dicas/d
 ```
 Incrementar números no começo da linha:
 ```
@@ -96,20 +99,22 @@ Incrementar números no começo da linha:
 Sublinhar linhas começadas com *Chapter*:
 ```
 :g/^Chapter/t.|s/./-/g
-
-: ........ comando
-g ........ global
-/ ........ inicio de um padrão
-^ ........ começo de linha
-Chapter .. palavra literal
-/ ........ fim do padrão
-t ........ copia
-. ........ linha atual
-s ........ substitua
-/ ........ inicio de um padrão
-. ........ qualquer caractere
-/ ........ início da substituição
-- ........ por traço
-/ ........ fim da substituição
-g ........ em todas as ocorrências
 ```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:` | comando |
+| `g` | global |
+| `/` | inicio de um padrão |
+| `^` | começo de linha |
+| `Chapter` | palavra literal |
+| `/` | fim do padrão |
+| `t` | copia |
+| `.` | linha atual |
+| `s` | substitua |
+| `/` | inicio de um padrão |
+| `.` | qualquer caractere |
+| `/` | início da substituição |
+| `-` | por traço |
+| `/` | fim da substituição |
+| `g` | em todas as ocorrências |

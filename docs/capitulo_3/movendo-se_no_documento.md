@@ -6,15 +6,15 @@ movimentação, faz-se útil uma breve recapitulação de conceitos
 relacionados. Para se entrar em modo de inserção, estando em modo
 normal, pode-se pressionar qualquer uma das teclas abaixo:
 
-```
-i ..... entra no modo de inserção antes do caractere atual
-I ..... entra no modo de inserção no começo da linha
-a ..... entra no modo de inserção após o caractere atual
-A ..... entra no modo de inserção no final da linha
-o ..... entra no modo de inserção uma linha abaixo
-O ..... entra em modo de inserção uma linha cima
-<Esc> . sai do modo de inserção
-```
+| Comando | Descrição |
+|---------|-----------|
+| `i` | entra no modo de inserção antes do caractere atual |
+| `I` | entra no modo de inserção no começo da linha |
+| `a` | entra no modo de inserção após o caractere atual |
+| `A` | entra no modo de inserção no final da linha |
+| `o` | entra no modo de inserção uma linha abaixo |
+| `O` | entra em modo de inserção uma linha acima |
+| `<Esc>` | sai do modo de inserção |
 
 Uma vez no modo de inserção todas as teclas são exatamente como nos
 outros editores simples, caracteres que constituem o conteúdo do texto
@@ -54,51 +54,45 @@ No vim é possível realizar diversos tipos de movimentos, também
 conhecidos como saltos no documento. A lista abaixo aponta o comandos de
 salto típicos.
 
-```
-gg .... vai para o início do arquivo
-G ..... vai para o final do arquivo
-0 ..... vai para o início da linha
-^ ..... vai para o primeiro caractere da linha (ignora
-        espaços)
-$ ..... vai para o final da linha
-25gg .. salta para a linha 25
-'' .... salta para a linha da última posição em que o cursor
-        estava
-fx .... para primeira ocorrência de x
-tx .... Para ir para uma letra antes de x
-Fx .... Para ir para ocorrência anterior de x
-Tx .... Para ir para uma letra após o último x
-* ..... Próxima ocorrência de palavra sob o cursor
-`' .... salta exatamente para a posição em que o cursor
-        estava
-gd .... salta para declaração de variável sob o cursor
-gD .... salta para declaração (global) de variável sob o
-        cursor
-w ..... move para o início da próxima palavra
-W ..... pula para próxima palavra (desconsidera hífens)
-E ..... pula para o final da próxima palavra (desconsidera
-        hifens)
-e ..... move o cursor para o final da próxima palavra
-zt .... rola a tela deixando a linha atual no topo
-zz .... rola a tela deixando a linha atual no centro
-zb .... rola a tela deixando a linha atual embaixo
-n ..... move o cursor para a próxima ocorrência da busca
-N ..... move o cursor para a ocorrência anterior da busca
-```
+| Comando | Descrição |
+|---------|-----------|
+| `gg` | vai para o início do arquivo |
+| `G` | vai para o final do arquivo |
+| `0` | vai para o início da linha |
+| `^` | vai para o primeiro caractere da linha (ignora espaços) |
+| `$` | vai para o final da linha |
+| `25gg` | salta para a linha 25 |
+| `''` | salta para a linha da última posição em que o cursor estava |
+| `fx` | para primeira ocorrência de x |
+| `tx` | para ir para uma letra antes de x |
+| `Fx` | para ir para ocorrência anterior de x |
+| `Tx` | para ir para uma letra após o último x |
+| `*` | próxima ocorrência de palavra sob o cursor |
+| ``` `' ``` | salta exatamente para a posição em que o cursor estava |
+| `gd` | salta para declaração de variável sob o cursor |
+| `gD` | salta para declaração (global) de variável sob o cursor |
+| `w` | move para o início da próxima palavra |
+| `W` | pula para próxima palavra (desconsidera hífens) |
+| `E` | pula para o final da próxima palavra (desconsidera hifens) |
+| `e` | move o cursor para o final da próxima palavra |
+| `zt` | rola a tela deixando a linha atual no topo |
+| `zz` | rola a tela deixando a linha atual no centro |
+| `zb` | rola a tela deixando a linha atual embaixo |
+| `n` | move o cursor para a próxima ocorrência da busca |
+| `N` | move o cursor para a ocorrência anterior da busca |
 
 Também é possível efetuar saltos e fazer algo mais ao mesmo tempo, a
 lista abaixo aponta algumas dessas possibilidades.
 
-```
-gv .... repete a última seleção visual e posiciona o cursor
-        neste local
-% ..... localiza parênteses correspondente
-o ..... letra `o', alterna extremos de seleção visual
-yG .... copia da linha atual até o final do arquivo
-d$ .... deleta do ponto atual até o final da linha
-gi .... entra em modo de inserção no ponto da última edição
-gf .... abre o arquivo sob o cursor
-```
+| Comando | Descrição |
+|---------|-----------|
+| `gv` | repete a última seleção visual e posiciona o cursor neste local |
+| `%` | localiza parênteses correspondente |
+| `o` | letra `o', alterna extremos de seleção visual |
+| `yG` | copia da linha atual até o final do arquivo |
+| `d$` | deleta do ponto atual até o final da linha |
+| `gi` | entra em modo de inserção no ponto da última edição |
+| `gf` | abre o arquivo sob o cursor |
 
 Para o Vim “*palavras-separadas-por-hífen*”
 são consideradas em separado, portanto se você usar, em modo normal

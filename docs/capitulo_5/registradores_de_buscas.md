@@ -12,6 +12,11 @@ claro o uso do registrador de buscas "/". Pode-se usar um registrador nomeado
 de 'a-z' assim:
 ```
 let @a="new"
-:%s/old/\=@a/g ...... substitui 'old' por new
-\=@a ................ faz referência ao registrador `a'
+:%s/old/\=@a/g
 ```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:%s/old/\=@a/g` | substitui 'old' por new |
+| `\=@a` | faz referência ao registrador `a' |
+

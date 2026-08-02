@@ -25,24 +25,25 @@ linha 3 tem o valor 450,
 Acompanhe os passos para a criação de uma macro permite fazer uma
 sequência de quantas linhas forem necessárias com o incremento proposto
 acima.
-```
-<Esc>  ......... sai do modo de inserção
-qa ............. inicia a macro
-yy ............. copia a primeira linha
-p .............. cola a linha copiada
-w .............. pula para o número `1'
-<Ctrl-a> ....... incrementa o número (agora 2)
-4w ............. avança 4 palavras até 150
-"ndw ........... apaga o `150' para o registrador "n
-i .............. entra em modo de inserção
-Ctrl-r = ....... abre o registrador de expressões
-Ctrl-r n + 150   insere dentro do registrador de expressões
-                 o registrador "n
-<Enter>  ........ executa o registrador de expressões
-<Esc> ........... sai do modo de inserção
-0 ............... vai para o começo da linha
-q ............... para a gravação da macro
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `<Esc>` | sai do modo de inserção |
+| `qa` | inicia a macro |
+| `yy` | copia a primeira linha |
+| `p` | cola a linha copiada |
+| `w` | pula para o número `1' |
+| `<Ctrl-a>` | incrementa o número (agora 2) |
+| `4w` | avança 4 palavras até 150 |
+| `"ndw` | apaga o `150' para o registrador "n |
+| `i` | entra em modo de inserção |
+| `Ctrl-r =` | abre o registrador de expressões |
+| `Ctrl-r n + 150` | insere dentro do registrador de expressões o registrador "n |
+| `<Enter>` | executa o registrador de expressões |
+| `<Esc>` | sai do modo de inserção |
+| `0` | vai para o começo da linha |
+| `q` | para a gravação da macro |
+
 Agora posicione o cursor no começo da linha e pressione `10@a`.
 
 Na seção [Mapeamento para Calcular Expressões](../capitulo_12/mapeamentos.md) há mais dicas
