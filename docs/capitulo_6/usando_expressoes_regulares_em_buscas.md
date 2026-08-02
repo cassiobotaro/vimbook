@@ -69,13 +69,13 @@ raciocínio, como “remover os dígitos”.
 s ......... substitua
 / ......... inicia padrão de busca
 \d ........ ao encontrar um dígito
-/ ......... subtituir por
+/ ......... substituir por
 vazio ..... exato, substituir por vazio
-/g ........ a expressão se torna gulosa
+/g ........ a substituição se torna global
 ```
-Por guloso - `/g` - se entende que ele pode e deve tentar achar mais de
-uma ocorrência do padrão de busca na mesma linha. Caso não seja gulosa,
-a expressão irá apenas casar com a primeira ocorrência em cada linha.
+A opção `g` — de *global* — faz a substituição valer para todas as
+ocorrências do padrão em cada linha. Sem ela, apenas a primeira
+ocorrência de cada linha é substituída.
 
 #### Classes *POSIX* para uso em Expressões Regulares
 

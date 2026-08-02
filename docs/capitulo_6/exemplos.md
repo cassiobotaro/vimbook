@@ -2,8 +2,8 @@ Busca usando alternativas:
 ```
 /end\(if\|while\|for\)
 ```
-Buscará ‘if’, ‘while’ e ‘for’.
-Observe que é necessário ‘escapar’ os caracteres `\(`, `\`| e `\)`, caso
+Buscará ‘endif’, ‘endwhile’ e ‘endfor’.
+Observe que é necessário ‘escapar’ os caracteres `\(`, `\|` e `\)`, caso
 contrário eles serão interpretados como caracteres comuns.
 
 Quebra de linha
@@ -20,7 +20,7 @@ Usando `\c` o Vim encontrará “*palavra*”,
 de configuração “vimrc” veja o capítulo
 [Como editar preferências no Vim](../capitulo_12/como_editar_preferencias_no_vim.md).
 ```
-set ignorecase .. ignora maiúsculas e minúsculas na bucsca
+set ignorecase .. ignora maiúsculas e minúsculas na busca
 set smartcase ... se busca contiver maiúsculas ele passa a
                   considerá-las
 set hlsearch .... mostra o que está sendo buscado em cores
@@ -44,8 +44,8 @@ Multilinha
 ```
 /Hello\_s\+World
 ```
-Buscará ‘World’, separado por qualquer número de espaços, incluindo
-quebras de linha. Buscará as três sequências:
+Buscará ‘Hello’ seguido de ‘World’, separados por qualquer número de
+espaços, incluindo quebras de linha. Buscará as três sequências:
 ```
 Hello World
 
@@ -70,7 +70,7 @@ só linha vazia.
 ```
 :%s/\(^\n\{2,}\)/\r/g
 ```
-Você pode criar um mapeamento e colocar no seu  /.vimrc
+Você pode criar um mapeamento e colocar no seu `~/.vimrc`
 ```
 map ,s <Esc>:%s/\(^\n\{2,}\)/\r/g<cr>
 ```

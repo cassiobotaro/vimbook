@@ -1,9 +1,11 @@
-Para colocar a última busca em uma substituição faça:
+Para colocar a última busca em uma substituição, pressione `Ctrl-r`
+seguido de `/` no lugar do padrão:
 ```
-:%s/Ctrl-r//novo/g
+:%s/<Ctrl-r>//novo/g
 ```
-A dupla barra corresponde ao ultimo padrão procurado, e portanto o
-comando abaixo fará a substituição da ultima busca por casinha:
+Mais simples ainda: deixar o padrão vazio já faz o Vim reaproveitar a
+última busca, e portanto o comando abaixo fará a substituição da última
+busca por casinha:
 ```
 :%s//casinha/g
 ```
