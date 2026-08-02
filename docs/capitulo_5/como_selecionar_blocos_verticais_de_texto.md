@@ -16,6 +16,6 @@ O comando acima quer dizer
 
 | Comando | Descrição |
 |---------|-----------|
-| ``para o registrador `a'`` | "a |
-| `copie` | `y` |
-| `o parágrafo atual` | `inner paragraph` |
+| `"a` | para o registrador `a' |
+| `y` | copie |
+| `ip` | o parágrafo atual (*inner paragraph*) |

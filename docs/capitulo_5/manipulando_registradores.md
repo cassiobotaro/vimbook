@@ -1,6 +1,6 @@
 ```
 :let @a=@_   ... limpa o registrador a
-:let @a=``'' ... limpa o registrador a
+:let @a=""   ... limpa o registrador a
 :let @a=@"   ... salva registrador sem nome *N*
 :let @*=@a   ... copia o registrador para o buffer de colagem
 :let @*=@:   ... copia o ultimo comando para o buffer de
@@ -19,7 +19,8 @@ Em modo de inserção
 | `<C-R>[0-9a-z]` | Insere registradores 0-9 e a-z |
 | `<C-R>%` | Insere o nome do arquivo |
 | `<C-R>=somevar` | Insere o conteúdo de uma variável |
-| `<C-R><C-A>` | Insere `Big-Words' veja seção 2.1 |
+| `<C-R><C-W>` | Insere a palavra sob o cursor |
+| `<C-R><C-A>` | Insere a WORD sob o cursor (delimitada por espaços) |
 
 Um exemplo: pré-carregando o nome do arquivo no registrador `n`.
 

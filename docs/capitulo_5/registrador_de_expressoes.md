@@ -34,7 +34,7 @@ w .............. pula para o número `1'
 <Ctrl-a> ....... incrementa o número (agora 2)
 4w ............. avança 4 palavras até 150
 "ndw ........... apaga o `150' para o registrador "n
-a .............. entra em modo de inserção
+i .............. entra em modo de inserção
 Ctrl-r = ....... abre o registrador de expressões
 Ctrl-r n + 150   insere dentro do registrador de expressões
                  o registrador "n
