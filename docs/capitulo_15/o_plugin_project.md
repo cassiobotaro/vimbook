@@ -23,7 +23,7 @@ Para criar uma entrada (acesso ao plugin) no menu do Gvim colocamos
 a seguinte linha no `vimrc`.
 
 ```
-amenu &Projetos.togle <Plug>ToggleProject<cr>
+amenu &Projetos.toggle <Plug>ToggleProject<cr>
 ```
 
 Pode-se definir um projeto manualmente assim:
@@ -34,6 +34,6 @@ nome=~/docs/ CD=. filter="*.txt" {
 }
 ```
 
-Ao recarregar o Vim pode-se abrir o *Plugin* `:Projetc` e
+Ao recarregar o Vim pode-se abrir o *Plugin* `:Project` e
 pressionar o atalho `\r` para que o mesmo gere um índice dos arquivos
 contidos no caminho indicado.

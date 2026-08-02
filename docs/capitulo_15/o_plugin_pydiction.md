@@ -19,7 +19,7 @@ No exemplo abaixo o dicionário é adicionado ao diretório `~/.vim/dict`
 
 ```VimL
 if has("autocmd")
-    autocmd FileType python set complete+=k/.vim/dict/pydiction isk+=.,(
+    autocmd FileType python set complete+=k~/.vim/dict/pydiction isk+=.,(
 endif " has("autocmd")
 ```
 
