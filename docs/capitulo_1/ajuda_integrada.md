@@ -10,10 +10,11 @@ Obs: No Vim quase todos os comandos podem ser abreviados, no caso
 pode ser abreviado até o ponto em que este nome mais curto não coincida
 com o nome de algum outro comando existente. Para chamar a ajuda do Vim
 pressione `Esc` e em seguida:
-```
-:help .... versão longa, ou
-:h ....... versão abreviada
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:help` | versão longa, ou |
+| `:h` | versão abreviada |
 
 ou simplesmente `<F1>`.
 

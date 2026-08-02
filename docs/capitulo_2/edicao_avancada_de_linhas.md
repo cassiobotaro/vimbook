@@ -21,13 +21,15 @@ fim (linha 10). Isto pode ser feito assim:
 :5,$ normal 0wd3w
 ```
 Explicando o comando acima:
-```
-:5,$ .... indica o intervalo que é da linha 5 até o fim '$'
-normal .. executa em modo normal
-0 ....... move o cursor para o começo da linha
-w ....... pula uma palavra
-d3w ..... apaga 3 palavras 'w'
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:5,$` | indica o intervalo que é da linha 5 até o fim '$' |
+| `normal` | executa em modo normal |
+| `0` | move o cursor para o começo da linha |
+| `w` | pula uma palavra |
+| `d3w` | apaga 3 palavras 'w' |
+
 Obs: É claro que um comando de substituição simples, como:
 ```
 :5,$s/é um texto//g
@@ -43,18 +45,20 @@ inserção). Por exemplo, suponha agora que deseja-se mudar a frase
 :5,$ normal 02winão ^[$ciwvelho
 ```
 Decompondo o comando acima temos:
-```
-:5,$ .... indica o intervalo que é da linha 5 até o fim '$'
-normal .. executa em modo normal
-0 ....... move o cursor para o começo da linha
-2w ...... pula duas palavras (vai para a palavra "é")
-i ....... entra no modo de inserção
-não  .... insere a palavra "não" seguida de espaço " "
-^[ ...... sai do modo de inserção (através de Ctrl-v seguido de Esc)
-$ ....... vai para o fim da linha
-ciw ..... apaga a última palavra ("novo") e entra em modo de inserção
-velho ... insere a palavra "velho" no lugar de "novo"
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:5,$` | indica o intervalo que é da linha 5 até o fim '$' |
+| `normal` | executa em modo normal |
+| `0` | move o cursor para o começo da linha |
+| `2w` | pula duas palavras (vai para a palavra "é") |
+| `i` | entra no modo de inserção |
+| `não` | insere a palavra "não" seguida de espaço " " |
+| `^[` | sai do modo de inserção (através de Ctrl-v seguido de Esc) |
+| `$` | vai para o fim da linha |
+| `ciw` | apaga a última palavra ("novo") e entra em modo de inserção |
+| `velho` | insere a palavra "velho" no lugar de "novo" |
+
 A combinação `Ctrl-v` é utilizada para inserir caracteres de controle na
 sua forma literal, prevenindo-se assim a interpretação destes neste
 exato momento.

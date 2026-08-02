@@ -12,13 +12,15 @@
 :reg         ... mostra o conteúdo de todos os registradores
 ```
 Em modo de inserção
-```
-<C-R>-   ....... Insere o registrador de pequenas deleções
-<C-R>[0-9a-z] .. Insere registradores 0-9 e a-z
-<C-R>%        .. Insere o nome do arquivo
-<C-R>=somevar .. Insere o conteúdo de uma variável
-<C-R><C-A> ..... Insere `Big-Words' veja seção 2.1
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `<C-R>-` | Insere o registrador de pequenas deleções |
+| `<C-R>[0-9a-z]` | Insere registradores 0-9 e a-z |
+| `<C-R>%` | Insere o nome do arquivo |
+| `<C-R>=somevar` | Insere o conteúdo de uma variável |
+| `<C-R><C-A>` | Insere `Big-Words' veja seção 2.1 |
+
 Um exemplo: pré-carregando o nome do arquivo no registrador `n`.
 
 coloque em seu `~/.vimrc`

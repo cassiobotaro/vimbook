@@ -14,9 +14,10 @@ este comando:
 ```
 Neste caso a linha corrente é apagada 'dd' e adicionada ao
 final do registrador "a".
-```
-"ayip .. copia o parágrafo atual para o registrador "a"
-"a ..... registrador a
-y ...... yank (copia)
-ip ..... inner paragraph (este parágrafo)
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `"ayip` | copia o parágrafo atual para o registrador "a" |
+| `"a` | registrador a |
+| `y` | yank (copia) |
+| `ip` | inner paragraph (este parágrafo) |

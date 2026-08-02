@@ -1,10 +1,12 @@
 O Vim, versão 7 ou superior, passa a ter um comando de ordenação que
 também permite a retirada de linhas duplicadas, tal como foi
 apresentado.
-```
-:sort u ... ordena e retira linhas duplicadas
-:sort n ... ordena numericamente
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:sort u` | ordena e retira linhas duplicadas |
+| `:sort n` | ordena numericamente |
+
 Obs: a ordenação numérica é diferente da ordenação alfabética se em um
 trecho contendo algo como:
 ```

@@ -2,22 +2,23 @@
 title: Usando "Expressões Regulares" em buscas
 ---
 
-```
-/ ........... inicia uma busca (modo normal)
-\%x69 ....... código da letra `i'
-/\%x69 ...... localiza a letra `i' - hexadecimal 069
-\d .......... localiza números
-[3-8] ....... localiza números de 3 até 8
-^ ........... começo de linha
-$ ........... final de linha
-\+ .......... um ou mais
-/^\d\+$ ..... localiza somente dígitos
-/\r$ ........ localiza linhas terminadas com ^M
-/^\s*$ ...... localiza linhas vazias ou contendo apenas espaços
-/^\t\+ ...... localiza linhas que iniciam com tabs
-\s .......... localiza espaços
-/\s\+$ ...... localiza espaços no final da linha
-```
+| Comando | Descrição |
+|---------|-----------|
+| `/` | inicia uma busca (modo normal) |
+| `\%x69` | código da letra `i' |
+| `/\%x69` | localiza a letra `i' - hexadecimal 069 |
+| `\d` | localiza números |
+| `[3-8]` | localiza números de 3 até 8 |
+| `^` | começo de linha |
+| `$` | final de linha |
+| `\+` | um ou mais |
+| `/^\d\+$` | localiza somente dígitos |
+| `/\r$` | localiza linhas terminadas com ^M |
+| `/^\s*$` | localiza linhas vazias ou contendo apenas espaços |
+| `/^\t\+` | localiza linhas que iniciam com tabs |
+| `\s` | localiza espaços |
+| `/\s\+$` | localiza espaços no final da linha |
+
 ### Evitando escapes ao usar Expressões regulares
 
 O Vim possui um modo chamado “*very magic*” para uso em
@@ -82,11 +83,13 @@ Ao fazermos substituições em textos poderemos nos deparar com erros,
 pois [a-z] não inclui caracteres acentuados, as classes
 *POSIX* são a solução para este problema, pois adequam o
 sistema ao idioma local, esta é a mágica implementada por estas classes.
-```
-[:lower:] ...... letras minúsculas incluindo acentos
-[:upper:] ...... letras maiúsculas incluindo acentos
-[:punct:] ...... ponto, virgula, colchete, etc
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `[:lower:]` | letras minúsculas incluindo acentos |
+| `[:upper:]` | letras maiúsculas incluindo acentos |
+| `[:punct:]` | ponto, virgula, colchete, etc |
+
 Para usar estas classes fazemos:
 ```
 :%s/[[:lower:]]/\U&/g
@@ -108,10 +111,12 @@ lower ... letras minúsculas
 Nem todas as classes *POSIX* conseguem pegar caracteres
 acentuados, portanto deve-se habilitar o destaque colorido para buscas
 usando:
-```
-:set hlsearch .... destaque colorido para buscas
-:set incsearch ... busca incremental
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:set hlsearch` | destaque colorido para buscas |
+| `:set incsearch` | busca incremental |
+
 Dessa forma podemos testar nossas buscas antes de fazer uma
 substituição.
 

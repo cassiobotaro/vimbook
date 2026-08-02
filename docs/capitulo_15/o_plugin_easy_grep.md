@@ -14,20 +14,20 @@ grep [opções] "padrão" /caminho
 
 Mas no caso do plugin *EasyGrep* fica assim:
 
-```
-:Grep foo  ........ procura pela palavra 'foo'
-:GrepOptions ...... exibe as opções de uso do plugin
-```
+| Comando | Descrição |
+|---------|-----------|
+| `:Grep foo` | procura pela palavra 'foo' |
+| `:GrepOptions` | exibe as opções de uso do plugin |
 
 O plugin pode ser obtido no seguinte
 [link](http://www.vim.org/scripts/script.php?script_id=2438#0.9).
 Já sua instalação é simples, basta copiar o arquivo obtido no link acima
 para a pasta:
 
-```
-~/.vim/plugin .......... no caso do linux
-~/vimfiles/plugin ...... no caso do windows
-```
+| Comando | Descrição |
+|---------|-----------|
+| `~/.vim/plugin` | no caso do linux |
+| `~/vimfiles/plugin` | no caso do windows |
 
 Um vídeo de exemplo (na verdade uma animação gif) pode ser visto
 [aqui](http://downloads.veryspeedy.net/vim/EasyGrep.gif).

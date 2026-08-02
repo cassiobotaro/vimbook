@@ -10,11 +10,13 @@ tempo, e isso pode ser feito utilizando *tab* ou *split*.
 A partir do Vim 7 foi disponibilizada a função de abrir arquivos em
 abas, portanto é possível ter vários buffers abertos em abas distintas e
 alternar entre elas facilmente. Os comandos para utilização das abas são:
-```
-:tabnew ........... Abre uma nova tab
-:tabprevious ...... Vai para a tab anterior
-:tabnext .......... Vai para a próxima tab
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:tabnew` | Abre uma nova tab |
+| `:tabprevious` | Vai para a tab anterior |
+| `:tabnext` | Vai para a próxima tab |
+
 ### Utilizando split horizontal
 
 Enquanto os comandos referentes a *tab* deixam a janela

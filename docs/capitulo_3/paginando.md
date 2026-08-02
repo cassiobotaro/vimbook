@@ -18,10 +18,10 @@ gd ....... pula para a definição de uma variável
 
 Observação: lembre-se
 
-```
-^ .... equivale a Ctrl
-^I ... equivale a Ctrl-I
-```
+| Comando | Descrição |
+|---------|-----------|
+| `^` | equivale a Ctrl |
+| `^I` | equivale a Ctrl-I |
 
 É possível abrir vários arquivos tipo `vim *.txt`. Editar algum arquivo,
 salvar e ir para o próximo arquivo com o comando à seguir:

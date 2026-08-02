@@ -18,16 +18,18 @@ onde
 <Ctrl-i>...... insere uma tabulação
 ```
 Explicando:
-```
-: ............ comando
-% ............ em todo arquivo
-s ............ substitua
-/ ............ padrão de busca
-\s ........... localiza espaço
-\{4,} ........ quatro vezes
-/ ............ inicio da substituição
-<Ctrl-i> ..... pressione Ctrl-i para inserir <Tab>
-/ ............ fim da substituição
-g ............ global
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| `:` | comando |
+| `%` | em todo arquivo |
+| `s` | substitua |
+| `/` | padrão de busca |
+| `\s` | localiza espaço |
+| `\{4,}` | quatro vezes |
+| `/` | inicio da substituição |
+| `<Ctrl-i>` | pressione Ctrl-i para inserir `<Tab>` |
+| `/` | fim da substituição |
+| `g` | global |
+
 [^1]: Em códigos Python por exemplo não se pode misturar espaços e tabulações

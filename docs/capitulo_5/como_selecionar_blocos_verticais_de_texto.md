@@ -13,8 +13,9 @@ em um registrador
 "ayip
 ```
 O comando acima quer dizer
-```
-para o registrador `a' ........  "a
-copie ......................  `y`
-o parágrafo atual ..........  `inner paragraph`
-```
+
+| Comando | Descrição |
+|---------|-----------|
+| ``para o registrador `a'`` | "a |
+| `copie` | `y` |
+| `o parágrafo atual` | `inner paragraph` |
