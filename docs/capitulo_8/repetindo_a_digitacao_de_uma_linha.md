@@ -9,6 +9,7 @@ No modo de inserção:
 | `Ctrl-y` | repete a linha acima |
 | `Ctrl-e` | repete a linha abaixo |
 | `Ctrl-x Ctrl-l` | repete linhas completas |
+
 O atalho **Ctrl-x Ctrl-l** só funcionará para uma linha
 semelhante, experimente digitar:
 ```
