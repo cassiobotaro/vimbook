@@ -79,10 +79,9 @@ W ..... pula para próxima palavra (desconsidera hífens)
 E ..... pula para o final da próxima palavra (desconsidera
         hifens)
 e ..... move o cursor para o final da próxima palavra
-zt .... movo o cursor para o topo da página
-zm .... move o cursor para o meio da página
-zz .... move a página de modo com que o cursor fique no
-        centro
+zt .... rola a tela deixando a linha atual no topo
+zz .... rola a tela deixando a linha atual no centro
+zb .... rola a tela deixando a linha atual embaixo
 n ..... move o cursor para a próxima ocorrência da busca
 N ..... move o cursor para a ocorrência anterior da busca
 ```
