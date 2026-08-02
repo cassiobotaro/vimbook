@@ -14,26 +14,27 @@ Você pode criar uma variável no vimrc assim:
 
 Pode também dizer ao Vim algo como...
 ```
-:let @d=strftime("c")<Enter>
+:let @d=strftime("%c")<Enter>
 ```
 Neste caso estou dizendo a ele que guarde na variável 'd',
-o valor da data do sistema `strftime("c")` ou então
+o valor da data do sistema `strftime("%c")` ou então
 cole isto no vimrc:
 ```
-let @d=strftime("c")<cr>
+let @d=strftime("%c")
 ```
 A diferença entre digitar diretamente um comando e adicioná-lo ao
 vimrc é que uma vez no vimrc o registrador em
 questão estará sempre disponível, observe também as sutis diferenças, um
 Enter inserido manualmente é apenas uma indicação de uma
-ação que você fará pressionando a tecla especificada, já o comando
-mapeado vira `<cr>`, veja ainda que no vimrc os dois
+ação que você fará pressionando a tecla especificada, e por isso não
+aparece na versão do vimrc; nos mapeamentos, por outro lado, o Enter
+precisa ser escrito como `<cr>`. Veja ainda que no vimrc os dois
 pontos `:` somem.
 
 Pode mapear tudo isto
 ```
-let @d=strftime("c")<cr>
-imap ,d <cr-r>d
+let @d=strftime("%c")
+imap ,d <c-r>d
 nmap ,d "dp
 ```
 As atribuições acima correspondem a:
@@ -48,7 +49,7 @@ E digitar ,d normalmente
 
 Desmistificando o strftime
 ```
-" d=dia m=mes Y=ano H=hora M=minuto c=data-completa
+" %d=dia %m=mes %Y=ano %H=hora %M=minuto %c=data-completa
 :h strftime ........ ajuda completa sobre o comando
 ```
 e inserir em modo normal assim:

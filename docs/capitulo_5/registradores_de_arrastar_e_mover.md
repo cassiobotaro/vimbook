@@ -9,7 +9,7 @@ mouse). Já o registrador
 ```
 é o denominado "área de transferência", normalmente utilizado para se
 transferir conteúdos entre aplicações—este registrador é preenchido, por
-exemplo, usando-se a típica combinação Ctrl-v encontrada em
+exemplo, usando-se a típica combinação Ctrl-c (copiar) encontrada em
 muitas aplicações. Finalmente, o registrador
 ```
 "~

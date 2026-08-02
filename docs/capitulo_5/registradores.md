@@ -19,9 +19,9 @@ múltipla) etc. Vamos aos detalhes.
 
 -   O registrador de expressões "=
 
--   Os registrador de seleção e "\*, "+ and " 
+-   Os registradores de seleção e de arrastar-e-soltar "\*, "+ e "\~ 
 
--   O registrador "o"
+-   O registrador buraco negro "\_
 
 -   registrador do último padrão de busca "/
 
