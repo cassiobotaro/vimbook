@@ -64,6 +64,7 @@ Explicação para o autocomando acima:
 | `\t` | tabulação |
 | `\+` | uma vez ou mais |
 | `/` | fim do padrão de buscas |
+
 Para evitar que este erro se repita, ou seja, que sejam adicionados no
 começo de linha espaços no lugar de tabulações adiciona-se ao \~/.vimrc
 ```

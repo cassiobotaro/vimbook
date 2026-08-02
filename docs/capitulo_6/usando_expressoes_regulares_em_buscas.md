@@ -61,6 +61,7 @@ Explicação do comando acima:
 | `{3}` | três vezes |
 | `/` | inicio da substituição |
 | `\1` | referencia o grupo 1 |
+
 Analisando o exemplo anterior, a linha de raciocínio foi a de “manter o
 texto entre os dígitos”, o que pode ser traduzido, em uma outra forma de
 raciocínio, como “remover os dígitos”.
@@ -79,6 +80,7 @@ Explicação do comando acima:
 | `/` | substituir por |
 | vazio | exato, substituir por vazio |
 | `/g` | a substituição se torna global |
+
 A opção `g` — de *global* — faz a substituição valer para todas as
 ocorrências do padrão em cada linha. Sem ela, apenas a primeira
 ocorrência de cada linha é substituída.
@@ -117,6 +119,7 @@ Explicando o comando acima:
 | `/` | inicia substituição |
 | `\U` | para maiúsculo |
 | `&` | corresponde ao que foi buscado |
+
 Nem todas as classes *POSIX* conseguem pegar caracteres
 acentuados, portanto deve-se habilitar o destaque colorido para buscas
 usando:

@@ -29,6 +29,7 @@ Para um trecho muito copiado coloque o seu conteúdo em um registrador:
 |---------|-----------|
 | `"ayy` | copia a linha atual para o registrador `a' |
 | `"ap` | cola o registrador `a' |
+
 Crie abreviações para erros comuns no seu arquivo de configuração
 (`~/.vimrc`):
 

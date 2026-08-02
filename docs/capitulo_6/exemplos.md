@@ -75,6 +75,7 @@ Outras substituições úteis:
 | `:%s/<[^>]*>//g` | apaga tags HTML/XML |
 | `:%g/^$/d` | apaga linhas vazias |
 | `:%s/^[\ \t]*\n//g` | apaga linhas vazias |
+
 Remover duas ou mais linhas vazias entre parágrafos diminuindo para uma
 só linha vazia.
 ```
