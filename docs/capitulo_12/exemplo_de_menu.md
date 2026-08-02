@@ -13,8 +13,9 @@ menu T&emas.fonte.Monaco :set gfn=monaco:h9<CR>
 menu T&emas.fonte.Crisp :set anti gfn=Crisp:h12<CR>
 menu T&emas.fonte.Liberation\ Mono :set gfn=Liberation\ Mono:h10<CR>
 ```
-O comando “*:update*” Atualiza o menu recém modificado.
-Quando o comando “*:amenu*” É usado sem nenhum argumento o
+Para que as alterações nos menus passem a valer, recarregue o arquivo de
+configuração com “*:source ~/.vimrc*”.
+Quando o comando “*:amenu*” é usado sem nenhum argumento o
 Vim mostra os menus definidos atualmente. Para listar todas as opções de
 menu para `Plugin` por exemplo digita-se no modo de comandos
 “*:amenu Plugin*”.

@@ -15,7 +15,7 @@ title: Funções
  inoremap <C-j> <Esc>:call search(BC_GetChar(), "W")<cr>a
  " Function for the above
  function! BC_AddChar(schar)
-	if exists("k")
+	if exists("b:robstack")
 		let b:robstack = b:robstack . a:schar
 	else
 		let b:robstack = a:schar
@@ -26,9 +26,11 @@ title: Funções
 	let b:robstack = strpart(b:robstack, 0, strlen(b:robstack)-1)
 	return l:char
  endfunction
+```
 
-'''Outra opção para fechamento de parênteses'''
+Outra opção para fechamento de parênteses:
 
+```VimL
  " Fechamento automático de parênteses
  imap { {}<left>
  imap ( ()<left>

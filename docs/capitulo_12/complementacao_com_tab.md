@@ -13,16 +13,16 @@ set complete=.,w,k
 "usa o tab em modo de inserção para completar palavras
 
 function! InsertTabWrapper(direction)
-   let col = col(``.'') - 1
-   if !col || getline(``.'')[col - 1] !~ '\k'
-      return ``>''
-   elseif ``d'' == a:direction
-      return ``>''
+   let col = col('.') - 1
+   if !col || getline('.')[col - 1] !~ '\k'
+      return "\<tab>"
+   elseif "backward" == a:direction
+      return "\<c-p>"
    else
-      return ``>''
+      return "\<c-n>"
    endif
 endfunction
 
-inoremap <tab> <c-r>=InsertTabWrapper (``d'')<cr>
-inoremap <s-tab> <c-r>=InsertTabWrapper (``d'')<cr>
+inoremap <tab> <c-r>=InsertTabWrapper ("forward")<cr>
+inoremap <s-tab> <c-r>=InsertTabWrapper ("backward")<cr>
 ```

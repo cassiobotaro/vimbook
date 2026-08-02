@@ -15,10 +15,9 @@ tecla ....... tecla mapeada
 <leader> .... normalmente \
 <bar> ....... | pipe
 <cword> ..... palavra sob o cursor
+<cWORD> ..... palavra sob o cursor, delimitada por espaços
 <cfile> ..... arquivo sob o cursor
-<cfile> ..... arquivo sob o cursor sem extensão
-<sfile> ..... conteúdo do arquivo sob o cursor
-<left> ...... salta um caractere para esquerda
+<sfile> ..... arquivo sendo carregado com :source
 <up> ........ equivale clicar em `seta acima'
 <m-f4> ...... a tecla alt (m) mais a tecla f4
 <c-f> ....... Ctrl-f
@@ -31,7 +30,7 @@ determinada operação e a mesma tecla pode desempenhar outra função
 qualquer em modo de inserção ou comando, veja:
 ```VimL
 " mostra o nome do arquivo com o caminho
-map <F2> :echo expand("%:p")
+map <F2> :echo expand("%:p")<cr>
 " insere um texto qualquer
 imap <F2> Nome de uma pessoa
 ```
@@ -66,10 +65,12 @@ inserir caracteres reservados do HTML usando uma barra invertida para
 proteger os mesmos, o Vim substituirá os “barra alguma coisa” pelo
 caractere correspondente.
 ```VimL
-inoremap \&amp; &amp;amp;
-inoremap \&lt; &amp;lt;
-inoremap \&gt; &amp;gt;
-inoremap \. &amp;middot;
+inoremap \& &amp;
+" <lt> representa o caractere `<', que sozinho iniciaria
+" o nome de uma tecla especial
+inoremap \<lt> &lt;
+inoremap \> &gt;
+inoremap \. &middot;
 ```
 O termo **inoremap** significa: em modo de inserção não
 remapear, ou seja ele mapeia o atalho e não permite que o mesmo seja
@@ -100,7 +101,7 @@ teclas `Shift-F11` limpe o “registrador” de buscas
 
 ### Destacar palavra sob o cursor
 ```VimL
-nmap <s-f> :let @/=">"<CR>
+nmap <s-f> :let @/=expand("<cword>")<CR>
 ```
 O atalho acima `s-f` corresponde a `Shift-f`.
 
@@ -126,26 +127,25 @@ substituídas por uma só linha em branco, vejamos como funciona:
 | Comando | Descrição |
 |---------|-----------|
 | `map` | mapear |
-| `,d` | atalho que quermos |
-| `<Esc>` | se estive em modo de inserção sai |
+| `,d` | atalho que queremos |
+| `<Esc>` | se estiver em modo de inserção, sai |
 | `:` | em modo de comando |
 | `%` | em todo o arquivo |
 | `s` | substitua |
+| `^` | começo de linha |
 | `\n` | quebra de linha |
-| `{2,}` | duas ou mais vezes |
+| `\{2,}` | duas ou mais vezes |
 | `\r` | trocado por \r Enter |
 | `g` | globalmente |
 | `<cr>` | confirmação do comando |
 
-As barras invertidas podem não ser usadas se o seu Vim estiver com a
-opção **magic** habilitada
+As barras invertidas dos quantificadores podem ser dispensadas usando o
+modo *very magic*, indicado por `\v` no início do padrão:
 ```
-:set magic
+map ,d :%s/\v(^\n{2,})/\r/g<cr>
 ```
-Por acaso este é um padrão portanto tente usar assim pra ver se funciona
-```
-map ,d :%s/\n{2,}/\r/g<cr>
-```
+Note que a opção **magic**, habilitada por padrão, não é suficiente para
+isso: com ela `\{2,}` ainda precisa da barra invertida.
 ### Mapeamento para Calcular Expressões
 
 Os mapeamentos abaixo exibem o resultado das quatro operações básicas

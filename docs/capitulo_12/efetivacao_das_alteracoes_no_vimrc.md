@@ -8,6 +8,6 @@ configuração seja instruído explicitamente:
 
 | Comando | Descrição |
 |---------|-----------|
-| `:source ~/vimrc` | se estiver no GNU/Linux |
+| `:source ~/.vimrc` | se estiver no GNU/Linux |
 | `:source ~/_vimrc` | caso use o Windows |
 | `:so arquivo` | `so' é uma abreviação de `source' |
