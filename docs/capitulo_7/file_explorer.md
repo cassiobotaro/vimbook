@@ -7,11 +7,11 @@ Para abrir o gerenciador de arquivos do Vim use:
 :Vex ............ abre o file explorer verticalmente
 :Sex ............ abre o file explorer em nova janela
 :Tex ............ abre o file explorer em nova aba
-:E .............. abre o file explorer na janela atual
+:Ex ............. abre o file explorer na janela atual
 após abrir chame a ajuda <F1>
 ```
-Para abrir o arquivo sob o cursor em nova janela coloque a linha abaixo
-no seu `~/.vimrc`
+O `:Vex` abre a janela à esquerda. Para que ela abra à direita, coloque a
+linha abaixo no seu `~/.vimrc`
 ```
 let g:netrw_altv = 1
 ```
