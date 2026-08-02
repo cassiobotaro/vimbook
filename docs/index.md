@@ -27,4 +27,8 @@ Este trabalho está em constante aprimoramento e é fruto da colaboração de vo
 [Veja como contribuir para o projeto](https://github.com/cassiobotaro/vimbook/blob/main/CONTRIBUTING.md)
 
 !!! note
-    Este livro é apenas a transcrição do [livro original](https://web.archive.org/web/20120525202225/http://code.google.com/p/vimbook/) para [markdown](https://spec.commonmark.org/) e posteriormente utilizando [zensical](https://zensical.org/). Uma lista completa com os autores originais e aqueles que ajudaram na transcrição pode ser encontrada em: [AUTHORS](https://github.com/cassiobotaro/vimbook/blob/main/AUTHORS)
+    Este livro foi escrito em 2009 por um grupo de voluntários. O [livro original](https://web.archive.org/web/20120525202225/http://code.google.com/p/vimbook/) foi transcrito para [markdown](https://spec.commonmark.org/) e esta versão, publicada com o [zensical](https://zensical.org/), é mantida por Cássio Botaro.
+
+    O texto vem sendo revisado desde então: comandos que a transcrição deixou incorretos foram corrigidos, links que morreram nos últimos quinze anos foram atualizados e algumas páginas foram reorganizadas. Por isso esta versão diverge do original em vários pontos, sempre de propósito.
+
+    Os autores originais e quem ajudou na transcrição estão em [AUTHORS](https://github.com/cassiobotaro/vimbook/blob/main/AUTHORS).
