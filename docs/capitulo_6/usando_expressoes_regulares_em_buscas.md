@@ -134,7 +134,7 @@ substituição.
 
 Para aprender mais sobre Expressões Regulares leia:
 
--   [Guia sobre Expressões Regulares](http://guia-er.sourceforge.net)
+-   [Guia sobre Expressões Regulares](https://aurelio.net/regex/guia/)
 
 -   :help regex
 

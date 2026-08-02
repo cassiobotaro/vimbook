@@ -12,4 +12,4 @@ por Bram Moolenaar em seu artigo.
 
 [^1]: http://www.moolenaar.net
 
-[^2]: http://br-linux.org/linux/7-habitos-da-edicao-de-texto-efetiva
+[^2]: https://br-linux.org/linux/7-habitos-da-edicao-de-texto-efetiva

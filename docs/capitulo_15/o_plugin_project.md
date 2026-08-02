@@ -3,7 +3,7 @@ title: O Plugin Project
 ---
 
 O plugin project acessível através deste
-[link](http://www.vim.org/scripts/script.php?script_id=69)
+[link](https://www.vim.org/scripts/script.php?script_id=69)
 cria toda uma estrutura de gerenciamento de projetos.
 Para programadores é uma funcionalidade extremamente necessária.
 Costuma-se trabalhar com vários arquivos da mesma família ("extensão"),

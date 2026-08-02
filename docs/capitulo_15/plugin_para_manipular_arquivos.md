@@ -1,4 +1,5 @@
 Acesse o plugin neste
-[link](http://www.vim.org/scripts/script.php?script_id=2337#0.1.9).
-Para entender este plugin acesse um vídeo
-[neste link](http://www.screencast.com/t/P6nJkJ0DE)
+[link](https://www.vim.org/scripts/script.php?script_id=2337#0.1.9).
+O vídeo de demonstração que acompanhava o plugin não está mais disponível,
+mas o código e a documentação estão no
+[repositório do plugin](https://github.com/kana/vim-ku).

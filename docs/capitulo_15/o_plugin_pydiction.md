@@ -23,4 +23,4 @@ if has("autocmd")
 endif " has("autocmd")
 ```
 
-Pode-se obter o plugin  [neste link](http://www.vim.org/scripts/script.php?script_id=850).
+Pode-se obter o plugin  [neste link](https://www.vim.org/scripts/script.php?script_id=850).

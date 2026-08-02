@@ -1,17 +1,17 @@
 
--   [Best of Vim Tips](http://www.rayninfo.co.uk/vimtips.html)
+-   [Best of Vim Tips](https://web.archive.org/web/20260603225804/http://www.rayninfo.co.uk/vimtips.html)
 
 -   [Vim Resources](https://github.com/magnunleno/vim-resources)
 
--   [Vim Bootstrap](http://vim-bootstrap.com/)
+-   [Vim Bootstrap](https://vim-bootstrap.com/)
 
--   [Vim para Noobs](http://woliveiras.com.br/vimparanoobs/)
+-   [Vim para Noobs](https://leanpub.com/vimparanoobs/)
 
--   [Awesome Vim](https://github.com/divad12/vim-awesome)
+-   [Awesome Vim](https://github.com/vim-awesome/vim-awesome)
 
--   [Aurelio .vimrc](http://aurelio.net/vim/vimrc-ivan.txt)
+-   [Aurelio .vimrc](https://aurelio.net/vim/vimrc-ivan.txt)
 
--   [Viva o Tux](http://vivaotux.blogspot.com.br/search/label/vim)
+-   [Viva o Tux](https://vivaotux.blogspot.com/search/label/vim)
 
--   [Original Latex Fonts](http://www.tug.dk/FontCatalogue/seriffonts.html)
+-   [Original Latex Fonts](https://tug.org/FontCatalogue/seriffonts.html)
 

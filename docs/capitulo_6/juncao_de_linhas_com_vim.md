@@ -2,7 +2,7 @@
 title: Junção de linhas com Vim
 ---
 
-Fonte: [dicas-l da unicamp](http://www.dicas-l.com.br/dicas-l/20081228.php)
+Fonte: [dicas-l da unicamp](https://www.dicas-l.com.br/arquivo/juncao_de_linhas_com_vim.php)
 Colaboração: Rubens Queiroz de Almeida
 
 Recentemente precisei combinar, em um arquivo, duas linhas consecutivas.

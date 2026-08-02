@@ -6,7 +6,7 @@ title: Instalação do vim
 
 Há uma versão gráfica do Vim disponível para vários sistemas
 operacionais, incluindo o Windows; esta versão pode ser encontrada no
-[site oficial](http://www.vim.org/download.php).
+[site oficial](https://www.vim.org/download.php).
 Para instalá-lo basta baixar o instalador no link indicado e dispará-lo
 com um duplo clique (este procedimento requer privilégios de
 administrador).
@@ -38,14 +38,14 @@ distribuição. A forma de instalação preferível depende da distribuição:
 -   Não estar disponível no repositório da distribuição – cenário
     *muito* improvável, mas nas sua ocorrência o Vim pode
     ser instalado através da compilação do código-fonte; basta seguir as
-    instruções do [site oficial](http://www.vim.org/download.php).
+    instruções do [site oficial](https://www.vim.org/download.php).
 
-    [^1]: Debian GNU/Linux - <http://www.debian.org/index.pt.html>
+    [^1]: Debian GNU/Linux - <https://www.debian.org/index.pt.html>
 
     [^2]: Recomenda-se também instalar a documentação em HTML do Vim: `apt-get install vim-doc`
 
     [^3]: Para ubuntu e Debian
 
-    [^4]: O Python (<http://www.python.org>) é uma linguagem de programação orientada a objetos muito comum no meio profissional e acadêmico
+    [^4]: O Python (<https://www.python.org>) é uma linguagem de programação orientada a objetos muito comum no meio profissional e acadêmico
 
 

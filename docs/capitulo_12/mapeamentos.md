@@ -162,7 +162,7 @@ imap <s-f1> <space><esc>"myBEa=<c-r>=<c-r>m<enter><del>
 Para efetuar cálculos com maior precisão e também resolver problemas
 como potências raízes, logaritmos pode-se mapear comandos externos, como
 a biblioteca matemática da linguagem de programação Python.
-[Neste link](http://vim.wikia.com/wiki/Scientific_calculator)
+[Neste link](https://vim.fandom.com/wiki/Scientific_calculator)
 há um manual que ensina a realizar este procedimento, ou acesse o
 capítulo [Uma calculadora diferente](../capitulo_2/uma_calculadora_diferente.md).
 

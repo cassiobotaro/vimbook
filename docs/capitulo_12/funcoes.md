@@ -51,7 +51,7 @@ set statusline+=[POS=%04l,%04v][%p%%][LEN=%L]
 set laststatus=2
 ```
 Caso este código não funcione acesse [este
-link](http://vim.wikia.com/wiki/Writing_a_valid_statusline) 
+link](https://vim.fandom.com/wiki/Writing_a_valid_statusline) 
 
 ### Rolar outra janela
 
@@ -79,7 +79,7 @@ Esta função é acionada com o atalho *Alt-⬆* e
 ### Função para numerar linhas
 
 No site wikia há um código de função para [numerar
-linhas](http://vim.wikia.com/wiki/Number_a_group_of_lines) 
+linhas](https://vim.fandom.com/wiki/Number_a_group_of_lines) 
 
 ### Função para trocar o esquema de cores
 ```VimL

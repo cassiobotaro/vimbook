@@ -4,7 +4,7 @@ Um Wiki para o Vim
 É inegável a facilidade que um Wiki nos traz, os documentos são
 indexados e linkados de forma simples. Já pesquisei uma porção de Wikis
 e, para uso pessoal recomendo o Potwiki. O “link” do Potwiki é
-[este](http://www.vim.org/scripts/script.php?script_id=1018). 
+[este](https://www.vim.org/scripts/script.php?script_id=1018). 
 O Potwiki é um Wiki completo para o Vim, funciona localmente embora
 possa ser aberto remotamente via ssh[^1]. Para criar um “link” no
 Potwiki basta usar WikiNames, são nomes iniciados com letra maiúscula e
