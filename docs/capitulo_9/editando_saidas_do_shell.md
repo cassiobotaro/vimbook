@@ -32,5 +32,5 @@ comando `!!` corresponde ao último comando, e neste caso a saída
 corresponde a uma lista de arquivos que contém o padrão a ser editado
 faz-se:
 ```
-vim ${!!}
+vim $(!!)
 ```
