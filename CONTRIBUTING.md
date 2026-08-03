@@ -26,13 +26,9 @@ Caso queira apenas sugerir alguma modificação no conteúdo, vá em [issues](..
 
 Uma outra maneira de contribuir, é editando você mesmo os arquivos através do github.
 
-Acesse a pasta [`docs/`](docs) e escolha o arquivo que irá editar.
+O caminho mais curto começa no próprio livro: abra a página onde está o erro em <https://vimbook.com.br/> e clique no ícone de lápis "Editar esta página", no canto superior direito do texto. Ele leva direto ao arquivo certo, já aberto no editor do GitHub.
 
-![image](https://user-images.githubusercontent.com/3127847/183785905-ee102868-b0e2-4f7d-ae1d-a105a74bb5f3.png)
-
-Após escolher o arquivo, clique no lápis que aparece do lado direito para iniciar a edição do arquivo.
-
-![image](https://user-images.githubusercontent.com/3127847/183786079-a8855609-db60-42b0-9972-54f48b370867.png)
+Vale começar por aí em vez de procurar o arquivo na pasta [`docs/`](docs): os nomes não seguem a ordem de leitura, que fica no `nav` do arquivo `zensical.toml`. Então a página que você viu em terceiro lugar no livro dificilmente será a terceira da listagem.
 
 Faça as alterações necessárias e depois siga até o fim da página.
 
