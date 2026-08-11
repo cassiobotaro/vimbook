@@ -31,4 +31,4 @@ Este trabalho está em constante aprimoramento e é fruto da colaboração de vo
 
     O texto vem sendo revisado desde então: comandos que a transcrição deixou incorretos foram corrigidos, links que morreram nos últimos quinze anos foram atualizados e algumas páginas foram reorganizadas. Por isso esta versão diverge do original em vários pontos, sempre de propósito.
 
-    Os autores originais e quem ajudou na transcrição estão em [AUTHORS](https://github.com/cassiobotaro/vimbook/blob/main/AUTHORS).
+    Quem contribuiu com o livro, em cada uma de suas fases, está em [AUTHORS](https://github.com/cassiobotaro/vimbook/blob/main/AUTHORS).
