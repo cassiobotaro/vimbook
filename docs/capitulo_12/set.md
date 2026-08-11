@@ -18,9 +18,6 @@ ou digitados como comandos:
 | `set ts=4` | simplificação de `tabstop' |
 | `set shiftwidth=4` | quantidade de espaços de uma tabulação |
 | `set sw=4` | simplificação de `shiftwidth' |
-| `syntax on` | habilita cores |
-| `syn on` | simplificação de `syntax' |
-| `colorscheme tema` | esquema de cores `syntax highlight' |
 | `set autochdir` | configura o diretório de trabalho |
 | `set hls` | destaca com cores os termos procurados |
 | `set incsearch` | habilita a busca incremental |
@@ -44,6 +41,16 @@ ou digitados como comandos:
 | `set columns=88` | deixa a janela com 88 colunas |
 | `set mousemodel=popup` | exibe o conteúdo de folders e sugestões spell |
 | `set viminfo=%,'50,\"100,/100,:100,n` | armazena opções (buffers) |
+
+Nem tudo que costuma acompanhar o *set* no `.vimrc` é uma opção. As cores,
+por exemplo, se ligam por comandos próprios, que não aceitam `set` na frente.
+
+| Comando | Descrição |
+|---------|-----------|
+| `syntax on` | habilita cores |
+| `syn on` | simplificação de `syntax' |
+| `colorscheme tema` | esquema de cores `syntax highlight' |
+| `colo tema` | simplificação de `colorscheme' |
 
 Se ao iniciar o vim obtivermos mensagens de erros e houver dúvida se o
 erro é no vim ou em sua configuração, pode-se iniciá-lo sem que o mesmo
