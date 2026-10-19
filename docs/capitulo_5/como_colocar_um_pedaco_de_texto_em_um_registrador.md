@@ -18,7 +18,7 @@ Em modo de inserção faz-se:
 ```
 Ctrl-r a
 ```
-Há situações em que se tem caracteres não "*ascii* " que são complicados
+Há situações em que se tem caracteres não "*ascii*" que são complicados
 de se colocar em uma busca ou substituição, nestes casos pode-se usar os
 seguintes comandos:
 
