@@ -23,5 +23,5 @@ múltipla) etc. Vamos aos detalhes.
 
 -   O registrador buraco negro "\_
 
--   registrador do último padrão de busca "/
+-   O registrador do último padrão de busca "/
 
