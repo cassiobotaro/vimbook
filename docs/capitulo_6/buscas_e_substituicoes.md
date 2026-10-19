@@ -21,4 +21,4 @@ A busca acima localiza ‘casa’ mas não
 ‘casamento’. Em expressões regulares, `\<` e `\>` são
 representadas por `\b`, que representa, por sua vez, borda de palavras.
 Ou seja, `casa` e `casa!` seriam
-localizado, visto que sinais de pontuação não fazem parte da palavra.
+localizadas, visto que sinais de pontuação não fazem parte da palavra.
