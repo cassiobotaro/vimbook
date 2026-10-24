@@ -17,4 +17,4 @@ Para ver o plugin em ação acesse este
  [este link](https://www.vim.org/scripts/script.php?script_id=1984),
 para instalá-lo basta copiar para o diretório `~/.vim/plugin`.
 
-[^1]: Editor de textos da Apple com muitos recursos
+[^1]: Editor de textos para MacOS com muitos recursos.
