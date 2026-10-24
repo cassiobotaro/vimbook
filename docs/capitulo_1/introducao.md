@@ -54,7 +54,7 @@ Ele é capaz de reconhecer mais de 500 sintaxes de linguagens de
 programação e marcação, possui mapeamento para teclas, macros,
 abreviações, busca por *Expressões Regulares*[^2], entre outras facilidades.
 
-A figura 1.1 mostra o vim sendo usando para editar o
+A figura 1.1 mostra o vim sendo usado para editar o
 arquivo desse livro sobre vim.
 
 
