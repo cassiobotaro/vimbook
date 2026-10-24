@@ -13,7 +13,7 @@ e quer que ele fique assim:
 #include "stdlib.h"
 ```
 Não é possível simplesmente executar repetidas vezes um comando do Vim,
-pois é preciso incluir texto tanto no começo quanto no fim da linha? É
+pois é preciso incluir texto tanto no começo quanto no fim da linha. É
 necessário mais de um comando para isso. É aí que entram as macros.
 Pode-se gravar até 26 macros, já que elas são guardadas nos registradores do
 Vim, que são identificados pelas letras do alfabeto. Para começar a
