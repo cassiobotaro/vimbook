@@ -25,8 +25,8 @@ textos.
 Qualquer tarefa de aprendizado requer um certo esforço. Todo programa
 introduz novos conceitos, opções e configurações que transformam o
 *modus operandi* do usuário. Em princípio, quanto maior o esforço, maior
-o benefício. Quem quer apenas escrever textos, pode-se contentar com um
-editor básico, cuja as únicas opções são digitar o texto, abrir e salvar
+o benefício. Quem quer apenas escrever textos pode-se contentar com um
+editor básico, cujas únicas opções são digitar o texto, abrir e salvar
 o documento ou pode utilizar um editor que permita pré-configurar ações,
 formatar o conteúdo, revisar a ortografia, etc, além da ação básica que
 é escrever textos.
