@@ -16,7 +16,7 @@ Estando no modo normal, digita-se:
 
 Outra possibilidade é utilizar a tecla `<Insert>` para entrar no modo de
 inserção de texto antes do caractere atual, ou seja, o mesmo que a tecla
-`i`. Uma vez no modo de inserção, a tecla `<Insert>` permite alternar o
+`i`. Uma vez que no modo de inserção a tecla `<Insert>` permite alternar o
 modo de digitação de inserção simples de caracteres para substituição
 de caracteres.
 
