@@ -1,12 +1,12 @@
--   Estando em *modo de inserção* pressionar
-    `j` na intenção de rolar o documento, neste caso
-    estaremos inserindo simplesmente a letra `j`.
+-   No *modo de inserção* pressionar `j` apenas insere essa letra no texto.
+    Para mover o cursor uma linha para baixo,
+    pressione `Esc` para voltar ao *modo normal* e, em seguida, pressione `j`.
 
 -   Estando em *modo normal* acionar acidentalmente o `<Caps Lock>` e tentar
     rolar o documento usando a letra `J`, o efeito é a junção das linhas, aliás um ótimo recurso quando a intenção é de fato esta.
 
--   Em *modo normal* tentar digitar *um número seguido de uma palavra* e ao
-    perceber que nada está sendo digitado, iniciar o modo de inserção,
+-   Em *modo normal* se digitar *um número seguido de uma palavra* e 
+    perceber que nada está sendo digitado, e iniciar o modo de inserção,
     digitando por fim o que se queria, o resultado é que o número que
     foi digitado inicialmente vira um quantificador para o que se
     digitou ao entrar no modo de inserção. A palavra aparecerá repetida
