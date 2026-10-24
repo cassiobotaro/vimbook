@@ -3,7 +3,7 @@ title: Modos de operação
 ---
 
 A tabela abaixo mostra uma referência rápida para os modos de operação
-do Vim, a seguir mais detalhes sobre cada um dos modos.
+do Vim, e, a seguir, mais detalhes sobre cada um dos modos.
 
 |Modo|Descrição|Atalho|
 |----|---------|------|
@@ -12,12 +12,12 @@ do Vim, a seguir mais detalhes sobre cada um dos modos.
 |Visual| Seleção de blocos verticais e linhas inteiras |V, v, Ctrl-v|
 |Comando| Uma verdadeira linguagem de programação | `<esc>`: |
 
-Em oposição à esmagadora maioria dos editores o Vim é um editor que
+Em oposição à esmagadora maioria dos editores, o Vim é um editor que
 trabalha com “modos de operação (modo de inserção, modo normal, modo
-visual e etc)”, o que a princípio dificulta a vida do iniciante, mas
+visual etc.)”, o que a princípio dificulta a vida do iniciante, mas
 abre um universo de possibilidades, pois ao trabalhar com modos
-distintos uma tecla de atalho pode ter vários significados,
-exemplificando: Em modo normal pressionar `dd` apaga a
+distintos uma tecla de atalho pode ter vários significados.
+Exemplificando: Em modo normal pressionar `dd` apaga a
 linha atual, já em modo de inserção ele irá se comportar como se você
 estivesse usando qualquer outro editor, ou seja, irá inserir duas vezes
 a letra `d`. Em modo normal pressionar a tecla
