@@ -10,6 +10,13 @@ Este trabalho está em constante aprimoramento e é fruto da colaboração de vo
 ![GVim editando um arquivo .vimrc](docs/imgs/gvim.png "GVim editando um arquivo .vimrc")
 
 
+# Baixe o livro
+
+- [PDF](https://github.com/cassiobotaro/vimbook/releases/latest/download/vimbook.pdf)
+- [EPUB](https://github.com/cassiobotaro/vimbook/releases/latest/download/vimbook.epub), pensado para leitores de tinta eletrônica (*e-ink*)
+
+Todas as versões estão na [página de releases](https://github.com/cassiobotaro/vimbook/releases).
+
 # Regras para contribuição
 
 [Veja como contribuir para o projeto](https://github.com/cassiobotaro/vimbook/blob/main/CONTRIBUTING.md)

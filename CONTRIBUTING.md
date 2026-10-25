@@ -76,6 +76,25 @@ zensical serve
 
 O site fica disponível em <http://localhost:8000> e recarrega automaticamente a cada alteração.
 
+## Gerando o PDF e o EPUB
+
+O livro também é distribuído em PDF e EPUB, gerados das mesmas páginas de `docs/`, na ordem do `nav`. Para gerá-los localmente é preciso o [pandoc](https://pandoc.org/installing.html) 3.8 ou mais novo e, para o PDF, o [typst](https://github.com/typst/typst/releases):
+
+```
+python scripts/build_ebook.py
+```
+
+Os arquivos ficam em `_book/vimbook.pdf` e `_book/vimbook.epub`.
+
+Para publicar uma versão, crie e envie uma tag começando com `v`:
+
+```
+git tag v1.0
+git push origin v1.0
+```
+
+O workflow `.github/workflows/ebook.yml` gera os dois arquivos e os publica numa *release* do GitHub, de onde saem os links de download do README e do site. Rodado à mão pela aba *Actions*, o mesmo workflow só gera os arquivos e os deixa para download na própria execução, sem publicar nada.
+
 ## Convenções utilizadas e dicas
 
 * Não utilize emojis de forma textual `:emoji:`, copie do [emojipédia](https://emojipedia.org/pt) ao invés;

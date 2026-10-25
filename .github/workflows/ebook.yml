@@ -1,0 +1,69 @@
+name: Publish book as PDF and EPUB
+# Uma tag v* (git tag v1.0 && git push origin v1.0) gera o PDF e o EPUB e
+# os publica numa release do GitHub. Rodado à mão pela aba Actions, só
+# gera os arquivos e os deixa como artefato da execução, para conferir.
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  PANDOC_VERSION: '3.12.1'
+  TYPST_VERSION: '0.14.2'
+
+jobs:
+  build:
+    name: Build PDF and EPUB
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+
+      # O pandoc do apt é antigo demais (o script usa opções do 3.8+).
+      - name: Install pandoc
+        run: |
+          curl -fsSL -o "$RUNNER_TEMP/pandoc.deb" \
+            "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-1-amd64.deb"
+          sudo dpkg -i "$RUNNER_TEMP/pandoc.deb"
+          pandoc --version | head -1
+
+      - name: Install typst
+        run: |
+          curl -fsSL "https://github.com/typst/typst/releases/download/v${TYPST_VERSION}/typst-x86_64-unknown-linux-musl.tar.xz" \
+            | tar -xJ -C "$RUNNER_TEMP"
+          sudo mv "$RUNNER_TEMP/typst-x86_64-unknown-linux-musl/typst" /usr/local/bin/
+          typst --version
+
+      - name: Build book
+        run: |
+          if [ "$GITHUB_REF_TYPE" = tag ]; then
+            python scripts/build_ebook.py --versao "$GITHUB_REF_NAME"
+          else
+            python scripts/build_ebook.py
+          fi
+
+      - name: Publish release
+        if: github.ref_type == 'tag'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            _book/vimbook.pdf _book/vimbook.epub \
+            --title "Vimbook $GITHUB_REF_NAME" --generate-notes
+
+      - name: Upload files
+        if: github.ref_type != 'tag'
+        uses: actions/upload-artifact@v7
+        with:
+          name: vimbook
+          path: |
+            _book/vimbook.pdf
+            _book/vimbook.epub
