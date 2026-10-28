@@ -4,7 +4,7 @@ title: Edite vários arquivos de uma só vez
 
 O Vim pode abrir vários arquivos que contenham um determinado padrão. Um
 exemplo seria abrir dezenas de arquivos HTML e trocar a ocorrência
-`bgcolor="ffffff"` Para `bgcolor="eeeeee"` Usaríamos a seguinte
+`bgcolor="ffffff"` para `bgcolor="eeeeee"` Usaríamos a seguinte
 sequência de comandos:
 
 | Comando | Descrição |
