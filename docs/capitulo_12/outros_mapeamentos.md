@@ -33,8 +33,8 @@ substituição!
 "Abre o vim explorer
 map <F6> <Esc>:vne .<cr><bar>:vertical resize -30<cr><bar>:set nonu<cr>
 ```
-Podemos usar “Expressões Regulares[^1]” em buscas do Vim veja um exemplo
-para retirar todas as tags HTML
+Podemos usar “Expressões Regulares[^1]” em buscas do Vim. Veja um exemplo
+para retirar todas as tags HTML:
 ```VimL
 "mapeamento para retirar tags HTML com Ctrl-Alt-t
 nmap <C-M-t> :%s/<[^>]*>//g <cr>
