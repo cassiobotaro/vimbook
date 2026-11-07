@@ -52,7 +52,7 @@ pelo próprio Vim através do comando mkspell:
     `pt_BR.aff` e `pt_BR.dic`
 
 2.  O comando mkspell é então executado como:
-```
+```vim
 :mkspell pt pt_BR
 ```
 O Vim então gera um arquivo de dicionário da forma
@@ -61,7 +61,7 @@ caracteres do sistema, normalmente `utf-8` ou `latin1`; caso se queira
 um dicionário em uma codificação diferente da padrão será preciso
 ajustar a variável encoding antes da invocação do comando
 mkspell:
-```
+```vim
 :set encoding=<codificação>
 :mkspell pt pt_BR
 ```
@@ -72,7 +72,7 @@ não de codificações diferentes—deve ser copiado para o subdiretório
 spell/ dentro de qualquer caminho (diretório) que o Vim
 “enxergue”. A lista de caminhos lidos pelo Vim encontra-se na variável
 runtimepath, que pode ser inspecionada através de:
-```
+```vim
 :set runtimepath
 ```
 É suficiente então copiar o dicionário `pt.<codificação>.spl` para o
