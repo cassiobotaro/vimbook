@@ -11,13 +11,13 @@ estar instalada no sistema em que se deseja usar seus recursos. Deve-se
 testar se a versão do Vim tem suporte ao Python — procure por `+python3`
 na saída de `:version` — em seguida colocam-se os mapeamentos no
 `.vimrc`.
-```
+```vim
 :command! -nargs=+ Calc :py3 print(<args>)
 :py3 from math import *
 ```
 Feito isto pode-se usar o comando `:Calc` como visto
 abaixo:
-```
+```vim
 :Calc pi
 :Calc cos(30)
 :Calc pow(5,3)
