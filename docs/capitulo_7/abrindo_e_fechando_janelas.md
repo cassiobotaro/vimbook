@@ -7,6 +7,6 @@
 | `Ctrl-w-q` | Fecha a janela atual (:quit) |
 | `Ctrl-w-c` | Fecha a janela atual (:close) |
 
-Lembrando que o Vim considera todos os arquivos como “buffers” portanto
+Lembrando que o Vim considera todos os arquivos como “buffers”, portanto
 quando um arquivo é fechado, o que está sendo fechado é a visualização
 do mesmo, pois ele continua aberto no “buffer”.
