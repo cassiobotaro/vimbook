@@ -33,7 +33,7 @@ ou seja, a letra `k` é usada para subir no texto, a letra
 para a esquerda e a letra `l` para mover-se para a direita.
 A ideia é que se consiga ir para qualquer lugar do texto sem tirar as
 mãos do teclado, sendo portanto alternativas para as setas de
-movimentação usuais do teclado. Ao invés de manter os quatro dedos sobre
+movimentação usuais do teclado. Em vez de manter os quatro dedos sobre
 H, J, K e L, é aconselhável manter o padrão de digitação com o indicador
 da mão esquerda sobre a tecla F e o da mão direita sobre a letra J,
 sendo que seu indicador da mão direita vai alternar entre a tecla J e H
@@ -51,7 +51,7 @@ onde `n` corresponde ao número da linha. Para retornar ao modo normal
 pressione `<Esc>` ou use `Ctrl-[` (`^[`).
 
 No vim é possível realizar diversos tipos de movimentos, também
-conhecidos como saltos no documento. A lista abaixo aponta o comandos de
+conhecidos como saltos no documento. A lista abaixo aponta os comandos de
 salto típicos.
 
 | Comando | Descrição |
@@ -72,7 +72,7 @@ salto típicos.
 | `gd` | salta para declaração de variável sob o cursor |
 | `gD` | salta para declaração (global) de variável sob o cursor |
 | `w` | move para o início da próxima palavra |
-| `W` | pula para próxima palavra (desconsidera hífens) |
+| `W` | pula para próxima palavra (desconsidera hifens) |
 | `E` | pula para o final da próxima palavra (desconsidera hifens) |
 | `e` | move o cursor para o final da próxima palavra |
 | `zt` | rola a tela deixando a linha atual no topo |
@@ -87,7 +87,7 @@ lista abaixo aponta algumas dessas possibilidades.
 | Comando | Descrição |
 |---------|-----------|
 | `gv` | repete a última seleção visual e posiciona o cursor neste local |
-| `%` | localiza parênteses correspondente |
+| `%` | localiza o parêntese correspondente |
 | `o` | letra `o', alterna extremos de seleção visual |
 | `yG` | copia da linha atual até o final do arquivo |
 | `d$` | deleta do ponto atual até o final da linha |
@@ -102,8 +102,8 @@ entanto se usar `W` em maiúsculo (como visto) ele pulará a
 
 | Comando | Descrição |
 |---------|-----------|
-| `E` | pula para o final de palavras com hifen |
-| `B` | pula palavras com hifen (retrocede) |
+| `E` | pula para o final de palavras com hífen |
+| `B` | pula palavras com hífen (retrocede) |
 | `W` | pula palavras hifenizadas (começo) |
 
 Podemos pular sentenças:
@@ -156,7 +156,7 @@ Na verdade o atalho acima lhe mostrará o último ponto onde foi feita a
 atribuição àquela variável que está sob o cursor, uma mão na roda para
 os programadores de plantão! Observe na barra de status do Vim se o tipo
 de arquivo está certo. Para detalhes sobre como personalizar a
-barra de status no capítulo [Função para barra de status](../capitulo_12/funcoes.md).
+barra de status, veja o capítulo [Função para barra de status](../capitulo_12/funcoes.md).
 
 ```
 ft=python
@@ -178,7 +178,7 @@ map ,f [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
 ```
 
 Uma vez definido o mapeamento acima e pressionando-se o atalho
-associado, que neste caso é `,f` o vim exibirá as uma opção para pular
+associado, que neste caso é `,f` o vim exibirá uma opção para pular
 para as ocorrências da palavra assim:
 
 ```
