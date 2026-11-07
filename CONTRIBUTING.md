@@ -2,7 +2,7 @@
 
 Primeiramente, muito obrigado pela disponibilidade em querer contribuir! 🫶
 
-Estava lendo o repositório e teve uma nova ideia? Não entendeu alguma explicação, encontrou erros de grafia ou de código? Aqui você encontra um guia para você colaborar com a melhoria do material, independente do seu nível de conhecimento.
+Estava lendo o repositório e teve uma nova ideia? Não entendeu alguma explicação, encontrou erros de grafia ou de código? Aqui você encontra um guia para você colaborar com a melhoria do material, independentemente do seu nível de conhecimento.
 
 Entenda que não existem dúvidas simples demais e que toda contribuição é recebida com igual entusiasmo.
 
@@ -22,9 +22,9 @@ Você pode ajudar o projeto das seguintes maneiras:
 
 ## Sua primeira contribuição?
 
-Caso queira apenas sugerir alguma modificação no conteúdo, vá em [issues](../../issues), certifique-se que alguém já não tenha feito a sugestão que você pretendia e tente descrever com maior riqueza de detalhes possíveis. Quando necessário adicione imagens (principalmente quando for um erro).
+Caso queira apenas sugerir alguma modificação no conteúdo, vá em [issues](../../issues), certifique-se de que alguém já não tenha feito a sugestão que você pretendia e tente descrever com a maior riqueza de detalhes possível. Quando necessário, adicione imagens (principalmente quando for um erro).
 
-Uma outra maneira de contribuir, é editando você mesmo os arquivos através do github.
+Uma outra maneira de contribuir é editando você mesmo os arquivos através do GitHub.
 
 O caminho mais curto começa no próprio livro: abra a página onde está o erro em <https://vimbook.com.br/> e clique no ícone de lápis "Editar esta página", no canto superior direito do texto.
 
@@ -62,7 +62,7 @@ source .venv/bin/activate
 
 ou [equivalente em seu sistema operacional](https://cassiobotaro.dev/do_zero_a_implantacao/projeto/#o-ambiente-virtual).
 
-Em seguida instale as dependências necessárias
+Em seguida, instale as dependências necessárias:
 
 ```
 python -m pip install -r requirements.txt
@@ -78,14 +78,14 @@ O site fica disponível em <http://localhost:8000> e recarrega automaticamente a
 
 ## Convenções utilizadas e dicas
 
-* Não utilize emojis de forma textual `:emoji:`, copie do [emojipédia](https://emojipedia.org/pt) ao invés;
+* Não utilize emojis de forma textual `:emoji:`, copie-os da [Emojipedia](https://emojipedia.org/pt);
 * Todo título de seção é iniciado com um emoji;
 * Novos capítulos devem ser adicionados também no menu de navegação (`nav`) que se encontra no arquivo `zensical.toml`;
 * Páginas cujo título não começa com um cabeçalho `#` precisam declarar o título no *front matter*, por exemplo:
 
 ```
 ---
-title: Instalação do vim
+title: Instalação do Vim
 ---
 ```
 
