@@ -21,7 +21,7 @@ gravar uma macro no registrador ‘a’, digitamos
 ```
 qa
 ```
-No modo Normal. Tudo o que for digitado a partir de então, será gravado
+No modo Normal. Tudo o que for digitado a partir de então será gravado
 no registrador ‘a’ até que seja concluído com o comando `<Esc>q` novamente
 (no modo Normal). Assim, soluciona-se o problema:
 

@@ -2,7 +2,7 @@
 title: Repetindo substituições
 ---
 
-Caso seja feito uma substituição em um intervalo como abaixo
+Caso seja feita uma substituição em um intervalo como abaixo
 ```
 :5,32s/isto/aquilo/g
 ```
