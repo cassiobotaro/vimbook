@@ -9,7 +9,7 @@ title: Não digite duas vezes
 -   Use abreviações. Coloque abreviações como abaixo em seu `~/.vimrc`.
     Veja mais no capítulo [abreviações](../capitulo_12/abreviacoes.md).
 
--   As abreviações fazem o mesmo que auto-correção e auto-texto em
+-   As abreviações fazem o mesmo que autocorreção e autotexto em
     outros editores
 ```VimL
 iab tambem também
@@ -38,4 +38,4 @@ iabbrev teh the
 syntax keyword WordError teh
 ```
 As linhas acima criam uma abreviação para erro de digitação da palavra
-‘the’ e destaca textos que você abrir que contenham este erro.
+‘the’ e destacam textos que você abrir que contenham este erro.

@@ -1,4 +1,4 @@
-No arquivo de configuração do Vim `~/.vimrc` pode-se pode criar comandos
+No arquivo de configuração do Vim `~/.vimrc` pode-se criar comandos
 automáticos que serão executados diante de uma determinada
 circunstância. O comando abaixo será executado em qualquer arquivo
 existente, ao abrir o mesmo, posicionando o cursor no último local
