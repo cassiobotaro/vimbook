@@ -1,4 +1,4 @@
-Os comandos *set*, responsáveis por atribuir valores à
+Os comandos *set*, responsáveis por atribuir valores a
 variáveis, podem ser colocados no `.vimrc`:
 ```
 set nu
@@ -21,7 +21,7 @@ ou digitados como comandos:
 | `set autochdir` | configura o diretório de trabalho |
 | `set hls` | destaca com cores os termos procurados |
 | `set incsearch` | habilita a busca incremental |
-| `set ai` | auto indentação |
+| `set ai` | autoindentação |
 | `set aw` | salva automaticamente ao trocar de `buffer' |
 | `set ignorecase` | ignora maiúsculas e minúsculas nas buscas |
 | `set ic` | simplificação de ignorecase |

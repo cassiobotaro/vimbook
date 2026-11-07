@@ -1,6 +1,6 @@
 Autocomandos habilitam comandos automáticos para situações específicas.
 Para executar determinada ação ao iniciar um novo arquivo o autocomando
-deverá obedecer este padrão:
+deverá obedecer a este padrão:
 ```
 au BufNewFile tipo ação
 ```
@@ -21,7 +21,7 @@ Para arquivos do tipo texto ‘*.txt*’ use um arquivo de
 
 O autocomando abaixo coloca um cabeçalho para **scripts**
 *bash* caso a linha 1 esteja vazia, observe que os arquivos
-em questão tem que ter a extensão *.sh*.
+em questão têm que ter a extensão *.sh*.
 ```
 au BufNewFile,BufRead *.sh if getline(1) == "" | normal ,sh
 ```
@@ -59,7 +59,7 @@ Explicação para o autocomando acima:
 | `VimEnter` | ao entrar no vim |
 | `*` | para qualquer tipo de arquivo |
 | `match ErrorMsg` | destaque como erro |
-| `/` | inicio de um padrão |
+| `/` | início de um padrão |
 | `^` | começo de linha |
 | `\t` | tabulação |
 | `\+` | uma vez ou mais |
@@ -79,7 +79,7 @@ autocomando se aplique a todos os tipos de arquivos.
 Pode-se criar um autocomando para inserir um modelo de documento ‘html’
 por exemplo de forma automática, ou seja, se você criar um novo
 documento do tipo ‘html’ o vim colocará em seu conteúdo um modelo
-pre-definido.
+predefinido.
 ```
 au BufNewFile *.html 0r ~/.vim/skel/skel.html
 ```

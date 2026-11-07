@@ -18,7 +18,7 @@ as teclas e combinações. Alguns exemplos:
 | `<cWORD>` | palavra sob o cursor, delimitada por espaços |
 | `<cfile>` | arquivo sob o cursor |
 | `<sfile>` | arquivo sendo carregado com :source |
-| `<up>` | equivale clicar em `seta acima' |
+| `<up>` | equivale a clicar em `seta acima' |
 | `<m-f4>` | a tecla alt (m) mais a tecla f4 |
 | `<c-f>` | Ctrl-f |
 | `<bs>` | backspace |
@@ -56,7 +56,7 @@ else
 endif
 ```
 Agora basta pressionar `<F12>` em modo normal e as alterações passam a
-valer instantaneamente, e para chamar o `vimrc` basta usar.
+valer instantaneamente, e para chamar o `vimrc` basta usar:
 ```
 ,v
 ```
@@ -73,7 +73,7 @@ inoremap \> &gt;
 inoremap \. &middot;
 ```
 O termo **inoremap** significa: em modo de inserção não
-remapear, ou seja ele mapeia o atalho e não permite que o mesmo seja
+remapear, ou seja, ele mapeia o atalho e não permite que o mesmo seja
 remapeado, e o mapeamento só funciona em modo de inserção, isso
 significa que um atalho pode ser mapeado para diferentes modos de
 operação.\
@@ -160,7 +160,7 @@ map <s-f1> <esc>0"myEA=<c-r>=<c-r>m<enter><esc>
 imap <s-f1> <space><esc>"myBEa=<c-r>=<c-r>m<enter><del>
 ```
 Para efetuar cálculos com maior precisão e também resolver problemas
-como potências raízes, logaritmos pode-se mapear comandos externos, como
+como potências, raízes e logaritmos, pode-se mapear comandos externos, como
 a biblioteca matemática da linguagem de programação Python.
 [Neste link](https://vim.fandom.com/wiki/Scientific_calculator)
 há um manual que ensina a realizar este procedimento, ou acesse o

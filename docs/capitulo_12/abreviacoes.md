@@ -2,8 +2,8 @@
 title: Abreviações
 ---
 
-Abreviações habilitam auto-texto para o Vim. O seu funcionamento
-consiste de três campos, o primeiro é o modo no qual a abreviação
+Abreviações habilitam autotexto para o Vim. O seu funcionamento
+consiste em três campos, o primeiro é o modo no qual a abreviação
 funcionará, o segundo é a palavra que irá disparar a abreviação e o
 terceiro campo é a abreviação propriamente dita. Para que em **modo
 de comando ‘:’** a palavra ‘salvar’ funcione para salvar os
