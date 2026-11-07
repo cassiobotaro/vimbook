@@ -4,9 +4,9 @@ title: O dicionário de termos
 
 A qualidade da verificação ortográfica do Vim está diretamente ligada à
 completude e corretude do dicionário da linguagem em questão.
-Dicionários pouco completos são inconvenientes à medida que acusam falso
+Dicionários pouco completos são inconvenientes à medida que acusam falsos
 positivos em demasia; pior, dicionários contendo palavras grafadas
-incorretamente, além de acusarem falso positivos, induzem o usuário ao
+incorretamente, além de acusarem falsos positivos, induzem o usuário ao
 erro ao sugerirem grafias erradas.
 
 É razoavelmente comum o Vim já vir instalado com dicionários de relativa
@@ -57,7 +57,7 @@ pelo próprio Vim através do comando mkspell:
 ```
 O Vim então gera um arquivo de dicionário da forma
 `pt.<codificação>.spl`, onde `<codificação>` é a codificação de
-caracteres do sistema, normalmente `utf-8` ou `latin1`; caso queira-se
+caracteres do sistema, normalmente `utf-8` ou `latin1`; caso se queira
 um dicionário em uma codificação diferente da padrão será preciso
 ajustar a variável encoding antes da invocação do comando
 mkspell:
