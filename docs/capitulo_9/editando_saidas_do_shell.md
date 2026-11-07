@@ -29,7 +29,7 @@ grep -irl voyeg3r .
 ```
 Pode-se em seguida chamar o vim usando substituição de comandos, como o
 comando `!!` corresponde ao último comando, e neste caso a saída
-corresponde a uma lista de arquivos que contém o padrão a ser editado
+corresponde a uma lista de arquivos que contêm o padrão a ser editado
 faz-se:
 ```
 vim $(!!)

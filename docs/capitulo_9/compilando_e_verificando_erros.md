@@ -22,7 +22,7 @@ ação.
 :compiler php
 ```
 Note que *php* não tem um compilador. Logo, quando
-executado, o make irá verificar por erros de sintaxes.
+executado, o make irá verificar por erros de sintaxe.
 ```
 :compiler
 ```

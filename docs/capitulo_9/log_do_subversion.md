@@ -10,5 +10,5 @@ fim de usá-lo na hora de dar um *commit* usando o
 export SVN_EDITOR=/usr/bin/vim
 svn commit
 ```
-Será aberto uma sessão no Vim, que depois de salva, será usada para LOG
+Será aberta uma sessão no Vim, que depois de salva, será usada para LOG
 do commit.
