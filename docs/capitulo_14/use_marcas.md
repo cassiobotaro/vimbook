@@ -37,19 +37,19 @@ Outros comandos úteis de movimentação e busca:
 
 Suponha que você está procurando a palavra ‘argc’:
 
-```
+```vim
 /argc
 ```
 
 Digite ‘n’ para buscar a próxima ocorrência
 
-```
+```text
 n
 ```
 
 Um jeito mais fácil seria:
 
-```
+```vim
 "coloque a linha abaixo no seu vimrc
 :set hlsearch
 ```

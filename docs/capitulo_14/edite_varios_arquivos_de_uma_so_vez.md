@@ -18,7 +18,7 @@ sequência de comandos:
 Ainda com relação à edição de vários arquivos poderíamos abrir alguns
 arquivos txt e mudar de um para o outro assim:
 
-```
+```vim
 :wn
 ```
 
