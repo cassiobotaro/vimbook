@@ -3,7 +3,7 @@ Um Wiki para o Vim
 
 É inegável a facilidade que um Wiki nos traz, os documentos são
 indexados e linkados de forma simples. Já pesquisei uma porção de Wikis
-e, para uso pessoal recomendo o Potwiki. O “link” do Potwiki é
+e, para uso pessoal, recomendo o Potwiki. O “link” do Potwiki é
 [este](https://www.vim.org/scripts/script.php?script_id=1018). 
 O Potwiki é um Wiki completo para o Vim, funciona localmente embora
 possa ser aberto remotamente via ssh[^1]. Para criar um “link” no
@@ -14,7 +14,7 @@ Ao baixar o arquivo salve em `~/.vim/plugin`.
 
 Mais ou menos na linha 53 do Potwiki `~/.vim/plugin/potwiki.vim` você
 define onde ele guardará os arquivos, no meu caso
-`/home/docs/textos/wiki`. a linha ficou assim:
+`/home/docs/textos/wiki`. A linha ficou assim:
 ```
 call s:default('home',"~/.wiki/HomePage")
 ```
