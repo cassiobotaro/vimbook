@@ -44,7 +44,7 @@ arquivo faça:
 ```
 :g/^Error/ copy $
 ```
-Obs: O comando ‘copy’ pode ser abreviado ‘co’
+Obs.: O comando ‘copy’ pode ser abreviado ‘co’
 ou ainda pode-se usar ‘t’. Para mais detalhes:
 ```
 :h co

@@ -54,7 +54,7 @@ Passo 6
 ```
 var = (1 if teste == 0 else 2)  <Esc>
 ```
-Obs: A necessidade do `Esc` é para demarcar as ações, pois o
+Obs.: A necessidade do `Esc` é para demarcar as ações, pois o
 Vim considera cada inserção uma ação. Agora usando o atalho de desfazer
 tradicional “u” e de refazer `Ctrl-r` observe que não é mais
 possível acessar todas as alterações efetuadas. Em resumo, se você fizer

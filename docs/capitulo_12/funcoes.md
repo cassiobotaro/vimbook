@@ -107,7 +107,7 @@ linhas](https://vim.fandom.com/wiki/Number_a_group_of_lines) 
  endfunction
  map <silent> <F6> :call <SID>SwitchColorSchemes()<CR>
 ```
-Obs: Talvez os esquemas de cores aqui mostrados não existam em sua plataforma, verifique os esquemas disponíveis e modifique a função para que tudo funcione corretamente.
+Obs.: Talvez os esquemas de cores aqui mostrados não existam em sua plataforma, verifique os esquemas disponíveis e modifique a função para que tudo funcione corretamente.
 
 ### Uma função para inserir cabeçalho de script
 

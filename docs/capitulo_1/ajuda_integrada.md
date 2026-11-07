@@ -5,7 +5,7 @@ entretanto, as explicações costumam ser sintéticas e diretas, de forma
 que noções em inglês seriam suficientes para a compreensão de grande
 parte do conteúdo da ajuda integrada.
 
-Obs: No Vim quase todos os comandos podem ser abreviados, no caso
+Obs.: No Vim quase todos os comandos podem ser abreviados, no caso
 `help` pode ser chamado por `h` e assim por diante. Um comando só
 pode ser abreviado até o ponto em que este nome mais curto não coincida
 com o nome de algum outro comando existente. Para chamar a ajuda do Vim
