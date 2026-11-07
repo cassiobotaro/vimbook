@@ -46,7 +46,7 @@ deveríamos então fazer assim:
 
 | Comando | Descrição |
 |---------|-----------|
-| `<Esc>` | para ter certeza que ainda estamos no modo normal |
+| `<Esc>` | para ter certeza de que ainda estamos no modo normal |
 | `10` | quantificador antes |
 | `i` | entrar no modo de inserção |
 | `isto é um teste <Enter>` | digita o texto |

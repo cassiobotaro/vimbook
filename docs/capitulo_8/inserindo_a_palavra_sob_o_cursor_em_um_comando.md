@@ -1,11 +1,11 @@
 ---
-title: Inserindo a palavra sob o cursos em um comando
+title: Inserindo a palavra sob o cursor em um comando
 ---
 
 Inserindo a palavra sob o cursor em um comando
 ----------------------------------------------
 
-O comando abaixo pode ser usado para pegar por exemplo, a palavra que
+O comando abaixo pode ser usado para pegar, por exemplo, a palavra que
 está atualmente sob o cursor, e colocá-la em um comando de busca.
 ```
 ^r^w

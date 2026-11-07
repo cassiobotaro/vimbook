@@ -9,8 +9,8 @@ Os registradores ‘a-z’ são uma espécie de área de
 transferência múltipla.
 
 Deve-se estar em modo normal e então digitar aspas duplas e uma das 26
-letras do alfabeto, em seguida uma ação por exemplo, ‘y’
-(copiar) ‘d’ (apagar). Depois, mover o cursor para a linha
+letras do alfabeto, em seguida uma ação, por exemplo, ‘y’
+(copiar) ou ‘d’ (apagar). Depois, mover o cursor para a linha
 desejada e colar com `"rp`, onde ‘r’ corresponde ao
 registrador para onde o trecho foi copiado.
 

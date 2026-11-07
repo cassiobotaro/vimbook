@@ -1,6 +1,6 @@
 Com o comando :bufdo, pode-se executar um comando em um
 conjunto de arquivos de forma rápida. No exemplo a seguir, serão abertos
-todos os arquivos HTML do diretório atual, será efetuado uma
+todos os arquivos HTML do diretório atual, será efetuada uma
 substituição e em seguida serão todos salvos.
 ```
 vim *.html
@@ -12,6 +12,6 @@ O comando :wall salva “*write*” todos
 vim \*.html. Opcionalmente você pode combinar
 “:wall” e “:qall” com o comando
 :wqall, que salva todos os arquivos abertos e em seguida
-sai do Vim. A opção ‘e’ faz com que o vim não exiba
+sai do Vim. A opção ‘e’ faz com que o Vim não exiba
 mensagens de erro caso o *buffer* em questão não contenha o
 padrão a ser substituído.
