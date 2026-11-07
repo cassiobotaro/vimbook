@@ -2,7 +2,7 @@
 title: Exibindo caracteres invisíveis
 ---
 
-```
+```vim
 :set list
 ```
 
@@ -10,7 +10,7 @@ Com essa opção habilitada, geralmente usamos `^I` para representar uma
 tabulação `<Tab>`, e `$` para indicar o fim de linha. Mas é possível
 customizar essas opções através de *listchars*, cuja sintaxe é:
 
-```
+```vim
 set listchars=key:string,key:string
 ```
 
@@ -27,7 +27,7 @@ As chaves disponíveis são:
 Alguns exemplos de uso, para colocar no *vimrc* removendo o comentário da linha
 desejada:
 
-```
+```vim
 "exemplo 1:
 "set listchars=tab:>-,trail:.,eol:#,extends:@
 

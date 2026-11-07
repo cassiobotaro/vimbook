@@ -6,7 +6,7 @@ Comentários são linhas que são ignoradas pelo interpretador Vim e servem
 normalmente para descrição de comandos e ações, deixando portanto mais
 legível e didático o arquivo de configuração. Uma linha é um comentário
 se seu primeiro caractere é uma aspa `"`:
-```
+```vim
 " linhas começadas com aspas são comentários
 " e portanto serão ignoradas pelo Vim
 ```

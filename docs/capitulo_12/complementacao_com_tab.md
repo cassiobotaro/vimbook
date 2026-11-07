@@ -2,7 +2,7 @@
 title: Complementação com "tab"
 ---
 
-```
+```vim
 "Word completion
 "Complementação de palavras
 
