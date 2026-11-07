@@ -7,7 +7,7 @@ abrir um arquivo com Vim, digite em um terminal:
 ```
 vim texto.txt
 ```
-onde `texto.txt` é o nome do arquivo que deseja-se criar ou
+onde `texto.txt` é o nome do arquivo que se deseja criar ou
 editar.
 
 Caso deseje abrir o arquivo na linha 10, usa-se:

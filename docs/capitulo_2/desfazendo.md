@@ -79,7 +79,7 @@ Dessa forma você acessará todas as alterações ocorridas no texto.
 O Vim possui muitas formas para desfazer e refazer, e uma das mais
 interessantes é a máquina do tempo! A máquina do tempo é extremamente
 útil quando no meio de um texto se percebe que boa parte do que foi
-adicionado é inútil e que nos ultimos 10 minutos não há nada que se
+adicionado é inútil e que nos últimos 10 minutos não há nada que se
 possa aproveitar. Utilizando a máquina do tempo é possível eliminar os
 últimos 10 minutos de texto inútil do seu documento facilmente,
 utilizando:
@@ -87,13 +87,13 @@ utilizando:
 :earlier 10m
 ```
 Com esse comando o documento ficará exatamente como ele estava 10
-minutos atrás! Caso após a exclusão perceba-se que foi excluído um
+minutos atrás! Caso, após a exclusão, se perceba que foi excluído um
 minuto a mais, é possível utilizar o mesmo padrão novamente para avançar
 no tempo:
 ```
 :later 60s
 ```
-Note que dessa vez foi utilizado `later` ao invés de
+Note que dessa vez foi utilizado `later` em vez de
 `earlier`, e passando segundos como argumento para viajar
 no tempo. Portanto o comando acima avança 60 segundos no tempo.
 

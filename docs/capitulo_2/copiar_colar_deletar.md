@@ -10,7 +10,7 @@ letra `d`. No modo de inserção as teclas usuais também funcionam.
 | `dd` | deleta linha atual |
 | `D` | deleta restante da linha |
 | `d$` | deleta do ponto atual até o final da linha |
-| `d^` | deleta do cursor ao primeiro caractere não-nulo da linha |
+| `d^` | deleta do cursor ao primeiro caractere não nulo da linha |
 | `d0` | deleta do cursor ao início da linha |
 
 Pode-se combinar o comando de deleção `d` com o comando de movimento
@@ -61,7 +61,7 @@ O comando `d` remove o conteúdo para a memória.
 | `d%` | deleta até o próximo (,[,{ |
 | `da"` | deleta aspas com conteúdo |
 
-Depois do texto ter sido colocado na memória, digite `p`
+Depois de o texto ter sido colocado na memória, digite `p`
 para ‘inserir’ o texto em uma outra posição. Outros comandos:
 ```
 diw .. apaga palavra mesmo que não esteja posicionado no início
@@ -71,7 +71,7 @@ dfx .. apaga até o próximo ``x''
 d/casa/+1 - deleta até a linha após a palavra casa
 ```
 Trocando a letra `d` nos comandos acima por
-`c` de *change* (mudanças) ao invés de deletar
+`c` de *change* (mudanças) em vez de deletar
 será feita uma mudança de conteúdo. Por exemplo:
 
 | Comando | Descrição |
@@ -87,7 +87,7 @@ O comando `y` (*yank*) permite copiar uma
 parte do texto para a memória sem deletar. Existe uma semelhança muito
 grande entre os comandos `y` e os comandos
 `d`, um ativa a ‘cópia’ e outro a ‘exclusão’ de conteúdo,
-suportando ambos quantificadores:
+suportando ambos os quantificadores:
 
 | Comando | Descrição |
 |---------|-----------|
@@ -98,13 +98,13 @@ suportando ambos quantificadores:
 | `5yw` | copia 5 palavras (também pode ser: y5w) |
 | `yl` | copia uma letra |
 | `5yl` | copia 5 letras (também pode ser: y5l) |
-| `y^` | copia da posição atual até o início da linha(sinônimo: y0) |
+| `y^` | copia da posição atual até o início da linha (sinônimo: y0) |
 | `y$` | copia da posição atual até o final da linha |
 | `ygg` | copia da posição atual até o início do arquivo |
 | `yG` | copia da posição atual até o final do arquivo |
 
-Digite `P` (p maiúsculo) para colar o texto recém copiado
-na posição onde encontra-se o cursor, ou `p` para colar o
+Digite `P` (p maiúsculo) para colar o texto recém-copiado
+na posição onde se encontra o cursor, ou `p` para colar o
 texto na posição imediatamente após o cursor.
 
 | Comando | Descrição |

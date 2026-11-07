@@ -1,5 +1,5 @@
 O Vim é um editor que possui diferentes modos de edição. Entre eles está
-o modo de inserção, que é o modo onde escreve-se o texto naturalmente.
+o modo de inserção, que é o modo onde se escreve o texto naturalmente.
 
 Para se entrar em modo de inserção, estando em modo normal, pode-se
 pressionar qualquer uma das teclas abaixo:
@@ -20,8 +20,8 @@ sendo digitado. O que inclui as teclas de edição de caracteres.
 
 Para salvar o conteúdo escrito, digite a tecla `<Esc>` para sair do modo
 de inserção e digite o comando `:w` para gravar o conteúdo. Caso
-queira sair do editor, digite o comando: `:q` caso tenha ocorrido
-modificações no arquivo desde que ele foi salvo pela última vez haverá
+queira sair do editor, digite o comando `:q`. Caso tenham ocorrido
+modificações no arquivo desde que ele foi salvo pela última vez, haverá
 uma mensagem informando que o documento foi modificado e não foi salvo,
 nesse caso, digite o comando `:q!` para fechar o Vim **sem salvar**
 as últimas modificações feitas. Caso queira salvar e
@@ -34,12 +34,12 @@ edição do arquivo com maior naturalidade e produtividade.
 O usuário iniciante do Vim pode cometer o erro de tentar decorar todos
 os comandos que serão apresentados. **Não faça isso**.
 Tentar decorar comando é exatamente o caminho contrário da naturalidade
-exigida por um editor texto para aumentar a produtividade.
+exigida por um editor de texto para aumentar a produtividade.
 
-Ao contrário, sugere-se que leia-se todo o conteúdo. Identifique quais
+Ao contrário, sugere-se que se leia todo o conteúdo. Identifique quais
 são as atividades de maior recorrência no estilo individual de escrita e
 busque como realizar tais funções com mais fluência nesse editor. A
-prática levará ao uso fluente desse comandos principais, abrindo
+prática levará ao uso fluente desses comandos principais, abrindo
 espaço para os demais comandos.
 
 Isso não impede que o usuário experimente cada comando conforme for

@@ -15,7 +15,7 @@ Seja o seguinte texto:
 9  este é um texto novo
 10 este é um texto novo
 ```
-Suponha que queira-se apagar `é um texto` da linha 5 até o
+Suponha que se queira apagar `é um texto` da linha 5 até o
 fim (linha 10). Isto pode ser feito assim:
 ```
 :5,$ normal 0wd3w
@@ -39,7 +39,7 @@ para três palavras, sejam quais forem. Também é possível empregar
 comandos de inserção como `i` ou `a` e
 retornar ao modo normal, bastando para isso usar o recurso `Ctrl-v Esc`,
 de forma a simular o acionamento da tecla `Esc` (saída do modo de
-inserção). Por exemplo, suponha agora que deseja-se mudar a frase
+inserção). Por exemplo, suponha agora que se deseje mudar a frase
 `este é um texto novo` para `este não é um texto velho`; pode ser feito assim:
 ```
 :5,$ normal 02winão ^[$ciwvelho
