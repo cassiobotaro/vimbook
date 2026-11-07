@@ -16,7 +16,7 @@ Os principais comandos relativos ao uso de dobras são:
 | `zd` | apaga a dobra (não o seu conteúdo) |
 | `zj` | move para o início da próxima dobra |
 | `zk` | move para o final da dobra anterior |
-| `[z` | move o cursor para início da dobra aberta |
+| `[z` | move o cursor para o início da dobra aberta |
 | `]z` | move o cursor para o fim da dobra aberta |
 | `zi` | desabilita ou habilita as dobras |
 | `zm`, `zr` | diminui/aumenta nível da dobra 'fdl' |
@@ -38,4 +38,4 @@ basta acrescentar na configuração do seu `.vimrc`:
 ```
 set foldcolumn=2
 ```
-o que adiciona uma coluna ao lado da coluna de enumeração das linhas.
+o que adiciona uma coluna ao lado da coluna de numeração das linhas.

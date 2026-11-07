@@ -27,5 +27,5 @@ vim:fdm=marker:fdl=0:
 
 Obs: `fdm` significa *foldmethod*, e `fdl` significa
 *foldlevel*. Deve haver um espaço entre a palavra inicial
-“vim” e o começo da linha este recurso chama-se *modeline*,
+“vim” e o começo da linha; este recurso chama-se *modeline*,
 leia mais na seção [modelines](../capitulo_2/modelines.md).
