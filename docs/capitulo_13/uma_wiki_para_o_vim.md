@@ -2,7 +2,7 @@ Um Wiki para o Vim
 ==================
 
 É inegável a facilidade que um Wiki nos traz, os documentos são
-indexados e linkados de forma simples. Já pesquisei uma porção de Wikis
+indexados e interligados de forma simples. Já pesquisei uma porção de Wikis
 e, para uso pessoal, recomendo o Potwiki. O “link” do Potwiki é
 [este](https://www.vim.org/scripts/script.php?script_id=1018). 
 O Potwiki é um Wiki completo para o Vim, funciona localmente embora
