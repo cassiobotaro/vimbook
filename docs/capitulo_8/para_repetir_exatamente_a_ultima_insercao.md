@@ -2,6 +2,4 @@
 title: Para repetir exatamente a última inserção
 ---
 
-```
-i<c-a>
-```
+Entre em modo de inserção com `i` e pressione `Ctrl-A`.

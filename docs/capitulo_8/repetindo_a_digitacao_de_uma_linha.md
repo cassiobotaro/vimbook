@@ -6,14 +6,15 @@ No modo de inserção:
 
 | Comando | Descrição |
 |---------|-----------|
-| `Ctrl-y` | repete a linha acima |
-| `Ctrl-e` | repete a linha abaixo |
-| `Ctrl-x Ctrl-l` | repete linhas completas |
+| `Ctrl-Y` | repete a linha acima |
+| `Ctrl-E` | repete a linha abaixo |
+| `Ctrl-X Ctrl-L` | repete linhas completas |
 
-O atalho **Ctrl-x Ctrl-l** só funcionará para uma linha
+O atalho `Ctrl-X Ctrl-L` só funcionará para uma linha
 semelhante, experimente digitar:
-```
+```text
 uma linha qualquer com algum conteúdo
-uma linha <Ctrl-x Ctrl-l>
+uma linha
 ```
-e veja o resultado.
+em seguida pressione `Ctrl-X Ctrl-L` no fim da segunda linha e veja o
+resultado.
