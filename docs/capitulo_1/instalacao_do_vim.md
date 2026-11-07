@@ -1,5 +1,5 @@
 ---
-title: Instalação do vim
+title: Instalação do Vim
 ---
 
 ### Instalação no Windows
