@@ -17,7 +17,7 @@ Posiciona o cursor três linhas após a ocorrência da palavra “teste”\
 ```
 /\<casa\>
 ```
-A busca acima localiza ‘casa’ mas não
+A busca acima localiza ‘casa’, mas não
 ‘casamento’. Em expressões regulares, `\<` e `\>` são
 representadas por `\b`, que representa, por sua vez, borda de palavras.
 Ou seja, `casa` e `casa!` seriam

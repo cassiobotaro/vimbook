@@ -59,7 +59,7 @@ Explicação do comando acima:
 | `+` | uma ou mais vezes |
 | `\d` | novamente dígitos |
 | `{3}` | três vezes |
-| `/` | inicio da substituição |
+| `/` | início da substituição |
 | `\1` | referencia o grupo 1 |
 
 Analisando o exemplo anterior, a linha de raciocínio foi a de “manter o
@@ -96,7 +96,7 @@ sistema ao idioma local, esta é a mágica implementada por estas classes.
 |---------|-----------|
 | `[:lower:]` | letras minúsculas incluindo acentos |
 | `[:upper:]` | letras maiúsculas incluindo acentos |
-| `[:punct:]` | ponto, virgula, colchete, etc |
+| `[:punct:]` | ponto, vírgula, colchete etc. |
 
 Para usar estas classes fazemos:
 ```

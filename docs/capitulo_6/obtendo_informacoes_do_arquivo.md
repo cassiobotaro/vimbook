@@ -4,14 +4,14 @@ title: Obtendo informações do arquivo
 
 | Comando | Descrição |
 |---------|-----------|
-| `ga` | mostra o código do caractere em decimal hexa e octal |
+| `ga` | mostra o código do caractere em decimal, hexa e octal |
 | `^g` | mostra o caminho e o nome do arquivo |
 | `g^g` | mostra estatísticas detalhadas do arquivo |
 
 Obs: O código do caractere pode ser usado para substituições,
 especialmente em se tratando de caracteres de controle como tabulações
 `^I` ou final de linha DOS/Windows `\%x0d`. Você pode apagar os
-caracteres de final de linha Dos/Windows usando uma simples
+caracteres de final de linha DOS/Windows usando uma simples
 substituição, veja mais adiante:
 ```
 :%s/\%x0d//g

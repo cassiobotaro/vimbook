@@ -6,8 +6,8 @@ Buscando um padrão e gravando em outro arquivo:
 ```
 :'a,'b g/^Error/ . w >> errors.txt
 ```
-Apenas imprimir linhas que contém determinada palavra, isto é útil
-quando você quer ter uma visão sobre um determina aspecto do seu arquivo
+Apenas imprimir linhas que contêm determinada palavra, isto é útil
+quando você quer ter uma visão sobre um determinado aspecto do seu arquivo
 vejamos:
 
 | Comando | Descrição |
@@ -19,7 +19,7 @@ Para mostrar as linhas correspondentes a um padrão, já numeradas, mesmo
 que a numeração de linha não esteja habilitada, use
 `:g/padrão/#`.
 
-numerar linhas:
+Numerar linhas:
 ```
 :let i=1 | g/^/s//\=i."\t"/ | let i=i+1
 ```
@@ -33,9 +33,9 @@ Outro modo de inserir números de linha
 | `:` | comando |
 | `%` | em todo o arquivo |
 | `s` | substituição |
-| `/` | inicio da busca |
+| `/` | início da busca |
 | `^` | começo de linha |
-| `/` | inicio da substituição |
+| `/` | início da substituição |
 | `\=line('.')` | corresponde ao nº da linha atual |
 | `.'  '` | concatena um espaço após o nº |
 
@@ -45,7 +45,7 @@ arquivo faça:
 :g/^Error/ copy $
 ```
 Obs: O comando ‘copy’ pode ser abreviado ‘co’
-ou ainda pode-se usar ‘t’ para mais detalhes:
+ou ainda pode-se usar ‘t’. Para mais detalhes:
 ```
 :h co
 ```
@@ -72,7 +72,7 @@ Inverter a ordem das linhas do arquivo:
 ```
 :g/^/m0
 ```
-Apagar as linhas que contém Line commented:
+Apagar as linhas que contêm Line commented:
 ```
 :g/Line commented/d
 ```
@@ -84,7 +84,7 @@ Copiar determinado padrão para um registrador:
 ```
 :g/pattern/ normal "Ayy
 ```
-Copiar linhas que contém um padrão e a linha subsequente para o final:
+Copiar linhas que contêm um padrão e a linha subsequente para o final:
 ```
 :g/padrão/;+1 copy $
 ```
@@ -105,14 +105,14 @@ Sublinhar linhas começadas com *Chapter*:
 |---------|-----------|
 | `:` | comando |
 | `g` | global |
-| `/` | inicio de um padrão |
+| `/` | início de um padrão |
 | `^` | começo de linha |
 | `Chapter` | palavra literal |
 | `/` | fim do padrão |
 | `t` | copia |
 | `.` | linha atual |
 | `s` | substitua |
-| `/` | inicio de um padrão |
+| `/` | início de um padrão |
 | `.` | qualquer caractere |
 | `/` | início da substituição |
 | `-` | por traço |
