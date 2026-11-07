@@ -16,7 +16,7 @@ maneira. Para efeito do exemplo, o nome do arquivo será
 com o nome que for conveniente.
 
 A única necessidade para essa dica funcionar é a versão do Vim ter
-suporte para o argumento *–serverlist*, o que deve ser
+suporte para o argumento `--serverlist`, o que deve ser
 garantido nas versões presentes na época em que esse documento foi
 escrito. Para fazer uma simples verificação se o comando está
 disponível, deve ser digitado em um terminal:
