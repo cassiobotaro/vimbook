@@ -1,26 +1,26 @@
 As marcas são um meio eficiente de se pular para um local no arquivo.
 Para criar uma, estando em modo normal faz-se:
 
-```
+```text
 ma
 ```
 
 Onde ‘m’ indica a criação de uma marca e ‘a’ é
 o nome da marca. Para pular para a marca ‘a’:
 
-```
+```text
 `a
 ```
 
 Para voltar ao ponto do último salto:
 
-```
+```text
 ''
 ```
 
 Para deletar da linha atual até a marca ‘a’ (em modo normal):
 
-```
+```text
 d'a
 ```
 
@@ -29,14 +29,14 @@ d'a
 Durante a edição de vários arquivos pode-se definir uma marca global com
 o comando:
 
-```
+```text
 mA
 ```
 
 Onde ‘m’ cria a marca e ‘A’ (maiúsculo) define
 uma marca ‘A’ acessível a qualquer momento com o comando:
 
-```
+```text
 'A
 ```
 

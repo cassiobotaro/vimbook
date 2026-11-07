@@ -22,7 +22,7 @@ sendo digitado. Para sair do modo de inserção e retornar ao modo normal
 digita-se `<Esc>` ou `Ctrl-[`. As letras `h`, `k`,
 `l`, `j` funcionam como setas:
 
-```
+```text
    k
 h     l
    j
@@ -48,7 +48,7 @@ Para ir para linhas específicas ‘em modo normal’ digite:
 | `nG` | vai para linha `n' |
 
 onde `n` corresponde ao número da linha. Para retornar ao modo normal
-pressione `<Esc>` ou use `Ctrl-[` (`^[`).
+pressione `<Esc>` ou use `Ctrl-[`.
 
 No Vim é possível realizar diversos tipos de movimentos, também
 conhecidos como saltos no documento. A lista abaixo aponta os comandos de
@@ -128,14 +128,14 @@ E tiver uma referência qualquer para a função `pot` e desejar mover o
 cursor até sua definição basta posicionar o cursor sobre a palavra `pot`
 e pressionar (em modo normal):
 
-```
+```text
 gd
 ```
 
 Se a variável for global, ou seja, estiver fora do documento
 (provavelmente em outro) use:
 
-```
+```text
 gD
 ```
 
@@ -148,7 +148,7 @@ var = 'teste'
 e em algum ponto do documento houver referência a esta variável e se
 desejar ver seu conteúdo fazemos
 
-```
+```text
 [i
 ```
 
@@ -158,14 +158,14 @@ os programadores de plantão! Observe na barra de status do Vim se o tipo
 de arquivo está certo. Para detalhes sobre como personalizar a
 barra de status, veja o capítulo [Função para barra de status](../capitulo_12/funcoes.md).
 
-```
+```text
 ft=python
 ```
 
 a busca por definições de função só funciona se o tipo de arquivo
 estiver correto
 
-```
+```vim
 :set ft=python
 ```
 
@@ -173,7 +173,7 @@ Um mapeamento interessante que facilita a movimentação até linhas que
 contenham determinada palavra de um modo bem simples, bastando
 pressionar `,f` pode ser feito assim:
 
-```
+```vim
 map ,f [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
 ```
 
@@ -181,7 +181,7 @@ Uma vez definido o mapeamento acima e pressionando-se o atalho
 associado, que neste caso é `,f` o Vim exibirá uma opção para pular
 para as ocorrências da palavra assim:
 
-```
+```text
 1:  trecho contendo a palavra
 2:  outro trecho contendo a palavra
 Which one:
@@ -189,7 +189,7 @@ Which one:
 
 outro detalhe para voltar ao último ponto em que você estava
 
-```
+```text
 ''
 ```
 
