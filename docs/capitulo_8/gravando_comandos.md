@@ -18,7 +18,7 @@ necessário mais de um comando para isso. É aí que entram as macros.
 Pode-se gravar até 26 macros, já que elas são guardadas nos registradores do
 Vim, que são identificados pelas letras do alfabeto. Para começar a
 gravar uma macro no registrador ‘a’, digitamos
-```
+```text
 qa
 ```
 No modo Normal. Tudo o que for digitado a partir de então será gravado
@@ -44,12 +44,12 @@ stdio.h
 ```
 E executar a macro do registrador ‘a’ quantas vezes for necessário, usando
 o comando `@a`. Para executar quatro vezes, digite:
-```
+```text
 4@a
 ```
 Este comando executa quatro vezes o conteúdo do registrador ‘a’.
 
 Caso tenha sido executada, a macro pode ser repetida com o comando
-```
+```text
 @@
 ```

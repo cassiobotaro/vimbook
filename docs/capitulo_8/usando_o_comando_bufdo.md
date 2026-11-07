@@ -2,8 +2,10 @@ Com o comando :bufdo, pode-se executar um comando em um
 conjunto de arquivos de forma rápida. No exemplo a seguir, serão abertos
 todos os arquivos HTML do diretório atual, será efetuada uma
 substituição e em seguida serão todos salvos.
-```
+```bash
 vim *.html
+```
+```vim
 :bufdo %s/bgcolor="eeeeee"/bgcolor="ffffff"/ge | :wall
 :qall
 ```
