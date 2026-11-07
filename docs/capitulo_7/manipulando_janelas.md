@@ -1,17 +1,17 @@
 | Comando | Descrição |
 |---------|-----------|
-| `Ctrl-w-w` | Alterna entre janelas |
-| `Ctrl-w-j` | desce uma janela `j` |
-| `Ctrl-w-k` | sobe  uma janela `k` |
-| `Ctrl-w-l` | move para a janela da direita `l` |
-| `Ctrl-w-h` | move para a janela da esquerda `h` |
-| `Ctrl-w-r` | Rotaciona janelas na tela |
-| `Ctrl-w-+` | Aumenta o espaço da janela atual |
-| `Ctrl-w--` | Diminui o espaço da janela atual |
+| `Ctrl-W w` | Alterna entre janelas |
+| `Ctrl-W j` | desce uma janela `j` |
+| `Ctrl-W k` | sobe  uma janela `k` |
+| `Ctrl-W l` | move para a janela da direita `l` |
+| `Ctrl-W h` | move para a janela da esquerda `h` |
+| `Ctrl-W r` | Rotaciona janelas na tela |
+| `Ctrl-W +` | Aumenta o espaço da janela atual |
+| `Ctrl-W -` | Diminui o espaço da janela atual |
 
 Pode-se mapear um atalho para redimensionar janelas com as teclas `+`
 e `-`.
-```
-:map + <c-w>+
-:map - <c-w>-
+```vim
+:map + <C-w>+
+:map - <C-w>-
 ```
