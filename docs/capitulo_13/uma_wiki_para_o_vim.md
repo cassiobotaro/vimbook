@@ -15,11 +15,11 @@ Ao baixar o arquivo salve em `~/.vim/plugin`.
 Mais ou menos na linha 53 do Potwiki `~/.vim/plugin/potwiki.vim` você
 define onde ele guardará os arquivos, no meu caso
 `/home/docs/textos/wiki`. A linha ficou assim:
-```
+```vim
 call s:default('home',"~/.wiki/HomePage")
 ```
 Outra forma de indicar a página inicial seria colocar no seu `.vimrc`
-```
+```vim
 let potwiki_home = "$HOME/.wiki/HomePage"
 ```
 [^1]: Sistema de acesso remoto
