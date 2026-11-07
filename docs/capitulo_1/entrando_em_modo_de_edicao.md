@@ -20,8 +20,8 @@ inserção de texto antes do caractere atual, ou seja, o mesmo que a tecla
 modo de digitação de inserção simples de caracteres para substituição
 de caracteres.
 
-Agora começamos a sentir o gostinho de usar o Vim, uma tecla seja
-maiúscula ou minúscula, faz muita diferença se você não estiver em modo
+Agora começamos a sentir o gostinho de usar o Vim, uma tecla,
+seja maiúscula ou minúscula, faz muita diferença se você não estiver em modo
 de inserção, e para sair do modo de inserção e voltar ao modo normal
 sempre use `<Esc>`.
 

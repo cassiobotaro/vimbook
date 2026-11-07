@@ -37,5 +37,5 @@ Para saber mais sobre repetição de comandos veja o capítulo
 No Vim, cada arquivo aberto é chamado de `buffer`, ou seja, dados
 carregados na memória. Você pode acessar o mesmo *buffer*
 em mais de uma janela, bem como dividir a janela em vários
-*buffers* distintos o que veremos mais adiante.
+*buffers* distintos, o que veremos mais adiante.
 

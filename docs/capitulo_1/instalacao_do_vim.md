@@ -36,7 +36,7 @@ distribuição. A forma de instalação preferível depende da distribuição:
     documentação da distribuição o que significa cada pacote.
 
 -   Não estar disponível no repositório da distribuição – cenário
-    *muito* improvável, mas nas sua ocorrência o Vim pode
+    *muito* improvável, mas na sua ocorrência o Vim pode
     ser instalado através da compilação do código-fonte; basta seguir as
     instruções do [site oficial](https://www.vim.org/download.php).
 
@@ -44,7 +44,7 @@ distribuição. A forma de instalação preferível depende da distribuição:
 
     [^2]: Recomenda-se também instalar a documentação em HTML do Vim: `apt-get install vim-doc`
 
-    [^3]: Para ubuntu e Debian
+    [^3]: Para Ubuntu e Debian
 
     [^4]: O Python (<https://www.python.org>) é uma linguagem de programação orientada a objetos muito comum no meio profissional e acadêmico
 
