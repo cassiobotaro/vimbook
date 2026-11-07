@@ -2,7 +2,7 @@
 title: Dividindo a janela com o próximo arquivo da lista de buffers
 ---
 
-```
+```vim
 :sn
 ```
 O comando acima é uma abreviação de *split next*, ou seja,

@@ -14,10 +14,8 @@ Pode-se fazer:
 | `<Esc>` | para ter certeza de que está em modo normal |
 | `"ap` | registrador a `paste', ou seja, cole |
 
-Em modo de inserção faz-se:
-```
-Ctrl-r a
-```
+Em modo de inserção, pressione `Ctrl-R a`.
+
 Há situações em que se tem caracteres não "*ascii*" que são complicados
 de se colocar em uma busca ou substituição, nestes casos pode-se usar os
 seguintes comandos:
@@ -25,7 +23,7 @@ seguintes comandos:
 | Comando | Descrição |
 |---------|-----------|
 | `"ayl` | copia para o registrador `a' o caractere sob o cursor |
-| `:%s/<c-r>a/char` | substitui o conteúdo do registrador `a' por char |
+| `:%s/` `Ctrl-R a` `/char` | substitui o conteúdo do registrador `a' por char |
 
 Pode-se ainda usar esta técnica para copiar rapidamente comentários do
 `bash`[^1], representados pelo caractere `#`, em *modo

@@ -3,14 +3,13 @@ title: Registradores de buscas "/"
 ---
 
 Se desejar inserir em uma substituição uma busca prévia, você poderia
-fazer assim em modo de comandos:
-```
-:%s,<Ctrl-r>/,novo-texto,g
-```
+fazer assim em modo de comandos: digite `:%s,`, pressione `Ctrl-R /` e
+complete com `,novo-texto,g`.
+
 Observação: veja que estou trocando o delimitador da busca para deixar
 claro o uso do registrador de buscas "/". Pode-se usar um registrador nomeado
 de 'a-z' assim:
-```
+```vim
 let @a="new"
 :%s/old/\=@a/g
 ```

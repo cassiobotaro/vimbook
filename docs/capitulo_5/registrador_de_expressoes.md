@@ -2,11 +2,11 @@
 title: Registrador de expressões "=
 ---
 
-```
+```text
 "=
 ```
 O registrador de expressões permite efetuar cálculos diretamente no editor,
-usando o atalho "Ctrl-r =" *no modo de
+usando o atalho `Ctrl-R =` *no modo de
 inserção*, o editor mostrará um sinal de igualdade na barra de
 status e o usuário digita então uma expressão matemática como uma
 multiplicação "6\*9" e em seguida pressiona
@@ -16,7 +16,7 @@ link](https://vimeo.com/2967392).
 
 Para entender melhor como funciona o registrador de expressões tomemos um
 exemplo. Para fazer uma sequência como abaixo:
-```
+```text
 linha 1 tem o valor 150,
 linha 2 tem o valor 300,
 linha 3 tem o valor 450,
@@ -33,12 +33,12 @@ acima.
 | `yy` | copia a primeira linha |
 | `p` | cola a linha copiada |
 | `w` | pula para o número `1' |
-| `<Ctrl-a>` | incrementa o número (agora 2) |
+| `Ctrl-A` | incrementa o número (agora 2) |
 | `4w` | avança 4 palavras até 150 |
 | `"ndw` | apaga o `150' para o registrador "n |
 | `i` | entra em modo de inserção |
-| `Ctrl-r =` | abre o registrador de expressões |
-| `Ctrl-r n + 150` | insere dentro do registrador de expressões o registrador "n |
+| `Ctrl-R =` | abre o registrador de expressões |
+| `Ctrl-R n` e depois `+ 150` | insere dentro do registrador de expressões o registrador "n |
 | `<Enter>` | executa o registrador de expressões |
 | `<Esc>` | sai do modo de inserção |
 | `0` | vai para o começo da linha |
