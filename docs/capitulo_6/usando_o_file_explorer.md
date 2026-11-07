@@ -1,5 +1,5 @@
 O Vim navega na árvore de diretórios com o comando
-```
+```bash
 vim .
 ```
 Use o ‘j’ para descer e o ‘k’ para subir ou

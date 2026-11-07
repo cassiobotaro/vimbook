@@ -4,7 +4,7 @@ title: Edições complexas
 
 Trocando palavras de lugar: Posiciona-se o cursor no espaço antes da 1ª
 palavra e digita-se:
-```
+```text
 deep
 ```
 Trocando letras de lugar:
@@ -22,7 +22,7 @@ Trocando linhas de lugar:
 | `ddkP` | com a linha de cima |
 
 Tornando todo o texto maiúsculo
-```
+```text
 gggUG
 ggVGU
 ```

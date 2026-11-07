@@ -3,7 +3,7 @@ title: O comando global "g"
 ---
 
 Buscando um padrão e gravando em outro arquivo:
-```
+```vim
 :'a,'b g/^Error/ . w >> errors.txt
 ```
 Apenas imprimir linhas que contêm determinada palavra, isto é útil
@@ -20,11 +20,11 @@ que a numeração de linha não esteja habilitada, use
 `:g/padrão/#`.
 
 Numerar linhas:
-```
+```vim
 :let i=1 | g/^/s//\=i."\t"/ | let i=i+1
 ```
 Outro modo de inserir números de linha
-```
+```vim
 :%s/^/\=line('.').'  '
 ```
 
@@ -41,23 +41,23 @@ Outro modo de inserir números de linha
 
 Para copiar linhas começadas com *Error* para o final do
 arquivo faça:
-```
+```vim
 :g/^Error/ copy $
 ```
 Obs.: O comando ‘copy’ pode ser abreviado ‘co’
 ou ainda pode-se usar ‘t’. Para mais detalhes:
-```
+```vim
 :h co
 ```
 Como adicionar um padrão copiado com ‘yy’ após um
 determinado padrão?
-```
+```vim
 :g/padrao/+put!
 :g/padrao/.put='teste'
 ```
 Entre as linhas que contiverem ‘fred’ e ‘joe’
 substitua:
-```
+```vim
 :g/fred/,/joe/s/isto/aquilo/gic
 ```
 As opções ‘gic’ correspondem a *global*, *ignore
@@ -65,39 +65,39 @@ case* e *confirm*, podendo ser omitidas deixando só
 o *global*.\
 
 Pegar caracteres numéricos e jogar no final do arquivo:
-```
+```vim
 :g/^\d\+.*/m $
 ```
 Inverter a ordem das linhas do arquivo:
-```
+```vim
 :g/^/m0
 ```
 Apagar as linhas que contêm Line commented:
-```
+```vim
 :g/Line commented/d
 ```
 Apagar todas as linhas comentadas
-```
+```vim
  :g/^\s*#/d
 ```
 Copiar determinado padrão para um registrador:
-```
+```vim
 :g/pattern/ normal "Ayy
 ```
 Copiar linhas que contêm um padrão e a linha subsequente para o final:
-```
+```vim
 :g/padrão/;+1 copy $
 ```
 Deletar linhas que não contenham um padrão:
-```
+```vim
 :v/dicas/d
 ```
 Incrementar números no começo da linha:
-```
+```vim
 :.,20g/^\d/exe "normal! \<c-a>"
 ```
 Sublinhar linhas começadas com *Chapter*:
-```
+```vim
 :g/^Chapter/t.|s/./-/g
 ```
 

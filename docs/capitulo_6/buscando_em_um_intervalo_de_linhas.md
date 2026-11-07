@@ -1,5 +1,5 @@
 Para buscar entre as linhas 10 e 50 por um padrão qualquer fazemos:
-```
+```vim
 /\%>10l\%<50l padrao
 ```
 Esta e outras boas dicas podem ser lidas no site

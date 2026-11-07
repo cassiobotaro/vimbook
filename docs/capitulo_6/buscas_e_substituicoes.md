@@ -5,16 +5,16 @@ Para fazer uma busca, certifique-se de que está em modo normal,
 pressione “/” e digite a expressão a ser procurada.\
 
 Para encontrar a primeira ocorrência de “foo” no texto:
-```
+```vim
 /foo
 ```
 Para repetir a busca basta pressionar a tecla `n` e para repetir a
 busca em sentido oposto `N`.
-```
+```vim
 /teste/+3
 ```
 Posiciona o cursor três linhas após a ocorrência da palavra “teste”\
-```
+```vim
 /\<casa\>
 ```
 A busca acima localiza ‘casa’, mas não

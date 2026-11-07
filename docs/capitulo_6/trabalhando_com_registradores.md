@@ -19,24 +19,20 @@ nome do registrador antes:
 | `"a3yw` | copia 3 palavras para o registrador "a" |
 
 No “modo de inserção”, como visto anteriormente, pode-se usar um atalho
-para colar rapidamente o conteúdo de um registrador.
-```
-Ctrl-r (registrador)
-```
-Para colar o conteúdo do registrador ‘a’
-```
-Ctrl-r a
-```
+para colar rapidamente o conteúdo de um registrador: `Ctrl-R` seguido do
+nome do registrador. Para colar o conteúdo do registrador ‘a’, pressione
+`Ctrl-R a`.
+
 Para copiar a linha atual para a área de transferência
-```
+```text
 "+yy
 ```
 Para colar da área de transferência
-```
+```text
 "+p
 ```
 Para copiar o arquivo atual para a área de transferência
 “*clipboard*”:
-```
+```vim
 :%y+
 ```

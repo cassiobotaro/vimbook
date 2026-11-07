@@ -8,7 +8,7 @@ dezembro de 2020 e as mensagens não foram preservadas; resta apenas uma
 
 Problema: Essa deve ser uma pergunta comum. Suponha o seguinte conteúdo
 de arquivo:
-```
+```text
 ... // várias linhas
 texto1000texto    // linha i
 texto1000texto    // linha i+1
@@ -18,7 +18,7 @@ texto1000texto    // linha i+4
 ... // várias linhas
 ```
 Gostaria de um comando que mudasse para
-```
+```text
 ... // várias linhas
 texto1001texto    // linha i
 texto1002texto    // linha i+1
@@ -29,16 +29,16 @@ texto1005texto    // linha i+4
 ```
 Ou seja, somasse 1 a cada um dos números entre os textos especificando
 como range as linhas i,i+4
-```
+```vim
 :10,20! awk 'BEGIN{i=1}{if (match($0, /[0-9]+/)) print substr($0,1,RSTART-1) (substr($0,RSTART,RLENGTH) + i++) substr($0,RSTART+RLENGTH)}'
 ```
 Mas muitos sistemas não têm awk, e logo a melhor solução
 mesmo é usar o Vim:
-```
+```vim
 :let i=1 | 10,20 g/texto\d\+texto/s/\d\+/\=submatch(0)+i/ | let i=i+1
 ```
 Observação: 10,20 é o intervalo, ou seja, da linha 10 até a linha 20
-```
+```vim
 :help /
 :help :s
 :help pattern

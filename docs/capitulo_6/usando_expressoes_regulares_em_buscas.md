@@ -13,7 +13,7 @@ title: Usando "Expressões Regulares" em buscas
 | `$` | final de linha |
 | `\+` | um ou mais |
 | `/^\d\+$` | localiza somente dígitos |
-| `/\r$` | localiza linhas terminadas com ^M |
+| `/\r$` | localiza linhas terminadas com `^M` |
 | `/^\s*$` | localiza linhas vazias ou contendo apenas espaços |
 | `/^\t\+` | localiza linhas que iniciam com tabs |
 | `\s` | localiza espaços |
@@ -27,18 +27,18 @@ etc. Usando apenas uma opção: veja `:h /\v`.
 
 Em um trecho com dígitos + texto + dígitos no qual se deseja manter só
 as letras.
-```
+```text
 12345aaa678
 12345bbb678
 12345aac678
 ```
 Sem a opção “*very magic*” faríamos:
-```
+```vim
 :%s/\d\{5\}\(\D\+\)\d\{3\}/\1/
 ```
 Já com a opção “*very magic*” `\v` usa-se bem menos
 escapes:
-```
+```vim
 :%s/\v\d{5}(\D+)\d{3}/\1/
 ```
 
@@ -65,7 +65,7 @@ Explicação do comando acima:
 Analisando o exemplo anterior, a linha de raciocínio foi a de “manter o
 texto entre os dígitos”, o que pode ser traduzido, em uma outra forma de
 raciocínio, como “remover os dígitos”.
-```
+```vim
 :%s/\d//g
 ```
 
@@ -99,7 +99,7 @@ sistema ao idioma local, esta é a mágica implementada por estas classes.
 | `[:punct:]` | ponto, vírgula, colchete etc. |
 
 Para usar estas classes fazemos:
-```
+```vim
 :%s/[[:lower:]]/\U&/g
 ```
 
@@ -148,7 +148,4 @@ citadas localizam apenas se a palavra corresponder totalmente ao padrão
 sob o cursor, pode-se buscar por trechos de palavras que façam parte de
 palavras maiores usando-se `g*`. Pode-se ainda exibir “dentro do
 contexto” todas as ocorrências de uma palavra sob o cursor usando-se o
-seguinte atalho em modo normal:
-```
-[ Shift-i
-```
+atalho `[I` em modo normal.

@@ -1,4 +1,4 @@
-```
+```vim
 :19;+3 co $
 ```
 O Vim sempre necessita de um intervalo (inicial e final) mas se usarmos
@@ -6,7 +6,7 @@ O Vim sempre necessita de um intervalo (inicial e final) mas se usarmos
 caso acima estamos dizendo (nas entrelinhas) linhas 19 e 19+3\
 
 De forma análoga pode-se usar como referência um padrão qualquer:
-```
+```vim
 :/palavra/;+10 m 0
 ```
 O comando acima diz: a partir da linha que contém “palavra” incluindo as
