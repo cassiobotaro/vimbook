@@ -21,7 +21,7 @@ estávamos editando da última vez:
 ```
 gi
 ```
-Pode-se criar um `alias`[^1] para que ao abrir o vim o
+Pode-se criar um `alias`[^1] para que ao abrir o Vim o
 mesmo abra o último arquivo editado:
 `alias lvim="vim -c \"normal '0\""`. No capítulo [Buscas e Substituições](../capitulo_6/buscas_e_substituicoes.md) você encontra mais dicas de edição.
 

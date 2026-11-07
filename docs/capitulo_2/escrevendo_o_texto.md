@@ -27,7 +27,7 @@ nesse caso, digite o comando `:q!` para fechar o Vim **sem salvar**
 as últimas modificações feitas. Caso queira salvar e
 sair do arquivo, digite o comando `:wq`.
 
-Nesse ponto, conhece-se o vim de forma suficiente para editar qualquer
+Nesse ponto, conhece-se o Vim de forma suficiente para editar qualquer
 coisa nele. Daqui por diante o que existe são as formas de realizar a
 edição do arquivo com maior naturalidade e produtividade.
 

@@ -22,7 +22,7 @@ linha atual, já em modo de inserção ele irá se comportar como se você
 estivesse usando qualquer outro editor, ou seja, irá inserir duas vezes
 a letra `d`. Em modo normal pressionar a tecla
 `v` inicia uma seleção visual (use as setas de direção).
-Para sair do modo visual `<Esc>`. Como um dos princípios do vim é
+Para sair do modo visual `<Esc>`. Como um dos princípios do Vim é
 agilidade pode-se usar em vez de setas (em modo normal) as letras
 `h,l,k,j` como se fossem setas:
 ```

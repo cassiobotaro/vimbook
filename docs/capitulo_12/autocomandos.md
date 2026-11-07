@@ -25,7 +25,7 @@ em questão têm que ter a extensão *.sh*.
 ```
 au BufNewFile,BufRead *.sh if getline(1) == "" | normal ,sh
 ```
-Para configurar o vim de modo que o diretório corrente fique no
+Para configurar o Vim de modo que o diretório corrente fique no
 **path** coloque este código no `vimrc`.
 ```
 "fonte: wikia - wiki sobre o vim
@@ -45,7 +45,7 @@ com espaços ou será com tabulações, não se pode misturar os dois pois o
 interpretador retornaria um erro. Outra situação em que misturar espaços
 com tabulações ocasiona erros é em códigos LaTeX, ao compilar o
 documento a formatação não sai como desejado. Até que se perceba o erro
-leva um tempo. Para configurar o vim de forma que ele detecte este tipo
+leva um tempo. Para configurar o Vim de forma que ele detecte este tipo
 de erro ao entrar no arquivo:
 ```
 au! VimEnter * match ErrorMsg /^\t\+/
@@ -56,7 +56,7 @@ Explicação para o autocomando acima:
 | Comando | Descrição |
 |---------|-----------|
 | `au!` | automaticamente |
-| `VimEnter` | ao entrar no vim |
+| `VimEnter` | ao entrar no Vim |
 | `*` | para qualquer tipo de arquivo |
 | `match ErrorMsg` | destaque como erro |
 | `/` | início de um padrão |
@@ -78,7 +78,7 @@ autocomando se aplique a todos os tipos de arquivos.
 
 Pode-se criar um autocomando para inserir um modelo de documento ‘html’
 por exemplo de forma automática, ou seja, se você criar um novo
-documento do tipo ‘html’ o vim colocará em seu conteúdo um modelo
+documento do tipo ‘html’ o Vim colocará em seu conteúdo um modelo
 predefinido.
 ```
 au BufNewFile *.html 0r ~/.vim/skel/skel.html
