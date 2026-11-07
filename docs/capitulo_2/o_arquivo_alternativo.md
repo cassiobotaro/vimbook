@@ -5,7 +5,7 @@ então este usuário abre um novo arquivo:
 :e novo-arquivo.txt
 ```
 Mas de repente o usuário lembra que seria necessário adicionar uma linha
-no arquivo recém editado, neste caso usa-se o atalho:
+no arquivo recém-editado, neste caso usa-se o atalho:
 ```
 Ctrl-6
 ```
@@ -15,4 +15,4 @@ Pode-se abrir o arquivo alternativo em nova janela usando-se o atalho:
 ```
 Ctrl-w Ctrl-6
 ```
-Mais informações sobre “janelas” leia o capítulo [Trabalhando com janelas](../capitulo_7/trabalhando_com_janelas.md).
+Para mais informações sobre “janelas”, leia o capítulo [Trabalhando com janelas](../capitulo_7/trabalhando_com_janelas.md).

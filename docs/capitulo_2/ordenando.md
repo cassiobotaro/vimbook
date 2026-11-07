@@ -28,7 +28,7 @@ O Vim colocará nas três primeiras linhas
 12
 ```
 
-Portanto lembre-se que se a ordenação envolver números use:
+Portanto, lembre-se de que, se a ordenação envolver números, use:
 ```
 :sort n
 
