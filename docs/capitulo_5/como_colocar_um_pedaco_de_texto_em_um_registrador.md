@@ -11,7 +11,7 @@ Pode-se fazer:
 
 | Comando | Descrição |
 |---------|-----------|
-| `<Esc>` | para ter certeza que está em modo normal |
+| `<Esc>` | para ter certeza de que está em modo normal |
 | `"ap` | registrador a `paste', ou seja, cole |
 
 Em modo de inserção faz-se:
@@ -28,7 +28,7 @@ seguintes comandos:
 | `:%s/<c-r>a/char` | substitui o conteúdo do registrador `a' por char |
 
 Pode-se ainda usar esta técnica para copiar rapidamente comentários do
-`bash`[^1], representados pelo caracteres `#`, em *modo
+`bash`[^1], representados pelo caractere `#`, em *modo
 normal* usando o atalho `0yljP`.
 
 | Comando | Descrição |
