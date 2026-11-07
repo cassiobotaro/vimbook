@@ -1,20 +1,20 @@
 A maneira mais simples de salvar um arquivo é usar o comando:
-```
+```vim
 :w
 ```
 Para gravar o conteúdo em outro arquivo, simplesmente digite:
-```
+```vim
 :w arquivo
 ```
 O conteúdo será gravado no arquivo `arquivo` e você continuará
 no arquivo original. Para anexar o conteúdo ao final de um arquivo já
 existente, em vez de sobrescrevê-lo, usa-se:
-```
+```vim
 :w >> arquivo
 ```
 
 Também existe o comando:
-```
+```vim
 :sav[eas] nome
 ```
 salva o arquivo com um novo nome e muda para esse novo arquivo (o

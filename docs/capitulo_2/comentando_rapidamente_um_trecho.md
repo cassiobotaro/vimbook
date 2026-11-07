@@ -1,5 +1,5 @@
 Tomando como exemplo um trecho de código como abaixo:
-```
+```text
 1   input{capitulo1}
 2   input{capitulo2}
 3   input{capitulo3}
@@ -15,7 +15,7 @@ começo da linha 4 e fazemos:
 
 | Comando | Descrição |
 |---------|-----------|
-| `Ctrl-v` | inicia seleção por blocos |
+| `Ctrl-V` | inicia seleção por blocos |
 | `5j` | estende a seleção até o fim |
 | `Shift-i` | inicia inserção no começo da linha |
 | `%` | insere comentário (LaTeX) |

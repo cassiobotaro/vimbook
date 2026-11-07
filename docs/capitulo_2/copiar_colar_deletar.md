@@ -63,7 +63,7 @@ O comando `d` remove o conteúdo para a memória.
 
 Depois de o texto ter sido colocado na memória, digite `p`
 para ‘inserir’ o texto em uma outra posição. Outros comandos:
-```
+```text
 diw .. apaga palavra mesmo que não esteja posicionado no início
 dip .. apaga o parágrafo atual
 d4b .. apaga as quatro palavras anteriores
@@ -120,9 +120,9 @@ Exemplos para o modo visual:
 
 | Comando | Descrição |
 |---------|-----------|
-| `Ctrl-insert` | copia área selecionada |
+| `Ctrl-Insert` | copia área selecionada |
 | `Shift-insert` | cola o que está no clipboard |
-| `Ctrl-del` | recorta para o clipboard |
+| `Ctrl-Del` | recorta para o clipboard |
 
 Caso obtenhamos erro ao colar textos da área de transferência usando os
 comandos acima citados podemos usar outra alternativa. Os comandos
@@ -137,7 +137,7 @@ Para evitar erros ao colar usando `Shift-insert` use este
 comando `:set paste`.
 
 ### Removendo linhas duplicadas
-```
+```vim
 :sort u
 ```
 
