@@ -121,7 +121,7 @@ nav = [
     { "Colocando a última busca em um comando" = "capitulo_8/colocando_a_ultima_busca_em_um_comando.md" },
     { "Inserindo o nome do arquivo no comando" = "capitulo_8/inserindo_o_nome_do_arquivo_no_comando.md" },
     { "Inserindo o último comando" = "capitulo_8/inserindo_o_ultimo_comando.md" },
-    { "Inserindo a palavra sob o cursos em um comando" = "capitulo_8/inserindo_a_palavra_sob_o_cursor_em_um_comando.md" },
+    { "Inserindo a palavra sob o cursor em um comando" = "capitulo_8/inserindo_a_palavra_sob_o_cursor_em_um_comando.md" },
     { "Para repetir exatamente a última inserção" = "capitulo_8/para_repetir_exatamente_a_ultima_insercao.md" },
   ] },
   { "Comandos Externos" = [
@@ -250,14 +250,14 @@ scheme = "default"
 primary = "custom"
 accent = "custom"
 toggle.icon = "material/lightbulb-outline"
-toggle.name = "Switch to dark mode"
+toggle.name = "Mudar para o modo escuro"
 
 [[project.theme.palette]]
 scheme = "slate"
 primary = "custom"
 accent = "custom"
 toggle.icon = "material/lightbulb"
-toggle.name = "Switch to light mode"
+toggle.name = "Mudar para o modo claro"
 
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.footnotes]
