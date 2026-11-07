@@ -32,7 +32,7 @@ como range as linhas i,i+4
 ```
 :10,20! awk 'BEGIN{i=1}{if (match($0, /[0-9]+/)) print substr($0,1,RSTART-1) (substr($0,RSTART,RLENGTH) + i++) substr($0,RSTART+RLENGTH)}'
 ```
-Mas muitos sistemas não tem awk, e logo a melhor solução
+Mas muitos sistemas não têm awk, e logo a melhor solução
 mesmo é usar o Vim:
 ```
 :let i=1 | 10,20 g/texto\d\+texto/s/\d\+/\=submatch(0)+i/ | let i=i+1
@@ -46,4 +46,4 @@ Observação: 10,20 é o intervalo, ou seja, da linha 10 até a linha 20
 O plugin
 [Visincr](https://www.vim.org/scripts/script.php?script_id=670) 
 Possibilita incrementos em modo visual de diversas formas, um vídeo
-demonstrativos pode ser visto [neste link](https://vimeo.com/4457161).
+demonstrativo pode ser visto [neste link](https://vimeo.com/4457161).

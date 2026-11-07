@@ -1,6 +1,6 @@
 Pode-se guardar trechos do que foi copiado ou apagado para registradores
 distintos (área de transferência múltipla). Os registradores são indicados
-por aspas seguido por uma letra. Exemplos: `"a`,
+por aspas seguidas de uma letra. Exemplos: `"a`,
 `"b`, `"c`, etc.
 
 Como copiar o texto para um registrador? É simples: basta especificar o

@@ -1,7 +1,7 @@
 ```
 :19;+3 co $
 ```
-O Vim sempre necessita de um intervalo (inicial e final) mas se usar-mos
+O Vim sempre necessita de um intervalo (inicial e final) mas se usarmos
 ‘;’ ele considera a primeira linha como segundo ponto do intervalo, e no
 caso acima estamos dizendo (nas entrelinhas) linhas 19 e 19+3\
 

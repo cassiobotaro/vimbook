@@ -17,7 +17,7 @@ Ignorando maiúsculas e minúsculas
 Usando `\c` o Vim encontrará “*palavra*”,
 “*Palavra*” ou até mesmo
 “*PALAVRA*”. Uma dica é colocar no seu arquivo
-de configuração “vimrc” veja o capítulo
+de configuração “vimrc”; veja o capítulo
 [Como editar preferências no Vim](../capitulo_12/como_editar_preferencias_no_vim.md).
 
 | Opção | Descrição |
@@ -27,7 +27,7 @@ de configuração “vimrc” veja o capítulo
 | `set hlsearch` | mostra o que está sendo buscado em cores |
 | `set incsearch` | ativa a busca incremental |
 
-se você não sabe ainda como colocar estas preferências no arquivo de
+Se você não sabe ainda como colocar estas preferências no arquivo de
 configuração pode ativá-las em modo de comando precedendo-as com dois
 pontos, assim:
 ```
