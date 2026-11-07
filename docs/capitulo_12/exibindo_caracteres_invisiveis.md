@@ -24,7 +24,7 @@ As chaves disponíveis são:
 | `extends:{char}` | é mostrado na última coluna quando a linha continua além da borda direita da tela; funciona com a opção *nowrap* habilitada |
 | `precedes:{char}` | é mostrado na primeira coluna quando há conteúdo antes do início visível da linha; funciona com a opção *nowrap* habilitada |
 
-Alguns exemplos de uso, para colocar no *vimrc* descomentando a linha
+Alguns exemplos de uso, para colocar no *vimrc* removendo o comentário da linha
 desejada:
 
 ```
