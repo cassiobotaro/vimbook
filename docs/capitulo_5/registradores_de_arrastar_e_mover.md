@@ -1,17 +1,17 @@
 O registrador
-```
+```text
 "*
 ```
 é responsável por armazenar o último texto selecionado (p.e., através do
 mouse). Já o registrador
-```
+```text
 "+
 ```
 é o denominado "área de transferência", normalmente utilizado para se
 transferir conteúdos entre aplicações—este registrador é preenchido, por
-exemplo, usando-se a típica combinação Ctrl-c (copiar) encontrada em
+exemplo, usando-se a típica combinação Ctrl-C (copiar) encontrada em
 muitas aplicações. Finalmente, o registrador
-```
+```text
 "~
 ```
 armazena o texto colado pela operação mais recente de

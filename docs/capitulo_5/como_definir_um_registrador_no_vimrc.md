@@ -13,13 +13,13 @@ Você pode criar uma variável no vimrc assim:
 | `echo var` | mostra o valor de var |
 
 Pode também dizer ao Vim algo como...
-```
-:let @d=strftime("%c")<Enter>
+```vim
+:let @d=strftime("%c")
 ```
 Neste caso estou dizendo a ele que guarde na variável 'd'
 o valor da data do sistema `strftime("%c")` ou então
 cole isto no vimrc:
-```
+```vim
 let @d=strftime("%c")
 ```
 A diferença entre digitar diretamente um comando e adicioná-lo ao
@@ -32,9 +32,9 @@ precisa ser escrito como `<cr>`. Veja ainda que no vimrc os dois
 pontos `:` somem.
 
 Pode mapear tudo isto
-```
+```vim
 let @d=strftime("%c")
-imap ,d <c-r>d
+imap ,d <C-r>d
 nmap ,d "dp
 ```
 As atribuições acima correspondem a:
@@ -61,10 +61,7 @@ Desmistificando o strftime
 Use `:h strftime` para a ajuda completa sobre a função.
 
 e inserir em modo normal assim:
-```
+```text
 "dp
 ```
-ou usar em modo de inserção assim:
-```
-Ctrl-r d
-```
+ou usar em modo de inserção pressionando `Ctrl-R d`.

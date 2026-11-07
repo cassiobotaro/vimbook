@@ -1,4 +1,4 @@
-```
+```text
 :let @a=@_   ... limpa o registrador a
 :let @a=""   ... limpa o registrador a
 :let @a=@"   ... salva registrador sem nome *N*
@@ -15,22 +15,18 @@ Em modo de inserção
 
 | Comando | Descrição |
 |---------|-----------|
-| `<C-R>-` | Insere o registrador de pequenas deleções |
-| `<C-R>[0-9a-z]` | Insere registradores 0-9 e a-z |
-| `<C-R>%` | Insere o nome do arquivo |
-| `<C-R>=somevar` | Insere o conteúdo de uma variável |
-| `<C-R><C-W>` | Insere a palavra sob o cursor |
-| `<C-R><C-A>` | Insere a WORD sob o cursor (delimitada por espaços) |
+| `Ctrl-R -` | Insere o registrador de pequenas deleções |
+| `Ctrl-R` seguido de `0`-`9` ou `a`-`z` | Insere registradores 0-9 e a-z |
+| `Ctrl-R %` | Insere o nome do arquivo |
+| `Ctrl-R =` seguido do nome da variável | Insere o conteúdo de uma variável |
+| `Ctrl-R Ctrl-W` | Insere a palavra sob o cursor |
+| `Ctrl-R Ctrl-A` | Insere a WORD sob o cursor (delimitada por espaços) |
 
 Um exemplo: pré-carregando o nome do arquivo no registrador `n`.
 
 coloque em seu `~/.vimrc`
-```
+```vim
 let @n=@%
 ```
 Como foi atribuído ao registrador `n` o conteúdo de @%, ou seja, o nome do
-arquivo, você pode fazer algo assim em modo de inserção:
-```
-Ctrl-r n
-```
-E o nome do arquivo será inserido.
+arquivo, você pode pressionar `Ctrl-R n` em modo de inserção e o nome do arquivo será inserido.
