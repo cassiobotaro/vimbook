@@ -3,30 +3,30 @@ title: Editando em modo de comando
 ---
 
 Para mover um trecho usando o modo de comandos faça:
-```
+```vim
 :10,20m $
 ```
 O comando acima move `m` da linha 10 até a linha 20 para o
 final `$`.
-```
+```vim
 :g /palavra/ m 0
 ```
 Move as linhas contendo ‘palavra’ para o começo (linha zero)
-```
+```vim
 :10,20y a
 ```
 Copia da linha ‘10’ até a linha ‘20’ para o registrador ‘a’
-```
+```vim
 :56pu a
 ```
 Cola o registrador ‘a’ na linha 56
-```
+```vim
 :g/padrão/d
 ```
 O comando acima deleta todas as linhas contendo a palavra ‘padrão’.
 
 Podemos inverter a lógica do comando global `g`:
-```
+```vim
 :g!/padrão/d
 ```
 Não delete as linhas contendo padrão, ou seja, delete tudo menos as
@@ -40,7 +40,7 @@ linhas contendo a palavra ‘padrão’.
 
 A opção acima equivale a `:g!/padrão/d`. Para ler mais sobre o comando
 “global” utilizado nesta seção veja o capítulo [O comando global "g"](../capitulo_6/o_comando_global_g.md).
-```
+```vim
 :7,10copy $
 ```
 Da linha 7 até a linha 10 copie para o final. Veja mais sobre edição no
@@ -50,11 +50,11 @@ modo de comando no capítulo [Buscas e Substituições](../capitulo_6/buscas_e_s
 
 Para inserir uma sequência de 1 a 10 a partir da linha inicial “zero”
 fazemos:
-```
+```vim
 :0put =range(1,10)
 ```
 Caso queira inserir sequências como esta:
-```
+```text
 192.168.0.1
 192.168.0.2
 192.168.0.3
@@ -62,7 +62,7 @@ Caso queira inserir sequências como esta:
 192.168.0.5
 ```
 Usamos este comando:
-```
+```vim
 :for i in range(1,5) | .put ='192.168.0.'.i | endfor
 ```
 

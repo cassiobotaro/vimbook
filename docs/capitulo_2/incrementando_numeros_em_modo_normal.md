@@ -6,5 +6,5 @@ Posicione o cursor sobre um número e pressione:
 
 | Comando | Descrição |
 |---------|-----------|
-| `Ctrl-a` | incrementa o número |
-| `Ctrl-x` | decrementa o número |
+| `Ctrl-A` | incrementa o número |
+| `Ctrl-X` | decrementa o número |

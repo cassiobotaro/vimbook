@@ -4,19 +4,19 @@ title: Abrindo o arquivo para a edição
 
 Portanto, a primeira coisa a fazer é abrir um arquivo. Como visto, para
 abrir um arquivo com Vim, digite em um terminal:
-```
+```bash
 vim texto.txt
 ```
 onde `texto.txt` é o nome do arquivo que se deseja criar ou
 editar.
 
 Caso deseje abrir o arquivo na linha 10, usa-se:
-```
+```bash
 vim +10 /caminho/para/o/arquivo
 ```
 se quiser abrir o arquivo na linha que contém um determinado padrão,
 digite:
-```
+```bash
 vim +/padrão arquivo
 ```
 Caso o padrão tenha espaços no nome coloque entre aspas ou use
@@ -24,6 +24,6 @@ Caso o padrão tenha espaços no nome coloque entre aspas ou use
 
 Se o Vim for aberto sem indicação de arquivo pode-se indicar o arquivo a
 ser editado em modo de comando desta forma:
-```
+```vim
 :e /home/usuario/arquivo
 ```

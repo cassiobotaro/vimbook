@@ -13,12 +13,12 @@ um recurso distinto, veja o capítulo [Registradores](../capitulo_5/registradore
 | `Ctrl-6` | abre o arquivo alternativo (booleano) |
 
 Bom, já que abrimos o nosso último arquivo editado com o comando:
-```
+```text
 '0
 ```
 podemos, e provavelmente o faremos, editar no mesmo ponto em que
 estávamos editando da última vez:
-```
+```text
 gi
 ```
 Pode-se criar um `alias`[^1] para que ao abrir o Vim o

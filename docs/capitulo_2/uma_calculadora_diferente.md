@@ -1,6 +1,6 @@
 Sempre que for necessário digitar o resultado de uma expressão
 matemática (portanto no modo de inserção) pode-se usar o atalho
-`Ctrl-r =`, ele ativa o registrador de expressões, na linha de
+`Ctrl-R =`, ele ativa o registrador de expressões, na linha de
 comando do Vim aparece um sinal de igual, digita-se então uma expressão
 matemática qualquer tipo `35\*6` e em seguida pressiona-se
 `Enter`, o Vim coloca então o resultado da expressão no
@@ -16,7 +16,7 @@ precisão e complexidade.
 
 Se a intenção for apenas exibir um cálculo na barra de comandos é
 possível fazer algo assim:
-```
+```vim
 :echo 5.2 * 3
 ```
 

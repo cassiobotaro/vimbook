@@ -3,7 +3,7 @@ title: Usando o grep interno do Vim
 ---
 
 Para editar todos os arquivos que contenham a palavra “inusitada”:
-```
+```vim
 :vimgrep /\cinusitada/ *
 ```
 a opção `\c` torna a busca indiferente a letras maiúsculas e

@@ -15,7 +15,7 @@ diferenças entre dois arquivos faz-se:
 
 Para usuários do GNU/Linux é possível ainda checar diferenças
 remotamente assim:
-```
+```bash
 vimdiff projeto scp://usuario@estacao//caminho/projeto
 ```
 O comando acima irá exibir lado a lado o arquivo local chamado
