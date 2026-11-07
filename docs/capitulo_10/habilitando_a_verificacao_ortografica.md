@@ -14,7 +14,7 @@ ou de forma abreviada:
 ```
 :setl spell spl=pt
 ```
-Trocando-se `setlocal` (`setl`) por apenas
+Trocar `setlocal` (`setl`) por apenas
 `set` (`se`) faz com que o comando tenha efeito
 global, isto é, todos os arquivos da sessão corrente do Vim estariam sob
 efeito da verificação ortográfica e do mesmo dicionário (no caso o
@@ -25,7 +25,7 @@ A desabilitação da verificação dá-se digitando:
 :setlocal nospell
 :set nospell            (efeito global)
 ```
-Caso queira-se apenas alterar o dicionário de verificação ortográfica,
+Caso se queira apenas alterar o dicionário de verificação ortográfica,
 suponha para a língua inglesa (`en`), basta:
 ```
 :setlocal spelllang=en
@@ -33,8 +33,8 @@ suponha para a língua inglesa (`en`), basta:
 ```
 ### Habilitação automática na inicialização
 
-Às vezes torna-se cansativo a digitação explícita do comando de
-habilitação da verificação ortográfica sempre quando desejada. Seria
+Às vezes torna-se cansativa a digitação explícita do comando de
+habilitação da verificação ortográfica sempre que desejada. Seria
 conveniente se o Vim habilitasse automaticamente a verificação para
 aqueles tipos de arquivos que comumente fazem uso da verificação
 ortográfica, como por exemplo arquivos “texto”. Isto é possível
@@ -47,7 +47,7 @@ Assim habilita-se automaticamente a verificação ortográfica usando o
 dicionário da língua portuguesa (pt) para arquivos do tipo
 texto e os terminados com a extensão .txt.
 Mais tecnicamente, diz-se ao Vim para executar o comando
-`setl spell spl=pt` sempre quando o tipo do arquivo
+`setl spell spl=pt` sempre que o tipo do arquivo
 (Filetype) for text (texto) ou quando um
 arquivo com extensão .txt for carregado
 (BufRead) ou criado (BufNewFile).
