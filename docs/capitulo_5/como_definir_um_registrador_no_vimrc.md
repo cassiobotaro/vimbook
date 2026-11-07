@@ -16,7 +16,7 @@ Pode também dizer ao Vim algo como...
 ```
 :let @d=strftime("%c")<Enter>
 ```
-Neste caso estou dizendo a ele que guarde na variável 'd',
+Neste caso estou dizendo a ele que guarde na variável 'd'
 o valor da data do sistema `strftime("%c")` ou então
 cole isto no vimrc:
 ```

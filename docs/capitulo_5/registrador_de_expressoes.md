@@ -22,7 +22,7 @@ linha 2 tem o valor 300,
 linha 3 tem o valor 450,
 ...
 ```
-Acompanhe os passos para a criação de uma macro permite fazer uma
+Acompanhe os passos para a criação de uma macro que permite fazer uma
 sequência de quantas linhas forem necessárias com o incremento proposto
 acima.
 

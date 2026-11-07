@@ -3,7 +3,7 @@ Suponha que você abriu vários arquivos txt assim:
 ```
 vim *.txt
 ```
-Para listar os arquivos aberto faça:
+Para listar os arquivos abertos, faça:
 ```
 :buffers
 ```
@@ -14,7 +14,7 @@ lista, algo como:
 :buf 3
 ```
 Para editar arquivos em sequência faça as alterações no arquivo atual e
-acesso o próximo assim:
+acesse o próximo assim:
 ```
 :wn
 ```
