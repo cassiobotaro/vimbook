@@ -14,7 +14,7 @@ O plugin contém dois arquivos:
 - 1. `pydiction.py` deve ser colocado no `path`
 - 2. `pydiction` deve ser colocado em um lugar de sua preferência
 
-Deve-se adicionar algumas linhas do `.vimrc`.
+Deve-se adicionar algumas linhas ao `.vimrc`.
 No exemplo abaixo o dicionário é adicionado ao diretório `~/.vim/dict`
 
 ```VimL

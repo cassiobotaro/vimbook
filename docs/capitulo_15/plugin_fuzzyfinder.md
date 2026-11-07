@@ -2,18 +2,18 @@
 title: Plugin FuzzyFinder
 ---
 
-Este plugin é a implementação de um recurso do editor *Texmate*[^1].
+Este plugin é a implementação de um recurso do editor *TextMate*[^1].
 Sua proposta é acessar de forma rápida:
 
 1. Arquivos `:FuzzyFinderFile`
-2. Arquivos recém editados `:FuzzyFinderMruFile`
-3. Comandos recém utilizados `:FuzzyFinderMruCmd`
+2. Arquivos recém-editados `:FuzzyFinderMruFile`
+3. Comandos recém-utilizados `:FuzzyFinderMruCmd`
 4. Favoritos `:FuzzyFinderAddBookmark, :FuzzyFinderBookmarks`
 5. Navegação por diretórios `:FuzzyFinderDir`
 6. Tags `:FuzzyFinderTag`
 
 Para ver o plugin em ação acesse este
-[video](https://vimeo.com/2938498) e para obtê-lo acesse
+[vídeo](https://vimeo.com/2938498) e para obtê-lo acesse
  [este link](https://www.vim.org/scripts/script.php?script_id=1984),
 para instalá-lo basta copiar para o diretório `~/.vim/plugin`.
 

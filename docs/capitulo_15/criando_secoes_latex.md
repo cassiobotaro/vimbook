@@ -2,7 +2,7 @@
 title: Criando Seções LaTeX
 ---
 
-o comando abaixo substitui
+O comando abaixo substitui
 
 ```
 ==seção==

@@ -29,7 +29,7 @@ Exemplo no GNU/Linux
               |
               + plugin
 ```
-Obs: Alguns plugins dependem da versão do Vim, para saber qual
+Obs: Alguns plugins dependem da versão do Vim; para saber qual
 a que está atualmente instalada:
 ```
 :ve[rsion]
