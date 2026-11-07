@@ -12,16 +12,16 @@ O Vim tem seis modos *fold*, são eles:
 - Expressões Regulares (*expr*)
 
 Para determinar o tipo de dobra faça
-```
+```vim
 :set foldmethod=tipo
 ```
 onde o tipo pode ser um dos tipos listados acima, exemplo:
-```
+```vim
 :set foldmethod=marker
 ```
 Outro modo para determinar o método de dobra seria colocando na última
 linha do seu arquivo algo assim:
-```
+```text
 vim:fdm=marker:fdl=0:
 ```
 
