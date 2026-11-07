@@ -1,4 +1,4 @@
-```
+```vim
 " cores
 menu T&emas.cores.quagmire :colo quagmire<CR>
 menu T&emas.cores.inkpot :colo inkpot<CR>

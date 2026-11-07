@@ -1,18 +1,18 @@
 Autocomandos habilitam comandos automáticos para situações específicas.
 Para executar determinada ação ao iniciar um novo arquivo o autocomando
 deverá obedecer a este padrão:
-```
+```vim
 au BufNewFile tipo ação
 ```
 Veja um exemplo:
-```
+```vim
 au BufNewFile,BufRead *.txt source ~/.vim/syntax/txt.vim
 ```
 No exemplo acima o Vim aplica autocomandos para arquivos novos
 “*BufNewfile*” ou existentes “*BufRead*”
 terminados em `txt`, e para estes tipos carrega um arquivo de
 **syntax**, ou seja, um esquema de cores específico.
-```
+```vim
 " https://aurelio.net/vim/txt.vim    coloque em ~/.vim/syntax
 au BufNewFile,BufRead *.txt source ~/.vim/syntax/txt.vim
 ```
@@ -22,12 +22,12 @@ Para arquivos do tipo texto ‘*.txt*’ use um arquivo de
 O autocomando abaixo coloca um cabeçalho para **scripts**
 *bash* caso a linha 1 esteja vazia, observe que os arquivos
 em questão têm que ter a extensão *.sh*.
-```
+```vim
 au BufNewFile,BufRead *.sh if getline(1) == "" | normal ,sh
 ```
 Para configurar o Vim de modo que o diretório corrente fique no
 **path** coloque este código no `vimrc`.
-```
+```vim
 "fonte: wikia - wiki sobre o vim
 if exists('+autochdir')
   set autochdir
@@ -47,7 +47,7 @@ com tabulações ocasiona erros é em códigos LaTeX, ao compilar o
 documento a formatação não sai como desejado. Até que se perceba o erro
 leva um tempo. Para configurar o Vim de forma que ele detecte este tipo
 de erro ao entrar no arquivo:
-```
+```vim
 au! VimEnter * match ErrorMsg /^\t\+/
 ```
 
@@ -67,7 +67,7 @@ Explicação para o autocomando acima:
 
 Para evitar que este erro se repita, ou seja, que sejam adicionados no
 começo de linha espaços no lugar de tabulações adiciona-se ao \~/.vimrc
-```
+```vim
 set expandtab
 ```
 É perfeitamente possível um autocomando que faça direto a substituição
@@ -80,6 +80,6 @@ Pode-se criar um autocomando para inserir um modelo de documento ‘html’
 por exemplo de forma automática, ou seja, se você criar um novo
 documento do tipo ‘html’ o Vim colocará em seu conteúdo um modelo
 predefinido.
-```
+```vim
 au BufNewFile *.html 0r ~/.vim/skel/skel.html
 ```

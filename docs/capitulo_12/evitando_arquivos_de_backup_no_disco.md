@@ -9,7 +9,7 @@ e expõem o código-fonte.
 Para que os **backups** sejam feitos enquanto os arquivos
 estejam sendo escritos, porém não mantidos após terminar a escrita,
 utiliza-se no `.vimrc`:
-```
+```vim
 set nobackup
 set writebackup
 ```

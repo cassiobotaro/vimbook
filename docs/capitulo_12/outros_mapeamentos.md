@@ -1,5 +1,5 @@
 Destaca espaços e tabulações redundantes:
-```
+```vim
 highlight RedundantWhitespace ctermbg=red guibg=red
 match RedundantWhitespace /\s\+$\| \+\ze\t/
 ```
@@ -18,25 +18,25 @@ Explicando com detalhes
 
 Portanto a expressão regular acima localizará espaços ou tabulações no
 final de linha e destacará em vermelho.
-```VimL
+```vim
 "Remove espaços redundantes no fim das linhas
 map <F7> <Esc>mz:%s/\s\+$//g<cr>`z
 ```
 Um detalhe importante
-```
+```text
 mz ... marca a posição atual do cursor para retornar no final do comando
 `z ... retorna à marca criada
 ```
 Se não fosse feito isto o cursor iria ficar na linha da última
 substituição!
-```VimL
+```vim
 "Abre o vim explorer
 map <F6> <Esc>:vne .<cr><bar>:vertical resize -30<cr><bar>:set nonu<cr>
 ```
 Podemos usar “Expressões Regulares[^1]” em buscas do Vim. Veja um exemplo
 para retirar todas as tags HTML:
-```VimL
-"mapeamento para retirar tags HTML com Ctrl-Alt-t
+```vim
+"mapeamento para retirar tags HTML com Ctrl-Alt-T
 nmap <C-M-t> :%s/<[^>]*>//g <cr>
 " Quebra a linha atual no local do cursor com F2
 nmap <F2> a<CR><Esc>

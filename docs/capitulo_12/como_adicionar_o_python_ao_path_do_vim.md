@@ -9,7 +9,7 @@ em:
 -   `~/.vim/after/ftplugin/python.vim` (em sistemas Unix)
 -   `$HOME/vimfiles/after/ftplugin/python.vim` (no Windows)
 
-```VimL
+```vim
 python3 << EOF
 import os
 import sys
@@ -21,5 +21,5 @@ for p in sys.path:
         vim.command(r"set path+=%s" % (p.replace(" ", r"\ ")))
 EOF
 ```
-Isto lhe permite usar *gf* ou *Ctrl-w Ctrl-F*
+Isto lhe permite usar `gf` ou `Ctrl-W Ctrl-F`
 para abrir um arquivo sob o cursor

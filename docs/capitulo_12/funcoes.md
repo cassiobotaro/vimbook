@@ -3,7 +3,7 @@ title: Funções
 ---
 
 ### Fechamento automático de parênteses
-```VimL
+```vim
  " --------------------------------------
  " Ativa fechamento automático para parêntese
  " Set automatic expansion of parenthesis/brackets
@@ -11,7 +11,7 @@ title: Funções
  inoremap { {}<Esc>:call BC_AddChar("}")<cr>i
  inoremap [ []<Esc>:call BC_AddChar("]")<cr>i
  "
- " mapeia Ctrl-j para pular fora de parênteses colchetes etc...
+ " mapeia Ctrl-J para pular fora de parênteses colchetes etc...
  inoremap <C-j> <Esc>:call search(BC_GetChar(), "W")<cr>a
  " Function for the above
  function! BC_AddChar(schar)
@@ -30,7 +30,7 @@ title: Funções
 
 Outra opção para fechamento de parênteses:
 
-```VimL
+```vim
  " Fechamento automático de parênteses
  imap { {}<left>
  imap ( ()<left>
@@ -42,7 +42,7 @@ Outra opção para fechamento de parênteses:
  imap <c-h> <Esc><left>a
 ```
 ### Função para barra de status
-```VimL
+```vim
 set statusline=%F%m%r%h%w
 set statusline+=[FORMAT=%{&ff}]
 set statusline+=[TYPE=%Y]
@@ -55,12 +55,8 @@ link](https://vim.fandom.com/wiki/Writing_a_valid_statusline) 
 
 ### Rolar outra janela
 
-Se você dividir janelas tipo
-```
- Ctrl-w n
-```
-pode colocar esta função no seu `.vimrc`
-```VimL
+Se você dividir janelas com `Ctrl-W n`, pode colocar esta função no seu `.vimrc`
+```vim
  " rola janela alternativa
  fun! ScrollOtherWindow(dir)
   if a:dir == "down"
@@ -82,7 +78,7 @@ No site wikia há um código de função para [numerar
 linhas](https://vim.fandom.com/wiki/Number_a_group_of_lines) 
 
 ### Função para trocar o esquema de cores
-```VimL
+```vim
  function! <SID>SwitchColorSchemes()
     if !exists("g:colors_name")
       let g:colors_name = 'default'
@@ -112,7 +108,7 @@ Obs.: Talvez os esquemas de cores aqui mostrados não existam em sua plataforma,
 ### Uma função para inserir cabeçalho de script
 
 Para chamar a função, basta pressionar `,sh` em modo normal
-```VimL
+```vim
  " Cria um cabeçalho para scripts bash
  fun! InsertHeadBash()
     normal(1G)
@@ -128,7 +124,7 @@ Para chamar a função, basta pressionar `,sh` em modo normal
  map ,sh :call InsertHeadBash()<cr>
 ```
 ### Função para inserir cabeçalhos Python
-```VimL
+```vim
  " função para inserir cabeçalhos Python
  fun! BufNewFile_PY()
   normal(1G)
@@ -159,21 +155,21 @@ Para chamar a função, basta pressionar `,sh` em modo normal
  nmap <F12> :<C-u>source $HOME/.vimrc <BAR> echo "Vimrc recarregado!"<CR>
 ```
 Redimensionar janelas
-```VimL
+```vim
 " Redimensionar a janela com
 " Alt-seta à direita e esquerda
 map <M-right> <Esc>:resize +2 <CR>
 map <M-left> <Esc>:resize -2 <CR>
 ```
 ### Função para pular para uma linha
-```VimL
+```vim
  "ir para linha
  " ir para uma linha específica
  function! GoToLine()
  let ln = inputdialog("ir para a linha...")
  exe ":" . ln
  endfunction
- "no meu caso o mapeamento é com Ctrl-l
+ "no meu caso o mapeamento é com Ctrl-L
  "use o que melhor lhe convier
  nmap <C-l> :call GoToLine()<CR>
 ```
@@ -182,7 +178,7 @@ map <M-left> <Esc>:resize -2 <CR>
 A função abaixo é útil para ser usada quando você vai editar um arquivo
 gerando modificações significativas, assim você poderá restaurar o
 backup se necessário
-```VimL
+```vim
  " A mapping to make a backup of the current file.
  fun! WriteBackup()
     let fname = expand("%:p") . "__" . strftime("%d-%m-%Y--%H.%M.%S")

@@ -6,10 +6,10 @@ as teclas e combinações. Alguns exemplos:
 
 | Notação | Tecla mapeada |
 |---------|---------------|
-| `<c-x>` | Ctrl-x |
+| `<C-x>` | `Ctrl-X` |
 | `<left>` | seta para a esquerda |
 | `<right>` | seta para a direita |
-| `<c-m-a>` | Ctrl-Alt-a |
+| `<C-M-a>` | `Ctrl-Alt-A` |
 | `<cr>` | Enter |
 | `<Esc>` | Escape |
 | `<leader>` | normalmente \ |
@@ -19,8 +19,8 @@ as teclas e combinações. Alguns exemplos:
 | `<cfile>` | arquivo sob o cursor |
 | `<sfile>` | arquivo sendo carregado com :source |
 | `<up>` | equivale a clicar em `seta acima' |
-| `<m-f4>` | a tecla alt (m) mais a tecla f4 |
-| `<c-f>` | Ctrl-f |
+| `<M-F4>` | `Alt-F4` (o `M` vem de *meta*) |
+| `<C-f>` | `Ctrl-F` |
 | `<bs>` | backspace |
 | `<space>` | espaço |
 | `<tab>` | tab |
@@ -28,7 +28,7 @@ as teclas e combinações. Alguns exemplos:
 No Vim podemos mapear uma tecla para o modo normal, realizando
 determinada operação e a mesma tecla pode desempenhar outra função
 qualquer em modo de inserção ou comando, veja:
-```VimL
+```vim
 " mostra o nome do arquivo com o caminho
 map <F2> :echo expand("%:p")<cr>
 " insere um texto qualquer
@@ -44,7 +44,7 @@ assim: `:ec`.
 Cada alteração no arquivo de configuração do Vim só terá efeito na
 próxima vez que você abrir o Vim a menos que você coloque isto dentro do
 mesmo
-```VimL
+```vim
 " recarregar o vimrc
 " Source the .vimrc or _vimrc file, depending on system
 if &term == "win32" || "pcterm" || has("gui_win32")
@@ -57,14 +57,14 @@ endif
 ```
 Agora basta pressionar `<F12>` em modo normal e as alterações passam a
 valer instantaneamente, e para chamar o `vimrc` basta usar:
-```
+```text
 ,v
 ```
 Os mapeamentos abaixo são úteis para quem escreve códigos HTML, permitem
 inserir caracteres reservados do HTML usando uma barra invertida para
 proteger os mesmos, o Vim substituirá os “barra alguma coisa” pelo
 caractere correspondente.
-```VimL
+```vim
 inoremap \& &amp;
 " <lt> representa o caractere `<', que sozinho iniciaria
 " o nome de uma tecla especial
@@ -79,7 +79,7 @@ significa que um atalho pode ser mapeado para diferentes modos de
 operação.\
 
 Veja este outro mapeamento:
-```VimL
+```vim
 map <F11> <Esc>:set nu!<cr>
 ```
 Permite habilitar ou desabilitar números de linha do arquivo corrente. A
@@ -93,20 +93,20 @@ A cada busca, se a opção ‘*hls*’[^1] estiver habilitada o Vim
 faz um destaque colorido, para desabilitar esta opção pode-se criar um
 mapeamento qualquer, no caso abaixo usando a combinação de teclas
 `<S-F11>`.
-```VimL
+```vim
 nno <S-F11> <Esc>:let @/=""<CR>
 ```
 É um mapeamento para o modo normal que faz com que a combinação de
 teclas `Shift-F11` limpe o “registrador” de buscas
 
 ### Destacar palavra sob o cursor
-```VimL
+```vim
 nmap <s-f> :let @/=expand("<cword>")<CR>
 ```
 O atalho acima `s-f` corresponde a `Shift-f`.
 
 ### Contar ocorrências de uma palavra
-```VimL
+```vim
 " contagem de ocorrências de uma palavra (case insensitive)
 " busca somente ocorrências exatas
 nmap <F4> <esc>mz:%s/\c\<\(<c-r>=expand("<cword>")<cr>\)\>//gn<cr>`z
@@ -114,11 +114,11 @@ nmap <F4> <esc>mz:%s/\c\<\(<c-r>=expand("<cword>")<cr>\)\>//gn<cr>`z
 nmap <s-F4> <esc>mz:%s/\c\(<c-r>=expand("<cword>")<cr>\)//gn<cr>`z
 ```
 ### Remover linhas em branco duplicadas
-```VimL
+```vim
 map ,d <Esc>:%s/\(^\n\{2,}\)/\r/g<cr>
 ```
 No mapeamento acima estamos associando o atalho:
-```
+```text
 ,d
 ```
 … à ação desejada, fazer com que linhas em branco sucessivas sejam
@@ -141,7 +141,7 @@ substituídas por uma só linha em branco, vejamos como funciona:
 
 As barras invertidas dos quantificadores podem ser dispensadas usando o
 modo *very magic*, indicado por `\v` no início do padrão:
-```
+```vim
 map ,d :%s/\v(^\n{2,})/\r/g<cr>
 ```
 Note que a opção **magic**, habilitada por padrão, não é suficiente para
@@ -154,7 +154,7 @@ normal no qual posiciona-se o cursor no primeiro caractere da expressão
 tipo `5\9` e em seguida pressiona-se
 “*Shift-F1*”, o segundo para o modo **insert** em
 que, após digitada a expressão pressiona-se o mesmo atalho.
-```VimL
+```vim
 " calculadora
 map <s-f1> <esc>0"myEA=<c-r>=<c-r>m<enter><esc>
 imap <s-f1> <space><esc>"myBEa=<c-r>=<c-r>m<enter><del>
@@ -169,27 +169,27 @@ capítulo [Uma calculadora diferente](../capitulo_2/uma_calculadora_diferente.md
 ### Mapeamentos globais
 
 Podemos fazer mapeamentos globais ou que funcionam em apenas um modo:
-```
+```text
 map  - funciona em qualquer modo
 nmap - apenas no modo Normal
 imap - apenas no modo de Inserção
 ```
-Mover linhas com *Ctrl-⬇* ou
-*Ctrl-⬆*
-```VimL
+Mover linhas com `Ctrl-↓` ou
+`Ctrl-↑`
+```vim
 " tem que estar em modo normal!
 nmap <C-Down> ddp
 nmap <C-Up> ddkP
 ```
 Salvando com uma tecla de função:
-```VimL
+```vim
 " salva com F9
 nmap <F9> :w<cr>
 " F10 - sai do Vim
 nmap <F10> <Esc>:q<cr>
 ```
 ### Convertendo as iniciais de um documento para maiúsculas
-```VimL
+```vim
 " MinusculasMaiusculas: converte a primeira letra de cada
 " frase para MAIÚSCULAS
 nmap ,mm :%s/\C\([.!?][])"']*\($\|[ ]\)\_s*\)\(\l\)/\1\U\3/g<CR>

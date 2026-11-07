@@ -1,10 +1,10 @@
 Os comandos *set*, responsáveis por atribuir valores a
 variáveis, podem ser colocados no `.vimrc`:
-```
+```vim
 set nu
 ```
 ou digitados como comandos:
-```
+```vim
 :set nu
 ```
 
@@ -55,6 +55,6 @@ por exemplo, se ligam por comandos próprios, que não aceitam `set` na frente.
 Se ao iniciar o Vim obtivermos mensagens de erros e houver dúvida se o
 erro é no Vim ou em sua configuração, pode-se iniciá-lo sem que o mesmo
 carregue o arquivo `.vimrc`.
-```
+```bash
 vim -u NONE
 ```
