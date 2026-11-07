@@ -7,19 +7,19 @@ Colaboração: Rubens Queiroz de Almeida
 
 Recentemente precisei combinar, em um arquivo, duas linhas consecutivas.
 O arquivo original continha linhas como:
-```
+```text
 Matrícula: 123456
 Senha: yatVind7kned
 Matrícula: 123456
 Senha: invanBabnit3
 ```
 E assim por diante. Eu precisava converter este arquivo para algo como:
-```
+```text
 Matrícula: 123456 - Senha: yatVind7kned
 Matrícula: 123456 - Senha: invanBabnit3
 ```
 Para isto, basta executar o comando:
-```
+```vim
 :g/^Matrícula/s/\n/ - /
 ```
 Explicando:

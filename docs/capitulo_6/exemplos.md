@@ -1,5 +1,5 @@
 Busca usando alternativas:
-```
+```vim
 /end\(if\|while\|for\)
 ```
 Buscará ‘endif’, ‘endwhile’ e ‘endfor’.
@@ -7,11 +7,11 @@ Observe que é necessário ‘escapar’ os caracteres `\(`, `\|` e `\)`, caso
 contrário eles serão interpretados como caracteres comuns.
 
 Quebra de linha
-```
+```vim
 /quebra\nde linha
 ```
 Ignorando maiúsculas e minúsculas
-```
+```vim
 /\cpalavra
 ```
 Usando `\c` o Vim encontrará “*palavra*”,
@@ -30,25 +30,25 @@ de configuração “vimrc”; veja o capítulo
 Se você não sabe ainda como colocar estas preferências no arquivo de
 configuração pode ativá-las em modo de comando precedendo-as com dois
 pontos, assim:
-```
-:set ignorecase<Enter>
+```vim
+:set ignorecase
 ```
 Substituições com confirmação, em que o `c` no final habilita a
 confirmação:
-```
+```vim
 :%s/word/palavra/c
 ```
 Procurando palavras repetidas
-```
+```vim
 /\<\(\w*\) \1\>
 ```
 Multilinha
-```
+```vim
 /Hello\_s\+World
 ```
 Buscará ‘Hello’ seguido de ‘World’, separados por qualquer número de
 espaços, incluindo quebras de linha. Buscará as três sequências:
-```
+```text
 Hello World
 
 Hello    World
@@ -57,7 +57,7 @@ Hello
 World
 ```
 Buscar linhas de até 30 caracteres de comprimento
-```
+```vim
 /^.\{,30\}$
 ```
 
@@ -78,34 +78,34 @@ Outras substituições úteis:
 
 Remover duas ou mais linhas vazias entre parágrafos diminuindo para uma
 só linha vazia.
-```
+```vim
 :%s/\(^\n\{2,}\)/\r/g
 ```
 Você pode criar um mapeamento e colocar no seu `~/.vimrc`
-```
+```vim
 map ,s <Esc>:%s/\(^\n\{2,}\)/\r/g<cr>
 ```
 No exemplo acima, ‘,s’ é um mapeamento para reduzir linhas
 em branco sucessivas para uma só\
 
 Remove não dígitos (não pega números)
-```
+```vim
 :%s/^\D.*//g
 ```
 Remove final de linha DOS/Windows `^M` que tem código hexadecimal igual
 a ‘0d’
-```
+```vim
 :%s/\%x0d//g
 ```
 Troca palavras de lugar usando expressões regulares:
-```
+```vim
 :%s/\(.\+\)\s\(.\+\)/\2 \1/
 ```
 Modificando todas as tags HTML para minúsculo:
-```
+```vim
 :%s/<\([^>]*\)>/<\L\1>/g
 ```
 Move linhas 10 a 12 para além da linha 30:
-```
+```vim
 :10,12m30
 ```

@@ -3,7 +3,7 @@ esquecemos em qual arquivo está, no exemplo abaixo procuramos
 a partir da nossa pasta pessoal pela palavra ‘dicas’ em todos os
 arquivos com extensão ‘txt’.
 O `~/` equivale a `/home/user`.
-```
+```vim
 :lvimgrep /dicas/gj ~/**/*.txt | lopen
 :vimgrep /dicas/gj **/*.txt | copen
 :vimgrep dicas **/*.txt | copen

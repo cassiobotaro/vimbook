@@ -5,20 +5,20 @@ title: Obtendo informações do arquivo
 | Comando | Descrição |
 |---------|-----------|
 | `ga` | mostra o código do caractere em decimal, hexa e octal |
-| `^g` | mostra o caminho e o nome do arquivo |
-| `g^g` | mostra estatísticas detalhadas do arquivo |
+| `Ctrl-G` | mostra o caminho e o nome do arquivo |
+| `g Ctrl-G` | mostra estatísticas detalhadas do arquivo |
 
 Obs.: O código do caractere pode ser usado para substituições,
 especialmente em se tratando de caracteres de controle como tabulações
 `^I` ou final de linha DOS/Windows `\%x0d`. Você pode apagar os
 caracteres de final de linha DOS/Windows usando uma simples
 substituição, veja mais adiante:
-```
+```vim
 :%s/\%x0d//g
 ```
 Uma forma mais prática de substituir o terminador de linha DOS para o
 terminador de linha Unix:
-```
+```vim
 :set ff=unix
 :w
 ```
@@ -32,5 +32,5 @@ combinação de teclas:
 |---------|-----------|
 | `i` | entra em modo de inserção |
 | `<INSERT>` | entra em modo de inserção |
-| `Ctrl-v Ctrl-m` | insere o símbolo ^M (terminador de linha DOS) |
+| `Ctrl-V Ctrl-M` | insere o símbolo `^M` (terminador de linha DOS) |
 
