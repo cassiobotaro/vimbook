@@ -1,7 +1,7 @@
 Do mesmo jeito que você usa grep na sua linha de comando
 você pode usar o grep interno do Vim. Exatamente do mesmo
 jeito:
-```
+```vim
 :grep <opções> <padrão> <caminho>
 ```
 Use a janela de *quickfix*[^1] aqui também para exibir os

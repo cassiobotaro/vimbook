@@ -13,7 +13,7 @@ no terminal. Para facilitar esta tarefa pode-se seguir estes passos:
     export VISUAL=vim
     ```
 
-2.  No terminal usar a combinação de teclas `Ctrl-x Ctrl-e`.
+2.  No terminal usar a combinação de teclas `Ctrl-X Ctrl-E`.
     Esta combinação de teclas abre o editor padrão do sistema onde se
     deve digitar o comando longo. Ao sair do editor o terminal executa o
     comando editado.

@@ -7,12 +7,12 @@ funcionar, então vamos ao funcionamento dele no Vim:
 Para indentar um bloco de código, primeiro selecione-o com o modo
 *visual line* (com V), depois é só entrar com
 o comando como se fosse qualquer outro comando externo:
-```
+```vim
 :!indent
 ```
 No caso, como foi selecionado um bloco de código, irão aparecer alguns
 caracteres extras, mas o procedimento continua o mesmo:
-```
+```vim
 :'<,'>!indent
 ```
 [^1]: [https://www.gnu.org/software/indent/](https://www.gnu.org/software/indent/)
