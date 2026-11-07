@@ -2,13 +2,13 @@
 title: Criando folders para arquivos LaTeX
 ---
 
-```
+```vim
 set foldmarker=\\begin,\\end
 set foldmethod=marker
 ```
 
 Adicionar marcadores (*labels*) às seções de um documento *LaTeX*
-```
+```vim
 :.s/^\(\\section\)\({.*}\)/\1\2\r\\label\2
 ```
 

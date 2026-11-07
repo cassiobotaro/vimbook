@@ -4,17 +4,17 @@ title: Criando Seções LaTeX
 
 O comando abaixo substitui
 
-```
+```text
 ==seção==
 ```
 
    por
 
-```
+```latex
 \section{seção}
 ```
 
-```
+```vim
 :.s/^==\s\?\([^=]*\)\s\?==/\\section{\1}/g
 ```
 

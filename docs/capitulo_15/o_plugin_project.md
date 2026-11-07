@@ -22,13 +22,13 @@ cria-se um filtro como `*.py`.
 Para criar uma entrada (acesso ao plugin) no menu do Gvim colocamos
 a seguinte linha no `vimrc`.
 
-```
+```vim
 amenu &Projetos.toggle <Plug>ToggleProject<cr>
 ```
 
 Pode-se definir um projeto manualmente assim:
 
-```
+```text
 nome=~/docs/ CD=. filter="*.txt" {
 
 }

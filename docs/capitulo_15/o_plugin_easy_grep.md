@@ -8,7 +8,7 @@ Este plugin simplifica esta tarefa, além de permitir a utilização da
 versão do `grep` nativa do Vim `vimgrep`, assim usuários do Windows
 também podem usar este recurso. Um comando `grep` funciona mais ou menos assim:
 
-```
+```bash
 grep [opções] "padrão" /caminho
 ```
 
