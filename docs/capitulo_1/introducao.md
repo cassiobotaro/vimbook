@@ -54,14 +54,14 @@ Ele é capaz de reconhecer mais de 500 sintaxes de linguagens de
 programação e marcação, possui mapeamento para teclas, macros,
 abreviações, busca por *Expressões Regulares*[^2], entre outras facilidades.
 
-A figura 1.1 mostra o vim sendo usado para editar o
+A figura 1.1 mostra o Vim sendo usado para editar o
 arquivo desse livro sobre vim.
 
 
-![Usando o vim para editar o código em LaTeX](vimedittex.png "Usando o vim para editar o código em LaTeX")
+![Usando o Vim para editar o código em LaTeX](vimedittex.png "Usando o Vim para editar o código em LaTeX")
 
 
-Figura 1.1 - Usando o vim para editar o código em LaTeX
+Figura 1.1 - Usando o Vim para editar o código em LaTeX
 
 O Vim conta com uma comunidade bastante atuante e é, ao lado do
 Emacs[^3], um dos editores mais usados nos sistemas GNU/Linux[^4],

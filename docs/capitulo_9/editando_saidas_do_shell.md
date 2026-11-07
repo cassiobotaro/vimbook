@@ -18,7 +18,7 @@ desta forma:
 ```
 svn diff | view -
 ```
-Outra situação em que se pode combinar o vim com saídas do shell é com o
+Outra situação em que se pode combinar o Vim com saídas do shell é com o
 comando `grep`. Usando-se a opção `-l` do grep listamos apenas os
 arquivos que correspondem a um padrão.
 ```
@@ -27,7 +27,7 @@ grep -irl voyeg3r .
 ./src/Makefile
 ./src/vimbook.tex
 ```
-Pode-se em seguida chamar o vim usando substituição de comandos, como o
+Pode-se em seguida chamar o Vim usando substituição de comandos, como o
 comando `!!` corresponde ao último comando, e neste caso a saída
 corresponde a uma lista de arquivos que contêm o padrão a ser editado
 faz-se:

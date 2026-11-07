@@ -50,7 +50,7 @@ Para ir para linhas específicas ‘em modo normal’ digite:
 onde `n` corresponde ao número da linha. Para retornar ao modo normal
 pressione `<Esc>` ou use `Ctrl-[` (`^[`).
 
-No vim é possível realizar diversos tipos de movimentos, também
+No Vim é possível realizar diversos tipos de movimentos, também
 conhecidos como saltos no documento. A lista abaixo aponta os comandos de
 salto típicos.
 
@@ -178,7 +178,7 @@ map ,f [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
 ```
 
 Uma vez definido o mapeamento acima e pressionando-se o atalho
-associado, que neste caso é `,f` o vim exibirá uma opção para pular
+associado, que neste caso é `,f` o Vim exibirá uma opção para pular
 para as ocorrências da palavra assim:
 
 ```

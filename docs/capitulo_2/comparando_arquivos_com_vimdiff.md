@@ -2,7 +2,7 @@
 title: Comparando arquivos com o vimdiff
 ---
 
-O vim possui um modo para checagem de diferenças entre arquivos, é
+O Vim possui um modo para checagem de diferenças entre arquivos, é
 bastante útil especialmente para programadores, para saber quais são as
 diferenças entre dois arquivos faz-se:
 

@@ -52,8 +52,8 @@ por exemplo, se ligam por comandos próprios, que não aceitam `set` na frente.
 | `colorscheme tema` | esquema de cores `syntax highlight' |
 | `colo tema` | simplificação de `colorscheme' |
 
-Se ao iniciar o vim obtivermos mensagens de erros e houver dúvida se o
-erro é no vim ou em sua configuração, pode-se iniciá-lo sem que o mesmo
+Se ao iniciar o Vim obtivermos mensagens de erros e houver dúvida se o
+erro é no Vim ou em sua configuração, pode-se iniciá-lo sem que o mesmo
 carregue o arquivo `.vimrc`.
 ```
 vim -u NONE
