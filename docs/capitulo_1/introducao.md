@@ -58,7 +58,7 @@ A figura 1.1 mostra o Vim sendo usado para editar o
 arquivo desse livro sobre vim.
 
 
-![Usando o Vim para editar o código em LaTeX](vimedittex.png "Usando o Vim para editar o código em LaTeX")
+![Usando o Vim para editar o código em LaTeX](../imgs/vimedittex.png "Usando o Vim para editar o código em LaTeX")
 
 
 Figura 1.1 - Usando o Vim para editar o código em LaTeX
