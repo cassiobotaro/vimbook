@@ -23,7 +23,7 @@ estivesse usando qualquer outro editor, ou seja, irá inserir duas vezes
 a letra `d`. Em modo normal pressionar a tecla
 `v` inicia uma seleção visual (use as setas de direção).
 Para sair do modo visual `<Esc>`. Como um dos princípios do vim é
-agilidade pode-se usar ao invés de setas (em modo normal) as letras
+agilidade pode-se usar em vez de setas (em modo normal) as letras
 `h,l,k,j` como se fossem setas:
 ```
     k
@@ -32,5 +32,5 @@ h       l
 ```
 
 Imagine as letras acima como teclas de direção, a letra `k`
-é uma seta acima a letra `j` é uma seta abaixo e assim por
+é uma seta acima, a letra `j` é uma seta abaixo e assim por
 diante.

@@ -28,13 +28,13 @@ introduz novos conceitos, opções e configurações que transformam o
 o benefício. Quem quer apenas escrever textos pode-se contentar com um
 editor básico, cujas únicas opções são digitar o texto, abrir e salvar
 o documento ou pode utilizar um editor que permita pré-configurar ações,
-formatar o conteúdo, revisar a ortografia, etc, além da ação básica que
+formatar o conteúdo, revisar a ortografia etc., além da ação básica que
 é escrever textos.
 
 Qualquer usuário de computador pode abrir o primeiro tipo de editor e
 imediatamente começar a escrever, a curto prazo, sua ação terá
 consequências imediatas e não requer conhecimentos adicionais. Por outro
-lado, esse usuário terá que fazer esforço para digitar o mesmos
+lado, esse usuário terá que fazer esforço para digitar o mesmo
 cabeçalho todos os dias.
 
 O outro tipo de editor permite que o usuário pré-configure o cabeçalho
@@ -45,8 +45,8 @@ benefício somente será observado a médio/longo prazo, quando o tempo
 ganho ao utilizar a configuração será superior ao tempo consumido
 aprendendo sobre o programa. O “[Vim](https://www.vim.org)”[^1] é um
 editor de texto extremamente configurável, criado para permitir a edição
-de forma eficiente, tornando-a produtiva e confortável. Também é uma
-aprimoração do editor “Vi”, um tradicional programa dos sistemas Unix.
+de forma eficiente, tornando-a produtiva e confortável. Também é um
+aprimoramento do editor “Vi”, um tradicional programa dos sistemas Unix.
 Possui uma série de mudanças em relação a este último. O próprio slogan
 do Vim é *Vi IMproved*, ou seja, *Vi Melhorado*. O Vim é tão conhecido e respeitado entre programadores, e tão útil para programação, que muitos o consideram uma verdadeira “IDE (*Integrated Development Environment*, em português, Ambiente Integrado de Desenvolvimento)”.
 
@@ -61,7 +61,7 @@ arquivo desse livro sobre vim.
 ![Usando o vim para editar o código em LaTeX](vimedittex.png "Usando o vim para editar o código em LaTeX")
 
 
-Figura 1.1 - Usando o vim para editar o código em LaTex
+Figura 1.1 - Usando o vim para editar o código em LaTeX
 
 O Vim conta com uma comunidade bastante atuante e é, ao lado do
 Emacs[^3], um dos editores mais usados nos sistemas GNU/Linux[^4],
