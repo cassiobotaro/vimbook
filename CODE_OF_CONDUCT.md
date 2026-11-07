@@ -3,13 +3,13 @@
 
 ## Nossa promessa
 
-Como pessoas participantes, colaboradoras e líderes, nós nos comprometemos a fazer com que a participação em nosso projeto seja uma experiência livre de assédio para todas as pessoas, independentemente de idade, tamanho do corpo, deficiência aparente ou não aparente, etnia, características sexuais, identidade ou expressão de gênero, nível de experiência, educação, situação sócio-econômica, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexuais.
+Como pessoas participantes, colaboradoras e líderes, nós nos comprometemos a fazer com que a participação em nosso projeto seja uma experiência livre de assédio para todas as pessoas, independentemente de idade, tamanho do corpo, deficiência aparente ou não aparente, etnia, características sexuais, identidade ou expressão de gênero, nível de experiência, educação, situação socioeconômica, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexuais.
 
 Comprometemo-nos a agir e interagir de maneiras que contribuam para uma comunidade aberta, acolhedora, diversificada, inclusiva e saudável.
 
 ## Nossos padrões
 
-Exemplos de comportamentos que contribuem para criar um ambiente positivo para o nosso projeto e incluem:
+Exemplos de comportamentos que contribuem para criar um ambiente positivo para o nosso projeto incluem:
 
 * Demonstrar empatia e bondade com as outras pessoas
 * Respeitar opiniões, pontos de vista e experiências contrárias
@@ -50,7 +50,7 @@ A liderança do projeto seguirá estas Diretrizes de Impacto na Comunidade para 
 
 ### 1. Ação Corretiva
 
-**Impacto no projeto**: Uso de linguagem imprópria ou outro comportamento considerado anti-profissional ou repudiado pela comunidade.
+**Impacto no projeto**: Uso de linguagem imprópria ou outro comportamento considerado antiprofissional ou repudiado pela comunidade.
 
 **Consequência**: Aviso escrito e privado da liderança do projeto, esclarecendo a natureza da violação e com a explicação do motivo pelo qual o comportamento era impróprio. Um pedido de desculpas público poderá ser solicitado.
 
