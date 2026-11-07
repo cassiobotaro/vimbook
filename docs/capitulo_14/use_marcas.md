@@ -2,7 +2,7 @@
 title: Use Marcas
 ---
 
-veja a seção [Usando marcas](../capitulo_3/usando_marcas.md).
+Veja a seção [Usando marcas](../capitulo_3/usando_marcas.md).
 
 | Comando | Descrição |
 |---------|-----------|
@@ -41,7 +41,7 @@ Suponha que você está procurando a palavra ‘argc’:
 /argc
 ```
 
-Digita ‘n’ para buscar a próxima ocorrência
+Digite ‘n’ para buscar a próxima ocorrência
 
 ```
 n

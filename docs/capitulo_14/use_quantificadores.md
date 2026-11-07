@@ -1,4 +1,4 @@
-Em modo normal você pode fazer
+Em modo normal, você pode fazer:
 
 | Comando | Descrição |
 |---------|-----------|
