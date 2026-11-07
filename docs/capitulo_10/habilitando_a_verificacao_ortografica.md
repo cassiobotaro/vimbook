@@ -7,11 +7,11 @@ portanto, sua efetiva habilitação depende da especificação desta
 linguagem. Por exemplo, para habilitar no arquivo em edição a
 verificação ortográfica na língua portuguesa (`pt`),
 assumindo-se a existência do dicionário em questão:
-```
+```vim
 :setlocal spell spelllang=pt
 ```
 ou de forma abreviada:
-```
+```vim
 :setl spell spl=pt
 ```
 Trocar `setlocal` (`setl`) por apenas
@@ -21,15 +21,15 @@ efeito da verificação ortográfica e do mesmo dicionário (no caso o
 `pt`).
 
 A desabilitação da verificação dá-se digitando:
-```
+```vim
 :setlocal nospell
-:set nospell            (efeito global)
+:set nospell            " efeito global
 ```
 Caso se queira apenas alterar o dicionário de verificação ortográfica,
 suponha para a língua inglesa (`en`), basta:
-```
+```vim
 :setlocal spelllang=en
-:set spelllang=en       (efeito global)
+:set spelllang=en       " efeito global
 ```
 ### Habilitação automática na inicialização
 
@@ -39,7 +39,7 @@ conveniente se o Vim habilitasse automaticamente a verificação para
 aqueles tipos de arquivos que comumente fazem uso da verificação
 ortográfica, como por exemplo arquivos “texto”. Isto é possível
 editando-se o arquivo de configuração do Vim `.vimrc` (veja [Como Editar Preferências no Vim](../capitulo_12/como_editar_preferencias_no_vim.md)) e incluindo as seguintes linhas:
-```
+```vim
 autocmd Filetype text setl spell spl=pt
 autocmd BufNewFile,BufRead *.txt setl spell spl=pt
 ```
