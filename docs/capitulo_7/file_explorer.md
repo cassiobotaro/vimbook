@@ -15,15 +15,15 @@ Após abrir, chame a ajuda com `<F1>`.
 
 O `:Vex` abre a janela à esquerda. Para que ela abra à direita, coloque a
 linha abaixo no seu `~/.vimrc`
-```
+```vim
 let g:netrw_altv = 1
 ```
 É possível mapear um atalho “no caso abaixo F2” para abrir o File
 Explorer.
-```
+```vim
 map <F2> <Esc>:Vex<cr>
 ```
 Ao editar um arquivo no qual há referência a um outro arquivo, por
-exemplo: ‘/etc/hosts’, pode-se usar o atalho ‘Ctrl-wf’ para abri-lo em nova janela, ou ‘gf’ para abri-lo
+exemplo: ‘/etc/hosts’, pode-se usar o atalho `Ctrl-W f` para abri-lo em nova janela, ou `gf` para abri-lo
 na janela atual. Mas é importante posicionar o cursor sobre o nome do
 arquivo. Veja também mapeamentos na seção [Mapeamentos](../capitulo_12/mapeamentos.md).
