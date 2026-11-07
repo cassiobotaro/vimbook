@@ -9,7 +9,7 @@ do Vim, e, a seguir, mais detalhes sobre cada um dos modos.
 |----|---------|------|
 |Normal| Para deletar, copiar, formatar, etc | `<esc>` |
 |Inserção| Prioritariamente, digitação de texto| i, a, I, A, o, O |
-|Visual| Seleção de blocos verticais e linhas inteiras |V, v, Ctrl-v|
+|Visual| Seleção de blocos verticais e linhas inteiras |`V`, `v`, `Ctrl-V`|
 |Comando| Uma verdadeira linguagem de programação | `<esc>`: |
 
 Em oposição à esmagadora maioria dos editores, o Vim é um editor que
@@ -25,7 +25,7 @@ a letra `d`. Em modo normal pressionar a tecla
 Para sair do modo visual `<Esc>`. Como um dos princípios do Vim é
 agilidade pode-se usar em vez de setas (em modo normal) as letras
 `h,l,k,j` como se fossem setas:
-```
+```text
     k
 h       l
     j

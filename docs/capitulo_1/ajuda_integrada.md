@@ -21,7 +21,7 @@ ou simplesmente `<F1>`.
 Siga os links usando o atalho `ctrl+]` (em modo gráfico o clique do
 mouse também funciona) e para voltar use `ctrl+o` ou `ctrl+t`.
 Para as situações de desespero pode-se digitar:
-```
+```vim
 :help!
 ```
 

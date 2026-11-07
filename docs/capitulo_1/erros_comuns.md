@@ -25,9 +25,9 @@ Alguns atalhos úteis…
 | Comando | Descrição |
 |---------|-----------|
 | `Ctrl-O` | comando do modo normal no modo insert |
-| `i Ctrl-a` | repetir a última inserção |
+| `i` seguido de `Ctrl-A` | repetir a última inserção |
 | `@:` | repetir o último comando |
-| `Shift-insert` | colar texto da área de transferência |
+| `Shift-Insert` | colar texto da área de transferência |
 | `gi` | modo de inserção no mesmo ponto da última vez |
 | `gv` | repete seleção visual |
 
