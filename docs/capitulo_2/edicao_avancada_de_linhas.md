@@ -30,7 +30,7 @@ Explicando o comando acima:
 | `w` | pula uma palavra |
 | `d3w` | apaga 3 palavras 'w' |
 
-Obs: É claro que um comando de substituição simples, como:
+Obs.: É claro que um comando de substituição simples, como:
 ```
 :5,$s/é um texto//g
 ```

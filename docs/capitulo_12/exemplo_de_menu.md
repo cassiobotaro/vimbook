@@ -27,6 +27,6 @@ menu para `Plugin` por exemplo digita-se no modo de comandos
 | `:set guioptions-=m` | oculta menus |
 | `:set guioptions-=T` | oculta ícones |
 
-Obs: para exibir novamente repita o comando substituindo o sinal de menos
+Obs.: para exibir novamente repita o comando substituindo o sinal de menos
 por mais.
 

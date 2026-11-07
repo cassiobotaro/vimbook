@@ -17,7 +17,7 @@ No Windows
 ```
 ~/vimfiles/plugin/
 ```
-Obs: Caso ainda não exista o diretório, ele pode ser criado pelo próprio usuário
+Obs.: Caso ainda não exista o diretório, ele pode ser criado pelo próprio usuário
 
 Exemplo no GNU/Linux
 ```
@@ -29,7 +29,7 @@ Exemplo no GNU/Linux
               |
               + plugin
 ```
-Obs: Alguns plugins dependem da versão do Vim; para saber qual
+Obs.: Alguns plugins dependem da versão do Vim; para saber qual
 a que está atualmente instalada:
 ```
 :ve[rsion]

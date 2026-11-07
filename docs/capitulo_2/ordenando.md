@@ -7,7 +7,7 @@ apresentado.
 | `:sort u` | ordena e retira linhas duplicadas |
 | `:sort n` | ordena numericamente |
 
-Obs: a ordenação numérica é diferente da ordenação alfabética se em um
+Obs.: a ordenação numérica é diferente da ordenação alfabética se em um
 trecho contendo algo como:
 ```
 8
