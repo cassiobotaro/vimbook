@@ -26,10 +26,10 @@ Algumas opções da diretiva viminfo:
 
 | Opção | Descrição |
 |-------|-----------|
-| `!` | Quando incluído salva e restaura variáveis globais (variáveis com letra maiúscula) e que não contém letras em minúsculo como MANTENHAISTO. |
+| `!` | Quando incluído salva e restaura variáveis globais (variáveis com letra maiúscula) e que não contêm letras em minúsculo como MANTENHAISTO. |
 | `"` | Número máximo de linhas salvas para cada registrador. |
 | `%` | Quando incluído salva e restaura a lista de *buffers*. Caso o Vim seja iniciado com um nome como argumento, a lista de *buffers* não é restaurada. *Buffers* sem nome e *buffers* de ajuda não são armazenados no viminfo. |
-| `'` | Número máximo de arquivos recém editados para os quais as marcas são lembradas. |
+| `'` | Número máximo de arquivos recém-editados para os quais as marcas são lembradas. |
 | `/` | Máximo de itens do histórico de buscas. |
 | `:` | Máximo de itens do histórico da linha de comando. |
 | `<` | Número máximo de linhas salvas por cada registrador, se zero os registradores não serão salvos. Quando não incluído, todas as linhas são salvas. |
