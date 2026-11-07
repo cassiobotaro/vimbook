@@ -5,7 +5,7 @@ title: Atualizando a documentação dos plugins
 Caso seja adicionado algum arquivo de documentação em `~/.vim/doc`
 pode-se gerar novamente as tags "links" para navegação de ajuda.
 
-```
+```vim
 :helptags $VIMRUNTIME/doc
 :helptags ~/.vim/doc
 ```

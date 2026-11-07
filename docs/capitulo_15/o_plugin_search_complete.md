@@ -6,7 +6,7 @@ Para que o Vim complete opções de busca com a tecla `<tab>`, digita-se uma
 palavra parcialmente e o plugin atua, exibindo palavras que têm
 o mesmo início, por exemplo:
 
-```
+```text
 /merca<tab>
 /mercado
 /mercantil

@@ -9,7 +9,7 @@ mesmo porque não estamos no CtagsBook.
 
 Primeiro precisamos ter o arquivo de tags. Para tal, usamos o comando:
 
-```
+```bash
 ctags -R <arquivos>
 ```
 
@@ -24,7 +24,7 @@ Quando navegando por um código-fonte muito extenso com vários diretórios,
 é possível mapear o caminho dos arquivos usando o caminho absoluto deles no seu
 diretório de trabalho deste jeito:
 
-```
+```bash
 find $(pwd) -regex ".*py$" | xargs ctags
 ```
 

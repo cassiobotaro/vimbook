@@ -20,7 +20,7 @@ que complementa mostrando um popup durante a digitação, o mesmo pode ser obtid
 [neste link](https://www.vim.org/scripts/script.php?script_id=1879),
 em seguida coloca-se esta linha no vimrc:
 
-```
+```vim
 let g:AutoComplPop_CompleteoptPreview = 1
 ```
 
