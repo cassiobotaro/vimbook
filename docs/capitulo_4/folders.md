@@ -3,7 +3,7 @@ Folders
 
 *Folders* são como dobras nas quais o Vim esconde partes do
 texto, algo assim:
-```
+```text
 +-- 10 linhas ---------------------------
 ```
 Deste ponto em diante chamaremos os *folders* descritos no
@@ -12,7 +12,7 @@ quantidades de texto tente usar dobras, isto permite uma visualização
 completa do texto. Um modo de entender rapidamente como funcionam as
 dobras no Vim seria criando uma “dobra” para as próximas 10 (dez) linhas
 com o comando abaixo:
-```
+```text
 zf10j
 ```
 Você pode ainda criar uma seleção visual

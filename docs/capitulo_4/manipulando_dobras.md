@@ -26,7 +26,7 @@ Os principais comandos relativos ao uso de dobras são:
 Para abrir e fechar as dobras usando a barra de espaços coloque o trecho
 abaixo no seu arquivo de configuração do Vim (`.vimrc`) - veja o
 [Como editar preferências no Vim](../capitulo_12/como_editar_preferencias_no_vim.md).
-```
+```vim
 nnoremap <space> @=((foldclosed(line(".")) < 0) ?
 				  \ 'zc' : 'zo')<CR>
 ```
@@ -35,7 +35,7 @@ mais de uma linha.
 
 Para abrir e fechar as dobras utilizando o clique do mouse no gvim,
 basta acrescentar na configuração do seu `.vimrc`:
-```
+```vim
 set foldcolumn=2
 ```
 o que adiciona uma coluna ao lado da coluna de numeração das linhas.
