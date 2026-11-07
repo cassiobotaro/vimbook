@@ -3,22 +3,22 @@ title: Restaurando sessões
 ---
 
 Após gravar sessões, elas podem ser carregadas ao iniciar o Vim:
-```
+```bash
 vim -S sessao.vim
 ```
 ou então de dentro do próprio Vim (no modo de comando):
-```
+```vim
 :so sessao.vim
 ```
 Após restaurar a sessão, o nome da sessão corrente é acessível através
 de uma variável interna `v:this_session`; caso se queira exibir na
 linha de comando o nome da sessão ativa (incluindo o caminho), faz-se:
-```
+```vim
 :echo v:this_session
 ```
 Podemos fazer mapeamentos para atualizar a sessão atual e exibir
 detalhes da mesma:
-```
+```vim
 "mapeamento para gravar sessão
 nmap <F4> :wa<Bar>exe "mksession! " . v:this_session<CR>
 

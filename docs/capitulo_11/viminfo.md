@@ -19,7 +19,7 @@ ser usada para memorizar estas informações.
 -   Variáveis globais
 
 Deve-se colocar no arquivo de configuração algo como:
-```
+```vim
 set viminfo=%,'50,\"100,/100,:100,n
 ```
 Algumas opções da diretiva viminfo:
