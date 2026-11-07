@@ -18,11 +18,11 @@ Um artigo ensinando como instalar o "*plugin*" snippetsEmu pode ser lido
 Outro plugin muito interessante para complementação é o "autocompletepopup"
 que complementa mostrando um popup durante a digitação, o mesmo pode ser obtido
 [neste link](https://www.vim.org/scripts/script.php?script_id=1879),
-em seguida coloca-se esta linha ao vimrc:
+em seguida coloca-se esta linha no vimrc:
 
 ```
 let g:AutoComplPop_CompleteoptPreview = 1
 ```
 
-A linha acima faz com que o vim abra uma janela pequena com a documentação
+A linha acima faz com que o Vim abra uma janela pequena com a documentação
 de cada método que está sendo digitado.

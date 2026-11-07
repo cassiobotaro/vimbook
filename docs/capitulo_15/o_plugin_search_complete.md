@@ -2,8 +2,8 @@
 title: O Plugin SearchComplete
 ---
 
-Para que o vim complete opções de busca com a tecla `<tab>`, digita-se uma
-palavra parcialmente e o plugin atua, exibindo palavras que tem
+Para que o Vim complete opções de busca com a tecla `<tab>`, digita-se uma
+palavra parcialmente e o plugin atua, exibindo palavras que têm
 o mesmo início, por exemplo:
 
 ```
@@ -21,8 +21,8 @@ e para instalá-lo basta copiá-lo para a pasta apropriada:
 
 | Comando | Descrição |
 |---------|-----------|
-| `~/vimfiles/plugin` | no windows |
-| `~/.vim/plugin` | no Gnu/Linux |
+| `~/vimfiles/plugin` | no Windows |
+| `~/.vim/plugin` | no GNU/Linux |
 
 Há outro plugin similar chamado `CmdlineComplete` disponível
 [neste link](https://www.vim.org/scripts/script.php?script_id=2222).

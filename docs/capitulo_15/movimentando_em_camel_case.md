@@ -16,4 +16,4 @@ Após instalado o plugin, os seguintes atalhos ficam disponíveis:
 * **,b** Movimenta para a posição *camel* anterior dentro da string
 * **,e** Movimenta para o caractere anterior à próxima posição *camel* dentro da string
 
-Fonte: [Blog do EustáquioRangel](https://eustaquiorangel.com/posts/522)
+Fonte: [Blog do Eustáquio Rangel](https://eustaquiorangel.com/posts/522)

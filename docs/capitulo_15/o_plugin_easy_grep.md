@@ -2,7 +2,7 @@
 title: O Plugin EasyGrep
 ---
 
-Usuários de sistemas *Unix Like*[^1], já conhecem o poder do comando `grep`,
+Usuários de sistemas *Unix Like*[^1] já conhecem o poder do comando `grep`,
 usando este comando procuramos palavras dentro de arquivos.
 Este plugin simplifica esta tarefa, além de permitir a utilização da
 versão do `grep` nativa do Vim `vimgrep`, assim usuários do Windows
@@ -26,8 +26,8 @@ para a pasta:
 
 | Comando | Descrição |
 |---------|-----------|
-| `~/.vim/plugin` | no caso do linux |
-| `~/vimfiles/plugin` | no caso do windows |
+| `~/.vim/plugin` | no caso do Linux |
+| `~/vimfiles/plugin` | no caso do Windows |
 
 Um vídeo de exemplo (na verdade uma animação gif) pode ser visto
 [aqui](https://github.com/dkprice/vim-easygrep#screencast).
