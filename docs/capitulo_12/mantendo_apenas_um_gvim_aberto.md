@@ -24,7 +24,7 @@ disponível, deve ser digitado em um terminal:
 vim --serverlist
 gvim --serverlist
 ```
-Se ambos os comandos acima resultaram em erro, o procedimento não poderá
+Se ambos os comandos acima resultarem em erro, o procedimento não poderá
 ser implementado. Do contrário, deve-se utilizar o comando que teve um
 retorno válido (*vim* ou *gvim*) para criar o
 **script**. Supondo que foi o comando *gvim* que

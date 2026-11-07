@@ -11,5 +11,5 @@ se seu primeiro caractere é uma aspa `"`:
 " e portanto serão ignoradas pelo Vim
 ```
 Recomenda-se usar comentários ao adicionar ou modificar comandos no
-arquivo *vimrc*, pois assim torna-se mais fácil futuras
+arquivo *vimrc*, pois assim tornam-se mais fáceis futuras
 leituras e modificações neste arquivo.
