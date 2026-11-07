@@ -3,7 +3,7 @@ automáticos que serão executados diante de uma determinada
 circunstância. O comando abaixo será executado em qualquer arquivo
 existente, ao abrir o mesmo, posicionando o cursor no último local
 editado:
-```VimL
+```vim
 "autocmd BufEnter * lcd %:p:h
 autocmd BufReadPost *
   \ if line("'\"") > 0 && line("'\"") <= line("$") |
@@ -15,7 +15,7 @@ o autocomando carrega um arquivo de configuração do Vim exclusivo para o
 tipo html/htm e no caso de arquivos novos
 ‘BufNewFile’ ele já cria um esqueleto puxando do endereço
 indicado:
-```VimL
+```vim
 augroup html
   " Remove todos os autocomandos html
   au!

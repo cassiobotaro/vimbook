@@ -11,7 +11,7 @@ title: Não digite duas vezes
 
 -   As abreviações fazem o mesmo que autocorreção e autotexto em
     outros editores
-```VimL
+```vim
 iab tambem também
 iab linux GNU/Linux
 ```
@@ -19,9 +19,9 @@ No modo de inserção você pode usar:
 
 | Comando | Descrição |
 |---------|-----------|
-| `Ctrl-y` | copia caractere a caractere a linha acima |
-| `Ctrl-e` | copia caractere a caractere a linha abaixo |
-| `Ctrl-x Ctrl-l` | completa linhas inteiras |
+| `Ctrl-Y` | copia caractere a caractere a linha acima |
+| `Ctrl-E` | copia caractere a caractere a linha abaixo |
+| `Ctrl-X Ctrl-L` | completa linhas inteiras |
 
 Para um trecho muito copiado coloque o seu conteúdo em um registrador:
 
@@ -33,7 +33,7 @@ Para um trecho muito copiado coloque o seu conteúdo em um registrador:
 Crie abreviações para erros comuns no seu arquivo de configuração
 (`~/.vimrc`):
 
-```VimL
+```vim
 iabbrev teh the
 syntax keyword WordError teh
 ```
