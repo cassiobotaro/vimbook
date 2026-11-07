@@ -50,13 +50,13 @@ Assim que a pessoa responsável analisar sua contribuição, suas alterações s
 
 Crie um ambiente virtual utilizando o comando:
 
-```
+```bash
 python -m venv .venv
 ```
 
 Ative o ambiente através do comando:
 
-```
+```bash
 source .venv/bin/activate
 ```
 
@@ -64,13 +64,13 @@ ou [equivalente em seu sistema operacional](https://cassiobotaro.dev/do_zero_a_i
 
 Em seguida, instale as dependências necessárias:
 
-```
+```bash
 python -m pip install -r requirements.txt
 ```
 
 e para executar localmente:
 
-```
+```bash
 zensical serve
 ```
 
@@ -83,7 +83,7 @@ O site fica disponível em <http://localhost:8000> e recarrega automaticamente a
 * Novos capítulos devem ser adicionados também no menu de navegação (`nav`) que se encontra no arquivo `zensical.toml`;
 * Páginas cujo título não começa com um cabeçalho `#` precisam declarar o título no *front matter*, por exemplo:
 
-```
+```yaml
 ---
 title: Instalação do Vim
 ---
@@ -96,7 +96,7 @@ tabelas, não em blocos de código. Blocos de código são reservados para
 comandos que a pessoa vai de fato digitar, porque só eles fazem sentido
 com o botão de copiar:
 
-```
+```markdown
 | Comando | Descrição |
 |---------|-----------|
 | `gg` | vai para o início do arquivo |
@@ -116,3 +116,55 @@ aceita os dois casos sem reclamar:
   tag `<code>` escrita à mão. Isso vale para comandos como `10|` (ir
   para a coluna 10); já o `\|` das expressões regulares do Vim, que é o
   operador de alternância, deve mesmo aparecer com a barra invertida.
+
+### Teclas de atalho
+
+Combinações com a tecla Control são escritas sempre do mesmo jeito, em
+código, como `Ctrl-R`: a palavra `Ctrl`, um hífen e a tecla em
+maiúscula. É a grafia da ajuda do próprio Vim (`:help CTRL-R`), o que
+facilita encontrar o atalho por lá. As demais teclas seguem a mesma
+ideia: `Alt-T`, `Ctrl-Alt-T`, `Ctrl-Insert`.
+
+Quando um atalho é uma sequência, as teclas são separadas por espaço,
+no mesmo trecho de código:
+
+| Escreva | Em vez de |
+|---------|-----------|
+| `Ctrl-W f` | `Ctrl-wf`, `Ctrl-w-f` |
+| `Ctrl-X Ctrl-L` | `Ctrl-x Ctrl-l`, `<Ctrl-x Ctrl-l>` |
+| `Ctrl-R %` | `^r%`, `<C-R>%` |
+
+Outras notações ficam restritas a onde fazem sentido:
+
+* **`<C-r>`** só aparece dentro de mapeamentos e scripts, porque é a
+  forma que o próprio `.vimrc` exige (`:help key-notation`);
+* **`^M`, `^I`, `^[`** só aparecem para mostrar como o Vim *exibe* um
+  caractere de controle na tela, nunca para indicar uma tecla a ser
+  pressionada.
+
+Um atalho não pode ir dentro de um bloco de código, porque o botão de
+copiar levaria o texto `Ctrl-R`, e não a tecla. Quando um comando mistura
+texto e atalhos, descreva os passos:
+
+> Digite `:%s/`, pressione `Ctrl-R /` para inserir a última busca e
+> complete com `/novo/g`.
+
+### Blocos de código
+
+Todo bloco de código declara a linguagem logo depois das crases, o que
+liga o realce de sintaxe:
+
+| Linguagem | Quando usar |
+|-----------|-------------|
+| `vim` | comandos de linha de comando (`:s`, `:g`, `:help`), trechos do `.vimrc` e scripts do Vim |
+| `bash` | comandos digitados no terminal e scripts de shell |
+| `c`, `python`, `latex`, `html`... | código de outras linguagens |
+| `text` | texto de exemplo, saída de comandos, árvores de diretórios e sequências de teclas do modo normal |
+
+Por exemplo:
+
+````markdown
+```vim
+:%s/antigo/novo/g
+```
+````
